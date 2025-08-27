@@ -1,0 +1,1028 @@
+﻿# WEBBER
+
+webber_legacy_1 = { # Rulers of the Coldmoat
+	legacy = webber_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Webber
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = webber_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		domain_limit = 1
+		monthly_prestige_gain_mult = 0.15
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+webber_legacy_2 = { # House of the Spider
+	legacy = webber_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Webber
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = webber_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		dread_gain_mult = 0.25
+		intrigue = 2
+		diplomacy = 2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+webber_legacy_3 = { # Sworn to Goldengrove
+	legacy = webber_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Webber
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = webber_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		liege_opinion = 15
+		diplomacy = 1
+		prowess_no_portrait = 2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+webber_legacy_4 = { # Northmarcher upbringing
+	legacy = webber_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Webber
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = webber_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		army_toughness_mult = 0.15
+		controlled_province_advantage = 2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+webber_legacy_5 = { # Lords of the Horseshoe Hills
+	legacy = webber_legacy_track
+	
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Webber
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = webber_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		hills_development_growth_factor = 0.15
+		majorroad_hills_development_growth_factor = 0.15
+		minorroad_hills_development_growth_factor = 0.15
+		monthly_county_control_growth_factor = 0.2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+# OSGREY
+
+osgrey_legacy_1 = { # Legacy of the Little Lion
+	legacy = osgrey_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Osgrey
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = osgrey_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		min_combat_roll = 4
+		prowess = 3
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+osgrey_legacy_2 = { # Proud House Osgrey
+	legacy = osgrey_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Osgrey
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = osgrey_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		castle_holding_build_speed = -0.1
+		castle_holding_build_gold_cost = -0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+osgrey_legacy_3 = { # Punishment as Landed Gentry
+	legacy = osgrey_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Osgrey
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = osgrey_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige_gain_per_knight_mult  = 0.01
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+osgrey_legacy_4 = { # Old Marshalls of the Northmarch
+	legacy = osgrey_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Osgrey
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = osgrey_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial_per_prestige_level = 1
+		stewardship = 2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+osgrey_legacy_5 = { # Supporters of the Faith Militant
+	legacy = osgrey_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Osgrey
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = osgrey_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		the_seven_religion_opinion = 5
+		religious_head_opinion = 15
+		monthly_piety_gain_mult = 0.2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+
+# BEESBURY
+
+beesbury_legacy_1 = { # Our Bees
+	legacy = beesbury_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Beesbury
+	}
+
+	ai_chance = {
+		value = 0
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = beesbury_legacy_1_effect
+		}
+	}
+	
+	traits = {
+		
+    }
+
+	character_modifier = {
+		diplomacy = 2
+		martial = 1
+		stewardship = 2
+		intrigue = 1
+		learning = 2
+		prowess = 1
+		years_of_fertility = 5
+		life_expectancy = -5
+	} 
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+beesbury_legacy_2 = { # Tiny wings, mighty will
+	legacy = beesbury_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Beesbury
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = beesbury_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		prowess = 4
+		martial = 2
+		monthly_prestige = 0.5
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+beesbury_legacy_3 = { # Ellyn Ever Sweet
+	legacy = beesbury_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Beesbury
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = beesbury_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige  = 0.05
+		reachman_opinion = 10
+		shieldman_opinion = 10
+		harborman_opinion = 10
+		honeywiner_opinion = 10
+		marcher_opinion = 5
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+beesbury_legacy_4 = { # Lords of Honeyholt
+	legacy = beesbury_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Beesbury 
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = beesbury_legacy_4_effect
+		}
+	}
+	
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_income_mult = 0.1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+beesbury_legacy_5 = { # The Busy Bee
+	legacy = beesbury_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Beesbury
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = beesbury_legacy_5_effect
+		}
+	}
+
+	traits = {
+		diligent = 100
+	}
+
+	character_modifier = {
+		farmlands_development_growth = 0.05
+		farmlands_holding_construction_gold_cost = -0.1
+		
+		minorroad_farmlands_development_growth = 0.05
+		majorroad_farmlands_development_growth = 0.05
+		minorroad_farmlands_holding_construction_gold_cost = -0.1
+		majorroad_farmlands_holding_construction_gold_cost = -0.1
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+# BULWER
+
+bulwer_legacy_1 = { # Blood of Bors the Breaker
+	legacy = bulwer_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Bulwer
+	}
+
+	ai_chance = {
+		value = 0
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bulwer_legacy_1_effect
+		}
+	}
+	
+	traits = {
+		physique_good_3 = 100
+    }
+
+	character_modifier = {
+		prowess = 4
+		health = 0.5
+		attraction_opinion = 10
+	} 
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+bulwer_legacy_2 = { # Death Before Disgrace
+	legacy = bulwer_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Bulwer
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bulwer_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial = 2
+		prowess = 3
+		attraction_opinion = 10
+		glory_hound_opinion = 10
+		hard_casualty_modifier = 0.2
+		enemy_hard_casualty_modifier = 0.2
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+bulwer_legacy_3 = { # Lords of Blackcrown
+	legacy = bulwer_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Bulwer
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bulwer_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial_per_prestige_level = 2
+		monthly_martial_lifestyle_xp_gain_mult = 0.15
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+bulwer_legacy_4 = { # Legacy of Garth Greenhand
+	legacy = bulwer_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Bulwer 
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bulwer_legacy_4_effect
+		}
+	}
+	
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige  = 0.05
+		reachman_opinion = 10
+		shieldman_opinion = 10
+		harborman_opinion = 10
+		honeywiner_opinion = 10
+		marcher_opinion = 5
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+bulwer_legacy_5 = { # Blackcrown Knights
+	legacy = bulwer_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Bulwer
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bulwer_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige_gain_per_knight_mult  = 0.01
+		knight_limit = 2
+		knight_effectiveness_mult = 0.35
+	}
+	
+	ai_chance = {
+        value = 100
+    }
+}
+
+# HUNT
+
+hunt_legacy_1 = { # Marcher Lords
+	legacy = hunt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Hunt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = hunt_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		defender_advantage = 5
+		stone_dornish_opinion = -15
+		greenblood_opinion = -10
+		sand_dornish_opinion = -10
+		salt_dornish_opinion = -10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+hunt_legacy_2 = { # The Hunt Huntsmen
+	legacy = hunt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Hunt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = hunt_legacy_2_effect
+		}
+	}
+
+	traits = {
+		lifestyle_hunter = 100
+	}
+
+	character_modifier = {
+		prowess = 2
+		archers_maintenance_mult = -0.1
+		archers_damage_mult = 0.05 
+		archers_toughness_mult = 0.05
+		archers_max_size_add = 1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+hunt_legacy_3 = { # House of Harlon the Hunter
+	legacy = hunt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Hunt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = hunt_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		life_expectancy = 5
+		monthly_dynasty_prestige = 0.05
+		reachman_opinion = 10
+		shieldman_opinion = 10
+		honeywiner_opinion = 10
+		marcher_opinion = 15
+		harborman_opinion = 5
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+hunt_legacy_4 = { # Prolific Deer Hunters
+	legacy = hunt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Hunt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = hunt_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.1
+		prowess = 4
+		intrigue = 2
+		archers_screen_add = 5
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+hunt_legacy_5 = { # Knightly House
+	legacy = hunt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Hunt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = hunt_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial = 5
+		prowess = 3
+		attraction_opinion = 10
+		glory_hound_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+
+# SANTAGAR
+
+santagar_legacy_1 = { # Knights of Spottswood
+	legacy = santagar_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Santagar
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = santagar_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige_gain_per_knight_mult  = 0.01
+		knight_limit = 2
+		knight_effectiveness_mult = 0.35
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+santagar_legacy_2 = { # House of the Leopard
+	legacy = santagar_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Santagar
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = santagar_legacy_2_effect
+		}
+	}
+
+	traits = {
+		patient = 100
+	}
+
+	character_modifier = {
+		martial = 2
+		prowess = 3
+		attraction_opinion = 10
+		glory_hound_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+santagar_legacy_3 = { # Masters of the Sand Steeds
+	legacy = santagar_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Santagar
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = santagar_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		character_travel_speed_mult = 0.2
+		movement_speed = 0.1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+santagar_legacy_4 = { # Andal Adventurers
+	legacy = santagar_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Santagar
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = santagar_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		character_travel_speed_mult = 0.05
+		learning = 1
+		diplomacy = 2
+		health = 0.05
+		monthly_wanderer_lifestyle_xp_gain_mult = 0.2
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+santagar_legacy_5 = { # Golden Axes of Spottswood
+	legacy = santagar_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Santagar
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = santagar_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		build_speed = -0.1
+		army_damage_mult = 0.1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+# DALT
+
+dalt_legacy_1 = { # The Greenbloods Mouth
+	legacy = dalt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dalt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dalt_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		learning = 3
+		parochial_opinion = 5
+		stress_loss_mult = -0.5
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+dalt_legacy_2 = { # Citrus Farmers of Dorne
+	legacy = dalt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dalt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dalt_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		stewardship = 4
+		tax_mult = 0.15
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+dalt_legacy_3 = { # Knights of Lemonwood
+	legacy = dalt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dalt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dalt_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige_gain_per_knight_mult  = 0.01
+		knight_limit = 2
+		knight_effectiveness_mult = 0.35
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+dalt_legacy_4 = { # Loyalty is a Bitter Fruit to Swallow
+	legacy = dalt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dalt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dalt_legacy_4_effect
+		}
+	}
+
+	traits = {
+		loyal = 100
+	}
+
+	character_modifier = {
+		liege_opinion = 15
+		diplomacy = 1
+		intrigue = -1
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+dalt_legacy_5 = { # House of the Summer Sea
+	legacy = dalt_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dalt
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dalt_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		diplomacy = 2
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+		attraction_opinion = 5
+		same_opinion = 10
+		courtly_opinion = 5
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}

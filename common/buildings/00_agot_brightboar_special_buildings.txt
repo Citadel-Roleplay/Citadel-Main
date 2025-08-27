@@ -1,0 +1,922 @@
+﻿# Coldmoat
+agot_brightboar_coldmoat_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		martial_per_piety_level = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+# Standfast
+agot_brightboar_standfast_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_outposts.dds"
+
+	cost_gold = 500
+
+	character_modifier = {
+		highlands_advantage = 2
+		majorroad_highlands_advantage = 2
+		minorroad_highlands_advantage = 2
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# Old Oak
+agot_brightboar_old_oak_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		prowess_per_prestige_level = 1
+	}
+
+	county_modifier = {
+		tax_mult = 0.1
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		tax_mult = 0.2
+		fort_level = 2
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+# Starpike
+agot_brightboar_starpike_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_morne.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		martial_per_prestige_level = 2
+		monthly_dynasty_prestige = 0.1
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+# Whitegrove
+agot_brightboar_whitegrove_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_morne.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		intrigue_per_prestige_level = 1
+		monthly_dynasty_prestige = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_intrigue
+}
+
+# Dustonbury
+agot_brightboar_dunstonbury_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_morne.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige = 0.2
+		monthly_income = 2
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 5
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Honeyholt
+agot_brightboar_honeyholt_01 = {
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_apiaries.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		stewardship_per_prestige_level = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_8
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.02
+		county_opinion_add = 10
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Blackcrown
+agot_brightboar_blackcrown_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		prowess = 4
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+agot_brightboar_arbor_winefields_01 = {
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_vineyard.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		stewardship_per_prestige_level = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_8
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.02
+		county_opinion_add = 10
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Harvest Hall
+agot_brightboar_harvest_hall_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		development_growth_factor = 0.15
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Greenstone
+agot_brightboar_greenstone_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_morne.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		martial = 4
+		prowess = 2
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 2
+		hostile_raid_time = 0.25
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+# Tower of Owls
+agot_brightboar_tower_of_owls_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+
+	cost_gold = 500
+
+	character_modifier = {
+		cloudforest_advantage = 5
+		majorroad_cloudforest_advantage = 5
+		minorroad_cloudforest_advantage = 5
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_diplomacy
+}
+
+# Grandview
+agot_brightboar_grandview_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		enemy_terrain_advantage = -0.05
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# Blackmont
+agot_brightboar_blackmont_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_vultures_roost.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		hills_advantage = 2
+		majorroad_hills_advantage = 2
+		minorroad_hills_advantage = 2
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# Wyl
+agot_brightboar_wyl_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_meteora.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.75
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# Kingsgrave
+agot_brightboar_kingsgrave_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_altar.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige = 0.2
+		monthly_income = 2
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_diplomacy
+}
+
+# First Well
+agot_brightboar_first_well_01 = {
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_royal_gardens.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		monthly_legitimacy_add = 0.5
+	}
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_6
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.02
+		county_opinion_add = 10
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Vaith
+agot_vaith_ruins_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_hill_forts.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		always = no
+	}
+
+	can_construct = {
+		always = no
+	}
+	
+	character_modifier = {
+		
+	}
+	
+	province_modifier = {
+		
+	}
+
+	county_modifier = {
+	
+	}
+	
+	next_building = agot_vaith_ruins_02
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+agot_vaith_ruins_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_hill_forts.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.dynasty = dynasty:dynn_Vaith
+		has_holding_type = castle_holding
+	}
+
+	cost_gold = 750
+
+	character_modifier = {
+		martial_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	province_modifier = {
+		fort_level = 2
+	}
+
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.2
+		monthly_county_control_growth_factor = 0.1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+# The Tor
+agot_brightboar_the_tor_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		diplomacy_per_prestige_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 2
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_diplomacy
+}
+
+# Salt Shore
+agot_brightboar_salt_shore_01 = {
+	construction_time = slow_construction_time
+
+	type_icon = "fleet.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.15
+		diplomatic_range_mult = 0.15
+	}
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.15
+	}
+	
+	province_modifier = {
+		fort_level = 2
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+# Ghost Hill
+agot_brightboar_ghost_hill_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_visegrad_castle.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		knight_limit = 4
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+# Hellholt
+agot_brightboar_hellholt_01 = {
+
+	construction_time = very_slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+
+	cost_gold = 750
+
+	character_modifier = {
+		monthly_prestige_gain_per_dread_mult = 0.005
+		knight_effectiveness_per_dread = 0.0025
+		desert_attrition_mult = -0.1
+		majorroad_desert_attrition_mult = -0.1
+		minorroad_desert_attrition_mult = -0.1
+		sand_dornish_opinion = 10
+	}
+
+	county_modifier = {
+		drylands_development_growth_factor = 0.1
+		majorroad_drylands_development_growth_factor = 0.1
+		minorroad_drylands_development_growth_factor = 0.1
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# Lemonwood Orchards
+agot_brightboar_lemonwood_01 = {
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_orchards.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.02
+		county_opinion_add = 10
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_stewardship
+}
+
+# Spottswood
+agot_brightboar_spottswood_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		martial_per_prestige_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 4
+	}
+
+	cost_gold = 500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}

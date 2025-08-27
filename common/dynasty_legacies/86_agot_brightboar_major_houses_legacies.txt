@@ -1,0 +1,53 @@
+﻿gardener_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Gardener
+			dynasty = { has_dynasty_perk = gardener_legacy_1 }
+		}
+	}
+}
+
+tyrell_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Tyrell
+			dynasty = { has_dynasty_perk = tyrell_legacy_1 }
+		}
+	}
+}
+
+hightower_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Hightower
+			dynasty = { has_dynasty_perk = hightower_legacy_1 }
+		}
+	}
+}
+
+baratheon_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Baratheon
+			dynasty = { has_dynasty_perk = baratheon_legacy_1 }
+		}
+	}
+}
+
+durrandon_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Durrandon
+			dynasty = { has_dynasty_perk = durrandon_legacy_1 }
+		}
+	}
+}
+
+martell_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Martell
+			dynasty = { has_dynasty_perk = martell_legacy_1 }
+		}
+	}
+}

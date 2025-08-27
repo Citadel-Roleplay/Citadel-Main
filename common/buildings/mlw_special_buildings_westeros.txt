@@ -1,0 +1,483 @@
+﻿
+mlw_parchments = {
+	construction_time = slow_construction_time
+	type_icon = "parchments_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_parchments_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_harvest_hall = {
+	construction_time = slow_construction_time
+	type_icon = "selmy_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_harvest_hall_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_crab_isle = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_crab_isle_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_grandview = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_grandview_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_oldcastle = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_oldcastle_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_goldengrove = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_goldengrove_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_blackcrown = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_blackcrown_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+mlw_brightwater_keep = {
+	construction_time = slow_construction_time
+	type_icon = "florent_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_brightwater_keep_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mlw_sharp_point = {
+	construction_time = slow_construction_time
+	type_icon = "sharp_point_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_sharp_point_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+mlw_weeping_tower = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_weeping_tower_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+mlw_pools_guard = {
+	construction_time = slow_construction_time
+	type_icon = "maidenpool_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_pools_guard_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+mlw_aerys_dream = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_aerys_dream_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+mlw_crakehall = {
+	construction_time = slow_construction_time
+	type_icon = "icon_building_fort.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mlw_crakehall_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_mult = 0.2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		stationed_maa_damage_add = 20
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+
+
+
+
+
+ 

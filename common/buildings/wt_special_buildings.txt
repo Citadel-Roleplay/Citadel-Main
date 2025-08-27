@@ -1,0 +1,37 @@
+﻿#Wailing Tower
+
+wt = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_tower_of_joy.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "wt_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = 50
+
+	county_modifier = {
+		defender_holding_advantage = 5
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 5
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
