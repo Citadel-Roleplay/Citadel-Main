@@ -1,8 +1,0 @@
-	cole_legacy_track = {
-	is_shown = {
-		OR = {
-			dynasty = dynasty:dynn_Cole
-			dynasty = { has_dynasty_perk = cole_legacy_1 }
-		}
-	}
-}
