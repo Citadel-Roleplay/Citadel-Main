@@ -3,7 +3,7 @@
 rowan_knights_of_the_golden_tree = {
 	type = heavy_cavalry
 
-	damage = 200
+	damage = 1
 	toughness = 70
 	pursuit = 40
 	screen = 1
