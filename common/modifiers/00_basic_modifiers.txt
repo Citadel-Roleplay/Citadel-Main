@@ -100,7 +100,7 @@ count_modifier = {
 duke_modifier = {
 	#AGOT Modfied
 	# domain_limit = 2
-	domain_limit = 3
+	domain_limit = 2 # Kizan
 	knight_limit = 6
 	vassal_limit = 20
 	tax_slot_add = 1
@@ -114,7 +114,7 @@ king_modifier = {
 	# domain_limit = 3
 	# knight_limit = 7
 	# vassal_limit = 40
-	domain_limit = 2
+	domain_limit = 1
 	knight_limit = 10
 	vassal_limit = 60
 	active_accolades = 1
@@ -128,7 +128,7 @@ emperor_modifier = {
 	# domain_limit = 4
 	# knight_limit = 8
 	# vassal_limit = 60
-	domain_limit = 2
+	domain_limit = 1
 	knight_limit = 15
 	vassal_limit = 80
 	ai_amenity_target_baseline = 0.4
@@ -136,6 +136,22 @@ emperor_modifier = {
 	tax_slot_add = 2
 	mercenary_hire_cost_mult = 0.6
 	enemy_scheme_secrecy_add = -30
+}
+
+hegemon_modifier = {
+	#AGOT Modified
+	# domain_limit = 5
+	# knight_limit = 9
+	# vassal_limit = 80
+	domain_limit = 2
+	knight_limit = 20
+	vassal_limit = 100
+	ai_amenity_target_baseline = 0.4
+	active_accolades = 2
+	tax_slot_add = 2
+	mercenary_hire_cost_mult = 0.8
+	enemy_scheme_secrecy_add = -40
+	county_fertility_growth_mult = 0.65
 }
 
 # These modifiers are applied to the holder of a title of the respective tier (per title)
