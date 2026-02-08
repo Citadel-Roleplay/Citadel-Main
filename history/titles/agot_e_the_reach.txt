@@ -11820,9 +11820,9 @@ c_standfast = {
 	8122.1.1 = {
 		holder = Osgrey_50
 	}
-	# 8151.1.1 = {
-	# 	liege = k_the_northmarch
-	# }
+	8151.1.1 = {
+		liege = d_goldengrove
+	}
 	8153.1.1 = {
 		holder = Osgrey_51
 	}
@@ -11835,9 +11835,9 @@ c_standfast = {
 	8195.3.7 = {
 		liege = 0
 	}
-	# 8196.11.22 = {
-	# 	liege = k_the_northmarch
-	# }
+	8196.11.22 = {
+		liege = d_goldengrove
+	}
 	8215.1.1 = {
 		holder = Meager_4
 	}
@@ -11845,7 +11845,7 @@ c_standfast = {
 		holder = Meager_19
 	}
 	8241.1.1 = {
-		liege = d_the_northmarch
+		liege = d_goldengrove
 		holder = Meager_27
 	}
 	8290.1.1 = {
