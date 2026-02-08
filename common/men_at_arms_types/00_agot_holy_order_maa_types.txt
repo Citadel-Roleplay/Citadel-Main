@@ -21,7 +21,7 @@
 
 @cultural_maa_extra_ai_score = 80
 
-#Ironborn Shrikes (Rise when heretics come to the iron islands)
+#Ironborn Shrikes (Rise when heretics come to the iron islands) = Need to take a look at this closer - Kizan
 shrikes = {
 	type = skirmishers
 
@@ -30,7 +30,7 @@ shrikes = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_slaves }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 120
-
+	max_regiments = 2
 	damage = 25
 	toughness = 20
 	pursuit = 20
@@ -145,8 +145,8 @@ poorfellow_skirmishers = {
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_very_cheap }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_very_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
-	stack = 120
-
+	stack = 150
+	max_regiments = 2
 	damage = 10
 	toughness = 20
 	pursuit = 10
@@ -347,7 +347,7 @@ warriors_sons_heavy_cav = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 50
-
+	max_regiments = 2
 	damage = 120
 	toughness = 40
 	pursuit = 20
@@ -455,7 +455,7 @@ holy_guard = {
 	toughness = 25
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	counters = {
 		skirmishers = 1
 		pikemen = 1
@@ -593,7 +593,7 @@ dothraki_screamers = {
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 120
-
+	max_regiments = 2
 	damage = 25
 	toughness = 10
 	pursuit = 40

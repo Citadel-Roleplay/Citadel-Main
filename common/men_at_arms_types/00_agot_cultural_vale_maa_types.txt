@@ -37,7 +37,9 @@ finger_scouts = {
 
 	counters = {
 		archers = 2
-	 }
+	}
+
+	max_regiments = 2
 
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_finger_scouts }
@@ -141,6 +143,8 @@ hunters_of_the_moon = {
 		archer_cavalry = 1
 	}
 
+	max_regiments = 2
+
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_hunters_of_the_moon }
 		NOT = { government_has_flag = government_is_nw }
@@ -222,20 +226,31 @@ hunters_of_the_moon = {
 	}
 }
 
-#Sistermen
+#Sistermen = HAMBONE TAKE LOOK AT THIS LATER THX - Kizan
 sistermen_pirates = {
 	type = skirmishers
 
-	buy_cost = { gold = skirmisher_recruitment_cost_cheap }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 25
+		prestige = 25
+	}
+	low_maintenance_cost = { 
+		gold = 0.1
+		prestige = 0.1
+	}
+	high_maintenance_cost = { 
+		gold = 0.3
+		prestige = 0.3
+	}
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
 
-	damage = 10
-	toughness = 15
+	damage = 15
+	toughness = 10
 	pursuit = 10
-	screen = 20
+	screen = 15
+
+	max_regiments = 3
 
 	counters = {
 		light_cavalry = 2
@@ -326,13 +341,13 @@ sistermen_pirates = {
 winged_knights = {
 	type = heavy_cavalry
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_very_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 200 piety = 100 }
+	low_maintenance_cost = { gold = 0.80 piety = 0.15 }
+	high_maintenance_cost = { gold = 2 piety = 1.0 }
 	provision_cost = @provisions_cost_cavalry_expensive
-	stack = 50
+	stack = 75
 
-	damage = 125
+	damage = 130
 	toughness = 35
 	pursuit = 30
 	screen = 0
@@ -342,6 +357,8 @@ winged_knights = {
 		skirmishers = 1
 		archers = 1
 	}
+
+	max_regiments = 1
 
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_winged_knights }

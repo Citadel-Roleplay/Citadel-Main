@@ -29,7 +29,7 @@ slave_legion = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_slaves }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 150
-
+	max_regiments = 2
 	damage = 5
 	toughness = 5
 	pursuit = 5
@@ -129,7 +129,7 @@ tiger_cloaks = {
 	high_maintenance_cost = { gold = pikemen_high_maint_cost_very_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 20
 	toughness = 25
 	pursuit = 0
@@ -226,7 +226,7 @@ tiger_cloaks = {
 #Eastern Valyrian Tradition
 black_wall_chariots = {
 	type = chariot_cavalry
-
+	max_regiments = 2
 	buy_cost = { gold = chariot_cavalry_recruitment_cost_very_expensive }
 	low_maintenance_cost = { gold = chariot_cavalry_low_maint_cost_normal }
 	high_maintenance_cost = { gold = chariot_cavalry_high_maint_cost_very_expensive }
@@ -333,7 +333,7 @@ dragonsworn = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 80
-
+	max_regiments = 2
 	damage = 30
 	toughness = 25
 	pursuit = 10
@@ -437,7 +437,7 @@ demon_guards = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 80
-
+	max_regiments = 2
 	damage = 40
 	toughness = 20
 	pursuit = 0

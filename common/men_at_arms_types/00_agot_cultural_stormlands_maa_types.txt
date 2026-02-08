@@ -29,7 +29,7 @@ marcher_longbowmen = {
 	high_maintenance_cost = { gold = archers_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 80
-
+	max_regiments = 2
 	damage = 35
 	toughness = 20
 	pursuit = 0
@@ -153,7 +153,7 @@ storm_knights = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 50
-
+	max_regiments = 1
 	damage = 105
 	toughness = 35
 	pursuit = 15

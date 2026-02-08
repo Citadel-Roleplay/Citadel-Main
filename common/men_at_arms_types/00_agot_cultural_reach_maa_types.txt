@@ -29,7 +29,7 @@ summer_knights = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 75
-
+	max_regiments = 1
 	damage = 100
 	toughness = 35
 	pursuit = 20
@@ -134,7 +134,7 @@ honeywine_quirrels = {
 	high_maintenance_cost = { gold = crossbowmen_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
-
+	max_regiments = 2
 	damage = 45
 	toughness = 30
 	pursuit = 0
@@ -237,7 +237,7 @@ misty_shields = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 100
-
+	max_regiments = 2
 	damage = 30
 	toughness = 25
 	pursuit = 0
@@ -341,7 +341,7 @@ arbor_marines = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 120
-
+	max_regiments = 2
 	damage = 10
 	toughness = 15
 	pursuit = 10

@@ -29,7 +29,7 @@ river_bows = {
 	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 25
 	toughness = 10
 	pursuit = 10

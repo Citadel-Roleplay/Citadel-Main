@@ -29,7 +29,7 @@ marsh_walkers = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 10
 	toughness = 20
 	pursuit = 15
@@ -133,7 +133,7 @@ royal_crossbowmen = {
 	toughness = 20
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	counters = {
 		heavy_infantry = 2
 		heavy_cavalry = 1
@@ -231,7 +231,7 @@ dragonguard = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
-
+	max_regiments = 2
 	damage = 35
 	toughness = 30
 	pursuit = 0
@@ -336,7 +336,7 @@ sea_snakes = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 80
-
+	max_regiments = 2
 	damage = 15
 	toughness = 20
 	pursuit = 10

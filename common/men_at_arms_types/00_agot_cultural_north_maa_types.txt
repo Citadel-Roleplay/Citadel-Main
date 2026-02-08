@@ -24,12 +24,21 @@
 barrow_knights = {
 	type = heavy_cavalry
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_very_cheap }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_very_expensive }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_very_cheap }
+	buy_cost = { 
+		gold = 56 
+		prestige = 56
+	}
+	low_maintenance_cost = { 
+		gold = 0.38 
+		prestige = 0.38
+	}
+	high_maintenance_cost = { 
+		gold = 0.81 
+		prestige = 0.8
+	}
 	provision_cost = @provisions_cost_cavalry_expensive
-	stack = 50
-
+	stack = 75
+	max_regiments = 1
 	damage = 75
 	toughness = 40
 	pursuit = 20
@@ -134,7 +143,7 @@ frog_spears = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 80
-
+	max_regiments = 2
 	damage = 10
 	toughness = 15
 	pursuit = 15
@@ -236,7 +245,7 @@ cape_watch = {
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 20
 	toughness = 20
 	pursuit = 30
@@ -336,7 +345,7 @@ green_hand = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 50
-
+	max_regiments = 1
 	damage = 105
 	toughness = 35
 	pursuit = 20
@@ -441,7 +450,7 @@ clan_champions = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
-
+	max_regiments = 2
 	damage = 30
 	toughness = 30
 	pursuit = 0
@@ -541,12 +550,21 @@ clan_champions = {
 winter_wolves = {
 	type = heavy_infantry
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_very_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_very_cheap }
+	buy_cost = { 
+		gold = 50
+		prestige = 50
+	}
+	low_maintenance_cost = { 
+		gold = 0.23
+		prestige = 0.22
+	}
+	high_maintenance_cost = { 
+		gold = 0.48
+		prestige = 0.47
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 100
-
+	max_regiments = 2
 	damage = 35
 	toughness = 30
 	pursuit = 10
@@ -646,9 +664,18 @@ winter_wolves = {
 she_bears = {
 	type = heavy_infantry
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_normal }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 45
+		prestige = 45
+	}
+	low_maintenance_cost = { 
+		gold = 0.18
+		prestige = 0.18
+	}
+	high_maintenance_cost = { 
+		gold = 0.57
+		prestige = 0.57
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
 
@@ -656,10 +683,11 @@ she_bears = {
 	toughness = 25.0
 	pursuit = 0.0
 	screen = 10.0
-
+	max_regiments = 2
 	counters = {
 		skirmishers = 1
 		pikemen = 1
+		heavy_infantry = 2
 	}
 
 	can_recruit = {
@@ -755,7 +783,7 @@ unicorn_riders = {
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_cheap }
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 80
-
+	max_regiments = 2
 	damage = 20
 	toughness = 20
 	pursuit = 20
@@ -855,7 +883,7 @@ wolfswood_hunters = {
 	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 25
 	toughness = 15
 	pursuit = 0
@@ -957,7 +985,7 @@ bronze_cavalry = {
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 120
-
+	max_regiments = 2
 	damage = 35
 	toughness = 20
 	pursuit = 25

@@ -30,7 +30,7 @@ light_footmen = {
 	#AGOT Modified
 	# screen = 16
 	screen = 15
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#forest = { damage = 4 toughness = 6 }
@@ -121,6 +121,27 @@ light_footmen = {
 			#AGOT Added
 			government_has_flag = government_is_nw
 		}
+		NOR = {
+			culture = { has_innovation = innovation_agot_riverlands_fighting }
+			culture = { has_innovation = innovation_agot_stepstone_fighting }
+		}
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_marsh_walkers
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_sea_snakes
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_frog_spears
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_arbor_marines
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_sistermen_pirates
+			}
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -156,6 +177,7 @@ light_footmen = {
 	illustration = {
 		reference = skirmishers
 	}
+
 }
 
 bowmen = {
@@ -165,7 +187,7 @@ bowmen = {
 	toughness = 10
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#hills = { damage = 10 toughness = 4 }
@@ -257,6 +279,26 @@ bowmen = {
 			#AGOT Added
 			government_has_flag = government_is_nw
 		}
+		NOR = {
+			culture = { has_innovation = innovation_agot_goldenheart_bowmen }
+		}
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_wolfswood_hunters
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_honeywine_quirrels
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_river_bows
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_marcher_longbowmen
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_hunters_of_the_moon
+			}
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -306,7 +348,7 @@ light_horsemen = {
 	toughness = 15
 	pursuit = 30
 	screen = 30
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#plains = { damage = 15 }
@@ -408,6 +450,27 @@ light_horsemen = {
 				government_has_flag = government_is_tribal
 			}
 		}
+		NOR = {
+			culture = { has_innovation = innovation_agot_reach_fighting }
+		}
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_cape_watch
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_unicorn_riders
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_bronze_cavalry
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_finger_scouts
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_rain_bringers
+			}
+
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -468,7 +531,7 @@ pikemen_unit = {
 	toughness = 25
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#mountains = { toughness = 12 }
@@ -565,6 +628,17 @@ pikemen_unit = {
 			#AGOT Added
 			government_has_flag = government_is_nw
 		}
+		NOR = {
+			culture = { has_innovation = innovation_agot_northern_fighting }
+			culture = { has_innovation = innovation_agot_crownlands_fighting }
+			culture = { has_innovation = innovation_agot_rubies_and_iron }
+		}
+
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_pass_pikes
+			}
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -618,7 +692,7 @@ armored_footmen = {
 	toughness = 25
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	counters = {
 		pikemen = 1
 		peasant_militia = 2
@@ -706,14 +780,36 @@ armored_footmen = {
 			# has_innovation = innovation_quilted_armor
 			has_innovation = innovation_agot_mail
 		}
-		NOT = {
+		NOR = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+			culture = { has_innovation = innovation_agot_vale_fighting }
+			culture = { has_innovation = innovation_agot_stormlands_fighting }
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 			#AGOT Added
 			government_has_flag = government_is_nw
+		}
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_dragonguard
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_ironborn_reavers
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_clan_champions
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_winter_wolves
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_she_bears
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_misty_shields
+			}
 		}
 	}
 
@@ -763,7 +859,7 @@ onager = {
 
 	damage = 0
 	toughness = 12
-
+	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 1
 	# siege_value = 0.2
@@ -812,7 +908,7 @@ armored_horsemen = {
 	toughness = 35
 	pursuit = 20
 	screen = 0
-
+	max_regiments = 1
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#plains = { damage = 30 }
@@ -913,7 +1009,32 @@ armored_horsemen = {
 			government_has_flag = government_is_nw
 		}
 		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+			OR = {
+				culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+				culture = { has_innovation = innovation_agot_valyrian_knights }
+				culture = { has_innovation = innovation_agot_westerlands_fighting }
+				culture = { has_innovation = innovation_agot_free_companies }
+			}
+		}
+		NOT = {
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_barrow_knights
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_black_blood_cavalry
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_green_hand
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_summer_knights
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_storm_knights
+			}
+			valid_for_maa_trigger = {
+				PARAMETER = unlock_maa_winged_knights
+			}
 		}
 	}
 
@@ -968,7 +1089,7 @@ mangonel = {
 
 	damage = 0
 	toughness = 12
-
+	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 2
 	# siege_value = 0.3
@@ -1021,7 +1142,7 @@ crossbowmen = {
 	toughness = 20
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified/Added
 		#hills = { damage = 10 }
@@ -1121,6 +1242,17 @@ crossbowmen = {
 			#AGOT Added
 			government_has_flag = government_is_nw
 		}
+		NOT = {
+			culture = { has_innovation = innovation_agot_dorne_fighting }
+		}
+		NOT = {
+				valid_for_maa_trigger = {
+					PARAMETER = unlock_maa_royal_crossbowmen
+				}
+				valid_for_maa_trigger = {
+					PARAMETER = unlock_maa_rain_bringers
+				}
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -1172,7 +1304,7 @@ trebuchet = {
 
 	damage = 0
 	toughness = 12
-
+	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 3
 	# siege_value = 0.4
@@ -1317,7 +1449,7 @@ house_guard = {
 	#AGOT Modified
 	#screen = 24
 	screen = 25
-
+	max_regiments = 1
 	counters = {
 		pikemen = 2
 		peasant_militia = 4
@@ -1436,7 +1568,7 @@ pikemen_militia = {
 	toughness = 16
 	pursuit = 10
 	screen = 0
-
+	max_regiments = 2
 	terrain_bonus = {
 		#AGOT Modified
 		# mountains = { toughness = 8 }

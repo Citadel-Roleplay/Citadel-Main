@@ -29,7 +29,7 @@ greenblood_oars = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 10
 	toughness = 10
 	pursuit = 10
@@ -38,7 +38,7 @@ greenblood_oars = {
 	counters = {
 		light_cavalry = 2
 	}
-
+	max_regiments = 2
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_greenblood_oars }
 		NOT = { government_has_flag = government_is_nw }
@@ -129,12 +129,12 @@ sun_spears = {
 	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 100
-
+	max_regiments = 2
 	damage = 25
 	toughness = 25
 	pursuit = 5
 	screen = 0
-
+	max_regiments = 2
 	counters = {
 		light_cavalry = 1
 		heavy_cavalry = 2
@@ -241,7 +241,7 @@ sand_steeds = {
 	counters = {
 		archers = 2
 	}
-
+	max_regiments = 2
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_sand_steeds }
 		NOT = { government_has_flag = government_is_nw }
@@ -337,7 +337,7 @@ pass_pikes = {
 	toughness = 30
 	pursuit = 0
 	screen = 5
-
+	max_regiments = 2
 	counters = {
 		light_cavalry = 1
 		heavy_cavalry = 2

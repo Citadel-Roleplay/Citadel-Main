@@ -34,7 +34,7 @@ dothraki_archers = {
 	toughness = 10
 	pursuit = 50
 	screen = 40
-
+	max_regiments = 2
 	counters = {
 		camel_cavalry = 1
 		light_cavalry = 1
@@ -132,7 +132,7 @@ shepherds = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 10
 	toughness = 20
 	pursuit = 0
@@ -232,7 +232,7 @@ tribute_guards = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 10
 	toughness = 25
 	pursuit = 10

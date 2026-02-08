@@ -29,7 +29,7 @@ star_carved = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 120
-
+	max_regiments = 2
 	damage = 30
 	toughness = 30
 	pursuit = 0
@@ -133,7 +133,7 @@ qarlons_fallen = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 120
-
+	max_regiments = 2
 	damage = 10
 	toughness = 10
 	pursuit = 15
@@ -233,7 +233,7 @@ smiths_axes = {
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 120
-
+	max_regiments = 2
 	damage = 30
 	toughness = 30
 	pursuit = 0

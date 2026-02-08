@@ -34,7 +34,7 @@ lions_of_night = {
 	toughness = 50
 	pursuit = 30
 	screen = 10
-
+	max_regiments = 2
 	counters = {
 		archers = 1
 		skirmishers = 1
@@ -134,6 +134,7 @@ vassals_in_yellow  = {
 	high_maintenance_cost = { gold = pikemen_high_maint_cost_very_expensive }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 140
+	max_regiments = 2
 
 	damage = 25
 	toughness = 25
@@ -243,7 +244,7 @@ dream_questors = {
 	toughness = 20
 	pursuit = 0
 	screen = 0
-
+	max_regiments = 2
 	counters = {
 		skirmishers = 1
 		pikemen = 1
@@ -336,7 +337,7 @@ dream_questors = {
 #Bloodless Men Tradition
 drainers = {
 	type = skirmishers
-
+	max_regiments = 2
 	buy_cost = { gold = skirmisher_recruitment_cost_cheap }
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
@@ -436,7 +437,7 @@ drainers = {
 #Grey Men Tradition
 waste_raiders = {
 	type = skirmishers
-
+	max_regiments = 2
 	buy_cost = { gold = skirmisher_recruitment_cost_cheap }
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }
@@ -536,7 +537,7 @@ waste_raiders = {
 #Winged Men Tradition
 wind_demons = {
 	type = light_cavalry
-
+	max_regiments = 2
 	buy_cost = { gold = light_cavalry_recruitment_cost_cheap }
 	low_maintenance_cost = { gold = light_cavalry_low_maint_cost_normal }
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
@@ -636,7 +637,7 @@ wind_demons = {
 #Shrykes Tradition
 venom_bites = {
 	type = skirmishers
-
+	max_regiments = 2
 	buy_cost = { gold = skirmisher_recruitment_cost_cheap }
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_cheap }

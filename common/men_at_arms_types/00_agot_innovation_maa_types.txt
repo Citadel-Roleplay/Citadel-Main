@@ -31,7 +31,7 @@ knights_of_the_dragon = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 40
-
+	max_regiments = 1
 	damage = 105
 	toughness = 35
 	pursuit = 20
@@ -131,12 +131,21 @@ knights_of_the_dragon = {
 northern_spears = {
 	type = pikemen
 
-	buy_cost = { gold = pikemen_recruitment_cost_very_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_very_expensive }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_very_expensive }
+	buy_cost = { 
+		gold = 45
+		prestige = 45
+	}
+	low_maintenance_cost = { 
+		gold = 0.16
+		prestige = 0.15
+	}
+	high_maintenance_cost = { 
+		gold = 0.5
+		prestige = 0.49
+	}
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 100
-
+	max_regiments = 2
 	damage = 30
 	toughness = 30
 	pursuit = 0
@@ -239,7 +248,7 @@ dornish_crossbows = {
 	high_maintenance_cost = { gold = crossbowmen_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 80
-
+	max_regiments = 2
 	damage = 50
 	toughness = 20
 	pursuit = 0
@@ -337,12 +346,12 @@ dornish_crossbows = {
 vale_heavy_infantry = {
 	type = heavy_infantry
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_very_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_very_expensive }
+	buy_cost = { gold = 50 piety = 50 }
+	low_maintenance_cost = { gold = 0.32 piety = 0.12  }
+	high_maintenance_cost = { gold = 1.14 piety = 0.42 }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 100
-
+	max_regiments = 2
 	damage = 35
 	toughness = 30
 	pursuit = 0
@@ -446,7 +455,7 @@ crownlands_spears = {
 	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 100
-
+	max_regiments = 2
 	damage = 20
 	toughness = 30
 	pursuit = 0
@@ -549,7 +558,7 @@ reach_light_cavalry = {
 	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 100
-
+	max_regiments = 2
 	damage = 20
 	toughness = 15
 	pursuit = 35
@@ -648,10 +657,10 @@ riverlands_light_infantry = {
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_expensive }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_cheap
-	stack = 120
-
-	damage = 10
-	toughness = 15
+	stack = 100
+	max_regiments = 2
+	damage = 15
+	toughness = 20
 	pursuit = 10
 	screen = 20
 
@@ -749,7 +758,7 @@ westerlands_knights = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_very_expensive }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 50
-
+	max_regiments = 1
 	damage = 105
 	toughness = 40
 	pursuit = 25
@@ -849,16 +858,19 @@ westerlands_knights = {
 stormlands_heavy_infantry = {
 	type = heavy_infantry
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
+	buy_cost = { 
+		gold = 60
+		prestige = 60
+	}
 	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 100
-
-	damage = 35
-	toughness = 30
+	max_regiments = 2
+	damage = 42
+	toughness = 42
 	pursuit = 0
-	screen = 5
+	screen = 22
 
 	counters = {
 		skirmishers = 1
@@ -1056,7 +1068,7 @@ westerosi_sellswords = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 75
-
+	max_regiments = 2
 	damage = 90
 	toughness = 30
 	pursuit = 15
@@ -1160,7 +1172,7 @@ giant_regiment = {
 	high_maintenance_cost = { gold = siege_weapons_high_maint_cost_indentured }
 	provision_cost = @provisions_cost_special_moderate
 	stack = 5
-
+	max_regiments = 1
 	damage = 50
 	toughness = 75
 	pursuit = 0
@@ -1264,7 +1276,7 @@ goldenheart_bowmen = {
 	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 80
-
+	max_regiments = 2
 	damage = 40
 	toughness = 10
 	pursuit = 15
@@ -1367,7 +1379,7 @@ ruby_spearwomen = {
 	high_maintenance_cost = { gold = pikemen_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 80
-
+	max_regiments = 2
 	damage = 30
 	toughness = 30
 	pursuit = 0
