@@ -686,8 +686,7 @@ war_camps_02 = {
 	}
 
 	character_culture_modifier = {
-		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 1
+		parameter = strength_in_numbers_maa_limit_bonus
 	}
 
 	#AGOT Added
