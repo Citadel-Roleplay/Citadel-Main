@@ -60,7 +60,7 @@ legendary_shrine = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		monthly_county_control_growth_add = 0.1
 	}
 
@@ -150,7 +150,7 @@ legendary_palace = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.15
 	}
 
@@ -306,7 +306,7 @@ legendary_watchtower = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.1
 		supply_limit = 2000
 		hostile_raid_time = 0.35
@@ -406,7 +406,7 @@ legendary_hunting_lodge = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 	}
 
 	province_modifier = {

@@ -17,7 +17,7 @@ special_the_wall = {
 
 	county_modifier = {
 		defender_holding_advantage = 5
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		hostile_raid_time = 0.5
 	}
 
@@ -156,7 +156,7 @@ special_castle_black = {
 
 	county_modifier = {
 		defender_holding_advantage = 5
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		hostile_raid_time = 0.5
 	}
 
@@ -211,7 +211,7 @@ special_kings_landing_hoodmarket = {
 
 	county_modifier = {
 		defender_holding_advantage = 5
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		hostile_raid_time = 0.5
 	}
 

@@ -189,7 +189,7 @@ agot_the_shadow_city_01 = {
 
 	county_modifier = {
 		development_growth_factor = 0.1
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		hostile_raid_time = 0.5
 	}
 
@@ -881,7 +881,7 @@ agot_raventree_hall_01 = {
 	county_modifier = {
 		defender_holding_advantage = 5
 		development_growth_factor = 0.1
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 	}
 
 	ai_value = {
@@ -1127,7 +1127,7 @@ agot_walls_of_seagard_01 = {
 		hostile_raid_time = 0.25
 		fort_level = 4
 		travel_danger = -25
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 	}
 
 	character_modifier = {
@@ -1761,7 +1761,7 @@ agot_stone_hedge_01 = {
 	county_modifier = {
 		defender_holding_advantage = 5
 		development_growth_factor = 0.1
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 	}
 
 	ai_value = {
@@ -1858,7 +1858,7 @@ agot_castamere_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_7
+		# tax_mult = low_building_tax_mult_tier_7
 		development_growth_factor = 0.2
 		levy_size = 0.1
 		monthly_county_control_growth_factor = 0.1
@@ -1961,7 +1961,7 @@ agot_castamere_ruins_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_7
+		# tax_mult = low_building_tax_mult_tier_7
 		development_growth_factor = 0.2
 		levy_size = 0.1
 		monthly_county_control_growth_factor = 0.1
@@ -2024,7 +2024,7 @@ agot_lann_sept_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 		development_growth_factor = 0.2
 	}
 
@@ -2102,7 +2102,7 @@ agot_crakehall_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 	}
 
 	province_modifier = {
@@ -2263,7 +2263,7 @@ agot_fair_isle_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 		development_growth_factor = 0.15
 	}
 
@@ -2334,7 +2334,7 @@ agot_feastfires_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 		monthly_county_control_growth_factor = 0.1
 	}
 
@@ -2533,7 +2533,7 @@ agot_morne_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		development_growth_factor = 0.2
 		monthly_county_control_growth_factor = 0.1
 	}
@@ -2617,7 +2617,7 @@ agot_morne_03 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		development_growth_factor = 0.2
 		monthly_county_control_growth_factor = 0.1
 	}
@@ -2711,7 +2711,7 @@ agot_summerhall_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		development_growth_factor = 0.2
 		monthly_county_control_growth_factor = 0.1
 	}
@@ -2804,7 +2804,7 @@ agot_summerhall_ruins_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		development_growth_factor = 0.2
 		monthly_county_control_growth_factor = 0.1
 	}
@@ -3259,7 +3259,7 @@ agot_barrow_keep_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 		development_growth_factor = 0.1
 	}
 
@@ -3372,7 +3372,7 @@ agot_sept_of_the_snows_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 		development_growth_factor = 0.2
 	}
 
@@ -3560,7 +3560,7 @@ agot_new_castle_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 		development_growth_factor = 0.1
 		levy_size = 0.05
 	}
@@ -4222,7 +4222,7 @@ agot_port_of_oldtown_01 = {
 	cost_gold = expensive_building_tier_7_cost
 
 	county_modifier = {
-		tax_mult = good_building_tax_mult_tier_8
+		# tax_mult = good_building_tax_mult_tier_8
 	}
 
 	province_modifier = {
@@ -4259,7 +4259,7 @@ agot_chequered_square_01 = {
 	cost_gold = expensive_building_tier_7_cost
 
 	county_modifier = {
-		tax_mult = good_building_tax_mult_tier_4
+		# tax_mult = good_building_tax_mult_tier_4
 	}
 
 	province_modifier = {
@@ -4298,7 +4298,7 @@ agot_oldtown_walls_01 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = 0.20
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 	}
 	county_modifier = {
 		development_growth_factor = 0.2
@@ -4424,7 +4424,7 @@ agot_bitterbridge_01 = {
 
 	county_modifier = {
 		development_growth_factor = 0.25
-		tax_mult = low_building_tax_mult_tier_6
+		# tax_mult = low_building_tax_mult_tier_6
 	}
 
 	province_modifier = {
@@ -4466,7 +4466,7 @@ agot_bitterbridge_02 = {
 
 	county_modifier = {
 		development_growth_factor = 0.2
-		tax_mult = low_building_tax_mult_tier_5
+		# tax_mult = low_building_tax_mult_tier_5
 	}
 
 	province_modifier = {
@@ -4671,7 +4671,7 @@ agot_redwyne_port_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = good_building_tax_mult_tier_5
+		# tax_mult = good_building_tax_mult_tier_5
 		development_growth_factor = 0.2
 	}
 
@@ -4780,7 +4780,7 @@ agot_brightwater_moat_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 		development_growth_factor = 0.2
 	}
 
@@ -4932,7 +4932,7 @@ agot_honeyholt_apiaries_01 = {
 
 	county_modifier = {
 		development_growth_factor = 0.15
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 	}
 
 	cost_gold = 3000
@@ -4978,7 +4978,7 @@ agot_sept_at_holyhall_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 	}
 
 	type = special
@@ -5038,7 +5038,7 @@ agot_old_oak_01 = {
 		development_growth_factor = 0.1
 		hostile_raid_time = 0.35
 		levy_size = 0.2
-		tax_mult = 0.2
+		# tax_mult = 0.2
 	}
 	province_modifier = {
 		fort_level = 4
@@ -5178,7 +5178,7 @@ agot_maris_motherhouse_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 		development_growth_factor = 0.2
 	}
 
@@ -5412,7 +5412,7 @@ agot_sisterton_01 = {
 
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 	}
 
 	ai_value = {
@@ -6091,7 +6091,7 @@ agot_dragonmont_01 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = -0.20
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 	}
 
 	county_modifier = {
@@ -6431,7 +6431,7 @@ agot_hightide_01 = {
 
 	character_modifier = {
 		court_grandeur_baseline_add = 10
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		legitimacy_gain_mult = 0.1
 		legitimacy_loss_mult = -0.1
 		owned_legend_spread_mult = 0.1
@@ -6514,7 +6514,7 @@ agot_ruins_hightide_02 = {
 
 	character_modifier = {
 		court_grandeur_baseline_add = 10
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		legitimacy_gain_mult = 0.1
 		legitimacy_loss_mult = -0.1
 		owned_legend_spread_mult = 0.1
@@ -6631,7 +6631,7 @@ agot_sharp_point_beacon_01 = {
 
 	county_modifier = {
 		development_growth_factor = 0.15
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 	}
 
 	province_modifier = {

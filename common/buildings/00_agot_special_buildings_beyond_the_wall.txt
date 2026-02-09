@@ -1353,7 +1353,7 @@ agot_srunmued_copper_mines_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		development_growth_factor = 0.01
 	}
 
@@ -1389,7 +1389,7 @@ agot_srunmued_copper_mines_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.02
 	}
 
@@ -1430,7 +1430,7 @@ agot_srunmued_copper_mines_03 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.03
 	}
 
@@ -1466,7 +1466,7 @@ agot_srunmued_copper_mines_04 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.04
 	}
 
@@ -1508,7 +1508,7 @@ agot_krih_tin_mines_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		development_growth_factor = 0.01
 	}
 
@@ -1544,7 +1544,7 @@ agot_krih_tin_mines_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.02
 	}
 
@@ -1586,7 +1586,7 @@ agot_krih_tin_mines_03 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.03
 	}
 
@@ -1622,7 +1622,7 @@ agot_krih_tin_mines_04 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.20
+		# tax_mult = 0.20
 		development_growth_factor = 0.04
 	}
 

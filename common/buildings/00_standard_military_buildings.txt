@@ -6037,7 +6037,7 @@ smiths_01 = {
 	
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_1
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_1
@@ -6205,7 +6205,7 @@ smiths_02 = {
 	
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_2
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_2
@@ -6297,7 +6297,7 @@ smiths_03 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_3
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_3
@@ -6385,7 +6385,7 @@ smiths_04 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_4
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_4
@@ -6472,7 +6472,7 @@ smiths_05 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_5
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_3
-		tax_mult = low_building_tax_mult_tier_5
+		# tax_mult = low_building_tax_mult_tier_5
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_5
@@ -6559,7 +6559,7 @@ smiths_06 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_6
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
-		tax_mult = low_building_tax_mult_tier_6
+		# tax_mult = low_building_tax_mult_tier_6
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_6
@@ -6646,7 +6646,7 @@ smiths_07 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_7
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_5
-		tax_mult = low_building_tax_mult_tier_7
+		# tax_mult = low_building_tax_mult_tier_7
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_7
@@ -6733,7 +6733,7 @@ smiths_08 = {
 	province_modifier = {
 		stationed_maa_damage_mult = normal_maa_damage_tier_8
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_6
-		tax_mult = low_building_tax_mult_tier_8
+		# tax_mult = low_building_tax_mult_tier_8
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_8

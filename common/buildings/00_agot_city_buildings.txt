@@ -2688,7 +2688,7 @@ city_05 = {
 
 	province_culture_modifier = {
 		parameter = city_buildings_more_powerful
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 
 	county_culture_modifier = {
@@ -2714,7 +2714,7 @@ city_05 = {
 
 	province_culture_modifier = {
 		parameter = city_holdings_more_taxes
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 
 	province_culture_modifier = {

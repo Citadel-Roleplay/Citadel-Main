@@ -3065,7 +3065,7 @@ city_01 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = city_holdings_more_taxes
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	#AGOT Added
@@ -6194,7 +6194,7 @@ city_02 = {
 	province_culture_modifier = {
 		parameter = city_buildings_more_powerful
 		# levy_size = 0.5
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 
 	county_culture_modifier = {
@@ -6231,7 +6231,7 @@ city_02 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = city_holdings_more_taxes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 
 	#AGOT Added
@@ -9275,7 +9275,7 @@ city_03 = {
 
 	province_culture_modifier = {
 		parameter = city_buildings_more_powerful
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	county_culture_modifier = {
@@ -9313,7 +9313,7 @@ city_03 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = city_holdings_more_taxes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	#AGOT Added
@@ -12347,7 +12347,7 @@ city_04 = {
 
 	province_culture_modifier = {
 		parameter = city_buildings_more_powerful
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 
 	county_culture_modifier = {
@@ -12384,7 +12384,7 @@ city_04 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = city_holdings_more_taxes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 
 	#AGOT Added

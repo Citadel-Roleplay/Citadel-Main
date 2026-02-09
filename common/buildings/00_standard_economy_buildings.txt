@@ -954,7 +954,7 @@ watermills_03 = {
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_3
 		development_growth_factor = normal_building_development_growth_factor_tier_1
-		tax_mult = normal_building_tax_mult_tier_1
+		# tax_mult = normal_building_tax_mult_tier_1
 	}
 
 	on_complete = {
@@ -1054,7 +1054,7 @@ watermills_04 = {
 		development_growth_factor = normal_building_development_growth_factor_tier_2
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_4
-		tax_mult = normal_building_tax_mult_tier_2
+		# tax_mult = normal_building_tax_mult_tier_2
 	}
 
 	on_complete = {
@@ -1127,7 +1127,7 @@ watermills_05 = {
 		development_growth_factor = normal_building_development_growth_factor_tier_3
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_5
-		tax_mult = normal_building_tax_mult_tier_3
+		# tax_mult = normal_building_tax_mult_tier_3
 	}
 
 	on_complete = {
@@ -1208,7 +1208,7 @@ watermills_06 = {
 		development_growth_factor = normal_building_development_growth_factor_tier_4
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_6
-		tax_mult = normal_building_tax_mult_tier_4
+		# tax_mult = normal_building_tax_mult_tier_4
 	}
 
 	on_complete = {
@@ -1289,7 +1289,7 @@ watermills_07 = {
 		development_growth_factor = normal_building_development_growth_factor_tier_5
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_7
-		tax_mult = normal_building_tax_mult_tier_5
+		# tax_mult = normal_building_tax_mult_tier_5
 	}
 
 	on_complete = {
@@ -1370,7 +1370,7 @@ watermills_08 = {
 		development_growth_factor = normal_building_development_growth_factor_tier_6
 		#AGOT Disabled
 		#development_growth = good_building_development_growth_tier_8
-		tax_mult = normal_building_tax_mult_tier_6
+		# tax_mult = normal_building_tax_mult_tier_6
 	}
 
 	on_complete = {
@@ -1492,7 +1492,7 @@ windmills_01 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_1
-		tax_mult = good_building_tax_mult_tier_1
+		# tax_mult = good_building_tax_mult_tier_1
 		supply_limit_mult = 0.1
 	}
 	
@@ -1595,7 +1595,7 @@ windmills_02 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_2
-		tax_mult = good_building_tax_mult_tier_2
+		# tax_mult = good_building_tax_mult_tier_2
 		supply_limit_mult = 0.2
 	}
 	
@@ -1680,7 +1680,7 @@ windmills_03 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_3
-		tax_mult = good_building_tax_mult_tier_3
+		# tax_mult = good_building_tax_mult_tier_3
 		supply_limit_mult = 0.3
 	}
 	
@@ -1759,7 +1759,7 @@ windmills_04 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_4
-		tax_mult = good_building_tax_mult_tier_4
+		# tax_mult = good_building_tax_mult_tier_4
 		supply_limit_mult = 0.4
 	}
 	
@@ -1819,7 +1819,7 @@ windmills_05 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_5
-		tax_mult = good_building_tax_mult_tier_5
+		# tax_mult = good_building_tax_mult_tier_5
 		supply_limit_mult = 0.5
 	}
 	
@@ -1882,7 +1882,7 @@ windmills_06 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_6
-		tax_mult = good_building_tax_mult_tier_6
+		# tax_mult = good_building_tax_mult_tier_6
 		supply_limit_mult = 0.6
 	}
 	
@@ -1945,7 +1945,7 @@ windmills_07 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_7
-		tax_mult = good_building_tax_mult_tier_7
+		# tax_mult = good_building_tax_mult_tier_7
 		supply_limit_mult = 0.7
 	}
 	
@@ -2008,7 +2008,7 @@ windmills_08 = {
 	
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_8
-		tax_mult = good_building_tax_mult_tier_8
+		# tax_mult = good_building_tax_mult_tier_8
 		supply_limit_mult = 0.8
 	}
 	
@@ -4101,7 +4101,7 @@ waterworks_01 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.1
-		tax_mult = low_building_tax_mult_tier_1
+		# tax_mult = low_building_tax_mult_tier_1
 		levy_size = 0.02
 		epidemic_resistance = 2
 	}
@@ -4185,7 +4185,7 @@ waterworks_02 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.2
-		tax_mult = low_building_tax_mult_tier_2
+		# tax_mult = low_building_tax_mult_tier_2
 		levy_size = 0.04
 		epidemic_resistance = 4
 	}
@@ -4245,7 +4245,7 @@ waterworks_03 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.3
-		tax_mult = low_building_tax_mult_tier_3
+		# tax_mult = low_building_tax_mult_tier_3
 		levy_size = 0.06
 		epidemic_resistance = 6
 	}
@@ -4305,7 +4305,7 @@ waterworks_04 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.4
-		tax_mult = low_building_tax_mult_tier_4
+		# tax_mult = low_building_tax_mult_tier_4
 		levy_size = 0.08
 		epidemic_resistance = 8
 	}
@@ -4365,7 +4365,7 @@ waterworks_05 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.5
-		tax_mult = low_building_tax_mult_tier_5
+		# tax_mult = low_building_tax_mult_tier_5
 		levy_size = 0.1
 		epidemic_resistance = 10
 	}
@@ -4425,7 +4425,7 @@ waterworks_06 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.6
-		tax_mult = low_building_tax_mult_tier_6
+		# tax_mult = low_building_tax_mult_tier_6
 		levy_size = 0.12
 		epidemic_resistance = 12
 	}
@@ -4485,7 +4485,7 @@ waterworks_07 = {
 
 	province_modifier = {
 		supply_limit_mult = 0.7
-		tax_mult = low_building_tax_mult_tier_7
+		# tax_mult = low_building_tax_mult_tier_7
 		levy_size = 0.14
 		epidemic_resistance = 14
 	}
@@ -4545,7 +4545,7 @@ waterworks_08 = {
 
 	province_modifier = {
 		supply_limit_mult = 1
-		tax_mult = low_building_tax_mult_tier_8
+		# tax_mult = low_building_tax_mult_tier_8
 		levy_size = 0.16
 		epidemic_resistance = 16
 	}
@@ -5289,12 +5289,12 @@ pastures_01 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_1
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	on_complete = {
@@ -5364,12 +5364,12 @@ pastures_02 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_2
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	on_complete = {
@@ -5425,12 +5425,12 @@ pastures_03 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_3
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 
 	on_complete = {
@@ -5484,12 +5484,12 @@ pastures_04 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_4
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 
 	on_complete = {
@@ -5541,12 +5541,12 @@ pastures_05 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_5
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 	county_modifier = {
 		development_growth_factor = 0.02
@@ -5604,12 +5604,12 @@ pastures_06 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_6
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	on_complete = {
@@ -5662,12 +5662,12 @@ pastures_07 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_7
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 
 	on_complete = {
@@ -5721,12 +5721,12 @@ pastures_08 = {
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
 		defender_holding_advantage = normal_building_advantage_tier_8
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 
 	on_complete = {
@@ -6390,7 +6390,7 @@ orchards_01 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	on_complete = {
@@ -6401,7 +6401,7 @@ orchards_01 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit_mult = 0.05
 	}
 
@@ -6461,7 +6461,7 @@ orchards_02 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 
 	on_complete = {
@@ -6472,7 +6472,7 @@ orchards_02 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.03
+		# tax_mult = 0.03
 		supply_limit_mult = 0.10
 	}
 	
@@ -6523,7 +6523,7 @@ orchards_03 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 		supply_limit_mult = 0.1
 	}
 
@@ -6535,7 +6535,7 @@ orchards_03 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		supply_limit_mult = 0.15
 	}
 	
@@ -6582,7 +6582,7 @@ orchards_04 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 		supply_limit_mult = 0.1
 	}
 
@@ -6594,7 +6594,7 @@ orchards_04 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.07
+		# tax_mult = 0.07
 		supply_limit_mult = 0.2
 	}
 	
@@ -6642,7 +6642,7 @@ orchards_05 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		supply_limit_mult = 0.1
 	}
 
@@ -6654,7 +6654,7 @@ orchards_05 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.09
+		# tax_mult = 0.09
 		supply_limit_mult = 0.25
 	}
 	
@@ -6703,7 +6703,7 @@ orchards_06 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.06
+		# tax_mult = 0.06
 		supply_limit_mult = 0.1
 	}
 
@@ -6715,7 +6715,7 @@ orchards_06 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.11
+		# tax_mult = 0.11
 		supply_limit_mult = 0.30
 	}
 	
@@ -6764,7 +6764,7 @@ orchards_07 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.07
+		# tax_mult = 0.07
 		supply_limit_mult = 0.1
 	}
 	character_modifier = {
@@ -6779,7 +6779,7 @@ orchards_07 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.13
+		# tax_mult = 0.13
 		supply_limit_mult = 0.35
 	}
 	
@@ -6826,7 +6826,7 @@ orchards_08 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.08
+		# tax_mult = 0.08
 		supply_limit_mult = 0.1
 	}
 	character_modifier = {
@@ -6841,7 +6841,7 @@ orchards_08 = {
 	#AGOT Added
 	province_culture_modifier = {
 		parameter = better_orchard_bonuses
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		supply_limit_mult = 0.40
 	}
 	
@@ -6901,7 +6901,7 @@ farm_estates_01 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	province_culture_modifier = {
 		parameter = brewery_farming_bonus
@@ -6991,7 +6991,7 @@ farm_estates_02 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	province_culture_modifier = {
@@ -7056,7 +7056,7 @@ farm_estates_03 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 	
 	county_modifier = {
@@ -7121,7 +7121,7 @@ farm_estates_04 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 	
 	county_modifier = {
@@ -7197,7 +7197,7 @@ farm_estates_05 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.06
+		# tax_mult = 0.06
 	}
 	
 	county_modifier = {
@@ -7273,12 +7273,12 @@ farm_estates_06 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.06
+		# tax_mult = 0.06
 	}
 	
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	province_culture_modifier = {
@@ -7350,12 +7350,12 @@ farm_estates_07 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.07
+		# tax_mult = 0.07
 	}
 	
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		monthly_county_control_growth_add = 0.2
 	}
 
@@ -7429,11 +7429,11 @@ farm_estates_08 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.08
+		# tax_mult = 0.08
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		monthly_county_control_growth_add = 0.2
 	}
 
@@ -7484,7 +7484,7 @@ cereal_fields_01 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	province_culture_modifier = {
 		parameter = collective_lands_farms_bonuses
@@ -7586,11 +7586,11 @@ cereal_fields_02 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	county_modifier = {
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	province_culture_modifier = {
@@ -7672,11 +7672,11 @@ cereal_fields_03 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 
 	county_modifier = {
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit = 400
 	}
 
@@ -7756,11 +7756,11 @@ cereal_fields_04 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 
 	county_modifier = {
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit = 400
 		development_growth_factor = 0.05
 	}
@@ -7840,11 +7840,11 @@ cereal_fields_05 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.06
+		# tax_mult = 0.06
 	}
 
 	county_modifier = {
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit = 400
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
@@ -7925,11 +7925,11 @@ cereal_fields_06 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.07
+		# tax_mult = 0.07
 	}
 
 	county_modifier = {
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit = 400
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
@@ -8011,12 +8011,12 @@ cereal_fields_07 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.08
+		# tax_mult = 0.08
 	}
 
 	county_modifier = {
 		levy_reinforcement_rate = 0.05
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		supply_limit = 400
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
@@ -8098,14 +8098,14 @@ cereal_fields_08 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.09
+		# tax_mult = 0.09
 	}
 	
 	county_modifier = {
 		#AGOT Modified
 		#levy_reinforcement_rate = 0.05
 		levy_reinforcement_rate = 0.025
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		supply_limit = 1600
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
@@ -8421,7 +8421,7 @@ logging_camps_05 = {
 	county_modifier = {
 		church_holding_build_gold_cost = -0.05
 		supply_limit = 300
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 	province_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -8482,7 +8482,7 @@ logging_camps_06 = {
 	county_modifier = {
 		church_holding_build_gold_cost = -0.05
 		supply_limit = 600
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 	province_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -8543,7 +8543,7 @@ logging_camps_07 = {
 	county_modifier = {
 		church_holding_build_gold_cost = -0.05
 		supply_limit = 600
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	province_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -8604,7 +8604,7 @@ logging_camps_08 = {
 	county_modifier = {
 		church_holding_build_gold_cost = -0.05
 		supply_limit = 600
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		development_growth_factor = 0.02
 	}
 	province_culture_modifier = {
@@ -8654,7 +8654,7 @@ peat_quarries_01 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.02
+		# tax_mult = 0.02
 	}
 	county_culture_modifier = {
 		parameter = peat_quarries_building_bonuses
@@ -8705,7 +8705,7 @@ peat_quarries_02 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 	
 	county_modifier = {
@@ -8763,7 +8763,7 @@ peat_quarries_03 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.04
+		# tax_mult = 0.04
 	}
 	
 	county_modifier = {
@@ -8818,7 +8818,7 @@ peat_quarries_04 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 	
 	county_modifier = {
@@ -8875,7 +8875,7 @@ peat_quarries_05 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.06
+		# tax_mult = 0.06
 	}
 	
 	county_modifier = {
@@ -8932,7 +8932,7 @@ peat_quarries_06 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.07
+		# tax_mult = 0.07
 	}
 	
 	county_modifier = {
@@ -8990,7 +8990,7 @@ peat_quarries_07 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.08
+		# tax_mult = 0.08
 	}
 	
 	county_modifier = {
@@ -9048,7 +9048,7 @@ peat_quarries_08 = {
 	province_terrain_modifier = {
 		parameter = coastal_agriculture_building_bonuses
 		is_coastal = yes
-		tax_mult = 0.09
+		# tax_mult = 0.09
 	}
 	
 	county_modifier = {
@@ -10108,7 +10108,7 @@ plantations_02 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_2
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
@@ -10164,7 +10164,7 @@ plantations_03 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_3
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		stationed_light_cavalry_toughness_mult = 0.02
 	}
 	character_culture_modifier = {
@@ -10217,7 +10217,7 @@ plantations_04 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_4
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		stationed_light_cavalry_toughness_mult = 0.02
 	}
 	character_culture_modifier = {
@@ -10270,7 +10270,7 @@ plantations_05 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_5
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		supply_limit = 200
 		stationed_light_cavalry_toughness_mult = 0.02
 	}
@@ -10327,7 +10327,7 @@ plantations_06 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_6
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		supply_limit = 400
 		stationed_light_cavalry_toughness_mult = 0.02
 	}
@@ -10384,7 +10384,7 @@ plantations_07 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_7
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		supply_limit = 400
 		stationed_light_cavalry_toughness_mult = 0.02
 	}
@@ -10441,7 +10441,7 @@ plantations_08 = {
 	
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_8
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		supply_limit = 600
 		stationed_light_cavalry_toughness_mult = 0.02
 	}

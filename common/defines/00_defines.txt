@@ -329,7 +329,7 @@ NCharacter = {
 	LEGITIMACY_INHERITED = 0.25
 
 	MONTHLY_INFLUENCE_GAIN_ALLIED_TO_TOP_LIEGE = 1.5 # Monthly influence gained for admin rulers in admin realm if you are allied to your top liege
-	MONTHLY_INFLUENCE_GAIN_ALLIED_TO_HOUSE_HEAD = 1 # Monthly influence gained for admin rulers when are allied to admin ruler house head
+	MONTHLY_INFLUENCE_GAIN_ALLIED_TO_HOUSE_HEAD = 0.5 # Monthly influence gained for admin rulers when are allied to admin ruler house head
 	MONTHLY_INFLUENCE_GAIN_BEING_GOVERNOR = 1 # Monthly influence gained in admin realm from being a governor
 }
 
@@ -508,28 +508,28 @@ NCharacterOpinion = {
 	SHORT_REIGN_OPINION_MIN = -10000
 	SHORT_REIGN_OPINION_MAX = 0 # We don't allow positive short reign opinion - mods can tweak this if they want
 	LONG_REIGN_OPINION_MIN = 0 # We don't allow negative long reign opinion - mods can tweak this if they want
-	LONG_REIGN_OPINION_MAX = 10000
+	LONG_REIGN_OPINION_MAX = 40
 
 	SHORT_REIGN_YEARS = 10
 	LONG_REIGN_YEARS = 10
 	SHORT_REIGN_MULTIPLIER = -2
-	LONG_REIGN_MULTIPLIER = 1
+	LONG_REIGN_MULTIPLIER = 0.25
 
 	# The offensive war opinion penalty is applied to all direct vassals
 	# It ticks up if you lead an offensive war that isn't a Great Holy War or a civil war
-	OFFENSIVE_WAR_PENALTY_GRACE_PERIOD = 6		# How many months do you need to be at war before you start getting the offensive war opinion penalty? If you've already got the penalty, the grace period is ignored (E.G., if you go to war for a few years, are at peace for a few months, then go to war again it will immediately start ticking up)
-	OFFENSIVE_WAR_PENALTY_PER_MONTH = 0.5		# How much of a penalty gets added each month?
+	OFFENSIVE_WAR_PENALTY_GRACE_PERIOD = 12		# How many months do you need to be at war before you start getting the offensive war opinion penalty? If you've already got the penalty, the grace period is ignored (E.G., if you go to war for a few years, are at peace for a few months, then go to war again it will immediately start ticking up)
+	OFFENSIVE_WAR_PENALTY_PER_MONTH = 0.25		# How much of a penalty gets added each month?
 	OFFENSIVE_WAR_PENALTY_DECAY_PER_MONTH = 0.5	# How much of a penalty decays each month when no longer gaining it?
 
-	AT_PEACE_PENALTY_GRACE_PERIOD = 6			# How many months do you need to be at peace before you start getting the at peace opinion penalty? If you've already got the penalty, the grace period is ignored
-	AT_PEACE_PENALTY_PER_MONTH = 0.5			# How much of a penalty gets added each month?
+	AT_PEACE_PENALTY_GRACE_PERIOD = 12			# How many months do you need to be at peace before you start getting the at peace opinion penalty? If you've already got the penalty, the grace period is ignored
+	AT_PEACE_PENALTY_PER_MONTH = 0.25			# How much of a penalty gets added each month?
 	AT_PEACE_PENALTY_CAP = 30					# The penalty will be capped to this value (the opinion will be at worst -AT_PEACE_PENALTY_CAP)
 
 	TYRANNY_MULTIPLIER = -1
 
-	HOLDS_CLAIMED_TITLE = -20
+	HOLDS_CLAIMED_TITLE = -40
 
-	DEFENDING_ME_IN_CLAIM_WAR = 100
+	DEFENDING_ME_IN_CLAIM_WAR = 20
 
 	#AGOT Modified
 	#POWERFUL_VASSAL_WITHOUT_COUNCIL_POSITION = -40
@@ -542,9 +542,9 @@ NCharacterOpinion = {
 	VIRTUOUS_TRAIT = 10
 	SINFUL_TRAIT = -10
 
-	DE_JURE_COUNTY = -25
-	DE_JURE_DUCHY = -25
-	DE_JURE_KINGDOM = -30
+	DE_JURE_COUNTY = -20
+	DE_JURE_DUCHY = -20
+	DE_JURE_KINGDOM = -20
 	ENABLE_RIGHTFUL_LIEGE_EXCEPTIONS = yes 		# Dukes won't be upset as the vassal of their dejure emperor
 	#AGOT Modified
 	# PARTIALLY_NON_RIGHTFUL_LIEGE_TAX_MULT = 0.75 		# Tax mult when partially non-rightful liege (liege doesn't hold dejure liege title of the vassal's primary, or empire for a duke if ENABLE_RIGHTFUL_LIEGE_EXCEPTIONS)
@@ -571,11 +571,11 @@ NCharacterOpinion = {
 	PARTIALLY_NON_RIGHTFUL_LIEGE_OPINION = 0
 	#AGOT Modified
 	# NON_RIGHTFUL_LIEGE_OPINION = -5						# Opinion penalty for being partially non-rightful liege
-	NON_RIGHTFUL_LIEGE_OPINION = 0
+	NON_RIGHTFUL_LIEGE_OPINION = -10
 	MAX_DUCHIES_BEFORE_PENALTY = 2						# How many duchies are vassals fine with you having? If you're a duke, they don't care; only if you're king or above
-	TOO_MANY_DUCHIES_OPINION = -15						# Penalty per duchy too many
-	COUNT_LIEGE_HOLDS_MY_DUCHY = -25					# Penalty with count vassals for whom you hold their dejure duchy (and you're above duchy tier)
-	VASSAL_SIZE_ANGER_THRESHOLD = 0.3						# Ratio of counties in vassal's realm (duke or above) compared to liege's full realm in order for the vassal to get angry at liege
+	TOO_MANY_DUCHIES_OPINION = -20						# Penalty per duchy too many
+	COUNT_LIEGE_HOLDS_MY_DUCHY = -20					# Penalty with count vassals for whom you hold their dejure duchy (and you're above duchy tier)
+	VASSAL_SIZE_ANGER_THRESHOLD = 0.25						# Ratio of counties in vassal's realm (duke or above) compared to liege's full realm in order for the vassal to get angry at liege
 	VASSAL_SIZE_ANGER_MIN = -5								# Opinion penalty applied at exact threshold
 	VASSAL_SIZE_ANGER_MULT = -100							# Opinion penalty applied for going 100 percentage points over the threshold (impossible unless the threshold is 0, but makes for simple math)
 
@@ -645,8 +645,8 @@ NCombat = {
 	#AGOT Modified, battles matter more
 	# WAR_ATTACKER_COMBAT_SCORE_SCALE = 50			# Scale factor for how much war score battles give to the war attacker. Can be overriden by CB
 	# WAR_DEFENDER_COMBAT_SCORE_SCALE = 50			# Scale factor for how much war score battles give to the war defender. Can be overriden by CB
-	WAR_ATTACKER_COMBAT_SCORE_SCALE = 100			# Scale factor for how much war score battles give to the war attacker. Can be overriden by CB
-	WAR_DEFENDER_COMBAT_SCORE_SCALE = 100			# Scale factor for how much war score battles give to the war defender. Can be overriden by CB
+	WAR_ATTACKER_COMBAT_SCORE_SCALE = 150			# Scale factor for how much war score battles give to the war attacker. Can be overriden by CB
+	WAR_DEFENDER_COMBAT_SCORE_SCALE = 150			# Scale factor for how much war score battles give to the war defender. Can be overriden by CB
 	WAR_ATTACKER_COMBAT_MAX_SCORE = 50				# The maximum amount of warscore gained from a single battle by the war attacker
 	WAR_DEFENDER_COMBAT_MAX_SCORE = 50				# The maximum amount of warscore gained from a single battle by the war attacker
 	MANEUVER_PHASE_DAYS = 3							# How many days should the maneuver phase last
@@ -672,8 +672,8 @@ NCombat = {
 	BASE_TOUGHNESS_TO_PURSUIT = 0.05				# This many % of the toughness of the retreater's soft casualties will turn into pursuit (during the full pursuit, not per day). Essentially, this means if neither side has screen or pursuit, 5% of the soft casualties will become hard casualties. More if the pursuer has more pursuit than the defender has screen, and vice versa
 	MINIMUM_PURSUIT_DAMAGE = 0.01					# High screen can't bring casualties below 1% in the pursuit phase
 	DISEMBARK_PENALTY_DAYS = 30						# How long does an army have a penalty after disembarking?
-	KNIGHT_DAMAGE_PER_PROWESS = 50					# How much "Damage" stat does a knight get per prowess?
-	KNIGHT_TOUGHNESS_PER_PROWESS = 10				# How much "Toughness" stat does a knight get per prowess?
+	KNIGHT_DAMAGE_PER_PROWESS = 30					# How much "Damage" stat does a knight get per prowess?
+	KNIGHT_TOUGHNESS_PER_PROWESS = 5				# How much "Toughness" stat does a knight get per prowess?
 
 	### Brief: KNIGHT_AVERAGE_PROWESS_FOR_AI_POWER_CALCULATION ( int32 )
 	# How much prowess do we assume a knight to have for the purpose
@@ -699,37 +699,37 @@ NArmy = {
 	MOVEMENT_SPEED_BONUS_FRIENDLY_AREA = 0.2		# In friendly areas you get a 20% speed bonus
 	#AGOT Modified
 	#REGIMENT_MONTHLY_REINFORCE_SPEED = 0.03		
-	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.0085		# Monthly reinforcement percentage of unraised chunks [0-1]
-	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.1		# Monthly reinforcement percentage of unraised MAA chunks [0-1]
+	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.005		# Monthly reinforcement percentage of unraised chunks [0-1]
+	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.05		# Monthly reinforcement percentage of unraised MAA chunks [0-1]
 	#AGOT Modified, increased levies to resemble canon numbers without increased income
 	#GOLD_COST_PER_SOLDIER = 0.003					# Gold maintenance cost per soldier
-	GOLD_COST_PER_SOLDIER = 0.002					# Gold maintenance cost per soldier
+	GOLD_COST_PER_SOLDIER = 0.005					# Gold maintenance cost per soldier
 	RAID_ARMY_COST_MULT = 0.5						# Maintenance of raid armies is multiplied by this
 	BARTER_ARMY_COST_MULT = 0.5 					# Maintenance of barter armies is multiplied by this
 	MOVEMENT_LOCKED = 0.5							# Percentage after which movement is locked
 	#AGOT Modified
 	#COUNTY_MOVEMENT_ATTRITION_PERCENTAGE = 0.05
-	COUNTY_MOVEMENT_ATTRITION_PERCENTAGE = 0.01
-	MINIMUM_COUNTY_MOVEMENT_ATTRITION = 100
+	COUNTY_MOVEMENT_ATTRITION_PERCENTAGE = 0.02
+	MINIMUM_COUNTY_MOVEMENT_ATTRITION = 10
 	REGIMENT_DEFAULT_STACK_SIZE = 100
 	REGIMENT_DEFAULT_MAX_SIZE = 3					# Number of regiment chunks
 	REGIMENT_MAA_CAP_BY_TIER = { 0 1 2 3 4 5 6 }
-	REGIMENT_MAA_EXTRA_BY_CAP = 0.2					# Percentage [0-1] applied to each MAA regiment by each regiment above the cap
+	REGIMENT_MAA_EXTRA_BY_CAP = 2					# Percentage [0-1] applied to each MAA regiment by each regiment above the cap
 	REGIMENT_MAA_SHOW_INFO_PERCENTAGE = 0.3
 	REGIMENT_MAA_STARTING_COUNT = 5
 
 	FULL_SUPPLY = 100								# Fully supplied units' supply value
-	SUPPLY_LOSS_AT_SEA = 8							# This is the supply loss at sea after the ATTRITION_AFTER_DAYS grace period
-	SUPPLY_LOSS_PER_SOLDIER_ABOVE_LIMIT = 0.001		# Each check's supply loss per every soldier over the province's supply limit
+	SUPPLY_LOSS_AT_SEA = 15							# This is the supply loss at sea after the ATTRITION_AFTER_DAYS grace period
+	SUPPLY_LOSS_PER_SOLDIER_ABOVE_LIMIT = 0.0015		# Each check's supply loss per every soldier over the province's supply limit
 	SUPPLY_LOSS_MINIMUM = 5							# This is the minimum supply limit loss (before commander effects)
 	SUPPLY_LOSS_MAXIMUM = 10						# This is the maximum supply limit loss (after commander effects)
 	SUPPLY_GAIN_BELOW_LIMIT = 20					# Each check's supply gain under or at the province's supply limit
-	SUPPLY_OWN_REALM = 0.15							# Extra supply within top realm
-	SUPPLY_OWN_SUB_REALM = 0.3						# Extra supply within subrealm
+	SUPPLY_OWN_REALM = 0.2							# Extra supply within top realm
+	SUPPLY_OWN_SUB_REALM = 0.4						# Extra supply within subrealm
 	#AGOT Modified to allow for extremely low supply limits
 	#MINIMUM_SUPPLY_LIMIT = 1000						# Supply limit will never ever be lower than this
 	MINIMUM_SUPPLY_LIMIT = 4						# Supply limit will never ever be lower than this
-	NO_SUPPLY_LOSS_DAYS = 30						# After gathering, armies won't lose supplies for this number of days
+	NO_SUPPLY_LOSS_DAYS = 21						# After gathering, armies won't lose supplies for this number of days
 
 	SUPPLY_STATE_LEVELS = {
 		60
@@ -745,7 +745,7 @@ NArmy = {
 
 	SUPPLY_STATE_ATTRITION = {
 		0.0
-		0.0
+		0.01
 		0.05
 	}
 
@@ -800,12 +800,12 @@ NRetreat = {
 }
 
 NWar = {
-	ATTACKER_TICKING_WAR_SCORE = 0.055				# Default ticking war score per day for attackers. Can be overwritten by CB. Set to 0 to disable
+	ATTACKER_TICKING_WAR_SCORE = 0.1				# Default ticking war score per day for attackers. Can be overwritten by CB. Set to 0 to disable
 	ATTACKER_TICKING_WAR_SCORE_DELAY_DAYS = 0		# Default delay in days before applying ticking war score for attackers. Can be overwritten by CB
-	DEFENDER_TICKING_WAR_SCORE = 0.055				# Default ticking war score per day for defenders. Can be overwritten by CB. Set to 0 to disable
+	DEFENDER_TICKING_WAR_SCORE = 0.1			# Default ticking war score per day for defenders. Can be overwritten by CB. Set to 0 to disable
 	DEFENDER_TICKING_WAR_SCORE_DELAY_DAYS = 365		# Default delay in days before applying ticking war score for defenders. Can be overwritten by CB
-	ATTACKER_OCCUPATION_SCORE_SCALE = 90			# War score from occupation by the attacker is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
-	DEFENDER_OCCUPATION_SCORE_SCALE = 90			# War score from occupation by the defender is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
+	ATTACKER_OCCUPATION_SCORE_SCALE = 130			# War score from occupation by the attacker is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
+	DEFENDER_OCCUPATION_SCORE_SCALE = 130			# War score from occupation by the defender is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
 	MAX_ATTACKER_BATTLES_WAR_SCORE = 50				# How much war score is it possible for the attacker to get from battles. Can be overriden by CB
 	MAX_DEFENDER_BATTLES_WAR_SCORE = 100			# How much war score is it possible for the defender to get from battles. Can be overriden by CB
 	MILITARY_RATIO_LEVELS = 5						# How many military ratio levels are there
@@ -816,7 +816,7 @@ NWar = {
 	BATTLE_WAR_CONTRIBUTION_MULTIPLIER = 0.2		# War contribution from battles are multiplied with this value
 	#AGOT Modified, sieges less important
 	# SIEGE_WAR_CONTRIBUTION_MULTIPLIER = 10			# War contribution from sieges are multiplied with this value
-	SIEGE_WAR_CONTRIBUTION_MULTIPLIER = 5			# War contribution from sieges are multiplied with this value
+	SIEGE_WAR_CONTRIBUTION_MULTIPLIER = 15			# War contribution from sieges are multiplied with this value
 	OCCUPATION_WAR_CONTRIBUTION_MONTHLY = 2			# War contribution from monthly occupation of provinces
 	OCCUPATION_SCORE_PER_BARONY_SCALE = 0.04		# Extra occupation score (before scaling) from each individual barony. 0.01 is equivalent to 1% per barony. So 10 baronies occupied out of 20 total, would mean 50% + 10% = 60% occupation score (before scaling)
 	MINIMUM_CONTRIBUTION_FOR_REWARD = 100			# You need at least this amount of contribution points in order to get a reward
@@ -860,7 +860,7 @@ NScheme = {
 
 NPowerfulVassal = {
 	# The number of vassals that are considered 'powerful' depending on the primary title tier (unlanded, baron, count, duke, king, emperor)
-	NUM_PER_TIER = { 0 0 3 4 5 5 5 }
+	NUM_PER_TIER = { 0 0 3 4 5 6 6 }
 
 	# To calculate the value (rank):
 	VALUE_FACTOR = 1.25					# Rubber banding value for current powerful vassals
@@ -965,12 +965,12 @@ NSiege = {
 
 	BASE_DEFENDER_MORALE = 100							# Defender morale with no buildings, garrison etc
 	DEFENDER_MORALE_PER_FORT_LEVEL = 75					# Defender morale added to the base per for level
-	BASE_DAILY_MORALE_LOSS = 1							# How much morale is lost every day of the siege
-	MIN_DAILY_MORALE_LOSS = 0.5							# Minimum daily morale loss for the defenders
+	BASE_DAILY_MORALE_LOSS = 2							# How much morale is lost every day of the siege
+	MIN_DAILY_MORALE_LOSS = 1							# Minimum daily morale loss for the defenders
 	DAILY_MORALE_LOSS_FROM_RELATIVE_ATTACKER_MEN = 0.01	# How much morale is lost every day of the siege for extra stack of men defined in RELATIVE_ATTACKER_MEN_STACK_SIZE
-	RELATIVE_ATTACKER_MEN_STACK_SIZE = 200				# Extra stack size of men to start getting daily morale loss
+	RELATIVE_ATTACKER_MEN_STACK_SIZE = 100				# Extra stack size of men to start getting daily morale loss
 	MONTHLY_ATTRITION = 0.01							# Monthly attrition during siege
-	BASE_SIEGE_PHASE_LENGTH = 20						# Base length of a siege phase (time between picking new actions) in days
+	BASE_SIEGE_PHASE_LENGTH = 10						# Base length of a siege phase (time between picking new actions) in days
 	BREACH_PHASE_TIMER_LEVELS = {						# How many levels of breach are there and how much (as percentage) is the phase timer reduced by these levels.
 		-0.1
 		-0.3
@@ -1044,7 +1044,7 @@ NCounty = {
 	DEFAULT_COUNTY_CONTROL = 100
 	DEFAULT_COUNTY_DEVELOPMENT = 0
 	# What penalty to give when at zero culture acceptance. Scales down to 0 at 100% acceptance. So -10 would be -10 at 0%, -5 at 50%, 0 at 100%
-	COUNTY_OPINION_ZERO_ACCEPTANCE = -15
+	COUNTY_OPINION_ZERO_ACCEPTANCE = -20
 	COUNTY_CONTROL_LOSS_ON_HOSTILE_OWNER_CHANGE = 75	# County control is reduced by this amount when the county changes hands due to conquest
 	ABSOLUTE_COUNTRY_CONTROL = 110
 	CULTURAL_ACCEPTANCE_AUTO_GRANT_COUNTY_SCRIPT_VALUE = "auto_grant_county_cultural_acceptance_impact"
@@ -1067,7 +1067,7 @@ NProvince = {
 	COUNTY_BUILDING_SLOTS = 3
 	#AGOT Modified, more supply per development since it's slower
 	# SUPPLY_PER_DEVELOPMENT = 150				# Each development adds this much sto the supply limit
-	SUPPLY_PER_DEVELOPMENT = 800				# Each development adds this much sto the supply limit
+	SUPPLY_PER_DEVELOPMENT = 200				# Each development adds this much sto the supply limit
 	ACROSS_WATER_PROVINCE_MAX_DISTANCE = 2		# Maximum number of (traversable) water provinces between provinces to be considered "connected across water"
 	WINTER_LEVEL_THRESHOLD_MILD = 0.2			# Determines when the mild winter level takes effect, should be a value between 0.0 .. 1.0
 	WINTER_LEVEL_THRESHOLD_NORMAL = 0.5			# Determines when the normal winter level takes effect, which ranges between WINTER_LEVEL_THRESHOLD_MILD .. 1.0
@@ -1136,16 +1136,16 @@ NHouseRelation = {
 
 NDreadEffectOnBoldness = {
 	# values below stack
-	MULT_BASE = 1							# base multiplier for dread (0..inf). Set to 0 to disable dread effect on boldness
+	MULT_BASE = 0.5							# base multiplier for dread (0..inf). Set to 0 to disable dread effect on boldness
 	MULT_OUTSIDE_REALM = 0.5				# reduce dread if I am not in the same realm as the dreaded character (0..1)
 	MULT_NOT_DIRECT_LIEGE = 0.7				# reduce dread if the dreaded character is not my direct liege (0..1)
 	MULT_DIPLOMATIC_DISTANCE_FALLOFF = 1	# reduce dread with diplomatic distance: dread *= 1 - ( distance * MULT_DIPLOMATIC_DISTANCE_FALLOFF ) / NAI::MAX_DIPLO_DISTANCE
 }
 
 NDomain = {
-	ABOVE_LIMIT_LEVY_PENALTY = 0.2				# How much levies are reduced per holding over the limit
+	ABOVE_LIMIT_LEVY_PENALTY = 0.3				# How much levies are reduced per holding over the limit
 	ABOVE_LIMIT_MAX_LEVY_PENALTY = 1			# How much levies can be reduced at most
-	ABOVE_LIMIT_TAX_INCOME_PENALTY = 0.2		# How much tax income from domain is reduced per holding over the limit
+	ABOVE_LIMIT_TAX_INCOME_PENALTY = 0.3		# How much tax income from domain is reduced per holding over the limit
 	ABOVE_LIMIT_MAX_TAX_INCOME_PENALTY = 1		# How much tax income from domain can be reduced at most
 	ABOVE_LIMIT_HERD_INCOME_PENALTY = 0.5		# How much herd income from domain is reduced per holding over the limit
 	ABOVE_LIMIT_MAX_HERD_INCOME_PENALTY = 1		# How much herd income from domain can be reduced at most
@@ -1158,7 +1158,7 @@ NDomain = {
 	#AGOT Modified, nerf levies and taxes (no 900k megawars)
 	# LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.5		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	# TAX_AT_MAX_COUNTY_DEVELOPMENT = 0.5			# How much % tax bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
-	LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.25		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
+	# LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.25		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	TAX_AT_MAX_COUNTY_DEVELOPMENT = 0.25			# How much % tax bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	HOLDING_MIN_GARRISON_COUNT = 25				# The minimal amount of garrisons a holding should have if it should have garrisons
 	ABOVE_LIMIT_BARTER_GOODS_INCOME_PENALTY = 0.2 	# How much Barter Goods are reduced per holding over the limit
@@ -1182,8 +1182,8 @@ NFaction =
 NPathFinding = {
 	#AGOT Modified, the time from clicking in the sea, to actually being at sea, idk ask Uber
 	#EMBARK_COST = 30								# This value will be set as pathfinding cost if it goes from land to sea
-	EMBARK_COST = 15								# This value will be set as pathfinding cost if it goes from land to sea
-	DISEMBARK_COST = 10								# This value will be set as pathfinding cost if it goes from sea to land
+	EMBARK_COST = 8								# This value will be set as pathfinding cost if it goes from land to sea
+	DISEMBARK_COST = 4								# This value will be set as pathfinding cost if it goes from sea to land
 }
 
 NCulture = {
@@ -1265,7 +1265,7 @@ NMercenary = {
 											# The numbers correspond to numbers of counties of the culture. No company exists if the number is lower than the first value specified here.
 	HIRE_RANGE = 500						# The maximum distance of mercenaries that can be hired (capital to mercenary location)
 	HIRE_RANGE_SAME_CULTURE = 1500			# The maximum distance of mercenaries with the same culture that can be hired (capital to mercenary location)
-	LEVIES = { 400 800 1200 }				# The base numbers of levies for levels of mercenary bands
+	LEVIES = { 100 200 300 }				# The base numbers of levies for levels of mercenary bands
 	MAA_REGIMENTS = { 1 2 3 }				# The number of MAA regiments for levels of mercenary bands
 	NUM_KNIGHTS = { 2 3 4 }					# The number of knights for levels of mercenary bands
 	MAA_REGIMENT_SIZES = { 3 3 3 }	# The base sizes of MAA regiments for levels of mercenary bands, in number of sub-regiments
@@ -1291,8 +1291,8 @@ NMercenary = {
 NHolyOrder = {
 	# In addition to the holding levies, a holy order has levies according to this formula:
 	# NUM_LEVIES_BASE + <num holdings> * NUM_LEVIES_PER_HOLDING
-	NUM_LEVIES_BASE = 500
-	NUM_LEVIES_PER_HOLDING = 200
+	NUM_LEVIES_BASE = 100
+	NUM_LEVIES_PER_HOLDING = 50
 
 	# The holy order starts out with NUM_MAA_BASE Men-At-Arms sub-regiments. These will always try to use the holy_order_maa defined in the religion, if any are available.
 	NUM_MAA_BASE = 2
@@ -1486,9 +1486,9 @@ NRaid = {
 	# Progress cannot be lower than 1/day (except when interrupted by combat)
 	BASE_PROGRESS = 20						# How much base raid action progress do you get per day?
 	PROGRESS_PER_SOLDIER = 0.01				# How much raid action progress do you get per day per soldier? Minimum resolution is 0.001
-	BASE_DIFFICULTY = 350					# How much base progress is needed?
-	DIFFICULTY_PER_FORT_LEVEL = 350			# How much progress is needed per fort level in the holding?
-	DIFFICULTY_PER_COUNTY_FORT_LEVEL = 250	# How much progress is needed per fort level in the county *outside* the holding?
+	BASE_DIFFICULTY = 200					# How much base progress is needed?
+	DIFFICULTY_PER_FORT_LEVEL = 400			# How much progress is needed per fort level in the holding?
+	DIFFICULTY_PER_COUNTY_FORT_LEVEL = 50	# How much progress is needed per fort level in the county *outside* the holding?
 	DAYS_OF_HOSTILITY = 180					# How long after raiding do hostilities last?
 	DAYS_OF_IMMUNITY = 1825					# How long does raid immunity after defeating a raid army last?
 	RAID_REALM_AI_COOLDOWN = 1				# How many years the AI should wait before considering raiding again, after any AI raiders have been defeated previously

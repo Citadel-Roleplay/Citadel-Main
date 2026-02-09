@@ -632,7 +632,7 @@ seven_gates_01 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = 0.15
-		tax_mult = normal_building_tax_mult_tier_2
+		# tax_mult = normal_building_tax_mult_tier_2
 	}
 	county_modifier = {
 		development_growth_factor = 0.1
@@ -830,7 +830,7 @@ agot_warg_king_02 = {
 	county_modifier = {
 		hostile_raid_time = 0.4
 		defender_holding_advantage = 4
-		tax_mult = 0.025
+		# tax_mult = 0.025
 		development_growth_factor = 0.1
 	}
 
@@ -886,7 +886,7 @@ agot_warg_king_03 = {
 	county_modifier = {
 		hostile_raid_time = 0.6
 		defender_holding_advantage = 6
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		development_growth_factor = 0.15
 	}
 
@@ -946,7 +946,7 @@ agot_warg_king_04 = {
 	county_modifier = {
 		hostile_raid_time = 0.8
 		defender_holding_advantage = 8
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.2
 	}
 
@@ -1018,7 +1018,7 @@ generic_harrenhal_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		levy_size = 0.10
 		development_growth_factor = 0.10
 		monthly_county_control_growth_factor = 0.1
@@ -1120,7 +1120,7 @@ harrenhal_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		levy_size = 0.10
 		development_growth_factor = 0.10
 		monthly_county_control_growth_factor = 0.1

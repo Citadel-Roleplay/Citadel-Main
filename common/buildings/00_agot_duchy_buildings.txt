@@ -832,7 +832,7 @@ agot_slave_stewardship_01 = {
 
 	duchy_capital_county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.03
+		# tax_mult = 0.03
 	}
 
 	next_building = agot_slave_stewardship_02
@@ -880,7 +880,7 @@ agot_slave_stewardship_02 = {
 
 	duchy_capital_county_modifier = {
 		development_growth_factor = 0.1
-		tax_mult = 0.06
+		# tax_mult = 0.06
 	}
 
 	next_building = agot_slave_stewardship_03
@@ -928,7 +928,7 @@ agot_slave_stewardship_03 = {
 
 	duchy_capital_county_modifier = {
 		development_growth_factor = 0.15
-		tax_mult = 0.09
+		# tax_mult = 0.09
 	}
 
 	type = duchy_capital
