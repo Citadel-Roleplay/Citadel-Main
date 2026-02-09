@@ -36,6 +36,150 @@ walls_00 = {
 			has_holding_type = unknown_holding
 			has_holding_type = wilderness_holding
 		}
+		NOT = {
+			this = province:2819
+			has_building_or_higher = agot_ten_towers_01
+		}		
+		NOT = {
+			this = province:4241
+			has_building_or_higher = agot_duskendale_01
+		}			
+		NOT = {
+			this = province:4241
+			has_building_or_higher = cow_duskendale_01
+		}	
+		NOT = {
+			this = province:1686
+			has_building_or_higher = agot_raventree_hall_01
+		}
+		NOT = {
+			this = province:5303
+			has_building_or_higher = yronwood_01
+		}
+		NOT = {
+			this = province:3161
+			has_building_or_higher = crag_01
+		}
+		NOT = {
+			this = province:3161
+			has_building_or_higher = crag_full
+		}
+		NOT = {
+			this = province:4424
+			has_building_or_higher = agot_ruins_hightide_02
+		}
+		NOT = {
+			this = province:4424
+			has_building_or_higher = agot_hightide_01
+		}
+		NOT = {
+			this = province:3320
+			has_building_or_higher = agot_starpike_01
+		}
+		NOT = {
+			this = province:3823
+			has_building_or_higher = agot_dunstonbury_01
+		}
+		NOT = {
+			this = province:3289
+			has_building_or_higher = agot_whitegrove_01
+		}
+		NOT = {
+			this = province:4268
+			has_building_or_higher = agot_rooks_rest_01
+		}
+		NOT = {
+			this = province:4268
+			has_building_or_higher = cow_rooks_rest_01
+		}
+		NOT = {
+			this = province:4673
+			has_building_or_higher = agot_blackhaven_01
+		}
+		NOT = {
+			this = province:4772
+			has_building_or_higher = broadarch_01
+		}
+		NOT = {
+			this = province:3180
+			has_building_or_higher = agot_castamere_01
+		}
+		NOT = {
+			this = province:3180
+			has_building_or_higher = 24castamere_01
+		}
+		NOT = {
+			this = province:3180
+			has_building_or_higher = agot_castamere_ruins_01
+		}
+		NOT = {
+			this = province:5257
+			has_building_or_higher = agot_starfall_01
+		}
+		NOT = {
+			this = province:1729
+			has_building_or_higher = agot_seagard_01
+		}
+		NOT = {
+			this = province:4124
+			has_building_or_higher = the_arbor_01
+		}
+		NOT = {
+			this = province:4125
+			title:b_ryamsport.title_province = { has_building_or_higher = the_arbor_01 }
+		}
+		NOT = {
+			this = province:3354
+			has_building_or_higher = hornhill_01
+		}
+		NOT = {
+			this = province:2455
+			has_building_or_higher = agot_runestone_01
+		}
+		NOT = {
+			this = province:2455
+			has_building_or_higher = cow_runestone_01
+		}
+		NOT = {
+			this = province:247
+			has_building_or_higher = agot_karhold_01
+		}
+		NOT = {
+			this = province:1027
+			has_building_or_higher = ironwrath_01
+		}
+		NOT = {
+			this = province:1636
+			has_building_or_higher = bearisland_01
+		}
+		NOT = {
+			this = province:2867
+			has_building_or_higher = fanghill_01
+		}
+		NOT = {
+			this = province:4917
+			has_building_or_higher = agot_evenfall_hall_01
+		}
+		NOT = {
+			this = province:940
+			has_building_or_higher = deepwood_motte_01
+		}
+		NOT = {
+			this = province:5264
+			has_building_or_higher = high_hermitage_01
+		}
+		NOT = {
+			this = province:3092
+			has_building_or_higher = ashemark_01
+		}
+		NOT = {
+			this = province:1737
+			has_building_or_higher = agot_oldstones_02
+		}
+		NOT = {
+			this = province:2626
+			has_building_or_higher = flint_tower_01
+		}
 	}
 }
 
@@ -90,6 +234,151 @@ walls_01_tribal = {
 			has_building_or_higher = "building_moat_01"
 			has_building_or_higher = "city_walls_01"
 			this = province:4153
+
+			AND = {
+				this = province:2819
+				has_building_or_higher = agot_ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
+			}			
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
+			AND = {
+				this = province:1686
+				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
+			}
+			AND = {
+				this = province:4673
+				has_building_or_higher = agot_blackhaven_01
+			}
+			AND = {
+				this = province:4772
+				has_building_or_higher = broadarch_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = 24castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_ruins_01
+			}
+			AND = {
+				this = province:5257
+				has_building_or_higher = agot_starfall_01
+			}
+			AND = {
+				this = province:1729
+				has_building_or_higher = agot_seagard_01
+			}
+			AND = {
+				this = province:4124
+				has_building_or_higher = the_arbor_01
+			}
+			AND = {
+				this = province:4125
+				province:4124 = { has_building_or_higher = the_arbor_01 }
+			}
+			AND = {
+				this = province:3354
+				has_building_or_higher = hornhill_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = agot_runestone_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = cow_runestone_01
+			}
+			AND = {
+				this = province:247
+				has_building_or_higher = agot_karhold_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1636
+				has_building_or_higher = bearisland_01
+			}
+			AND = {
+				this = province:2867
+				has_building_or_higher = fanghill_01
+			}
+			AND = {
+				this = province:4917
+				has_building_or_higher = agot_evenfall_hall_01
+			}
+			AND = {
+				this = province:940
+				has_building_or_higher = deepwood_motte_01
+			}
+			AND = {
+				this = province:5264
+				has_building_or_higher = high_hermitage_01
+			}
+			AND = {
+				this = province:3092
+				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -2390,6 +2679,151 @@ walls_01 = {
 			has_building_or_higher = "building_moat_02"
 			has_building_or_higher = "city_walls_02"
 			this = province:4153
+
+			AND = {
+				this = province:2819
+				has_building_or_higher = agot_ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
+			}			
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
+			AND = {
+				this = province:1686
+				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
+			}
+			AND = {
+				this = province:4673
+				has_building_or_higher = agot_blackhaven_01
+			}
+			AND = {
+				this = province:4772
+				has_building_or_higher = broadarch_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = 24castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_ruins_01
+			}
+			AND = {
+				this = province:5257
+				has_building_or_higher = agot_starfall_01
+			}
+			AND = {
+				this = province:1729
+				has_building_or_higher = agot_seagard_01
+			}
+			AND = {
+				this = province:4124
+				has_building_or_higher = the_arbor_01
+			}
+			AND = {
+				this = province:4125
+				province:4124 = { has_building_or_higher = the_arbor_01 }
+			}
+			AND = {
+				this = province:3354
+				has_building_or_higher = hornhill_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = agot_runestone_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = cow_runestone_01
+			}
+			AND = {
+				this = province:247
+				has_building_or_higher = agot_karhold_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1636
+				has_building_or_higher = bearisland_01
+			}
+			AND = {
+				this = province:2867
+				has_building_or_higher = fanghill_01
+			}
+			AND = {
+				this = province:4917
+				has_building_or_higher = agot_evenfall_hall_01
+			}
+			AND = {
+				this = province:940
+				has_building_or_higher = deepwood_motte_01
+			}
+			AND = {
+				this = province:5264
+				has_building_or_higher = high_hermitage_01
+			}
+			AND = {
+				this = province:3092
+				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -2458,7 +2892,7 @@ walls_02 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_02_mesh"
@@ -4773,6 +5207,150 @@ walls_02 = {
 			has_building_or_higher = "building_moat_03"
 			has_building_or_higher = "city_walls_03"
 			this = province:4153
+			AND = {
+				this = province:2819
+				has_building_or_higher = agot_ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
+			}			
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
+			AND = {
+				this = province:1686
+				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
+			}
+			AND = {
+				this = province:4673
+				has_building_or_higher = agot_blackhaven_01
+			}
+			AND = {
+				this = province:4772
+				has_building_or_higher = broadarch_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = 24castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_ruins_01
+			}
+			AND = {
+				this = province:5257
+				has_building_or_higher = agot_starfall_01
+			}
+			AND = {
+				this = province:1729
+				has_building_or_higher = agot_seagard_01
+			}
+			AND = {
+				this = province:4124
+				has_building_or_higher = the_arbor_01
+			}
+			AND = {
+				this = province:4125
+				province:4124 = { has_building_or_higher = the_arbor_01 }
+			}
+			AND = {
+				this = province:3354
+				has_building_or_higher = hornhill_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = agot_runestone_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = cow_runestone_01
+			}
+			AND = {
+				this = province:247
+				has_building_or_higher = agot_karhold_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1636
+				has_building_or_higher = bearisland_01
+			}
+			AND = {
+				this = province:2867
+				has_building_or_higher = fanghill_01
+			}
+			AND = {
+				this = province:4917
+				has_building_or_higher = agot_evenfall_hall_01
+			}
+			AND = {
+				this = province:940
+				has_building_or_higher = deepwood_motte_01
+			}
+			AND = {
+				this = province:5264
+				has_building_or_higher = high_hermitage_01
+			}
+			AND = {
+				this = province:3092
+				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -4840,7 +5418,7 @@ walls_03 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_03_mesh"
@@ -7127,6 +7705,154 @@ walls_03 = {
 			has_building_or_higher = "building_moat_06"
 			has_building_or_higher = "city_walls_04"
 			this = province:4153
+			#AGOT Disabled
+			# has_building_or_higher = "theodosian_walls_01"
+			# has_building_or_higher = "city_wall_of_toledo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01"
+			AND = {
+				this = province:2819
+				has_building_or_higher = agot_ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
+			}			
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
+			AND = {
+				this = province:1686
+				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
+			}
+			AND = {
+				this = province:4673
+				has_building_or_higher = agot_blackhaven_01
+			}
+			AND = {
+				this = province:4772
+				has_building_or_higher = broadarch_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = 24castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_ruins_01
+			}
+			AND = {
+				this = province:5257
+				has_building_or_higher = agot_starfall_01
+			}
+			AND = {
+				this = province:1729
+				has_building_or_higher = agot_seagard_01
+			}
+			AND = {
+				this = province:4124
+				has_building_or_higher = the_arbor_01
+			}
+			AND = {
+				this = province:4125
+				province:4124 = { has_building_or_higher = the_arbor_01 }
+			}
+			AND = {
+				this = province:3354
+				has_building_or_higher = hornhill_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = agot_runestone_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = cow_runestone_01
+			}
+			AND = {
+				this = province:247
+				has_building_or_higher = agot_karhold_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1636
+				has_building_or_higher = bearisland_01
+			}
+			AND = {
+				this = province:2867
+				has_building_or_higher = fanghill_01
+			}
+			AND = {
+				this = province:4917
+				has_building_or_higher = agot_evenfall_hall_01
+			}
+			AND = {
+				this = province:940
+				has_building_or_higher = deepwood_motte_01
+			}
+			AND = {
+				this = province:5264
+				has_building_or_higher = high_hermitage_01
+			}
+			AND = {
+				this = province:3092
+				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -7194,7 +7920,7 @@ walls_04 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_04_mesh"
@@ -9469,6 +10195,152 @@ walls_04 = {
 			scope:holder = {
 				government_has_flag = government_is_nomadic
 				root = { fort_level >= 4 }
+			}
+		}
+		NOR = {
+			AND = {
+				this = province:2819
+				has_building_or_higher = agot_ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
+			}		
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
+			AND = {
+				this = province:1686
+				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
+			}
+			AND = {
+				this = province:4673
+				has_building_or_higher = agot_blackhaven_01
+			}
+			AND = {
+				this = province:4772
+				has_building_or_higher = broadarch_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = 24castamere_01
+			}
+			AND = {
+				this = province:3180
+				has_building_or_higher = agot_castamere_ruins_01
+			}
+			AND = {
+				this = province:5257
+				has_building_or_higher = agot_starfall_01
+			}
+			AND = {
+				this = province:1729
+				has_building_or_higher = agot_seagard_01
+			}
+			AND = {
+				this = province:4124
+				has_building_or_higher = the_arbor_01
+			}
+			AND = {
+				this = province:4125
+				province:4124 = { has_building_or_higher = the_arbor_01 }
+			}
+			AND = {
+				this = province:3354
+				has_building_or_higher = hornhill_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = agot_runestone_01
+			}
+			AND = {
+				this = province:2455
+				has_building_or_higher = cow_runestone_01
+			}
+			AND = {
+				this = province:247
+				has_building_or_higher = agot_karhold_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1636
+				has_building_or_higher = bearisland_01
+			}
+			AND = {
+				this = province:2867
+				has_building_or_higher = fanghill_01
+			}
+			AND = {
+				this = province:4917
+				has_building_or_higher = agot_evenfall_hall_01
+			}
+			AND = {
+				this = province:940
+				has_building_or_higher = deepwood_motte_01
+			}
+			AND = {
+				this = province:5264
+				has_building_or_higher = high_hermitage_01
+			}
+			AND = {
+				this = province:3092
+				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
 			}
 		}
 	}
