@@ -507,7 +507,7 @@ apiaries_02 = {
 
 	county_modifier = {
 		development_growth_factor = 0.025
-		tax_mult = 0.01
+		# tax_mult = 0.01
 	}
 
 	next_building = apiaries_03
@@ -555,7 +555,7 @@ apiaries_03 = {
 
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		county_opinion_add = 1
 	}
 
@@ -600,7 +600,7 @@ apiaries_04 = {
 
 	county_modifier = {
 		development_growth_factor = 0.075
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		county_opinion_add = 2
 	}
 
@@ -645,7 +645,7 @@ apiaries_05 = {
 
 	county_modifier = {
 		development_growth_factor = 0.1
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		county_opinion_add = 4
 	}
 
@@ -690,7 +690,7 @@ apiaries_06 = {
 
 	county_modifier = {
 		development_growth_factor = 0.125
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		county_opinion_add = 6
 	}
 
@@ -735,7 +735,7 @@ apiaries_07 = {
 
 	county_modifier = {
 		development_growth_factor = 0.15
-		tax_mult = 0.01
+		# tax_mult = 0.01
 		county_opinion_add = 8
 	}
 
@@ -780,7 +780,7 @@ apiaries_08 = {
 
 	county_modifier = {
 		development_growth_factor = 0.2
-		tax_mult = 0.02
+		# tax_mult = 0.02
 		county_opinion_add = 10
 	}
 

@@ -30,7 +30,7 @@ ashemark_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -79,7 +79,7 @@ high_hermitage_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.5
+        # tax_mult = 0.5
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.2
@@ -220,7 +220,7 @@ deepwood_motte_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.5
+        # tax_mult = 0.5
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.2
@@ -268,7 +268,7 @@ bearisland_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -363,7 +363,7 @@ cow_rooks_rest_01 = {
 
     county_modifier = {
         travel_danger = 10
-        tax_mult = 0.2
+        # tax_mult = 0.2
         development_growth_factor = 0.1
         levy_size = 0.1
     }
@@ -412,7 +412,7 @@ agot_rooks_rest_01 = {
 
     county_modifier = {
         travel_danger = 10
-        tax_mult = 0.2
+        # tax_mult = 0.2
         development_growth_factor = 0.1
         levy_size = 0.1
     }
@@ -452,7 +452,7 @@ agot_whitegrove_01 = {
         monthly_income = 0.25
     }
     county_modifier = {
-        tax_mult = 0.1
+        # tax_mult = 0.1
         development_growth_factor = 0.05
         levy_size = 0.05
     }
@@ -493,7 +493,7 @@ agot_dunstonbury_01 = {
         monthly_income = 0.5
     }
     county_modifier = {
-        tax_mult = 0.1
+        # tax_mult = 0.1
         development_growth_factor = 0.1
         levy_size = 0.1
     }
@@ -620,7 +620,7 @@ crag_02 = {
     }
     county_modifier = {
         levy_size = 0.1
-        tax_mult = 0.1
+        # tax_mult = 0.1
         development_growth_factor = 0.1
     }
 
@@ -667,7 +667,7 @@ crag_03 = {
     }
     county_modifier = {
         levy_size = 0.1
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.5
     }
 
@@ -706,7 +706,7 @@ crag_full = {
     }
     county_modifier = {
         levy_size = 0.1
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.5
     }
 
@@ -750,7 +750,7 @@ yronwood_01 = {
         monthly_income = silver_mine_building_tax_tier_3
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.5
         #development_growth = 0.1
         levy_size = 0.1
@@ -808,7 +808,7 @@ agot_breakwater_01 = {
     }
     county_modifier = {
         development_growth_factor = 0.05
-        tax_mult = 0.05
+        # tax_mult = 0.05
         #development_growth = 0.1
         levy_size = 0.1
     }
@@ -852,7 +852,7 @@ agot_griffins_roost_01 = {
     county_modifier = {
         defender_holding_advantage = 8
         hostile_raid_time = 0.5
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -899,7 +899,7 @@ agot_raventree_hall_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -956,7 +956,7 @@ agot_duskendale_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -1013,7 +1013,7 @@ cow_duskendale_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -1242,7 +1242,7 @@ planky_town_special = {
     }
 
     county_modifier = {
-        tax_mult = 0.60
+        # tax_mult = 0.60
         development_growth_factor = 0.40
         levy_size = 0.40
         monthly_county_control_growth_add = 4
@@ -1304,7 +1304,7 @@ agot_castamere_01 = {
     }
 
     county_modifier = {
-        tax_mult = 0.35
+        # tax_mult = 0.35
         development_growth_factor = 0.2
         levy_size = 0.10
         monthly_county_control_growth_add = 1
@@ -1357,7 +1357,7 @@ agot_castamere_02 = {
     }
 
     county_modifier = {
-        tax_mult = 0.40
+        # tax_mult = 0.40
         development_growth_factor = 0.30
         levy_size = 0.20
         monthly_county_control_growth_add = 2
@@ -1408,7 +1408,7 @@ agot_castamere_03 = {
     }
 
     county_modifier = {
-        tax_mult = 0.60
+        # tax_mult = 0.60
         development_growth_factor = 0.40
         levy_size = 0.40
         monthly_county_control_growth_add = 4
@@ -1528,7 +1528,7 @@ agot_castamere_ruins_02 = {
     }
 
     county_modifier = {
-        tax_mult = 0.35
+        # tax_mult = 0.35
         development_growth_factor = 0.2
         levy_size = 0.1
         monthly_county_control_growth_add = 1
@@ -1586,7 +1586,7 @@ agot_castamere_ruins_02 = {
     }
 
     county_modifier = {
-        tax_mult = 0.35
+        # tax_mult = 0.35
         development_growth_factor = 0.2
         levy_size = 0.1
         monthly_county_control_growth_add = 1
@@ -1648,7 +1648,7 @@ agot_castamere_ruins_02 = {
     }
 
     county_modifier = {
-        tax_mult = 0.40
+        # tax_mult = 0.40
         development_growth_factor = 0.3
         levy_size = 0.2
         monthly_county_control_growth_add = 2
@@ -1710,7 +1710,7 @@ agot_castamere_ruins_02 = {
     }
 
     county_modifier = {
-        tax_mult = 0.60
+        # tax_mult = 0.60
         development_growth_factor = 0.4
         levy_size = 0.4
         monthly_county_control_growth_add = 4
@@ -1773,7 +1773,7 @@ agot_hightide_01 = {
 
     character_modifier = {
         court_grandeur_baseline_add = 10
-        tax_mult = 0.1
+        # tax_mult = 0.1
         legitimacy_gain_mult = 0.1
         legitimacy_loss_mult = -0.1
         owned_legend_spread_mult = 0.1
@@ -1839,7 +1839,7 @@ agot_ruins_hightide_02 = {
 
     character_modifier = {
         court_grandeur_baseline_add = 10
-        tax_mult = 0.1
+        # tax_mult = 0.1
         legitimacy_gain_mult = 0.1
         legitimacy_loss_mult = -0.1
         owned_legend_spread_mult = 0.1
@@ -1886,7 +1886,7 @@ broadarch_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -1987,7 +1987,7 @@ hornhill_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -2039,7 +2039,7 @@ agot_karhold_01 = {
         hostile_raid_time = 0.8
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -2155,7 +2155,7 @@ ironwrath_01 = {
         monthly_income = 1
     }
     county_modifier = {
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
         levy_size = 0.1
@@ -2203,7 +2203,7 @@ flint_tower_01 = {
         monthly_income = 0.2
     }
     county_modifier = {
-        tax_mult = 0.02
+        # tax_mult = 0.02
         levy_size = 0.01
     }
 
@@ -2394,7 +2394,7 @@ oldstones_old_new = {
         fort_level = 4
     }
     county_modifier = {
-        tax_mult = 0.05
+        # tax_mult = 0.05
         #development_growth = 0.1
         monthly_county_control_growth_add = 0.5
     }
@@ -2466,7 +2466,7 @@ oldstones_restored_final = {
         fort_level = 4
     }
     county_modifier = {
-        tax_mult = 0.05
+        # tax_mult = 0.05
         #development_growth = 0.1
         monthly_county_control_growth_add = 0.5
     }
@@ -2707,7 +2707,7 @@ cow_runestone_01 = {
     county_modifier = {
         defender_holding_advantage = 5
         hostile_raid_time = 0.5
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
     }
 
@@ -2758,7 +2758,7 @@ agot_runestone_01 = {
     county_modifier = {
         defender_holding_advantage = 5
         hostile_raid_time = 0.5
-        tax_mult = 0.3
+        # tax_mult = 0.3
         development_growth_factor = 0.2
     }
 

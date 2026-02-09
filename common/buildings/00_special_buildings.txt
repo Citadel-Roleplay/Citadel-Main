@@ -62,7 +62,7 @@ holy_site_cathedral_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -141,7 +141,7 @@ holy_site_mosque_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -226,7 +226,7 @@ holy_site_fire_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
 	}
@@ -311,7 +311,7 @@ holy_site_pagan_grand_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		levy_size = 0.1
 		development_growth_factor = 0.2
 		development_growth = 0.15
@@ -398,7 +398,7 @@ holy_site_indian_grand_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -498,7 +498,7 @@ holy_site_buddhist_grand_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -580,7 +580,7 @@ holy_site_japanese_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -662,7 +662,7 @@ holy_site_chinese_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -744,7 +744,7 @@ holy_site_se_asia_pagan_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}
@@ -826,7 +826,7 @@ holy_site_other_grand_temple_01 = {
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.15
 	}

@@ -32,7 +32,7 @@ generic_copper_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.04
+		# tax_mult = 0.04
 		development_growth_factor = 0.025
 	}
 	
@@ -82,7 +82,7 @@ generic_copper_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.08
+		# tax_mult = 0.08
 		development_growth_factor = 0.05
 	}
 	
@@ -132,7 +132,7 @@ generic_copper_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.12
+		# tax_mult = 0.12
 		development_growth_factor = 0.1
 	}
 	
@@ -182,7 +182,7 @@ generic_copper_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.16
+		# tax_mult = 0.16
 		development_growth_factor = 0.15
 	}
 	
@@ -231,7 +231,7 @@ generic_silver_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		development_growth_factor = 0.04
 	}
 	
@@ -280,7 +280,7 @@ generic_silver_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.08
 	}
 	
@@ -330,7 +330,7 @@ generic_silver_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.12
 	}
 	
@@ -380,7 +380,7 @@ generic_silver_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.16
 	}
 	
@@ -429,7 +429,7 @@ generic_gold_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 		development_growth_factor = 0.04
 	}
 	
@@ -478,7 +478,7 @@ generic_gold_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.08
 	}
 	
@@ -528,7 +528,7 @@ generic_gold_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.12
 	}
 	
@@ -578,7 +578,7 @@ generic_gold_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.16
 	}
 	

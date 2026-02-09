@@ -2534,7 +2534,7 @@ tax_assessor_01 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	duchy_capital_county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 	}
 	
 	next_building = tax_assessor_02
@@ -2600,7 +2600,7 @@ tax_assessor_02 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	duchy_capital_county_modifier = {
-		tax_mult = 0.20
+		# tax_mult = 0.20
 	}
 	
 	next_building = tax_assessor_03
@@ -2641,7 +2641,7 @@ tax_assessor_03 = {
 	cost_gold = expensive_building_tier_5_cost
 	
 	duchy_capital_county_modifier = {
-		tax_mult = 0.30
+		# tax_mult = 0.30
 	}
 	
 	type = duchy_capital

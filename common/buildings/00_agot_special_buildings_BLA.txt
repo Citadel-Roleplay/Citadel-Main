@@ -19,7 +19,7 @@
 	province_modifier = {
 		monthly_income = 1
 		development_growth_factor = 0.1
-		tax_mult = 0.1
+		# tax_mult = 0.1
 	}
 
 	ai_value = {
@@ -59,7 +59,7 @@ agot_mooton_maidenpool_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.30	
+		# tax_mult = 0.30	
 		levy_size = 0.1	
 	}
 	
@@ -684,7 +684,7 @@ agot_royce_runeport_merchants_guildhall_03 = {
 	county_modifier = {
 		development_growth_factor = 0.15
 		county_opinion_add = 8
-		tax_mult = 0.1
+		# tax_mult = 0.1
 	}
 	
 	
@@ -902,7 +902,7 @@ agot_reyne_mineral_market_02 = {
 		monthly_income = silver_mine_building_tax_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.05
 	}
 
@@ -942,7 +942,7 @@ agot_reyne_mineral_market_03 = {
 		monthly_income = silver_mine_building_tax_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.20
+		# tax_mult = 0.20
 		development_growth_factor = 0.10
 		county_opinion_add = 5
 	}
@@ -985,7 +985,7 @@ agot_reyne_mineral_market_04 = {
 		monthly_income = silver_mine_building_tax_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.25
+		# tax_mult = 0.25
 		development_growth_factor = 0.15
 		county_opinion_add = 8
 	}
@@ -1070,7 +1070,7 @@ agot_dustin_barrowton_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15		
+		# tax_mult = 0.15		
 	}
 	
 	ai_value = {
@@ -1146,7 +1146,7 @@ agot_darklyn_duskendale_city_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
+		# tax_mult = 0.05
 	}
 	
 	ai_value = {
@@ -1185,7 +1185,7 @@ agot_darklyn_duskendale_city_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.10
+		# tax_mult = 0.10
 	}
 	
 	ai_value = {
@@ -1225,7 +1225,7 @@ agot_darklyn_duskendale_city_03 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.15
+		# tax_mult = 0.15
 	}
 	
 	ai_value = {
@@ -1490,7 +1490,7 @@ agot_swann_lockport_tradeworks_01 = {
 
 	province_modifier = {
 		monthly_income = 0.5
-		tax_mult = 0.1
+		# tax_mult = 0.1
 		development_growth_factor = 0.05
 	}
 
@@ -1526,7 +1526,7 @@ agot_swann_lockport_tradeworks_02 = {
 
 	province_modifier = {
 		monthly_income = 1
-		tax_mult = 0.15
+		# tax_mult = 0.15
 		development_growth_factor = 0.1
 		county_opinion_add = 3
 	}
@@ -1564,7 +1564,7 @@ agot_swann_lockport_tradeworks_03 = {
 
 	province_modifier = {
 		monthly_income = 1.5
-		tax_mult = 0.2
+		# tax_mult = 0.2
 		development_growth_factor = 0.15
 		county_opinion_add = 3
 	}
@@ -2640,7 +2640,7 @@ agot_harrenton_03 = {
 	development_growth_factor = 0.15
         monthly_county_control_growth_factor = 0.10
 	county_opinion_add = 10
-	tax_mult = 0.05
+	# tax_mult = 0.05
     }
 
     ai_value = {
@@ -2683,7 +2683,7 @@ agot_harrenton_04 = {
 	development_growth_factor = 0.20
         monthly_county_control_growth_factor = 0.15
 	county_opinion_add = 10
-	tax_mult = 0.20
+	# tax_mult = 0.20
     }
 
     ai_value = {
@@ -2936,7 +2936,7 @@ agot_fairgate_tower_01 = {
     county_modifier = {
         monthly_county_control_growth_factor = 0.10
 	hostile_raid_time = 0.50
-	tax_mult = 0.05  
+	# tax_mult = 0.05  
     }
 
     ai_value = {
@@ -2971,7 +2971,7 @@ agot_lord_harroways_town_01 = {
 
     county_modifier = {
         monthly_county_control_growth_factor = 0.05
-	tax_mult = 0.15
+	# tax_mult = 0.15
     }
 
     ai_value = {
@@ -3071,7 +3071,7 @@ agot_stokeworth_ledger_hall_02 = {
 
     province_modifier = {
 	development_growth_factor = 0.15
-	tax_mult = 0.05
+	# tax_mult = 0.05
     }
 
     county_modifier = {
@@ -3106,7 +3106,7 @@ agot_stokeworth_ledger_hall_03 = {
 
     province_modifier = {
 	development_growth_factor = 0.25
-	tax_mult = 0.10
+	# tax_mult = 0.10
     }
 
     county_modifier = {
@@ -3141,7 +3141,7 @@ agot_beesbury_honeyholt_01 = {
 
     province_modifier = {
 	development_growth_factor = 0.10
-	tax_mult = 0.05
+	# tax_mult = 0.05
     }
 
     county_modifier = {
@@ -3179,7 +3179,7 @@ agot_beesbury_honeyholt_02 = {
 
     province_modifier = {
 	development_growth_factor = 0.15
-	tax_mult = 0.10
+	# tax_mult = 0.10
     }
 
     county_modifier = {
@@ -3218,7 +3218,7 @@ agot_beesbury_honeyholt_03 = {
 
     province_modifier = {
 	development_growth_factor = 0.25
-	tax_mult = 0.15
+	# tax_mult = 0.15
     }
 
     county_modifier = {
@@ -3257,7 +3257,7 @@ agot_beesbury_honeyholt_04 = {
 
     province_modifier = {
 	development_growth_factor = 0.25
-	tax_mult = 0.20
+	# tax_mult = 0.20
     }
 
     county_modifier = {
@@ -3483,7 +3483,7 @@ agot_hewett_lord_hewetts_town_01 = {
 
     province_modifier = {
 	development_growth_factor = 0.05
-	tax_mult = 0.10
+	# tax_mult = 0.10
 	supply_limit_mult = 0.10
     }
 
@@ -3520,7 +3520,7 @@ agot_hewett_lord_hewetts_town_02 = {
 
     province_modifier = {
 	development_growth_factor = 0.15
-	tax_mult = 0.15
+	# tax_mult = 0.15
 	supply_limit_mult = 0.15
     }
 
@@ -3557,7 +3557,7 @@ agot_hewett_lord_hewetts_town_03 = {
 
     province_modifier = {
 	development_growth_factor = 0.20
-	tax_mult = 0.20
+	# tax_mult = 0.20
 	supply_limit_mult = 0.20
     }
 
@@ -3592,7 +3592,7 @@ agot_merryweather_longtable_court_01 = {
     }
 
     province_modifier = {
-	tax_mult = 0.10
+	# tax_mult = 0.10
 	supply_limit_mult = 0.10
     }
 
@@ -4396,7 +4396,7 @@ agot_paps_seakings_keep_01  = {
     }
 
     county_modifier = {
-	tax_mult = 0.10
+	# tax_mult = 0.10
         development_growth_factor = 0.05
 	supply_limit_mult = 0.10
 	hostile_raid_time = 0.10
@@ -4471,7 +4471,7 @@ agot_sevenstreams_waymarket_01  = {
     }
 
     county_modifier = {
-        tax_mult = 0.05
+	    # tax_mult = 0.05
         development_growth_factor = 0.02
 	supply_limit_mult = 0.05
     }
@@ -4510,7 +4510,7 @@ agot_darry_plowmans_keep_01 = {
 
     county_modifier = {
         development_growth_factor = 0.05
-	tax_mult = 0.05
+	# tax_mult = 0.05
         supply_limit_mult = 0.10
         hostile_raid_time = 0.10
     }
@@ -4547,7 +4547,7 @@ agot_saltpans_saltquays_01 = {
 	}
 	county_modifier = {
 		development_growth_factor = 0.03
-		tax_mult = 0.06
+		# tax_mult = 0.06
         	hostile_raid_time = 0.05
 	}
 	
@@ -4588,7 +4588,7 @@ agot_saltpans_saltquays_02 = {
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
-		tax_mult = 0.12
+		# tax_mult = 0.12
         	hostile_raid_time = 0.08
 	}
 	
@@ -4628,7 +4628,7 @@ agot_saltpans_saltquays_03 = {
 	}
 	county_modifier = {
 		development_growth_factor = 0.08
-		tax_mult = 0.16
+		# tax_mult = 0.16
 		
         	hostile_raid_time = 0.10
 	}
