@@ -303,7 +303,6 @@ legendary_watchtower = {
 
 	character_modifier = {
 		glory_hound_opinion = 5
-		men_at_arms_limit = 1
 	}
 
 	county_modifier = {

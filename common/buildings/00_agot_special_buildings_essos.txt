@@ -475,6 +475,7 @@ agot_temple_of_trade_01 = {
 		enemy_hostile_scheme_success_chance_add = 10
 		enemy_personal_scheme_success_chance_add = 10
 		vassal_opinion = -10
+		vassal_tax_mult = 0.1
 	}
 
 	ai_value = {
@@ -911,8 +912,7 @@ agot_tyrosh_01 = {
 	}
 
 	character_modifier = {
-		vassal_tax_mult = 0.1
-		men_at_arms_limit = 1
+		vassal_tax_mult = 0.2
 		powerful_vassal_opinion = -5
 	}
 
@@ -1242,6 +1242,7 @@ agot_myr_01 = {
 
 	character_modifier = {
 		legitimacy_gain_mult = 0.05
+		vassal_tax_mult = -0.1
 	}
 
 	ai_value = {
@@ -1478,6 +1479,7 @@ agot_pentos_01 = {
 		monthly_piety = 0.5
 		domain_tax_same_faith_mult = 0.05
 		legitimacy_gain_mult = 0.05
+		vassal_tax_mult = -0.1
 	}
 
 	province_modifier = {

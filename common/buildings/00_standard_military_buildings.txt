@@ -4355,7 +4355,6 @@ barracks_02 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 1
 	}
 
 	province_culture_modifier = {
@@ -4448,7 +4447,6 @@ barracks_03 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 1
 	}
 
 	province_culture_modifier = {
@@ -4541,7 +4539,6 @@ barracks_04 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 2
 	}
 
 	province_culture_modifier = {
@@ -4639,7 +4636,6 @@ barracks_05 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 2
 	}
 
 	province_culture_modifier = {
@@ -4737,7 +4733,6 @@ barracks_06 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 3
 	}
 
 	province_culture_modifier = {
@@ -4835,7 +4830,6 @@ barracks_07 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 3
 	}
 
 	province_culture_modifier = {
@@ -4933,7 +4927,7 @@ barracks_08 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 4
+		men_at_arms_limit = 1
 	}
 
 	province_culture_modifier = {
@@ -6223,7 +6217,6 @@ smiths_02 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 1
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6316,7 +6309,6 @@ smiths_03 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 2
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6405,7 +6397,6 @@ smiths_04 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 2
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6493,7 +6484,6 @@ smiths_05 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 3
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6581,7 +6571,6 @@ smiths_06 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 3
-		men_at_arms_limit = 2
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6669,7 +6658,6 @@ smiths_07 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 4
-		men_at_arms_limit = 2
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses
@@ -6757,7 +6745,7 @@ smiths_08 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 4
-		men_at_arms_limit = 3
+		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses

@@ -4924,7 +4924,6 @@ common_tradeport_04 = {
 	}
 	character_culture_modifier = {
 		parameter = trade_ports_give_levies
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
@@ -5004,7 +5003,6 @@ common_tradeport_05 = {
 	}
 	character_culture_modifier = {
 		parameter = trade_ports_give_levies
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
@@ -5084,7 +5082,6 @@ common_tradeport_06 = {
 	}
 	character_culture_modifier = {
 		parameter = trade_ports_give_levies
-		men_at_arms_limit = 2
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
@@ -5164,7 +5161,6 @@ common_tradeport_07 = {
 	}
 	character_culture_modifier = {
 		parameter = trade_ports_give_levies
-		men_at_arms_limit = 2
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
@@ -5244,7 +5240,7 @@ common_tradeport_08 = {
 	}
 	character_culture_modifier = {
 		parameter = trade_ports_give_levies
-		men_at_arms_limit = 3
+		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
