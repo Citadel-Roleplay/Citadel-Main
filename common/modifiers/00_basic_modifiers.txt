@@ -17,7 +17,6 @@ diplomacy_modifier_with_offset = {
 	vassal_tax_mult = 0.005
 	vassal_limit = 0.5
 	army_damage_mult = 0.01
-	general_opinion = 1
 }
 
 intrigue_modifier = {
