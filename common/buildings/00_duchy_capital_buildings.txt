@@ -1129,6 +1129,7 @@ march_01 = {
 	can_construct_potential = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
 		building_requirement_tribal = no
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 	}
 	
 	can_construct_showing_failures_only = {
@@ -1136,6 +1137,7 @@ march_01 = {
 		culture = {
 			has_innovation = innovation_burhs
 		}
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 	}
 	
 	is_enabled = {
@@ -1214,10 +1216,11 @@ march_02 = {
 	can_construct_potential = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
 		building_requirement_tribal = no
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 	}
 	
 	can_construct_showing_failures_only = {
-		
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 		culture = {
 			has_innovation = innovation_castle_baileys
 		}
@@ -1289,6 +1292,7 @@ march_03 = {
 	can_construct_potential = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
 		building_requirement_tribal = no
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 	}
 	
 	can_construct_showing_failures_only = {
@@ -1296,6 +1300,7 @@ march_03 = {
 		culture = {
 			has_innovation = innovation_royal_armory
 		}
+		scope:holder = { vassal_contract_has_flag = has_march_contract }
 	}
 	
 	is_enabled = {
