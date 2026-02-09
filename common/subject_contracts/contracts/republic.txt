@@ -1,9 +1,17 @@
 ﻿republic_government_obligations = {
   obligation_levels = {
     default = {
+
       levies = {
         scope:liege = {
-          value = { add = 1.0 }
+          value = {
+            add = 1.0
+
+            if = {
+              limit = { government_has_flag = government_is_administrative }
+              multiply = 0
+            }
+          }
         }
       }
 
@@ -68,6 +76,7 @@
           }
         }
       }
+
     }
   }
 }

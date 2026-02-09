@@ -406,10 +406,11 @@ kingsguard = {
 
 	same_opinion = 5
 	liege_opinion = 30
-	diplomacy = 1
-	prowess = 4
+	diplomacy = 2
+	prowess = 5
 	monthly_prestige_gain_mult = 0.2
 	monthly_piety_gain_mult = 0.01
+	attraction_opinion = 15
 
 	inheritance_blocker = all
 	claim_inheritance_blocker = all

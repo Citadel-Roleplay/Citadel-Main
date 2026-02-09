@@ -407,7 +407,7 @@
 		holder = Lohar_1
 	}
 	8281.1.1 = { # Term has ended
-		holder = Bazanne_1
+		holder = Rogare_35 # Bazanne_1
 	}
 	8291.1.1 = { # Term has ended
 		holder = Haen_1
@@ -782,7 +782,7 @@ d_lys = {
 		holder = Lohar_1
 	}
 	8281.1.1 = { # Term has ended
-		holder = Bazanne_1
+		holder = Rogare_35 # Bazanne_1
 	}
 	8291.1.1 = { # Term has ended
 		holder = Haen_1
@@ -1157,7 +1157,7 @@ c_lys = {
 		holder = Lohar_1
 	}
 	8281.1.1 = { # Term has ended
-		holder = Bazanne_1
+		holder = Rogare_35 # Bazanne_1
 	}
 	8291.1.1 = { # Term has ended
 		holder = Haen_1
@@ -1523,7 +1523,7 @@ c_magisters_avenue = {
 		holder = Lohar_1
 	}
 	8281.1.1 = { # Term has ended
-		holder = Bazanne_1
+		holder = Rogare_35 # Bazanne_1
 	}
 	8291.1.1 = { # Term has ended
 		holder = Haen_1
@@ -1889,7 +1889,7 @@ c_pleasure_heights = {
 		holder = Lohar_1
 	}
 	8281.1.1 = { # Term has ended
-		holder = Bazanne_1
+		holder = Rogare_35 # Bazanne_1
 	}
 	8291.1.1 = { # Term has ended
 		holder = Haen_1
@@ -2415,7 +2415,7 @@ c_lopornon = {
 		holder = Bazanne_5 # Kasso
 	}
 	8279.1.1 = {
-		holder = Bazanne_1 # Errano
+		holder = Rogare_35 # Bazanne_1 # Errano
 	}
 }
 c_aercadar = {
@@ -2555,7 +2555,7 @@ d_mangrove_shoals = {
 		holder = Rogare_132
 	}
 	8251.1.1 = {
-		holder = Rogare_35 # Morgoso
+		holder = Bazanne_1 # Rogare_35 # Morgoso
 	}
 }
 c_morghos = {
@@ -2635,7 +2635,7 @@ c_morghos = {
 		holder = Rogare_132
 	}
 	8251.1.1 = {
-		holder = Rogare_35 # Morgoso
+		holder = Bazanne_1 # Rogare_35 # Morgoso
 	}
 }
 c_orthas_reon = {
