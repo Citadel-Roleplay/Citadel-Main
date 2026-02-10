@@ -18,9 +18,9 @@ estate_main_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
-		domicile_monthly_influence_add = 1
-		domicile_external_slots_capacity_add = 2
+		domicile_monthly_gold_add = 0.15 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.25 # Nerfed - Kizan
+		domicile_external_slots_capacity_add = 1
 	}
 
 	ai_value = {
@@ -102,9 +102,9 @@ estate_main_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
-		domicile_monthly_influence_add = 0.5
-		domicile_external_slots_capacity_add = 1
+		domicile_monthly_gold_add = 0.15 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.25 # Nerfed - Kizan
+		domicile_external_slots_capacity_add = 2
 	}
 
 	ai_value = {
@@ -186,9 +186,9 @@ estate_main_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.5
 		domicile_monthly_gold_mult = 0.02
-		domicile_monthly_influence_add = 0.5
+		domicile_monthly_gold_add = 0.20 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.25 # Nerfed - Kizan
 		domicile_external_slots_capacity_add = 1
 	}
 
@@ -271,9 +271,9 @@ estate_main_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.5
-		domicile_monthly_gold_mult = 0.03
-		domicile_monthly_influence_add = 0.5
+		domicile_monthly_gold_mult = 0.02 # Nerfed - Kizan
+		domicile_monthly_gold_add = 0.20 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.25 # Nerfed - Kizan
 		domicile_external_slots_capacity_add = 1
 	}
 
@@ -356,9 +356,9 @@ estate_main_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.75
-		domicile_monthly_gold_mult = 0.05
-		domicile_monthly_influence_add = 0.5
+		domicile_monthly_gold_mult = 0.01 # Nerfed - Kizan
+		domicile_monthly_gold_add = 0.30 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.25 # Nerfed - Kizan
 		domicile_external_slots_capacity_add = 1
 	}
 
@@ -441,8 +441,8 @@ living_quarters_01 = {
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
-		personal_scheme_phase_duration_add = -10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.02
+		personal_scheme_phase_duration_add = -5
 	}
 
 	parameters = {
@@ -478,9 +478,9 @@ living_quarters_02 = {
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
-		dynasty_house_opinion = 5
-		personal_scheme_phase_duration_add = -10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
+		dynasty_house_opinion = 3 # Nerfed - Kizan
+		personal_scheme_phase_duration_add = -5 # Nerfed - Kizan
 		owned_personal_scheme_success_chance_add = 5
 	}
 
@@ -521,9 +521,9 @@ living_quarters_03 = {
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
-		personal_scheme_phase_duration_add = -10
-		owned_personal_scheme_success_chance_add = 5
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
+		personal_scheme_phase_duration_add = -5 # Nerfed - Kizan
+		owned_personal_scheme_success_chance_add = 2 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -563,10 +563,10 @@ living_quarters_04 = {
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
-		dynasty_house_opinion = 5
-		personal_scheme_phase_duration_add = -10
-		owned_personal_scheme_success_chance_add = 5
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
+		dynasty_house_opinion = 3 # Nerfed - Kizan
+		personal_scheme_phase_duration_add = -5 # Nerfed - Kizan
+		owned_personal_scheme_success_chance_add = 3 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -604,7 +604,8 @@ trophy_room_01 = {
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
+		prowess = 1
 	}
 	
 	ai_value = {
@@ -636,7 +637,7 @@ trophy_room_02 = {
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 		prowess = 1
 	}
 	
@@ -673,8 +674,8 @@ trophy_room_03 = {
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
-		advantage = 3
+		monthly_martial_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
+		advantage = 2 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -714,8 +715,8 @@ trophy_room_04 = {
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
-		advantage = 3
+		monthly_martial_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
+		advantage = 1
 		prowess = 1
 	}
 
@@ -759,7 +760,7 @@ office_01 = {
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -797,7 +798,7 @@ office_02 = {
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -840,7 +841,7 @@ office_03 = {
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -884,7 +885,7 @@ office_04 = {
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -918,7 +919,7 @@ servants_quarters_01 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 		hostile_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
 	
@@ -955,7 +956,7 @@ servants_quarters_02 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -995,7 +996,7 @@ servants_quarters_03 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 		owned_hostile_scheme_success_chance_add = 5
 	}
 	
@@ -1037,7 +1038,7 @@ servants_quarters_04 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
 		owned_hostile_scheme_success_chance_add = 5
 		max_hostile_schemes_add = 1
 	}
@@ -1073,7 +1074,7 @@ library_01 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -1109,7 +1110,7 @@ library_02 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -1151,7 +1152,7 @@ library_observatory_03 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 		owned_legend_spread_mult = 0.05
 	}
 	
@@ -1192,7 +1193,7 @@ library_observatory_04 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
 		owned_legend_spread_mult = 0.05
 	}
 	
@@ -1236,7 +1237,7 @@ library_education_03 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -1279,7 +1280,7 @@ library_education_04 = {
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.04 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -1352,7 +1353,7 @@ bath_02 = {
 	character_modifier = {
 		negate_health_penalty_add = 0.05
 		attraction_opinion = 3
-		epidemic_resistance = 2
+		epidemic_resistance = 1 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -1394,7 +1395,7 @@ bath_03 = {
 	character_modifier = {
 		negate_health_penalty_add = 0.05
 		attraction_opinion = 3
-		epidemic_resistance = 3
+		epidemic_resistance = 2 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -1436,7 +1437,7 @@ bath_04 = {
 	character_modifier = {
 		negate_health_penalty_add = 0.05
 		attraction_opinion = 3
-		epidemic_resistance = 5
+		epidemic_resistance = 3 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -1474,7 +1475,7 @@ guest_room_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 		courtier_and_guest_opinion = 2
 	}
 	
@@ -1515,7 +1516,7 @@ guest_room_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -1563,7 +1564,7 @@ guest_room_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 		courtier_and_guest_opinion = 2
 	}
 
@@ -1612,7 +1613,7 @@ guest_room_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -1660,7 +1661,7 @@ guest_room_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 		courtier_and_guest_opinion = 2
 	}
 
@@ -1709,7 +1710,7 @@ guest_room_06 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.02
+		domicile_monthly_influence_mult = 0.01 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -2044,7 +2045,7 @@ prison_01 = {
 	
 	character_modifier = {
 		dread_gain_mult = 0.05
-		hostage_income_mult = 0.05
+		hostage_income_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -2093,7 +2094,7 @@ prison_02 = {
 	
 	character_modifier = {
 		dread_gain_mult = 0.05
-		hostage_income_mult = 0.05
+		hostage_income_mult = 0.02 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -2146,7 +2147,7 @@ prison_03 = {
 	
 	character_modifier = {
 		dread_gain_mult = 0.05
-		hostage_income_mult = 0.05
+		hostage_income_mult = 0.02 # Nerfed - Kizan
 		hostage_renown_mult = 0.05
 	}
 	
@@ -2200,7 +2201,7 @@ prison_04 = {
 	
 	character_modifier = {
 		dread_gain_mult = 0.05
-		hostage_income_mult = 0.05
+		hostage_income_mult = 0.02 # Nerfed - Kizan
 		hostage_renown_mult = 0.05
 	}
 	
@@ -2293,7 +2294,7 @@ reception_hall_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.04
+		domicile_monthly_influence_mult = 0.02 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -2337,7 +2338,7 @@ reception_hall_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.06
+		domicile_monthly_influence_mult = 0.02 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -2381,7 +2382,7 @@ reception_hall_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.08
+		domicile_monthly_influence_mult = 0.02 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -2425,7 +2426,7 @@ reception_hall_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_influence_mult = 0.1
+		domicile_monthly_influence_mult = 0.02 # Nerfed - Kizan
 	}
 
 	parameters = {
@@ -2469,8 +2470,7 @@ cabinet_of_curiosities_01 = {
 	}
 
 	character_modifier = {
-		learning_per_influence_level = 1
-		domicile_monthly_influence_add = 0.1
+		domicile_monthly_influence_add = 0.1 # Nerfed - Kizan
 	}
 	
 	parameters = {
@@ -2519,9 +2519,8 @@ cabinet_of_curiosities_02 = {
 	}
 
 	character_modifier = {
-		stewardship_per_influence_level = 1
-		monthly_dynasty_prestige = 0.5
-		domicile_monthly_influence_add = 0.2
+		monthly_dynasty_prestige = 0.25
+		domicile_monthly_influence_add = 0.1 # Nerfed - Kizan
 		monthly_court_grandeur_change_add = 0.2
 	}
 	
@@ -2575,10 +2574,10 @@ cabinet_of_curiosities_03 = {
 	character_modifier = {
 		learning_per_influence_level = 1
 		stewardship_per_influence_level = 1
-		monthly_dynasty_prestige = 0.5
-		domicile_monthly_influence_add = 0.3
+		monthly_dynasty_prestige = 0.25 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.3 # Nerfed - Kizan
 		monthly_court_grandeur_change_add = 0.3
-		general_opinion = 10
+		general_opinion = 5 # Nerfed - Kizan
 	}
 	
 	parameters = {
@@ -5025,7 +5024,7 @@ watchtower_01 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		hostile_raid_time = 0.1
 	}
 
@@ -5107,7 +5106,7 @@ watchtower_02 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		archers_damage_mult = 0.02
 		archers_toughness_mult = 0.01
 		hostile_raid_time = 0.1
@@ -5200,7 +5199,7 @@ watchtower_03 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		archers_damage_mult = 0.02
 		archers_toughness_mult = 0.01
 		hostile_raid_time = 0.1
@@ -5289,7 +5288,7 @@ watchtower_04 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		archers_damage_mult = 0.02
 		archers_toughness_mult = 0.01
 		hostile_raid_time = 0.2
@@ -5378,7 +5377,7 @@ watchtower_05 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		archers_damage_mult = 0.02
 		archers_toughness_mult = 0.01
 		hostile_raid_time = 0.2
@@ -5468,7 +5467,7 @@ watchtower_06 = {
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.03
-		defender_holding_advantage = 2
+		defender_holding_advantage = 1 # Nerfed - Kizan
 		archers_damage_mult = 0.02
 		archers_toughness_mult = 0.01
 		hostile_raid_time = 0.3
@@ -7805,260 +7804,260 @@ stable_kennel_06 = {
 }
 
 # Charioteer sub-branch (Byzantine unique upgrade)
-stable_chariot_04 = {
-	construction_time = 730
-	allowed_domicile_types = { estate }
-	previous_building = stable_03
+# stable_chariot_04 = {
+# 	construction_time = 730
+# 	allowed_domicile_types = { estate }
+# 	# previous_building = stable_03
 
-	can_construct_potential = {
-		culture = { has_cultural_parameter = hosts_chariot_races }
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
-	}
+# 	can_construct_potential = {
+# 		culture = { has_cultural_parameter = hosts_chariot_races }
+# 		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+# 	}
 
-	cost = {
-		gold = {
-			value = estate_external_building_high_cost_tier_4_value
-			if = {
-				limit = { has_character_modifier = raid_insight_stable }
-				multiply = 0.75
-				desc = raid_insight_stable
-			}
-		}
-	}
+# 	cost = {
+# 		gold = {
+# 			value = estate_external_building_high_cost_tier_4_value
+# 			if = {
+# 				limit = { has_character_modifier = raid_insight_stable }
+# 				multiply = 0.75
+# 				desc = raid_insight_stable
+# 			}
+# 		}
+# 	}
 	
-	parameters = {
-		estate_unlock_mount_travel_option = yes
-		estate_charioteer_training_task = yes
-	}
+# 	parameters = {
+# 		estate_unlock_mount_travel_option = yes
+# 		estate_charioteer_training_task = yes
+# 	}
 
-	character_modifier = {
-	}
+# 	character_modifier = {
+# 	}
 	
-	ai_value = {
-		value = 6
-		add = estate_building_ai_modifier_value
-	}
+# 	ai_value = {
+# 		value = 6
+# 		add = estate_building_ai_modifier_value
+# 	}
 	
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				has_graphical_east_asia_culture_group_trigger = yes
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_iranian_culture_group_trigger = yes
-					has_graphical_mena_culture_group_trigger = yes
-					has_graphical_steppe_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
-					has_graphical_india_culture_group_trigger = yes
-					has_graphical_iberian_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_western_culture_group_trigger = yes
-					has_graphical_norse_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-}
-stable_chariot_05 = {
-	construction_time = 730
-	allowed_domicile_types = { estate }
-	previous_building = stable_chariot_04
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				has_graphical_east_asia_culture_group_trigger = yes
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_iranian_culture_group_trigger = yes
+# 					has_graphical_mena_culture_group_trigger = yes
+# 					has_graphical_steppe_culture_group_trigger = yes
+# 					has_graphical_african_culture_group_trigger = yes
+# 					has_graphical_india_culture_group_trigger = yes
+# 					has_graphical_iberian_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_western_culture_group_trigger = yes
+# 					has_graphical_norse_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# }
+# stable_chariot_05 = {
+# 	construction_time = 730
+# 	allowed_domicile_types = { estate }
+# 	previous_building = stable_chariot_04
 
-	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
-	}
+# 	can_construct = {
+# 		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+# 	}
 
-	cost = {
-		gold = {
-			value = estate_external_building_high_cost_tier_5_value
-			if = {
-				limit = { has_character_modifier = raid_insight_stable }
-				multiply = 0.75
-				desc = raid_insight_stable
-			}
-		}
-	}
+# 	cost = {
+# 		gold = {
+# 			value = estate_external_building_high_cost_tier_5_value
+# 			if = {
+# 				limit = { has_character_modifier = raid_insight_stable }
+# 				multiply = 0.75
+# 				desc = raid_insight_stable
+# 			}
+# 		}
+# 	}
 	
-	parameters = {
-		estate_unlock_mount_travel_option = yes
-		estate_charioteer_training_task = yes
-		estate_increase_charioteer_aptitude = yes
-	}
+# 	parameters = {
+# 		estate_unlock_mount_travel_option = yes
+# 		estate_charioteer_training_task = yes
+# 		estate_increase_charioteer_aptitude = yes
+# 	}
 
-	character_modifier = {
-		same_culture_opinion = 2
-	}
+# 	character_modifier = {
+# 		same_culture_opinion = 2
+# 	}
 	
-	ai_value = {
-		value = 5
-		add = estate_building_ai_modifier_value
-	}
+# 	ai_value = {
+# 		value = 5
+# 		add = estate_building_ai_modifier_value
+# 	}
 	
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				has_graphical_east_asia_culture_group_trigger = yes
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_iranian_culture_group_trigger = yes
-					has_graphical_mena_culture_group_trigger = yes
-					has_graphical_steppe_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
-					has_graphical_india_culture_group_trigger = yes
-					has_graphical_iberian_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_western_culture_group_trigger = yes
-					has_graphical_norse_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-}
-stable_chariot_06 = {
-	construction_time = 730
-	allowed_domicile_types = { estate }
-	previous_building = stable_chariot_05
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				has_graphical_east_asia_culture_group_trigger = yes
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_iranian_culture_group_trigger = yes
+# 					has_graphical_mena_culture_group_trigger = yes
+# 					has_graphical_steppe_culture_group_trigger = yes
+# 					has_graphical_african_culture_group_trigger = yes
+# 					has_graphical_india_culture_group_trigger = yes
+# 					has_graphical_iberian_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_western_culture_group_trigger = yes
+# 					has_graphical_norse_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# }
+# stable_chariot_06 = {
+# 	construction_time = 730
+# 	allowed_domicile_types = { estate }
+# 	previous_building = stable_chariot_05
 
-	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
-	}
+# 	can_construct = {
+# 		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+# 	}
 
-	cost = {
-		gold = {
-			value = estate_external_building_high_cost_tier_6_value
-			if = {
-				limit = { has_character_modifier = raid_insight_stable }
-				multiply = 0.75
-				desc = raid_insight_stable
-			}
-		}
-	}
+# 	cost = {
+# 		gold = {
+# 			value = estate_external_building_high_cost_tier_6_value
+# 			if = {
+# 				limit = { has_character_modifier = raid_insight_stable }
+# 				multiply = 0.75
+# 				desc = raid_insight_stable
+# 			}
+# 		}
+# 	}
 	
-	parameters = {
-		estate_unlock_mount_travel_option = yes
-		estate_charioteer_training_task = yes
-		estate_increase_charioteer_aptitude = yes
-	}
+# 	parameters = {
+# 		estate_unlock_mount_travel_option = yes
+# 		estate_charioteer_training_task = yes
+# 		estate_increase_charioteer_aptitude = yes
+# 	}
 
-	character_modifier = {
-		same_culture_opinion = 3
-	}
+# 	character_modifier = {
+# 		same_culture_opinion = 3
+# 	}
 	
-	ai_value = {
-		value = 4
-		add = estate_building_ai_modifier_value
-	}
+# 	ai_value = {
+# 		value = 4
+# 		add = estate_building_ai_modifier_value
+# 	}
 	
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				has_graphical_east_asia_culture_group_trigger = yes
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_iranian_culture_group_trigger = yes
-					has_graphical_mena_culture_group_trigger = yes
-					has_graphical_steppe_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
-					has_graphical_india_culture_group_trigger = yes
-					has_graphical_iberian_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_western_culture_group_trigger = yes
-					has_graphical_norse_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-	asset = {
-		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
-	}
-}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				has_graphical_east_asia_culture_group_trigger = yes
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_china.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_china_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_iranian_culture_group_trigger = yes
+# 					has_graphical_mena_culture_group_trigger = yes
+# 					has_graphical_steppe_culture_group_trigger = yes
+# 					has_graphical_african_culture_group_trigger = yes
+# 					has_graphical_india_culture_group_trigger = yes
+# 					has_graphical_iberian_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_mena.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_mena_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		trigger = {
+# 			domicile_location.culture = {
+# 				OR = {
+# 					has_graphical_western_culture_group_trigger = yes
+# 					has_graphical_norse_culture_group_trigger = yes
+# 				}
+# 			}
+# 		}
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_western.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_western_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# 	asset = {
+# 		icon = "gfx/interface/icons/domicile_building/domicile_building_chariot_track.dds"
+# 		texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine.dds"
+# 		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_stable_byzantine_mask.png"
+# 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_stable_chariot"
+# 	}
+# }
 
 ### Workshop
 workshop_01 = {
@@ -9767,7 +9766,7 @@ market_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.1
+		domicile_monthly_gold_add = 0.2 
 	}
 	
 	ai_value = {
@@ -9857,7 +9856,7 @@ market_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.1
+		domicile_monthly_gold_add = 0.2 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -9942,7 +9941,7 @@ market_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.2 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -10027,7 +10026,7 @@ market_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -10112,7 +10111,7 @@ market_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.8
+		domicile_monthly_gold_add = 0.6 # Nerfed - Kizan
 	}
 	
 	ai_value = {
@@ -10197,7 +10196,8 @@ market_06 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 1.6
+		domicile_monthly_gold_add = 1.5 # Nerfed - Kizan
+		domicile_monthly_gold_mult = 0.10
 	}
 	
 	ai_value = {
@@ -11884,8 +11884,8 @@ grain_field_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -12017,8 +12017,8 @@ grain_field_02 = {
 		}
 	}
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -12145,8 +12145,8 @@ grain_field_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -12273,8 +12273,8 @@ grain_field_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -12401,8 +12401,8 @@ grain_field_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.3 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -12529,8 +12529,8 @@ grain_field_06 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.4
-		development_growth_factor = 0.04
+		domicile_monthly_gold_add = 0.5 # Nerfed - Kizan
+		development_growth_factor = 0.02 # Nerfed - Kizan
 		supply_limit_mult = 0.05
 	}
 
@@ -13093,7 +13093,7 @@ vineyard_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.3 # Buffed - Kizan
 	}
 
 	on_complete = {
@@ -13206,7 +13206,7 @@ vineyard_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.3 
 	}
 
 	on_complete = {
@@ -13312,7 +13312,7 @@ vineyard_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.3 # Buffed - Kizan
 	}
 
 	on_complete = {
@@ -13418,7 +13418,7 @@ vineyard_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.3 # Buffed - Kizan
 	}
 
 	on_complete = {
@@ -13524,7 +13524,7 @@ vineyard_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.4 # Buffed - Kizan
 	}
 
 	on_complete = {
@@ -13630,7 +13630,7 @@ vineyard_06 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.25
+		domicile_monthly_gold_add = 0.4 # Buffed - Kizan
 	}
 
 	on_complete = {
@@ -13717,10 +13717,6 @@ vineyard_06 = {
 tea_01 = {
 	construction_time = 730
 	allowed_domicile_types = { estate }
-
-	can_construct_potential = {
-		culture ?= { has_innovation = innovation_champa_rice }
-	}
 
 	cost = {
 		gold = {
@@ -14616,8 +14612,8 @@ olive_05 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.3
-		epidemic_resistance = 2
+		domicile_monthly_gold_add = 0.4 # Buffed - Kizan
+		epidemic_resistance = 1
 		attraction_opinion = 4
 	}
 
@@ -14721,8 +14717,8 @@ olive_06 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.3
-		epidemic_resistance = 4
+		domicile_monthly_gold_add = 0.4 # Buffed - Kizan
+		epidemic_resistance = 2
 		attraction_opinion = 6
 	}
 
@@ -14811,15 +14807,15 @@ silk_01 = {
 	construction_time = 730
 	allowed_domicile_types = { estate }
 	
-	can_construct = {
-		custom_tooltip = {
-			text = has_unlocked_estate_silk
-			OR = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-			}
-		}
-	}
+	# can_construct = {
+	# 	custom_tooltip = {
+	# 		text = has_unlocked_estate_silk
+	# 		OR = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 		}
+	# 	}
+	# }
 
 	cost = {
 		gold = {
@@ -14833,8 +14829,8 @@ silk_01 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.1
-		domicile_monthly_influence_add = 0.05
+		domicile_monthly_gold_add = 0.05 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.1 # Buffed - Kizan
 		owned_political_scheme_success_chance_add = 3
 	}
 
@@ -14888,15 +14884,15 @@ silk_02 = {
 	allowed_domicile_types = { estate }
 	previous_building = silk_01
 	
-	can_construct = {
-		OR = {
-			custom_tooltip = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				text = has_unlocked_estate_silk
-			}
-			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-		}
-	}
+	# can_construct = {
+	# 	OR = {
+	# 		custom_tooltip = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			text = has_unlocked_estate_silk
+	# 		}
+	# 		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 	}
+	# }
 
 	cost = {
 		gold = {
@@ -14913,8 +14909,8 @@ silk_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.1
-		domicile_monthly_influence_add = 0.05
+		domicile_monthly_gold_add = 0.05 # Nerfed - Kizan
+		domicile_monthly_influence_add = 0.1 # Buffed - Kizan
 		owned_political_scheme_success_chance_add = 3
 	}
 
@@ -14968,16 +14964,16 @@ silk_03 = {
 	allowed_domicile_types = { estate }
 	previous_building = silk_02
 	
-	can_construct = {
-		OR = {
-			custom_tooltip = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				text = has_unlocked_estate_silk
-			}
-			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-		}
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
-	}
+	# can_construct = {
+	# 	OR = {
+	# 		custom_tooltip = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			text = has_unlocked_estate_silk
+	# 		}
+	# 		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 	}
+	# 	domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+	# }
 
 	cost = {
 		gold = {
@@ -15049,16 +15045,16 @@ silk_04 = {
 	allowed_domicile_types = { estate }
 	previous_building = silk_03
 	
-	can_construct = {
-		OR = {
-			custom_tooltip = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				text = has_unlocked_estate_silk
-			}
-			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-		}
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
-	}
+	# can_construct = {
+	# 	OR = {
+	# 		custom_tooltip = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			text = has_unlocked_estate_silk
+	# 		}
+	# 		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 	}
+	# 	domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+	# }
 
 	cost = {
 		gold = {
@@ -15131,16 +15127,16 @@ silk_05 = {
 	allowed_domicile_types = { estate }
 	previous_building = silk_04
 	
-	can_construct = {
-		OR = {
-			custom_tooltip = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				text = has_unlocked_estate_silk
-			}
-			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-		}
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
-	}
+	# can_construct = {
+	# 	OR = {
+	# 		custom_tooltip = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			text = has_unlocked_estate_silk
+	# 		}
+	# 		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 	}
+	# 	domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+	# }
 
 	cost = {
 		gold = {
@@ -15213,16 +15209,16 @@ silk_06 = {
 	allowed_domicile_types = { estate }
 	previous_building = silk_05
 	
-	can_construct = {
-		OR = {
-			custom_tooltip = {
-				house = { has_house_modifier = ep3_unlocked_silk }
-				text = has_unlocked_estate_silk
-			}
-			culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
-		}
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
-	}
+	# can_construct = {
+	# 	OR = {
+	# 		custom_tooltip = {
+	# 			house = { has_house_modifier = ep3_unlocked_silk }
+	# 			text = has_unlocked_estate_silk
+	# 		}
+	# 		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	# 	}
+	# 	domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+	# }
 
 	cost = {
 		gold = {
@@ -15242,6 +15238,7 @@ silk_06 = {
 	character_modifier = {
 		domicile_monthly_gold_add = 0.1
 		domicile_monthly_influence_add = 0.15
+		domicile_monthly_influence_mult = 0.05 # Added - Kizan
 		owned_political_scheme_success_chance_add = 4
 	}
 
