@@ -1253,6 +1253,9 @@ crossbowmen = {
 					PARAMETER = unlock_maa_rain_bringers
 				}
 		}
+		NOR = {
+			has_title = title:c_claw_isle
+		}
 	}
 
 	should_show_when_unavailable = {
