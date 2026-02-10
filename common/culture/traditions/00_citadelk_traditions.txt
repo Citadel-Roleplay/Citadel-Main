@@ -8,6 +8,10 @@ tradition_citadel_raid = {
             4 = soldiers4.dds
         }
 
+		is_shown = {
+			always = no
+		}
+
         can_pick = {
             scope:character = {
                 any_held_county = {
@@ -138,7 +142,6 @@ tradition_citadel_horse = {
 	parameters = {
 		unlock_maa_sanddornish_horse_archers = yes
 		can_recruit_open_specialist = yes
-		unlock_horse_pastures_building = yes
 		desert_hunt_success_chance = yes
 		#AGOT DISABLED
 		#unlock_voluntary_laampdom = yes

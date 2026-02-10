@@ -1,0 +1,13 @@
+﻿l_english:
+
+# Marches
+
+tradition_citadel_raid_name:0 "Citadel Raid"
+tradition_citadel_raid_desc:0 "Your culture's warriors are adept at raiding"
+
+# Sand Dornish
+
+tradition_citadel_horse_name:0 "Horse Warfare"
+tradition_citadel_horse_desc:0 "PLACEHOLDER"
+
+culture_parameter_unlock_maa_sanddornish_horse_archers:0 "Can recruit [GetMaA('sanddornish_horse_archers').GetName]"
