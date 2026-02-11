@@ -1,0 +1,28 @@
+﻿on_birth_child_Kizan = {
+    effect = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    exists = scope:child.dynasty
+                    scope:child.dynasty = {
+                        has_dynasty_perk = rykker_legacy_5
+                    }
+                    OR = {
+                        scope:mother.dynasty = scope:child.dynasty
+                        scope:real_father.dynasty = scope:child.dynasty
+                    }
+                }
+                random = {
+                    chance = 10
+                    if = {
+                        limit = { random_percent < 50 }
+                        scope:child = { add_trait = patient }
+                    }
+                    else = {
+                        scope:child = { add_trait = shrewd }
+                    }
+                }
+            }
+        }
+    }
+}

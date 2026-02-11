@@ -1,0 +1,117 @@
+﻿
+# House Baelish --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+baelish_legacy_1 = {
+    legacy = baelish_legacy_track
+
+    can_be_picked = {
+        dynasty = dynasty:dynn_Baelish
+    }
+
+	effect = {
+		custom_description_no_bullet = {
+			text = baelish_legacy_1_effect
+		}
+	}
+
+	character_modifier = {
+		monthly_piety = -0.1
+	}
+
+    ai_chance = { value = 0 }
+}
+
+baelish_legacy_2 = {
+    legacy = baelish_legacy_track
+
+    can_be_picked = {
+        dynasty = dynasty:dynn_Baelish
+    }
+
+	character_modifier = {
+		intrigue = 5
+		owned_scheme_secrecy_add = 40
+		enemy_hostile_scheme_success_chance_add = -35
+		general_opinion = -10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = baelish_legacy_2_effect
+		}
+	}
+
+    ai_chance = { value = 0 }
+}
+
+baelish_legacy_3 = {
+    legacy = baelish_legacy_track
+
+    can_be_picked = {
+        dynasty = dynasty:dynn_Baelish
+    }
+
+	character_modifier = {
+			stewardship = 2
+			development_growth_factor = 0.1
+			character_capital_county_monthly_development_growth_add = 0.1
+			monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+			build_gold_cost = -0.1
+			holding_build_gold_cost = -0.1
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = baelish_legacy_3_effect
+		}
+	}
+
+    ai_chance = { value = 0 }
+}
+
+baelish_legacy_4 = {
+    legacy = baelish_legacy_track
+
+    can_be_picked = {
+        dynasty = dynasty:dynn_Baelish
+    }
+
+	character_modifier = {
+			monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+			diplomacy = 3
+			general_opinion = 20
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = baelish_legacy_4_effect
+		}
+	}
+
+    ai_chance = { value = 0 }
+}
+
+baelish_legacy_5 = {
+    legacy = baelish_legacy_track
+
+    can_be_picked = {
+        dynasty = dynasty:dynn_Baelish
+    }
+	character_modifier = {
+    	stewardship = 3
+    	monthly_income_mult = 0.15 
+    	build_gold_cost = -0.2
+		build_speed = -0.2
+		monthly_income = 1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = baelish_legacy_5_effect
+		}
+	}
+
+    ai_chance = { value = 0 }
+}
