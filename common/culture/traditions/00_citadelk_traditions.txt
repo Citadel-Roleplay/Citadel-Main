@@ -33,8 +33,12 @@ tradition_citadel_raid = {
         }
 
         character_modifier = {
-            max_loot_mult = -0.15
             supply_capacity_mult = 0.25
+			martial = 1
+			diplomacy = -1
+			hills_advantage = 2
+			desert_mountains_advantage = 2
+			mountains_advantage = 2
         }
 
         cost = {
