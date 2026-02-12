@@ -1002,7 +1002,7 @@ c_artisanal_way = {
 	}
 	# End of Confirmed Princes
 	8283.1.1 = { # Magistrate has died
-		holder = Togaraz_23
+		holder = Mopatis_1
 	}
 	8291.1.1 = { # Sacrificed
 		holder = Quaranis_23
