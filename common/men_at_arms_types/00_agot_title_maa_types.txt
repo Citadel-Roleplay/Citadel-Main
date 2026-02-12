@@ -37,8 +37,6 @@ goldcloaks = {
 
 	terrain_bonus = {
 		urban = { toughness = 10 }
-		forest = { screen = 10 }
-		plains = { pursuit = 10 }
 		taiga = { screen = 5 }
 		cloudforest = { screen = 5 }
 		mountains = { pursuit = -5 }
@@ -56,8 +54,6 @@ goldcloaks = {
 		minorroad_urban = { toughness = 10 }
 		majorroad_forest = { screen = 10 }
 		minorroad_forest = { screen = 10 }
-		majorroad_plains = { pursuit = 10 }
-		minorroad_plains = { pursuit = 10 }
 		majorroad_taiga = { screen = 5 }
 		minorroad_taiga = { screen = 5 }
 		majorroad_cloudforest = { screen = 5 }

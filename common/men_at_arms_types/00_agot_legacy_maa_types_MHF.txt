@@ -707,9 +707,9 @@ blackwood_blackwood_vale_bowmen = {
 bracken_stone_hedge_knights = {
 	type = heavy_cavalry
 
-	damage = 100.0
-	toughness = 35.0
-	pursuit = 20.0
+	damage = 115.0
+	toughness = 45.0
+	pursuit = 25.0
 	screen = 0.0
 
 	terrain_bonus = {

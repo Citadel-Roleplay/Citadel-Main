@@ -24,7 +24,7 @@
 dragon_knights = {
 	type = heavy_cavalry
 
-	damage = 114
+	damage = 105
 	toughness = 38
 	pursuit = 28
 	screen = 10
@@ -112,14 +112,13 @@ dragon_knights = {
 dragon_bows = {
 	type = archers
 
-	damage = 46
-	toughness = 22
-	pursuit = 0
+	damage = 42
+	toughness = 20
+	pursuit = 5
 	screen = 12
 
 	counters = {
-		heavy_cavalry = 1
-		heavy_infantry = 1
+		skirmishers = 2
 	}
 
 	terrain_bonus = {
@@ -200,9 +199,9 @@ dragon_scouts = {
 	type = light_cavalry
 	
 	damage = 30
-	toughness = 30
-	pursuit = 40
-	screen = 20
+	toughness = 22
+	pursuit = 42
+	screen = 10
 	
 	terrain_bonus = {
 		hills = { pursuit = 10 }
@@ -261,9 +260,8 @@ dragon_scouts = {
 	}
 	
 	counters = {
-		archers = 1
+		archers = 2
 		skirmishers = 2
-		light_cavalry = 1
 	}
 	
 	can_recruit = {
@@ -375,13 +373,12 @@ dragon_spears = {
 iron_bows = {
 	type = archers
 
-	damage = 40
+	damage = 42
 	toughness = 24
 	pursuit = 10
 	screen = 6
 
 	counters = {
-		heavy_cavalry = 1
 		heavy_infantry = 1
 	}
 
@@ -462,8 +459,8 @@ iron_bows = {
 iron_pikes = {
 	type = pikemen
 
-	damage = 24
-	toughness = 30
+	damage = 26
+	toughness = 32
 	pursuit = 0
 	screen = 10
 
@@ -518,8 +515,8 @@ iron_pikes = {
 	}
 
 	counters = {
-		light_cavalry = 1
-		heavy_cavalry = 1
+		light_cavalry = 2
+		heavy_cavalry = 2
 	}
 
 	can_recruit = {
@@ -543,9 +540,9 @@ iron_pikes = {
 iron_riders = {
 	type = light_cavalry
 	
-	damage = 60
+	damage = 65
 	toughness = 30
-	pursuit = 30
+	pursuit = 45
 	screen = 20
 	
 	terrain_bonus = {
@@ -605,7 +602,7 @@ iron_riders = {
 	}
 	
 	counters = {
-		archers = 1
+		archers = 2
 		skirmishers = 1
 		light_cavalry = 1
 	}
@@ -632,7 +629,7 @@ twins_guards = {
 	type = heavy_infantry
 
 	damage = 28
-	toughness = 32
+	toughness = 35
 	pursuit = 0
 	screen = 12
 	
@@ -764,7 +761,7 @@ winter_knights = {
 	counters = {
 		heavy_infantry = 1
 		skirmishers = 1
-		archers = 1
+		archers = 2
 	}
 	
 	winter_bonus = {
@@ -872,10 +869,10 @@ winter_guards = {
 dread_spears = {
 	type = pikemen
 
-	damage = 22
-	toughness = 28
+	damage = 30
+	toughness = 25
 	pursuit = 0
-	screen = 10
+	screen = 15
 
 	terrain_bonus = {
 		steppe = { toughness = 10 }
@@ -934,8 +931,8 @@ dread_spears = {
 	}
 
 	counters = {
-		light_cavalry = 1
-		heavy_cavalry = 1
+		light_cavalry = 2
+		heavy_cavalry = 2
 		heavy_infantry = 1
 	}
 
@@ -956,7 +953,7 @@ dread_spears = {
 vale_guards = {
 	type = heavy_infantry
 
-	damage = 32
+	damage = 30
 	toughness = 34
 	pursuit = 0
 	screen = 12
@@ -1037,12 +1034,11 @@ vale_archers = {
 	type = archers
 
 	damage = 38
-	toughness = 22
+	toughness = 20
 	pursuit = 0
 	screen = 10
 
 	counters = {
-		heavy_infantry = 1
 		pikemen = 1
 		archers = 1
 	}
@@ -1180,7 +1176,7 @@ vale_pikes = {
 	}	
 
 	counters = {
-		light_cavalry = 1
+		light_cavalry = 2
 		heavy_cavalry = 2
 		camel_cavalry = 1
 	}
@@ -1206,10 +1202,10 @@ vale_pikes = {
 vale_knights = {
 	type = heavy_cavalry
 
-	damage = 118
-	toughness = 40
-	pursuit = 24
-	screen = 10
+	damage = 120
+	toughness = 42
+	pursuit = 25
+	screen = 0
 
 	terrain_bonus = {
 		mountains = { toughness = 10 }
@@ -1267,7 +1263,7 @@ vale_knights = {
 	counters = {
 		heavy_infantry = 1
 		skirmishers = 1
-		archers = 1
+		archers = 2
 	}
 
 	can_recruit = {
@@ -1293,8 +1289,8 @@ vale_footmen = {
 
 	damage = 30
 	toughness = 30
-	pursuit = 10
-	screen = 0
+	pursuit = 0
+	screen = 10
 	
 	terrain_bonus = {
 		mountains = { toughness = 10 }
@@ -1437,9 +1433,7 @@ raventree_bows = {
 	}	
 
 	counters = { 
-		heavy_infantry = 1
-		heavy_cavalry = 1
-		archers = 1
+		archers = 2
 	}
 
 	can_recruit = {
@@ -1459,9 +1453,9 @@ raventree_bows = {
 river_footmen = {
 	type = heavy_infantry
 
-	damage = 32
-	toughness = 26
-	pursuit = 12
+	damage = 33
+	toughness = 30
+	pursuit = 15
 	screen = 0
 	
 	terrain_bonus = {
@@ -1546,10 +1540,10 @@ river_footmen = {
 stone_hedge_footmen = {
 	type = heavy_infantry
 
-	damage = 32
-	toughness = 28
+	damage = 35
+	toughness = 32
 	pursuit = 8
-	screen = 12
+	screen = 15
 	
 	terrain_bonus = {
 		wetlands = { pursuit = 10 }
@@ -1608,7 +1602,7 @@ stone_hedge_footmen = {
 	}	
 
 	counters = {
-		heavy_infantry = 1
+		heavy_infantry = 2
 		pikemen = 1
 	}
 
@@ -1629,10 +1623,10 @@ stone_hedge_footmen = {
 river_scouts = {
 	type = light_cavalry
 
-	damage = 20
-	toughness = 20
-	pursuit = 30
-	screen = 30
+	damage = 22
+	toughness = 22
+	pursuit = 50
+	screen = 10
 
 	terrain_bonus = {
 		hills = { pursuit = 10 }
@@ -1691,8 +1685,8 @@ river_scouts = {
 	}
 
 	counters = { 
-		archers = 1 
-		skirmishers = 2
+		archers = 2
+		skirmishers = 1
 	}
 
 	can_recruit = {
@@ -1716,60 +1710,57 @@ river_scouts = {
 westerland_billmen = {
 	type = pikemen
 
-	damage = 24
-	toughness = 26
+	damage = 226
+	toughness = 30
 	pursuit = 0
 	screen = 0
 
 	terrain_bonus = {
-		hills = { pursuit = 10 }
-		majorroad_hills = { pursuit = 10 }
-		minorroad_hills = { pursuit = 10 }
-		highlands = { pursuit = 10 }
-		majorroad_highlands = { pursuit = 10 }
-		minorroad_highlands = { pursuit = 10 }
-		forest = { pursuit = 10 }
-		majorroad_forest = { pursuit = 10 }
-		minorroad_forest = { pursuit = 10 }
+		hills = { thougness = 10 }
+		majorroad_hills = { thougness = 10 }
+		minorroad_hills = { thougness = 10 }
+		highlands = { thougness = 10 }
+		majorroad_highlands = { thougness = 10 }
+		minorroad_highlands = { thougness = 10 }
+		forest = { thougness = 10 }
+		majorroad_forest = { thougness = 10 }
+		minorroad_forest = { thougness = 10 }
 
-		mountains = { pursuit = 5 }
-		majorroad_mountains = { pursuit = 5 }
-		minorroad_mountains = { pursuit = 5 }
-		cloudforest = { pursuit = 5 }
-		majorroad_cloudforest = { pursuit = 5 }
-		minorroad_cloudforest = { pursuit = 5 }
+		mountains = { thougness = 5 }
+		majorroad_mountains = { thougness = 5 }
+		minorroad_mountains = { thougness = 5 }
 
-		steppe = { pursuit = -5 }
-		majorroad_steppe = { pursuit = -5 }
-		minorroad_steppe = { pursuit = -5 }
-		taiga = { pursuit = -5 }
-		majorroad_taiga = { pursuit = -5 }
-		minorroad_taiga = { pursuit = -5 }
-		taiga_bog = { pursuit = -5 }
-		majorroad_taiga_bog = { pursuit = -5 }
-		minorroad_taiga_bog = { pursuit = -5 }
+		steppe = { thougness = -5 }
+		majorroad_steppe = { thougness = -5 }
+		minorroad_steppe = { thougness = -5 }
+		taiga = { thougness = -5 }
+		majorroad_taiga = { thougness = -5 }
+		minorroad_taiga = { thougness = -5 }
+		taiga_bog = { thougness = -5 }
+		majorroad_taiga_bog = { thougness = -5 }
+		minorroad_taiga_bog = { thougness = -5 }
 
-		the_bog = { pursuit = -10 }
-		majorroad_the_bog = { pursuit = -10 }
-		minorroad_the_bog = { pursuit = -10 }
-		desert = { pursuit = -10 }
-		majorroad_desert = { pursuit = -10 }
-		minorroad_desert = { pursuit = -10 }
-		desert_mountains = { pursuit = -10 }
-		majorroad_desert_mountains = { pursuit = -10 }
-		minorroad_desert_mountains = { pursuit = -10 }
-		drylands = { pursuit = -10 }
-		majorroad_drylands = { pursuit = -10 }
-		minorroad_drylands = { pursuit = -10 }
-		canyon = { pursuit = -10 }
-		majorroad_canyon = { pursuit = -10 }
-		minorroad_canyon = { pursuit = -10 }
-		glacier = { pursuit = -10 }
-		majorroad_glacier = { pursuit = -10 }
-		minorroad_glacier = { pursuit = -10 }
-		frozen_flats = { pursuit = -10 }
-		majorroad_frozen_flats = { pursuit = -10 }
-		minorroad_frozen_flats = { pursuit = -10 }
+		the_bog = { thougness = -10 }
+		majorroad_the_bog = { thougness = -10 }
+		minorroad_the_bog = { thougness = -10 }
+		desert = { thougness = -10 }
+		majorroad_desert = { thougness = -10 }
+		minorroad_desert = { thougness = -10 }
+		desert_mountains = { thougness = -10 }
+		majorroad_desert_mountains = { thougness = -10 }
+		minorroad_desert_mountains = { thougness = -10 }
+		drylands = { thougness = -10 }
+		majorroad_drylands = { thougness = -10 }
+		minorroad_drylands = { thougness = -10 }
+		canyon = { thougness = -10 }
+		majorroad_canyon = { thougness = -10 }
+		minorroad_canyon = { thougness = -10 }
+		glacier = { thougness = -10 }
+		majorroad_glacier = { thougness = -10 }
+		minorroad_glacier = { thougness = -10 }
+		frozen_flats = { thougness = -10 }
+		majorroad_frozen_flats = { thougness = -10 }
+		minorroad_frozen_flats = { thougness = -10 }
 	}
 	
 	winter_bonus = {
@@ -1891,7 +1882,7 @@ westerland_footmen = {
 westerland_knights = {
 	type = heavy_cavalry
 
-	damage = 110
+	damage = 108
 	toughness = 32
 	pursuit = 20
 	screen = 0
@@ -1979,7 +1970,7 @@ westerland_knights = {
 castelry_rock_knights = {
 	type = heavy_cavalry
 
-	damage = 120
+	damage = 108
 	toughness = 40
 	pursuit = 18
 	screen = 12
@@ -2064,8 +2055,8 @@ clegane_footmen = {
 	type = heavy_infantry
 
 	damage = 36
-	toughness = 26
-	pursuit = 14
+	toughness = 22
+	pursuit = 15
 	screen = 0
 	
 	terrain_bonus = {
@@ -2146,10 +2137,10 @@ clegane_footmen = {
 storm_footmen = {
 	type = heavy_infantry
 
-	damage = 32
-	toughness = 32
+	damage = 40
+	toughness = 35
 	pursuit = 0
-	screen = 12
+	screen = 15
 	
 	terrain_bonus = {
 		cloudforest = { damage = 10 }
@@ -2234,7 +2225,7 @@ storm_pikes = {
 	type = pikemen
 
 	damage = 22
-	toughness = 28
+	toughness = 35
 	pursuit = 0
 	screen = 10
 

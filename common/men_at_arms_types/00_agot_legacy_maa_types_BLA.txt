@@ -5795,7 +5795,7 @@ crabb_whispering_spears = {
 rosby_crownland_bowmen = {
 	type = archers
 
-	damage = 36.0
+	damage = 38.0
 	toughness = 20.0
 	pursuit = 0.0
 	screen = 15.0
