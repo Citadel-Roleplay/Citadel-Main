@@ -406,11 +406,11 @@ kingsguard = {
 
 	same_opinion = 5
 	liege_opinion = 30
-	diplomacy = 2
-	prowess = 5
+	diplomacy = 1 # Nerfed
+	prowess = 5 # Buffed because of Stat Limiter
 	monthly_prestige_gain_mult = 0.2
 	monthly_piety_gain_mult = 0.01
-	attraction_opinion = 15
+	attraction_opinion = 5
 
 	inheritance_blocker = all
 	claim_inheritance_blocker = all
@@ -1181,12 +1181,12 @@ rude = {
 		humble
 	}
 
-	diplomacy = -1
+	diplomacy = -2
 	intrigue = 2
 
 	attraction_opinion = -5
-	general_opinion = -5
-	liege_opinion = -5
+	general_opinion = -10
+	liege_opinion = -10
 
 	stress_gain_mult = -0.15
 
@@ -1227,7 +1227,7 @@ inquisitive = {
 		zealous
 	}
 
-	learning = 2
+	learning = 1
 	intrigue = 1
 	learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	glory_hound_opinion = -15
@@ -1600,7 +1600,7 @@ the_mark = {
 
 	inherit_chance = 2
 
-	attraction_opinion = -10
+	attraction_opinion = -5
 	general_opinion = -10
 
 	culture_modifier = {
@@ -1991,7 +1991,7 @@ fashionable = {
 
 	diplomacy = 1
 
-	attraction_opinion = 10
+	attraction_opinion = 20
 	same_opinion = 5
 	opposite_opinion = -10
 
@@ -2711,12 +2711,15 @@ spider = {
 education_martial_prowess_5 = {
 	minimum_age = 16
 	prowess = 20
+	negate_prowess_penalty_add = 10
+	trait_track_lifestyle_blademaster_xp_gain_mult = 0.2
 	monthly_prestige = 1
 	no_prowess_loss_from_age = yes
 	culture_modifier = {
 		parameter = prowess_traits_more_valued
 		same_culture_opinion = 5
-		monthly_prestige = 1.5
+		monthly_prestige = 0.5
+		negate_prowess_penalty_add = 10
 	}
 
 	group = education_martial_prowess

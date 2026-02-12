@@ -10,9 +10,9 @@
 # INTRIGUE OUTCOMES
 education_intrigue_1 = {
 	minimum_age = 16
-	intrigue = 2
+	intrigue = 1
 	category = education
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	
 	ruler_designer_cost = 0
 	
@@ -40,9 +40,9 @@ education_intrigue_1 = {
 }
 education_intrigue_2 = {
 	minimum_age = 16
-	intrigue = 4
+	intrigue = 2
 	category = education
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
 	
 	ruler_designer_cost = 20
 	
@@ -65,9 +65,9 @@ education_intrigue_2 = {
 }
 education_intrigue_3 = {
 	minimum_age = 16
-	intrigue = 6
+	intrigue = 3
 	category = education
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.3
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.15
 	
 	ruler_designer_cost = 40
 	
@@ -90,9 +90,9 @@ education_intrigue_3 = {
 }
 education_intrigue_4 = {
 	minimum_age = 16
-	intrigue = 8
+	intrigue = 4
 	category = education
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.4
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
 	
 	ruler_designer_cost = 80
 	
@@ -115,11 +115,11 @@ education_intrigue_4 = {
 }
 education_intrigue_5 = {
 	minimum_age = 16
-	intrigue = 10
-	diplomacy = 3
+	intrigue = 6
+	diplomacy = 2
 	category = education
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.5
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.25
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.4
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
 	owned_hostile_scheme_success_chance_max_add = 10
 	flag = agent_acceptance_25
 	
@@ -147,9 +147,9 @@ education_intrigue_5 = {
 # DIPLOMACY OUTCOMES
 education_diplomacy_1 = {
 	minimum_age = 16
-	diplomacy = 2
+	diplomacy = 1
 	category = education
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	
 	ruler_designer_cost = 0
 	
@@ -177,9 +177,9 @@ education_diplomacy_1 = {
 }
 education_diplomacy_2 = {
 	minimum_age = 16
-	diplomacy = 4
+	diplomacy = 2
 	category = education
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
 	
 	ruler_designer_cost = 20
 
@@ -202,9 +202,9 @@ education_diplomacy_2 = {
 }
 education_diplomacy_3 = {
 	minimum_age = 16
-	diplomacy = 6
+	diplomacy = 3
 	category = education
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.3
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
 	
 	ruler_designer_cost = 40
 	
@@ -227,9 +227,9 @@ education_diplomacy_3 = {
 }
 education_diplomacy_4 = {
 	minimum_age = 16
-	diplomacy = 8
+	diplomacy = 4
 	category = education
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.4
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
 	
 	ruler_designer_cost = 80
 
@@ -264,11 +264,11 @@ education_diplomacy_4 = {
 }
 education_diplomacy_5 = {
 	minimum_age = 16
-	diplomacy = 10
-	martial = 3
+	diplomacy = 6
+	martial = 2
 	category = education
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.5
-	monthly_martial_lifestyle_xp_gain_mult = 0.25
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.4
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
 	owned_personal_scheme_success_chance_max_add = 10
 	flag = offer_vassalisation_25
 	flag = better_war_hostages
@@ -309,9 +309,9 @@ education_diplomacy_5 = {
 # STEWARDSHIP OUTCOMES
 education_stewardship_1 = { #Indulgent wastrel
 	minimum_age = 16
-	stewardship = 2
+	stewardship = 1
 	category = education
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	
 	ruler_designer_cost = 0
 	
@@ -339,9 +339,9 @@ education_stewardship_1 = { #Indulgent wastrel
 }
 education_stewardship_2 = { #Thrifty clerk
 	minimum_age = 16
-	stewardship = 4
+	stewardship = 2
 	category = education
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 	
 	ruler_designer_cost = 20
 	
@@ -364,9 +364,9 @@ education_stewardship_2 = { #Thrifty clerk
 }
 education_stewardship_3 = {	#Fortune builder
 	minimum_age = 16
-	stewardship = 6
+	stewardship = 3
 	category = education
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.3
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.15
 	
 	ruler_designer_cost = 40
 	
@@ -389,9 +389,9 @@ education_stewardship_3 = {	#Fortune builder
 }
 education_stewardship_4 = {
 	minimum_age = 16
-	stewardship = 8
+	stewardship = 4
 	category = education
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.4
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
 	
 	culture_modifier = {
 		parameter = elephant_bonuses_for_rank_4_education
@@ -425,11 +425,11 @@ education_stewardship_4 = {
 }
 education_stewardship_5 = {
 	minimum_age = 16
-	stewardship = 10
-	learning = 3
+	stewardship = 6
+	learning = 2
 	category = education
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.5
-	monthly_learning_lifestyle_xp_gain_mult = 0.25
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.4
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
 	vassal_tax_mult = 0.25
 	
 	culture_modifier = {
@@ -467,9 +467,9 @@ education_stewardship_5 = {
 # MARTIAL OUTCOMES
 education_martial_1 = {
 	minimum_age = 16
-	martial = 2
+	martial = 1
 	category = education
-	monthly_martial_lifestyle_xp_gain_mult = 0.1
+	monthly_martial_lifestyle_xp_gain_mult = 0.05
 	
 	culture_modifier = {
 		parameter = poorly_educated_leaders_distrusted
@@ -510,9 +510,9 @@ education_martial_1 = {
 }
 education_martial_2 = { #Tough soldier
 	minimum_age = 16
-	martial = 4
+	martial = 2
 	category = education
-	monthly_martial_lifestyle_xp_gain_mult = 0.2
+	monthly_martial_lifestyle_xp_gain_mult = 0.1
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -547,9 +547,9 @@ education_martial_2 = { #Tough soldier
 }
 education_martial_3 = { #Skilled tactician
 	minimum_age = 16
-	martial = 6
+	martial = 3
 	category = education
-	monthly_martial_lifestyle_xp_gain_mult = 0.3
+	monthly_martial_lifestyle_xp_gain_mult = 0.15
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -584,9 +584,9 @@ education_martial_3 = { #Skilled tactician
 }
 education_martial_4 = { #Brilliant strategist
 	minimum_age = 16
-	martial = 8
+	martial = 4
 	category = education
-	monthly_martial_lifestyle_xp_gain_mult = 0.4
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -632,11 +632,11 @@ education_martial_4 = { #Brilliant strategist
 }
 education_martial_5 = {
 	minimum_age = 16
-	martial = 10
-	stewardship = 3
+	martial = 6
+	stewardship = 2
 	category = education
-	monthly_martial_lifestyle_xp_gain_mult = 0.5
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.25
+	monthly_martial_lifestyle_xp_gain_mult = 0.4
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
 	army_siege_value_mult = 0.5
 	movement_speed = 0.2
 	
@@ -687,9 +687,9 @@ education_martial_5 = {
 # LEARNING OUTCOMES
 education_learning_1 = {
 	minimum_age = 16
-	learning = 2
+	learning = 1
 	category = education
-	monthly_learning_lifestyle_xp_gain_mult = 0.1
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
 	
 	culture_modifier = {
 		parameter = poorly_educated_leaders_distrusted
@@ -733,9 +733,9 @@ education_learning_1 = {
 }
 education_learning_2 = {
 	minimum_age = 16
-	learning = 4
+	learning = 2
 	category = education
-	monthly_learning_lifestyle_xp_gain_mult = 0.2
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -774,9 +774,9 @@ education_learning_2 = {
 }
 education_learning_3 = {
 	minimum_age = 16
-	learning = 6
+	learning = 3
 	category = education
-	monthly_learning_lifestyle_xp_gain_mult = 0.3
+	monthly_learning_lifestyle_xp_gain_mult = 0.15
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -815,9 +815,9 @@ education_learning_3 = {
 }
 education_learning_4 = {
 	minimum_age = 16
-	learning = 8
+	learning = 4
 	category = education
-	monthly_learning_lifestyle_xp_gain_mult = 0.4
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -869,11 +869,11 @@ education_learning_4 = {
 }
 education_learning_5 = {
 	minimum_age = 16
-	learning = 10
-	intrigue = 3
+	learning = 6
+	intrigue = 2
 	category = education
-	monthly_learning_lifestyle_xp_gain_mult = 0.5
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.25
+	monthly_learning_lifestyle_xp_gain_mult = 0.4
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
 	development_growth = 0.1
 	county_fertility_growth_mult = small_county_fertility_growth_gain
 	
@@ -934,15 +934,16 @@ diplomat = {
 	diplomacy = 3
 	personal_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	independent_ruler_opinion = 20
-	monthly_influence = 1
+	monthly_influence = 0.5
 	
 	ruler_designer_cost = 50
 
 	culture_modifier = {
 		parameter = astute_diplomat_bonus
 		diplomacy = 2
-		independent_ruler_opinion = 10
+		independent_ruler_opinion = 5
 		vassal_opinion = 10
+		monthly_influence = 0.5
 	}
 
 	desc = {
@@ -1069,6 +1070,7 @@ lifestyle_reveler = {
 	# Modifiers
 	courtly_opinion = 5
 	intrigue = 1
+	diplomacy = 1
 	same_opinion = 15
 	culture_modifier = {
 		parameter = reveler_traits_more_valued
@@ -1087,7 +1089,7 @@ lifestyle_reveler = {
 		}
 		100 = {
 			courtly_opinion = 5
-			diplomacy = 2
+			diplomacy = 1
 			intrigue = 1
 			owned_hostile_scheme_success_chance_add = 10
 			culture_modifier = {
@@ -1182,8 +1184,7 @@ lifestyle_blademaster = {
 	icon = blademaster.dds
 
 	# Modifiers
-	negate_health_penalty_add = 0.25
-	prowess = 3
+	prowess = 1
 	#AGOT Disabled
 	# culture_modifier = {
 	# 	parameter = trait_county_opinion_modifiers
@@ -1201,8 +1202,7 @@ lifestyle_blademaster = {
 
 	track = {
 		50 = {
-			negate_health_penalty_add = 0.25
-			prowess = 3
+			prowess = 4
 			#AGOT Disabled
 			# culture_modifier = {
 			# 	parameter = trait_county_opinion_modifiers
@@ -1215,14 +1215,11 @@ lifestyle_blademaster = {
 			}
 			culture_modifier = {
 				parameter = blademaster_traits_give_learning
-				learning = 2
+				learning = 1
 			}
 		}
 		100 = {
-			negate_health_penalty_add = 0.5
-			#AGOT Modified, prowess rework
-			#prowess = 6
-			prowess = 3
+			prowess = 6
 			
 			#AGOT Disabled
 			# culture_modifier = {
@@ -1238,7 +1235,7 @@ lifestyle_blademaster = {
 
 			culture_modifier = {
 				parameter = blademaster_traits_give_learning
-				learning = 2
+				learning = 1
 			}
 		}
 	}
@@ -1335,7 +1332,7 @@ lifestyle_hunter = {
 	prowess = 1
 	culture_modifier = {
 		parameter = hunting_traits_more_valued
-		monthly_prestige = 0.5
+		monthly_prestige = 0.25
 	}
 	culture_modifier = {
 		parameter = hunting_traits_more_pious
@@ -1423,7 +1420,7 @@ lifestyle_hunter = {
 			}
 			100 = {
 				stress_loss_mult = 0.1
-				prowess = 2
+				prowess = 1
 				health = 0.15
 				learning = 1
 				glory_hound_opinion = 10
@@ -1514,7 +1511,7 @@ lifestyle_hunter = {
 strategist = {
 	category = lifestyle
 
-	martial = 3
+	martial = 2
 	diplomacy = 1
 	enemy_hard_casualty_modifier = 0.25
 	no_water_crossing_penalty = yes
@@ -1559,7 +1556,7 @@ overseer = {
 	category = lifestyle
 
 	stewardship = 2
-	martial = 2
+	martial = 1
 	monthly_county_control_growth_add = 0.5
 	epidemic_resistance = 5
 
@@ -1585,7 +1582,6 @@ overseer = {
 gallant = {
 	category = lifestyle
 	
-	martial = 2
 	prowess = 4
 	attraction_opinion = 20
 	accolade_glory_gain_mult = 0.2
@@ -1621,7 +1617,7 @@ gallant = {
 architect = {
 	category = lifestyle
 
-	stewardship = 2
+	stewardship = 1
 	build_speed = -0.15
 	holding_build_speed = -0.15
 	domicile_build_speed = -0.15
@@ -1636,9 +1632,9 @@ architect = {
 
 	culture_modifier = {
 		parameter = stewardship_traits_give_out_cav_bonus
-		archer_cavalry_toughness_add = 4
-		heavy_cavalry_toughness_add = 4
-		light_cavalry_toughness_add = 4
+		archer_cavalry_toughness_add = 2
+		heavy_cavalry_toughness_add = 2
+		light_cavalry_toughness_add = 2
 	}
 	
 	ruler_designer_cost = 50
@@ -1659,12 +1655,12 @@ architect = {
 administrator = {
 	category = lifestyle
 
-	stewardship = 3
+	stewardship = 2
 	diplomacy = 1
 	parochial_opinion = 10
 	vassal_opinion = 5
 	tributary_opinion = 5
-	epidemic_resistance = 10
+	epidemic_resistance = 20
 	
 	ruler_designer_cost = 50
 
@@ -1675,9 +1671,9 @@ administrator = {
 
 	culture_modifier = {
 		parameter = stewardship_traits_give_out_cav_bonus
-		archer_cavalry_max_size_add = 4 #change it
-		heavy_cavalry_max_size_add = 4
-		light_cavalry_max_size_add = 4
+		archer_cavalry_max_size_add = 1 #change it
+		heavy_cavalry_max_size_add = 1
+		light_cavalry_max_size_add = 1
 	}
 
 	desc = {
@@ -1709,19 +1705,19 @@ avaricious = {
 	category = lifestyle
 
 	stewardship = 2
-	tax_mult = 0.15
+	tax_mult = 0.1
 
 	culture_modifier = {
 		parameter = maritime_mercantilism_avaricious_bonus
 		stewardship = 2
-		tax_mult = 0.10
+		tax_mult = 0.05
 	}
 
 	culture_modifier = {
 		parameter = stewardship_traits_give_out_cav_bonus
-		archer_cavalry_maintenance_mult = -0.4
-		heavy_cavalry_maintenance_mult = -0.4
-		light_cavalry_maintenance_mult = -0.4
+		archer_cavalry_maintenance_mult = -0.2
+		heavy_cavalry_maintenance_mult = -0.2
+		light_cavalry_maintenance_mult = -0.2
 	}
 	
 	ruler_designer_cost = 50
@@ -1745,7 +1741,7 @@ avaricious = {
 schemer = {
 	category = lifestyle
 	
-	intrigue = 5
+	intrigue = 4
 	hostile_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	
 	ruler_designer_cost = 50
@@ -1776,9 +1772,9 @@ schemer = {
 seducer = {
 	category = lifestyle
 
-	intrigue = 3
+	intrigue = 2
 	attraction_opinion = 40
-	fertility = 0.2
+	fertility = 0.1
 	
 	ruler_designer_cost = 50
 
@@ -1810,9 +1806,9 @@ seducer = {
 torturer = {
 	category = lifestyle
 
-	dread_gain_mult = 0.5
-	prowess = 4
-	levy_size = 0.1
+	dread_gain_mult = 0.6
+	prowess = 2
+	# levy_size = 0.1
 	enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
 	
 	ruler_designer_cost = 50
@@ -1833,9 +1829,9 @@ torturer = {
 whole_of_body = {
 	category = lifestyle
 
-	health = 0.5
-	fertility = 0.2
-	stress_gain_mult = -0.2
+	health = 0.35
+	fertility = 0.15
+	stress_gain_mult = -0.3
 	
 	ruler_designer_cost = 75
 
@@ -1861,7 +1857,7 @@ whole_of_body = {
 scholar = {
 	category = lifestyle
 
-	learning = 3
+	learning = 4
 	owned_personal_scheme_success_chance_add = 10
 	owned_hostile_scheme_success_chance_add = 10
 	development_growth_factor = 0.15
@@ -1930,13 +1926,13 @@ theologian = {
 	category = lifestyle
 	
 	learning = 3
-	monthly_piety_gain_mult = 0.2
+	monthly_piety_gain_mult = 0.35
 	
 	ruler_designer_cost = 50
 
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
-		prowess = 2
+		prowess = 1
 	}
 
 	culture_modifier = {
@@ -2198,8 +2194,8 @@ lifestyle_herbalist = {
 
 	# Modifiers
 	learning = 2
-	intrigue = 2
-	negate_health_penalty_add = 0.5	
+	intrigue = 1
+	negate_health_penalty_add = 0.25
 	culture_modifier = {
 		parameter = forest_trait_bonuses
 		forest_attrition_mult = -0.5
@@ -2319,7 +2315,7 @@ lustful = {
 		chaste
 	}
 	#Asexual characters may still have the lustful trait. This is intended to represent asexuals who, whilst not generally experiencing attraction to other people, might still have a high libido.
-	fertility = 0.25
+	fertility = 0.2
 	intrigue = 2
 	seduce_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 
@@ -2365,7 +2361,7 @@ chaste = {
 		lustful
 	}
 	
- 	fertility = -0.25
+ 	fertility = -0.2
  	seduce_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
 	learning = 2
 	
@@ -2420,8 +2416,11 @@ gluttonous = {
 	}
 
 	stewardship = -2
-	stress_loss_mult = 0.1
-	
+	diplomacy = 2 # Added because it makes sense for gluttonous characters to be more likable, and to balance out the negative stewardship. Also, it differentiates gluttonous characters from greedy ones, who have negative diplomacy.
+	intrigue = 1 # Added to represent the scheming and manipulative nature of gluttonous characters, as well as to balance out the negative stewardship. Also, it differentiates gluttonous characters from greedy ones, who have no intrigue bonus.
+	stress_loss_mult = 0.2
+	health = -0.1
+	courtly_opinion = 10
 	attraction_opinion = -5
 	same_opinion = 10
 	opposite_opinion = -10
@@ -2429,7 +2428,7 @@ gluttonous = {
 	#AGOT Added
 	culture_modifier = {
 		parameter = gluttonous_trait_bonuses
-		diplomacy = 1
+		diplomacy = 2
 		monthly_prestige_gain_mult = 0.5
 	}
 
@@ -2474,7 +2473,9 @@ temperate = {
 		gluttonous
 	}
 	stewardship = 2
+	diplomacy = -2
 	health = 0.25
+	tax_mult = 0.02
 	
 	courtly_opinion = -10
 	
@@ -2536,14 +2537,15 @@ greedy = {
 	}
 	diplomacy = -2
 
-	monthly_income_mult = 0.05
-	monthly_income_per_stress_level_mult = 0.1
-	courtly_opinion = -15
-	
+	monthly_income_mult = 0.02
+	vassal_tax_mult = 0.02
+	monthly_income_per_stress_level_mult = 0.02
+	courtly_opinion = -5
+	vassal_opinion = -10
 	ai_war_chance = 0.5
 	ai_amenity_spending = -0.25
 	ai_amenity_target_baseline = -0.4
-	
+	county_opinion_add = -20
 	ruler_designer_cost = 30
 
 	desc = {
@@ -2578,9 +2580,14 @@ generous = {
 	}
 	
 	diplomacy = 3
-	monthly_income_mult = -0.1
+	monthly_income_mult = -0.02
+	vassal_tax_mult = -0.02
+	monthly_income_per_stress_level_mult = -0.02
 	courtly_opinion = 15
-	
+	general_opinion = 15
+	vassal_opinion = 20
+	courtier_and_guest_opinion = 20
+	county_opinion_add = 30
 	opposite_opinion = -15
 	
 	
@@ -2625,15 +2632,16 @@ lazy = {
 	opposites = {
 		diligent
 	}
-	diplomacy = -1
+	diplomacy = -2
 	intrigue = -1
-	stewardship = -1
+	stewardship = -2
 	martial = -1
 	learning = -1
-
+	prowess = -3
+	county_opinion_add = 10
 	character_travel_speed = -10
-	
-	stress_loss_mult = 0.5
+	scheme_discovery_chance_mult = -0.05
+	stress_loss_mult = 0.9d
 	
 	#AGOT Added
 	culture_modifier = {
@@ -2679,8 +2687,8 @@ diligent = {
 		lazy
 	}
 	diplomacy = 2
-	stewardship = 3
-	learning = 3
+	stewardship = 2
+	learning = 2
 	
 	parochial_opinion = 5
 	
@@ -2793,16 +2801,15 @@ wrathful = {
 	opposites = {
 		calm
 	}
-	diplomacy = -1
-	martial = 3
-	intrigue = -1
+	diplomacy = -2
+	martial = 2
 	
 	parochial_opinion = -10
 	glory_hound_opinion = 5
 	
 	courtly_opinion = -10
 	
-	dread_baseline_add = 20
+	dread_baseline_add = 25
 	
 	culture_modifier = {
 		parameter = forest_trait_bonuses
@@ -2917,8 +2924,8 @@ calm = {
 	opposites = {
 		wrathful
 	}
-	diplomacy = 1
-	intrigue = 1
+	diplomacy = 2
+	martial = -2
 	scheme_discovery_chance_mult = 0.1
 	
 	opposite_opinion = -10
@@ -3047,11 +3054,13 @@ patient = {
 		impatient
 	}
 
-	learning = 2
+	learning = 3
 	enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_malus_value
 	parochial_opinion = 10
 	liege_opinion = 5
-	
+	holding_build_speed = 0.05
+	domicile_build_speed = 0.05
+
 	culture_modifier = {
 		parameter = winter_trait_bonuses
 		winter_advantage = 3
@@ -3185,6 +3194,8 @@ impatient = {
 	hostile_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	character_travel_speed_mult = 0.25
 	character_travel_safety = -10
+	holding_build_speed = -0.05
+	domicile_build_speed = -0.05
 	
 	courtly_opinion = -10
 	parochial_opinion = -10
@@ -3260,9 +3271,11 @@ arrogant = {
 	}
 	
 	monthly_prestige = 1
-	
+	monthly_prestige_gain_mult = 0.05
+	prowess = 1
+	diplomacy = -1
 	owned_scheme_secrecy_add = -10
-	
+	advantage = 2
 	opinion_of_liege = -5
 	opinion_of_vassal = -5
 	opposite_opinion = -15
@@ -3362,7 +3375,8 @@ humble = {
 		arrogant
 	}
 	
-	monthly_piety = 0.5
+	monthly_piety = 1
+	monthly_piety_gain_mult = 0.1
 	#AGOT Added
 	diplomacy = 1
 
@@ -3371,6 +3385,7 @@ humble = {
 	opinion_of_liege = 10
 	opinion_of_vassal = 10
 	opposite_opinion = -15
+	advantage = -1
 	
 	ruler_designer_cost = 20
 
@@ -3472,7 +3487,7 @@ deceitful = {
 		honest
 	}
 	diplomacy = -2
-	intrigue = 4
+	intrigue = 3
 	
 	culture_modifier = {
 		parameter = forest_trait_bonuses
@@ -3624,16 +3639,16 @@ craven = {
 	}
 	martial = -2
 	prowess = -3
-	intrigue = 2
+	intrigue = 3
 	
 	attraction_opinion = -10
 	glory_hound_opinion = -15
 	courtly_opinion = -5
 	same_opinion = 20
 	
-	owned_scheme_secrecy_add = 10
-	enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_malus_value
-	character_travel_safety_mult = 0.25
+	owned_scheme_secrecy_add = 15
+	enemy_hostile_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
+	character_travel_safety_mult = 0.3
 	
 	culture_modifier = {
 		parameter = craven_and_content_traits_looked_down_upon
@@ -3907,6 +3922,7 @@ gregarious = {
 		shy
 	}
 	diplomacy = 2
+	intrigue = -2
 	personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	
 	attraction_opinion = 5
@@ -3987,7 +4003,6 @@ ambitious = {
 	diplomacy = 1
 	martial = 1
 	learning = 1
-	prowess = 1
 	
 	culture_modifier = {
 		parameter = mountain_trait_bonuses
@@ -4038,10 +4053,10 @@ ambitious = {
 	}
 	
 	opinion_of_liege = -15
-	same_opinion = -15
+	same_opinion = -20
 	glory_hound_opinion = 10
 	
-	stress_gain_mult = 0.25
+	stress_gain_mult = 0.30
 	
 	ai_war_cooldown = -0.25
 	ai_war_chance = 1
@@ -4092,6 +4107,7 @@ content = {
 	learning = 2
 	
 	opinion_of_liege = 20
+	liege_opinion = 10
 	opinion_of_vassal = 10
 	same_opinion = 20
 	parochial_opinion = 10
@@ -4380,13 +4396,14 @@ zealous = {
 		inquisitive
 	}
 	martial = 2
+	learning = 1
 	
-	monthly_piety_gain_mult = 0.2
-	faith_conversion_piety_cost_mult = 0.2
+	monthly_piety_gain_mult = 0.35
+	faith_conversion_piety_cost_mult = 1
 	
 	opposite_opinion = -10
 	same_opinion_if_same_faith = 15
-	opinion_of_different_faith = -35
+	opinion_of_different_faith = -50
 	zealot_opinion = 15
 	
 	culture_modifier = {
@@ -4746,7 +4763,7 @@ sadistic = {
 	intrigue = 2
 	#AGOT Modified, prowess rebalance
 	#prowess = 4
-	prowess = 2
+	prowess = 1
 	
 	dread_baseline_add = 35
 	
@@ -4793,8 +4810,9 @@ stubborn = {
 		fickle
 		eccentric
 	}
-	stewardship = 3
-	negate_health_penalty_add = 0.25
+	stewardship = 2
+	diplomacy = -1
+	negate_health_penalty_add = 0.2
 	
 	culture_modifier = {
 		parameter = winter_trait_bonuses
@@ -4876,7 +4894,6 @@ fickle = {
 		stubborn
 		eccentric
 	}
-	intrigue = 1
 	diplomacy = 2
 	stewardship = -2
 	
@@ -5448,7 +5465,6 @@ hashishiyah = { # Substance Abuse (Hashish)
 
 rakish = { # Brothel-frequenter.
 	category = fame
-	intrigue = 1
 	diplomacy = -1
 	stress_loss_mult = 0.2
 
@@ -5516,7 +5532,6 @@ irritable = { # Prone to outbursts and tantrums.
 	category = fame
 	diplomacy = -2
 	martial = -1
-	prowess = 2
 	dread_gain_mult = 0.1
 	stress_loss_mult = 0.2
 
@@ -5626,7 +5641,6 @@ improvident = { # Habitually gives money to charity.
 
 	monthly_income_mult = -0.15
 	monthly_piety = 0.5
-	diplomacy = 1
 	stress_loss_mult = 0.2
 	zealot_opinion = 10
 	
@@ -5792,7 +5806,7 @@ confider = { # Has a close friend to relieve stress (Healthy)
 
 athletic = { # Exercises to relieve stress (Healthy)
 	category = fame
-	prowess = 1
+	prowess = 3
 	health = 0.25
 	stress_loss_mult = 0.2
 	
@@ -5830,7 +5844,7 @@ athletic = { # Exercises to relieve stress (Healthy)
 ############### Health ##############
 pregnant = {
 	category = health
-	prowess = -2
+	prowess = -5
 
 	flag = no_message
 	
@@ -7900,11 +7914,11 @@ intellect_good_3 = {
 	birth = 0.05
 	random_creation = 0.05
 	
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+	diplomacy = 6 # All Stats upped to 6, because of Stat Limiter - Kizan
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 6
 	
 	monthly_lifestyle_xp_gain_mult = 0.3
 
@@ -8184,7 +8198,7 @@ physique_good_3 = {
 	birth = 0.15
 	random_creation = 0.15
 	
-	prowess = 8
+	prowess = 6
 	health = 1
 	
 	attraction_opinion = 15
@@ -8296,7 +8310,7 @@ strong = {
 		physique_bad
 	}
 	prowess = 4
-	health = 0.5
+	health = 0.2
 	physical = yes
 	
 	culture_modifier = {
@@ -8375,7 +8389,7 @@ shrewd = {
 
 ################# PHYSICAL (BAD) ################
 clubfooted = {
-	prowess = -2
+	prowess = -5
 	
 	#inherit_chance = 15
 	genetic = yes
@@ -8403,7 +8417,7 @@ clubfooted = {
 }
 
 hunchbacked = {
-	prowess = -2
+	prowess = -3
 
 	#inherit_chance = 15
 	genetic = yes
@@ -8490,7 +8504,7 @@ stuttering = {
 }
 
 dwarf = {
-	prowess = -4
+	prowess = -15
 	opposites = {
 		giant
 	}	
@@ -10978,7 +10992,7 @@ berserker = {
 	category = fame
 	diplomacy = -2
 	martial = 2
-	prowess = 5
+	prowess = 4
 	dread_baseline_add = 15
 	
 	same_opinion = 10
@@ -11006,7 +11020,7 @@ shieldmaiden = {
 	
 	category = fame
 	martial = 3
-	prowess = 3
+	prowess = 4
 	
 	same_opinion = 10
 
@@ -11137,7 +11151,7 @@ bastard = {
 
 	same_opinion = 5
 
-	dynasty_opinion = -15
+	dynasty_opinion = -10
 
 	legitimacy_gain_mult = -0.1
 
@@ -11613,7 +11627,7 @@ bastard_founder = {
 
 twin = {
 	category = fame
-	twin_opinion = 15
+	twin_opinion = 25
 	
 	shown_in_ruler_designer = no
 
@@ -11926,9 +11940,10 @@ deviant = {
 
 cannibal = {
 	category = fame
-	prowess = 2
+	prowess = 3
 	
 	same_opinion = 35
+	general_opinion = -70
 	
 	stress_loss_mult = 0.15
 	
@@ -12127,6 +12142,7 @@ fornicator = {
 murderer = {
 
 	general_opinion = -15
+	intrigue = 1
 	category = fame
 	
 	ruler_designer_cost = -10
@@ -18453,7 +18469,7 @@ governor = {
 			intrigue = 1
 		}
 		100 = {
-			monthly_influence = 2
+			monthly_influence = 1
 			diplomacy = 1
 			martial = 1
 			stewardship = 1
