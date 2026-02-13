@@ -10934,7 +10934,6 @@ quarries_08 = {
 		build_speed = good_building_build_speed_tier_8
 		stationed_heavy_infantry_toughness_mult = 0.04
 		stationed_pikemen_toughness_mult = 0.04
-		stationed_heavy_cavalry_toughness_mult = 0.08
 	}
 	county_modifier = {
 		development_growth_factor = 0.02

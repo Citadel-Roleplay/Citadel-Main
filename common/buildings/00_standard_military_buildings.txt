@@ -5452,7 +5452,7 @@ stables_01 = {
 	
 	province_modifier = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_1
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_1
+		stationed_heavy_cavalry_damage_mult = 0.05
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_1
 	}
 
@@ -5589,7 +5589,7 @@ stables_02 = {
 	
 	province_modifier = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_2
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_2	
+		stationed_heavy_cavalry_damage_mult = 0.1
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_2
 	}
 
@@ -5654,10 +5654,10 @@ stables_03 = {
 	
 	province_modifier = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_3
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_3	
+		stationed_heavy_cavalry_damage_mult = 0.15
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_3
 		stationed_light_cavalry_toughness_mult = high_maa_toughness_tier_1
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_1
+		stationed_heavy_cavalry_toughness_mult = 0.05
 	}
 
 	on_complete = {
@@ -5717,10 +5717,10 @@ stables_04 = {
 	
 	province_modifier = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_4
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_4	
+		stationed_heavy_cavalry_damage_mult = 0.2
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_4
 		stationed_light_cavalry_toughness_mult = high_maa_toughness_tier_2
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_2
+		stationed_heavy_cavalry_toughness_mult = 0.1
 	}
 
 	on_complete = {
@@ -5786,10 +5786,10 @@ stables_05 = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_5
 		stationed_light_cavalry_screen_mult = normal_maa_screen_tier_1
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_5
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_3
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_5
-		stationed_heavy_cavalry_screen_mult = normal_maa_screen_tier_1
-		stationed_heavy_cavalry_pursuit_mult = normal_maa_pursuit_tier_1
+		stationed_heavy_cavalry_toughness_mult = 0.15
+		stationed_heavy_cavalry_damage_mult = 0.25
+		stationed_heavy_cavalry_screen_mult = 0.15
+		stationed_heavy_cavalry_pursuit_mult = 0.15
 	}
 
 	on_complete = {
@@ -5855,10 +5855,10 @@ stables_06 = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_6
 		stationed_light_cavalry_screen_mult = normal_maa_screen_tier_2
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_6
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_4
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_6
-		stationed_heavy_cavalry_screen_mult = normal_maa_screen_tier_2
-		stationed_heavy_cavalry_pursuit_mult = normal_maa_pursuit_tier_2
+		stationed_heavy_cavalry_toughness_mult = 0.2
+		stationed_heavy_cavalry_damage_mult = 0.3
+		stationed_heavy_cavalry_screen_mult = 0.2
+		stationed_heavy_cavalry_pursuit_mult = 0.2
 	}
 
 	on_complete = {
@@ -5924,10 +5924,10 @@ stables_07 = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_7
 		stationed_light_cavalry_screen_mult = normal_maa_screen_tier_3
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_7
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_5
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_7
-		stationed_heavy_cavalry_screen_mult = normal_maa_screen_tier_3
-		stationed_heavy_cavalry_pursuit_mult = normal_maa_pursuit_tier_3
+		stationed_heavy_cavalry_toughness_mult = 0.25
+		stationed_heavy_cavalry_damage_mult = 0.35
+		stationed_heavy_cavalry_screen_mult = 0.25
+		stationed_heavy_cavalry_pursuit_mult = 0.25
 	}
 
 	on_complete = {
@@ -5993,10 +5993,10 @@ stables_08 = {
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_8
 		stationed_light_cavalry_screen_mult = normal_maa_screen_tier_4
 		stationed_light_cavalry_pursuit_mult = normal_maa_pursuit_tier_8
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_6
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_8
-		stationed_heavy_cavalry_screen_mult = normal_maa_screen_tier_4
-		stationed_heavy_cavalry_pursuit_mult = normal_maa_pursuit_tier_4
+		stationed_heavy_cavalry_toughness_mult = 0.3
+		stationed_heavy_cavalry_damage_mult = 0.4
+		stationed_heavy_cavalry_screen_mult = 0.3
+		stationed_heavy_cavalry_pursuit_mult = 0.3
 	}
 
 	on_complete = {
@@ -6036,7 +6036,7 @@ smiths_01 = {
 	
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_1
+		stationed_maa_damage_mult = 0.05
 		# tax_mult = low_building_tax_mult_tier_1
 	}
 	county_modifier = {
@@ -6044,6 +6044,7 @@ smiths_01 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_1
+		army_maintenance_mult = 0.015
 	}
 
 	character_culture_modifier = {
@@ -6204,11 +6205,12 @@ smiths_02 = {
 	cost_gold = normal_building_tier_2_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_damage_mult = 0.1
 		# tax_mult = low_building_tax_mult_tier_2
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_2
+		army_maintenance_mult = 0.02
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_2
@@ -6295,8 +6297,8 @@ smiths_03 = {
 	cost_gold = normal_building_tier_3_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_3
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+		stationed_maa_damage_mult = 0.15
+		stationed_maa_toughness_mult = 0.05
 		# tax_mult = low_building_tax_mult_tier_3
 	}
 	county_modifier = {
@@ -6304,6 +6306,7 @@ smiths_03 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_3
+		army_maintenance_mult = 0.025
 	}
 
 	character_culture_modifier = {
@@ -6383,8 +6386,8 @@ smiths_04 = {
 	cost_gold = normal_building_tier_4_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_4
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.1
 		# tax_mult = low_building_tax_mult_tier_4
 	}
 	county_modifier = {
@@ -6392,6 +6395,7 @@ smiths_04 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_4
+		army_maintenance_mult = 0.03
 	}
 
 	character_culture_modifier = {
@@ -6470,8 +6474,8 @@ smiths_05 = {
 	cost_gold = normal_building_tier_5_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_5
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_3
+		stationed_maa_damage_mult = 0.25
+		stationed_maa_toughness_mult = 0.15
 		# tax_mult = low_building_tax_mult_tier_5
 	}
 	county_modifier = {
@@ -6479,6 +6483,7 @@ smiths_05 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_5
+		army_maintenance_mult = 0.035
 	}
 
 	character_culture_modifier = {
@@ -6557,8 +6562,8 @@ smiths_06 = {
 	cost_gold = normal_building_tier_6_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_6
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
+		stationed_maa_damage_mult = 0.3
+		stationed_maa_toughness_mult = 0.2
 		# tax_mult = low_building_tax_mult_tier_6
 	}
 	county_modifier = {
@@ -6566,6 +6571,7 @@ smiths_06 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_6
+		army_maintenance_mult = 0.04
 	}
 
 	character_culture_modifier = {
@@ -6644,8 +6650,8 @@ smiths_07 = {
 	cost_gold = normal_building_tier_7_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_7
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_5
+		stationed_maa_damage_mult = 0.3
+		stationed_maa_toughness_mult = 0.2
 		# tax_mult = low_building_tax_mult_tier_7
 	}
 	county_modifier = {
@@ -6653,6 +6659,7 @@ smiths_07 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_7
+		army_maintenance_mult = 0.05
 	}
 
 	character_culture_modifier = {
@@ -6731,8 +6738,8 @@ smiths_08 = {
 	cost_gold = normal_building_tier_8_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = normal_maa_damage_tier_8
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_6
+		stationed_maa_damage_mult = 0.35
+		stationed_maa_toughness_mult = 0.25
 		# tax_mult = low_building_tax_mult_tier_8
 	}
 	county_modifier = {
@@ -6740,6 +6747,7 @@ smiths_08 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_8
+		army_maintenance_mult = 0.06
 	}
 
 	character_culture_modifier = {

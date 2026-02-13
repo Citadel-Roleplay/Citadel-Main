@@ -89,3 +89,5 @@
  citadel_trade.group.food_major:0 "Food Deficit Major"
  citadel_trade.group.wood:0 "Wood Deficit"
  citadel_trade.group.stone:0 "Stone Deficit"
+
+HOLDER_NOT_LANNISTER:0 "Holder cannot be a [GetDynastyByID('dynn_Lannister').GetName]!"

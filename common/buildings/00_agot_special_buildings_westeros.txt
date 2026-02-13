@@ -149,7 +149,6 @@ agot_ghaston_grey_01 = {
 	character_modifier = {
 		dread_gain_mult = 0.3
 		prisoner_opinion = -10
-		domain_limit = 1
 	}
 
 	province_modifier = {
@@ -213,11 +212,12 @@ agot_starfall_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 800
 	cost_gold = expensive_building_tier_5_cost
 
 	county_modifier = {
 		hostile_raid_time = 0.5
+		levy_size = 0.2
 	}
 
 	character_modifier = {
@@ -1105,11 +1105,11 @@ agot_walls_of_seagard_01 = {
 
 	type_icon = "icon_structure_york_walls.dds"
 
-	asset = {
-		type = pdxmesh
-		name = "building_special_york_walls_01_mesh"
-		requires_dlc_flag = medieval_monuments
-	}
+	# asset = {
+	# 	type = pdxmesh
+	# 	name = "building_special_york_walls_01_mesh"
+	# 	requires_dlc_flag = medieval_monuments
+	# }
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1118,7 +1118,7 @@ agot_walls_of_seagard_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 1000
 	cost_gold = expensive_building_tier_6_cost
 
 	max_garrison = 1200
@@ -1128,6 +1128,7 @@ agot_walls_of_seagard_01 = {
 		fort_level = 4
 		travel_danger = -25
 		# tax_mult = low_building_tax_mult_tier_3
+		levy_size = 0.1
 	}
 
 	character_modifier = {
@@ -1164,7 +1165,7 @@ agot_maidenpool_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 500
 	cost_gold = expensive_building_tier_6_cost
 
 	character_modifier = {
@@ -1381,9 +1382,13 @@ agot_wayfarers_rest_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
+	}
+
+	province_modifier = {
+		levy_size = 0.1
 	}
 
 	cost_gold = expensive_building_tier_7_cost
@@ -1494,7 +1499,7 @@ agot_atranta_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 800
 	cost_gold = expensive_building_tier_6_cost
 
 	county_holder_character_modifier = {
@@ -1506,6 +1511,7 @@ agot_atranta_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
+		levy_size = 0.2
 	}
 
 	ai_value = {
@@ -1746,7 +1752,7 @@ agot_stone_hedge_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 1000
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
@@ -1756,6 +1762,7 @@ agot_stone_hedge_01 = {
 	province_modifier = {
 		stationed_heavy_cavalry_damage_mult = 0.1
 		stationed_heavy_cavalry_toughness_mult = 0.1
+		levy_size = 0.3
 	}
 
 	county_modifier = {
@@ -1854,7 +1861,7 @@ agot_castamere_01 = {
 	province_modifier = {
 		defender_holding_advantage = 15
 		fort_level = 8
-		monthly_income = special_mine_building_tax_tier_5
+		monthly_income = 7
 	}
 
 	county_modifier = {
@@ -1930,10 +1937,12 @@ agot_castamere_ruins_02 = {
 
 	can_construct = {
 		custom_tooltip = {
-			text = HOLDER_NOT_TYWIN
-			NOT = { scope:holder = character:Lannister_1 }
+			text = HOLDER_NOT_LANNISTER
+			exists = holder
+			holder = {
+				NOT = { has_dynasty = dynn_Lannister }
+			}
 		}
-		has_holding_type = castle_holding
 	}
 
 	asset = {
@@ -1957,7 +1966,7 @@ agot_castamere_ruins_02 = {
 	province_modifier = {
 		defender_holding_advantage = 15
 		fort_level = 8
-		monthly_income = special_mine_building_tax_tier_5
+		monthly_income = 7
 	}
 
 	county_modifier = {
@@ -2088,7 +2097,7 @@ agot_crakehall_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 800
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -2106,9 +2115,9 @@ agot_crakehall_01 = {
 	}
 
 	province_modifier = {
-		stationed_heavy_cavalry_damage_mult = high_maa_damage_tier_4
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_4
-		stationed_heavy_cavalry_pursuit_mult = high_maa_pursuit_tier_4
+		stationed_heavy_cavalry_damage_mult = 0.1
+		stationed_heavy_cavalry_toughness_mult = 0.1
+		levy_size = 0.1
 	}
 
 	ai_value = {
@@ -3593,7 +3602,7 @@ agot_dreadfort_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 800
 	cost_gold = expensive_building_tier_6_cost
 
 	character_modifier = {
@@ -3605,6 +3614,7 @@ agot_dreadfort_01 = {
 
 	province_modifier = {
 		fort_level = 4
+		levy_size = 0.1
 	}
 
 	county_modifier = {
@@ -3636,15 +3646,17 @@ agot_karhold_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 1000
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
 		fort_level = 4
+		monthly_income = 2
 	}
 	county_modifier = {
 		hostile_raid_time = 0.8
 		defender_holding_advantage = 8
+		levy_size = 0.2
 	}
 
 	ai_value = {
@@ -3795,9 +3807,9 @@ agot_rills_stables_01 = {
 
 	province_modifier = {
 		stationed_light_cavalry_pursuit_mult = high_maa_pursuit_tier_4
-		stationed_heavy_cavalry_pursuit_mult = high_maa_pursuit_tier_4
+		stationed_heavy_cavalry_pursuit_mult = 0.1
 		stationed_light_cavalry_toughness_mult = high_maa_toughness_tier_4
-		stationed_heavy_cavalry_toughness_mult = high_maa_toughness_tier_4
+		stationed_heavy_cavalry_toughness_mult = 0.1
 	}
 
 	character_modifier = {
@@ -4166,7 +4178,7 @@ agot_last_hearth_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 800
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4182,6 +4194,7 @@ agot_last_hearth_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
+		levy_size = 0.2
 	}
 
 	county_modifier = {
@@ -4384,10 +4397,13 @@ agot_goldengrove_01 = {
 		development_growth_factor = 0.25
 		monthly_county_control_growth_factor = 0.1
 		county_opinion_add = 10
+		heavy_cavalry_damage_mult = 0.1
+		heavy_cavalry_toughness_mult = 0.1
 	}
-
+	levy = 1500
 	province_modifier = {
-		monthly_income = good_building_tax_tier_8
+		monthly_income = 2
+		levy_size = 0.3
 	}
 
 	ai_value = {
@@ -4411,7 +4427,7 @@ agot_bitterbridge_01 = {
 		type = pdxmesh
 		name = "building_special_bitterbridge_mesh"
 	}
-
+	levy = 500
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -4457,7 +4473,7 @@ agot_bitterbridge_02 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4579,7 +4595,7 @@ agot_cider_hall_01 = {
 		type = pdxmesh
 		name = "fp4_legendary_hunting_lodge_01_a_mesh"
 	}
-
+	levy = 500
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -4592,6 +4608,8 @@ agot_cider_hall_01 = {
 	county_modifier = {
 		development_growth_factor = 0.1
 		travel_danger = -10
+		levy_size = 0.1
+		monthly_income = 2
 	}
 
 	is_enabled = {
@@ -4729,7 +4747,7 @@ agot_ashford_tourney_grounds_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4767,7 +4785,7 @@ agot_brightwater_moat_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 800
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4777,6 +4795,7 @@ agot_brightwater_moat_01 = {
 	province_modifier = {
 		fort_level = 3
 		defender_holding_advantage = 4
+		levy_size = 0.2
 	}
 
 	county_modifier = {
@@ -5082,7 +5101,7 @@ agot_grafton_keep_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 250
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
@@ -5093,11 +5112,14 @@ agot_grafton_keep_01 = {
 
 	province_modifier = {
 		fort_level = 2
+		monthly_income = 5
 	}
 
 	county_modifier = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
+		tax_mult = 0.15
+		levy_size = 0.5
 	}
 
 	ai_value = {
@@ -5127,8 +5149,7 @@ agot_gull_harbor_01 = {
 	}
 
 	province_modifier = {
-		levy_size = 1
-		monthly_income = copper_mine_building_tax_tier_2
+		monthly_income = 5
 	}
 
 	ai_value = {
@@ -5201,7 +5222,7 @@ agot_gold_feather_house_01 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
+		monthly_income = 2
 	}
 
 	character_modifier = {
@@ -5279,7 +5300,7 @@ agot_runestone_01 = {
 		martial_per_piety_level = 2
 		owned_legend_spread_mult = 0.1
 	}
-
+	levy = 800
 	county_modifier = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
@@ -5287,6 +5308,7 @@ agot_runestone_01 = {
 
 	province_modifier = {
 		fort_level = 4
+		levy_size = 0.1
 	}
 
 	is_enabled = {
@@ -5435,7 +5457,7 @@ agot_redfort_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 1000
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -5449,10 +5471,12 @@ agot_redfort_01 = {
 		mountains_levy_size = 0.1
 		majorroad_mountains_levy_size = 0.1
 		minorroad_mountains_levy_size = 0.1
+		monthly_income = 1.5
 	}
 
 	province_modifier = {
 		fort_level = 4
+		levy_size = 0.2
 	}
 
 	ai_value = {
@@ -5516,7 +5540,7 @@ agot_ironoaks_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -5552,7 +5576,7 @@ agot_strongsong_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -5566,6 +5590,7 @@ agot_strongsong_01 = {
 		mountains_supply_limit_mult = 0.1
 		majorroad_mountains_supply_limit_mult = 0.1
 		minorroad_mountains_supply_limit_mult = 0.1
+		levy_size = 0.2
 	}
 
 	province_modifier = {
@@ -6020,7 +6045,7 @@ agot_volmark_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_1
+		monthly_income = 1
 	}
 
 	ai_value = {

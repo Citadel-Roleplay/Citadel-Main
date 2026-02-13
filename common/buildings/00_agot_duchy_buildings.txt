@@ -42,7 +42,7 @@ agot_vineyard_01 = {
 		monthly_county_control_growth_factor = 0.1
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_2
+		monthly_income = 1
 	}
 
 	next_building = agot_vineyard_02
@@ -106,7 +106,7 @@ agot_vineyard_02 = {
 		monthly_county_control_growth_factor = 0.2
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_4
+		monthly_income = 1.5 # Nerfed
 	}
 
 	next_building = agot_vineyard_03
@@ -170,7 +170,7 @@ agot_vineyard_03 = {
 		monthly_county_control_growth_factor = 0.3
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_6
+		monthly_income = 2
 	}
 
 	type_icon = "icon_building_vineyard.dds"
@@ -217,7 +217,7 @@ agot_lighthouse_01 = {
 		development_growth_factor = 0.1
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_2
+		monthly_income = 1
 	}
 	character_modifier = {
 		embarkation_cost_mult = -0.05
@@ -268,7 +268,7 @@ agot_lighthouse_02 = {
 		development_growth_factor = 0.2
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_4
+		monthly_income = 1.25 # Nerfed
 	}
 	character_modifier = {
 		embarkation_cost_mult = -0.1
@@ -317,7 +317,7 @@ agot_lighthouse_03 = {
 		development_growth_factor = 0.3
 	}
 	province_modifier = {
-		monthly_income = excellent_building_tax_tier_6
+		monthly_income = 1.75 # Nerfed
 	}
 	character_modifier = {
 		embarkation_cost_mult = -0.15

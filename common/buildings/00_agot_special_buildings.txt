@@ -925,7 +925,7 @@ casterly_rock_01 = {
 	province_modifier = {
 		defender_holding_advantage = 20
 		fort_level = 20
-		monthly_income = special_mine_building_tax_tier_5
+		monthly_income = 10
 	}
 
 	county_modifier = {
@@ -961,7 +961,7 @@ highgarden_01 = {
 		type = pdxmesh
 		name = "building_special_highgarden_mesh"
 	}
-
+	levy = 600
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -979,6 +979,7 @@ highgarden_01 = {
 	province_modifier = {
 		fort_level = 2
 		# tax_mult = good_building_tax_mult_tier_8
+		levy_size = 0.4
 	}
 
 	county_modifier = {
@@ -1221,7 +1222,6 @@ moat_cailin_01 = {
 	next_building = moat_cailin_02
 
 	character_modifier = {
-		domain_limit = 1
 	}
 
 	province_modifier = {
@@ -1337,7 +1337,6 @@ moat_cailin_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	character_modifier = {
-		domain_limit = 1
 		monthly_prestige_gain_mult = 0.05
 		legitimacy_gain_mult = 0.05
 	}
@@ -1452,7 +1451,6 @@ moat_cailin_03 = {
 	cost_gold = expensive_building_tier_8_cost
 
 	character_modifier = {
-		domain_limit = 1
 		monthly_prestige_gain_mult = 0.1
 		legitimacy_gain_mult = 0.1
 	}
@@ -1561,11 +1559,12 @@ dragonstone_01 = {
 		legitimacy_gain_mult = 0.1
 		owned_legend_spread_mult = 0.1
 		knight_effectiveness_per_dread = 0.0025
+		army_maintenance_mult = -0.2
 	}
 
 	province_modifier = {
 		fort_level = 6
-		monthly_income = good_building_tax_tier_3
+		monthly_income = 2
 	}
 
 	county_modifier = {
@@ -1595,7 +1594,7 @@ the_hightower_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	levy = 500
 	asset = {
 		type = pdxmesh
 		name = "building_special_hightower_mesh"
@@ -1618,11 +1617,12 @@ the_hightower_01 = {
 		diplomatic_range_mult = 0.25
 		owned_legend_spread_mult = 0.1
 		legitimacy_gain_mult = 0.1
+		vassal_tax_contribution_mult = -0.2
 	}
 
 	province_modifier = {
 		fort_level = 6
-		monthly_income = special_mine_building_tax_tier_3
+		monthly_income = 5
 	}
 
 	max_garrison = normal_building_max_garrison_tier_3
@@ -1876,7 +1876,7 @@ the_twins_01 = {
 		type = pdxmesh
 		name = "building_special_twins_mesh"
 	}
-
+	levy = 1000
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -1894,6 +1894,7 @@ the_twins_01 = {
 		defender_holding_advantage = 6
 		fort_level = 4
 		monthly_income = good_building_tax_tier_6
+		levy_size = 0.2
 	}
 
 	county_modifier = {

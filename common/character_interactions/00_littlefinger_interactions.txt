@@ -101,8 +101,8 @@
 				title = brothel_interaction_notification_declined
 				right_icon = scope:recipient
             }
+        }
     }
-
     # no on_decline needed for gold anymore
 }
 
