@@ -1396,6 +1396,8 @@ siege_works_01 = {
 	character_modifier = {
 		siege_weapon_recruitment_cost_mult = -0.2
 		siege_weapon_maintenance_mult = -0.2
+		anti_dragon_maintenance_mult = -0.2
+		anti_dragon_recruitment_cost_mult = -0.2
 	}
 	province_modifier = {
 		stationed_siege_weapon_siege_value_mult = 0.25
@@ -1458,6 +1460,8 @@ siege_works_02 = {
 	character_modifier = {
 		siege_weapon_recruitment_cost_mult = -0.35
 		siege_weapon_maintenance_mult = -0.35
+		anti_dragon_maintenance_mult = -0.35
+		anti_dragon_recruitment_cost_mult = -0.35
 	}
 	
 	province_modifier = {
@@ -1465,6 +1469,7 @@ siege_works_02 = {
 		stationed_siege_weapon_toughness_add = 25
 		stationed_siege_weapon_damage_add = 25
 		stationed_siege_weapon_pursuit_add = 25
+		stationed_anti_dragon_siege_value_mult = 0.35
 	}
 	duchy_capital_county_modifier = {
 		additional_fort_level = 4
@@ -1511,6 +1516,8 @@ siege_works_03 = {
 	character_modifier = {
 		siege_weapon_recruitment_cost_mult = -0.5
 		siege_weapon_maintenance_mult = -0.5
+		anti_dragon_maintenance_mult = -0.5
+		anti_dragon_recruitment_cost_mult = -0.5
 	}
 	
 	province_modifier = {
@@ -1518,6 +1525,7 @@ siege_works_03 = {
 		stationed_siege_weapon_toughness_add = 45
 		stationed_siege_weapon_damage_add = 45
 		stationed_siege_weapon_pursuit_add = 45
+		stationed_anti_dragon_siege_value_mult = 0.45
 	}
 	duchy_capital_county_modifier = {
 		additional_fort_level = 6

@@ -132,7 +132,7 @@ agot_lordsport_01 = {
     }
 
     province_modifier = {
-        monthly_income = copper_mine_building_tax_tier_3
+        monthly_income = 2
     }
 
     ai_value = {
@@ -531,7 +531,6 @@ agot_starpike_01 = {
         liege_opinion = 15
         personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
         owned_scheme_secrecy_add = -10
-        domain_limit = 1
     }
 
     cost_gold = expensive_building_tier_1_cost
@@ -731,7 +730,7 @@ yronwood_01 = {
         type = pdxmesh
         name = "building_special_yronwood_mesh"
     }
-
+    levy = 1000
     is_enabled = {
         agot_generic_is_special_building_enabled = yes
     }
@@ -748,12 +747,13 @@ yronwood_01 = {
         defender_holding_advantage = 8
         fort_level = 6
         monthly_income = silver_mine_building_tax_tier_3
+        levy_size = 0.2
     }
     county_modifier = {
         # tax_mult = 0.3
         development_growth_factor = 0.5
         #development_growth = 0.1
-        levy_size = 0.1
+        levy_size = 0.3
     }
 
     ai_value = {
@@ -891,7 +891,7 @@ agot_raventree_hall_01 = {
     character_modifier = {
         the_pact_religion_opinion = 10
     }
-
+    levy = 1000
     max_garrison = 400
     province_modifier = {
         defender_holding_advantage = 8
@@ -902,7 +902,7 @@ agot_raventree_hall_01 = {
         # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
-        levy_size = 0.1
+        levy_size = 0.3
     }
 
     ai_value = {
@@ -1060,7 +1060,7 @@ agot_ten_towers_01 = {
 
     province_modifier = {
         fort_level = 4
-        monthly_income = copper_mine_building_tax_tier_8
+        monthly_income = 1
     }
 
     ai_value = {
@@ -1139,7 +1139,6 @@ agot_evenfall_hall_01 = {
     }
 
     character_modifier = {
-        domain_limit = 4
         diplomacy_per_piety_level = 1
         monthly_lifestyle_xp_gain_mult = 0.1
     }
@@ -2025,7 +2024,7 @@ agot_karhold_01 = {
     }
 
     type_icon = "icon_structure_hotin_fortress.dds"
-
+    levy = 1000
     can_construct_potential = {
         building_requirement_tribal = no
     }
@@ -2035,8 +2034,9 @@ agot_karhold_01 = {
     province_modifier = {
         defender_holding_advantage = 8
         fort_level = 4
-        monthly_income = 1
+        monthly_income = 2
         hostile_raid_time = 0.8
+        levy_size = 0.2
     }
     county_modifier = {
         # tax_mult = 0.3
@@ -2093,7 +2093,8 @@ the_arbor_01 = {
     }
 
     province_modifier = {
-        monthly_income = 2.0
+        monthly_income = 5.0
+        tax_mult = 0.2
     }
 
     county_modifier = {
@@ -2503,11 +2504,12 @@ agot_starfall_01 = {
     type_icon = "palestone_tower.dds"
 
     cost_gold = 3000
-
+    levy = 500
     county_modifier = {
         hostile_raid_time = 0.5
+        levy_size = 0.2
     }
-
+    
     character_modifier = {
         movement_speed = 0.05
         stress_gain_mult = 0.15
@@ -2748,7 +2750,7 @@ agot_runestone_01 = {
     can_construct_potential = {
         building_requirement_tribal = no
     }
-
+    levy = 800
     character_modifier = {
         the_pact_religion_opinion = 10
         martial_per_piety_level = 2

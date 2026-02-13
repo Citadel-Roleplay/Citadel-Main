@@ -25,7 +25,7 @@
     
     province_modifier = {
         monthly_income = 1
-        tax_mult = 0.1
+        tax_mult = 0.01
     }
 
     character_modifier = {
