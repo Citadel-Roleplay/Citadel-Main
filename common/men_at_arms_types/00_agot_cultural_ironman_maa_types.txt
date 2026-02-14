@@ -29,11 +29,11 @@ ironborn_reavers = {
 		prestige = 45
 	}
 	low_maintenance_cost = { 
-		gold = 0.14
+		gold = 0.4
 		prestige = 0.14
 	}
 	high_maintenance_cost = { 
-		gold = 0.4
+		gold = 0.8
 		prestige = 0.4
 	}
 	provision_cost = @provisions_cost_infantry_cheap

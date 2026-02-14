@@ -196,5 +196,8 @@ set_provinces_start_citadel = {
         title:b_stoneclaw.title_province = {
             add_special_building = citadel_stoneclaw_vineyards
         } 
+        title:b_balmer_mill.title_province = {
+            add_special_building = citadel_northmarch
+        } 
     }
 }

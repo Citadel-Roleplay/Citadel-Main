@@ -56,7 +56,6 @@ sarsfield_horse_archers = {
 	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_moderate
 
-	max_regiments = 2
 	max_sub_regiments = 5
 	
 	stack = 100
