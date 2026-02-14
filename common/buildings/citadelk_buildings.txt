@@ -477,9 +477,9 @@ citadel_wesselvare = {	#House Varner - Reach.
 	
 	cost_gold = 500  
 	max_garrison = 150
-	levy = 450
+	levy = 200
 	county_modifier = {
-		levy_size = 0.4
+		levy_size = 0.1
 		development_growth_factor = 0.15
 	}
 
@@ -1918,8 +1918,8 @@ citadel_saan_estate = {
 
 	province_modifier = {
 		stationed_heavy_infantry_toughness_mult = 0.15
-		stationed_heavy_infantry_damage_mult = 0.15
-		stationed_heavy_infantry_pursuit_mult = 0.15
+		stationed_heavy_infantry_damage_mult = 0.25
+		stationed_heavy_infantry_pursuit_mult = 0.25
 		stationed_heavy_infantry_screen_mult = 0.15
 		hostile_raid_time = 0.5
 	}
@@ -1930,6 +1930,7 @@ citadel_saan_estate = {
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.03
 		monthly_prestige = 0.25
+		intimidated_vassal_tax_contribution_mult = 0.15
 	}	
 
 	ai_value = {
@@ -2111,9 +2112,10 @@ citadel_vinetown = {
 	character_modifier = {
 		liege_opinion = 15
 		stewardship = 1
-		naval_movement_speed_mult = -0.15
+		naval_movement_speed_mult = 0.15
 		embarkation_cost_mult = -0.25
 		domain_limit = -1
+		army_maintenance_mult = 0.2
 	}	
 
 	ai_value = {
@@ -2185,7 +2187,7 @@ citadel_newkeep = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = 0.2
+		monthly_income = 1
 		levy_size = 0.2
 		stationed_heavy_cavalry_damage_mult = 0.1
 		stationed_heavy_cavalry_toughness_mult = 0.1
@@ -2214,7 +2216,7 @@ citadel_hearts_home = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	levy = 800
+	levy = 500
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		culture = {
@@ -2226,7 +2228,7 @@ citadel_hearts_home = {
 
 	province_modifier = {
 		monthly_income = 1
-		levy_size = 0.2
+		levy_size = 0.1
 		stationed_skirmishers_damage_mult = 0.5
 		stationed_skirmishers_toughness_mult = 0.5
 	}
@@ -2276,6 +2278,290 @@ citadel_snakewood = {
 	character_modifier = {
 		prowess = 2
 		lifestyle_hunter_xp_gain_mult = 0.25
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+citadel_silverhall = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	levy = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 4
+		levy_size = 0.1
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	next_building = citadel_silverhall2
+	flag = travel_point_of_interest_economic
+}
+
+citadel_silverhall2 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	levy = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1200
+
+	province_modifier = {
+		monthly_income = 8
+		levy_size = 0.1
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+}
+
+citadel_new_barrel = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "new_barrel.dds"
+
+	effect_desc = feast_cost_discount_max_desc
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	levy = 200
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1200
+
+	province_modifier = {
+		levy_size = 0.1
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		diplomacy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		negate_health_penalty_add = 0.3
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+}
+
+citadel_sweetport = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "citadel_harbor.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	levy = 200
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1200
+
+	province_modifier = {
+		levy_size = 0.1
+		monthly_income = 0.5
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+}
+
+citadel_starfish_vineyards = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_vineyard.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 3
+		tax_mult = 0.2
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		liege_opinion = 15
+		stewardship = 1
+		embarkation_cost_mult = -0.25
+		domain_limit = -1
+		army_maintenance_mult = 0.1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+citadel_peachtree_vineyards = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_vineyard.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 3
+		tax_mult = 0.2
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		liege_opinion = 15
+		stewardship = 1
+		embarkation_cost_mult = -0.25
+		domain_limit = -1
+		army_maintenance_mult = 0.1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+citadel_stoneclaw_vineyards = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_vineyard.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 3
+		tax_mult = 0.2
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		liege_opinion = 15
+		stewardship = 1
+		embarkation_cost_mult = -0.25
+		domain_limit = -1
+		army_maintenance_mult = 0.1
 	}	
 
 	ai_value = {

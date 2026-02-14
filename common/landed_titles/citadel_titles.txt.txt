@@ -1,0 +1,8 @@
+d_new_barrel = {
+    color = { 136 147 111 }
+    color2 = { 255 255 255 }
+
+    # capital = 1   # optional, county id
+
+    # IMPORTANT: no de jure duchies/counties here
+}

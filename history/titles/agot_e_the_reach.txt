@@ -5592,7 +5592,7 @@ k_the_northmarch = {
 		holder = Rowan_53
 	}
 	8280.1.1 = {
-		holder = 0
+		holder = Rowan_1
 	}
 }
 d_goldengrove = {
@@ -8551,6 +8551,14 @@ c_daresbury = {
 		holder = Lysander_88
 	}
 }
+
+d_new_barrel = {
+	8275.10.10 = {
+		liege = e_the_reach
+		holder = Fossoway_New_Barrel_4
+	}
+}
+
 d_orchard_way = {
 	2000.1.1 = {
 		liege = k_the_mander
@@ -8787,6 +8795,7 @@ c_new_barrel = {
 		holder = Fossoway_40
 	}
 	8195.1.1 = {
+		liege = d_new_barrel
 		holder = Fossoway_49
 	}
 	8215.1.1 = {
@@ -8847,6 +8856,9 @@ c_sugarbush = {
 	}
 	8178.1.1 = {
 		holder = Rummand_36
+	}
+	8196.11.22 = {
+		liege = d_new_barrel
 	}
 	8200.1.1 = {
 		holder = Rummand_37
@@ -9418,7 +9430,7 @@ c_burkley = {
 		holder = Macey_80
 	}
 	8233.6.1 = {
-		liege = d_orchard_way
+		liege = e_the_reach
 	}
 	8243.1.1 = {
 		holder = Macey_85
@@ -10357,15 +10369,15 @@ d_shield_islands = {
 		holder = Hewett_1
 	}
 	8271.1.1 = {
-		holder = Hewett_3
+		holder = 0
 	}
 	8300.4.30 = {
-		holder = Hewett_4
+		holder = 0
 	}
 }
 c_oakenshield = {
 	2000.1.1 = {
-		liege = d_shield_islands
+		liege = e_the_reach
 		holder = Hewett_13
 	}
 	7860.1.1 = {
@@ -10422,7 +10434,7 @@ c_oakenshield = {
 }
 c_greenshield = {
 	60.1.1 = {
-		liege = d_shield_islands
+		liege = e_the_reach
 	}
 	7877.1.1 = {
 		holder = Chester_4
@@ -10487,7 +10499,7 @@ c_greenshield = {
 }
 c_greyshield = {
 	60.1.1 = {
-		liege = d_shield_islands
+		liege = e_the_reach
 	}
 	7875.1.1 = {
 		holder = Grimm_4
@@ -10540,7 +10552,7 @@ c_greyshield = {
 }
 c_small_shields = {
 	60.1.1 = {
-		liege = d_shield_islands
+		liege = e_the_reach
 	}
 	7831.1.1 = {
 		holder = Hythe_1
@@ -13260,7 +13272,7 @@ c_whitegrove = {
 		holder = Peake_59
 	}
 	8196.11.22 = {
-		liege = d_orchard_way
+		liege = d_new_barrel
 		holder = Fossoway_49
 	}
 	8215.1.1 = {
@@ -14058,7 +14070,7 @@ c_mandale = {
 }
 c_southshield = {
 	60.1.1 = {
-		liege = d_shield_islands
+		liege = e_the_reach
 	}
 	7850.1.1 = {
 		holder = Serry_7

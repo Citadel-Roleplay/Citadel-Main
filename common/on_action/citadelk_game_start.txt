@@ -152,7 +152,7 @@ set_provinces_start_citadel = {
             add_special_building = citadel_skullhammer
         }
         title:b_morrefall.title_province = {
-            add_special_building = citadel_skullhammer
+            add_special_building = citadel_morrefall
         } 
         title:b_golden_vines.title_province = {  
             add_special_building = citadel_vinetown
@@ -169,8 +169,32 @@ set_provinces_start_citadel = {
         title:b_snakewood.title_province = {  
             add_special_building = citadel_snakewood
         } 
-        title:b_fairgate_tower.title_province = {  
-            add_special_building = citadel_fairmarket3
+        title:b_silverhall.title_province = {  
+            add_special_building = citadel_silverhall
+        } 
+        title:b_wesselvare.title_province = {  
+            add_special_building = citadel_wesselvare
+        } 
+        title:b_argent_mine.title_province = {
+            remove_building = silverhill_mines_01
+        }
+        title:b_new_barrel.title_province = {
+            add_special_building = citadel_new_barrel
+        }
+        # title:b_spalding.title_province = {
+        #     add_special_building = silverhill_mines_01
+        # }
+        title:b_sweetport.title_province = {
+            add_special_building = citadel_sweetport
+        } 
+        title:b_starfish_keep.title_province = {
+            add_special_building = citadel_starfish_vineyards
+        }  
+        title:b_peachtree.title_province = {
+            add_special_building = citadel_peachtree_vineyards
+        } 
+        title:b_stoneclaw.title_province = {
+            add_special_building = citadel_stoneclaw_vineyards
         } 
     }
 }

@@ -16,6 +16,25 @@
  building_citadel_snakewood:1 "Snakewood Castle"
  building_citadel_snakewood_desc:1 "Hidden among dense forests and winding paths, Snakewood serves as the seat of House Lynderly. Its secluded position and cautious rulers have long made it a quiet but respected stronghold of the Vale."
 
+ building_type_citadel_new_barrel:1 "The New Barrel"
+ building_citadel_new_barrel:1 "The New Barrel"
+ building_citadel_new_barrel_desc:1 "Raised by the Green Apple Fossoways after the Ashford division, the New Barrel is part cellar, part statement. Its cider and wine flow through the Reach, buying friendships and proving that this younger branch can thrive without the red apple’s shadow."
+
+ building_type_citadel_sweetport:1 "Sweetport Sound"
+ building_citadel_sweetport:1 "Sweetport"
+ building_citadel_sweetport_desc:1 "Seat of House Sunglass, Sweetport watches over the narrow waters between the Crownlands and Dragonstone. Though small and windswept, its harbor and faithful lords have long served as quiet guardians of the king’s seas."
+
+ building_type_citadel_starfish_vineyards:1 "Starfish Vineyards"
+ building_citadel_starfish_vineyards:1 "Starfish Vineyards"
+ building_citadel_starfish_vineyards_desc:1 "Spread across the gentle hills near Starfish Keep, these vineyards benefit from the Arbor’s warm sun and sea breeze. Their wines are prized across the Reach, bringing steady wealth and quiet prestige to their lords."
+
+ building_type_citadel_peachtree_vineyards:1 "Peachtree Vineyards"
+ building_citadel_peachtree_vineyards:1 "Peachtree Vineyards"
+ building_citadel_peachtree_vineyards_desc:1 "Nestled among fertile slopes, the Peachtree Vineyards flourish under the Arbor’s gentle climate. Their sweet wines and careful cultivation have made them a modest but respected source of prosperity for the local lords."
+
+ building_type_citadel_stoneclaw_vineyards:1 "Stoneclaw Vineyards"
+ building_citadel_stoneclaw_vineyards:1 "Stoneclaw Vineyards"
+ building_citadel_stoneclaw_vineyards_desc:1 "Growing between rocky hills and sea wind, the Stoneclaw Vineyards produce hardy grapes shaped by the Arbor’s rugged coast. Though less famed than other estates, their strong wines are valued by sailors and merchants alike."
 
  building_type_citadel_the_ring:1 "The Ring"
  building_citadel_the_ring:1 "The Ring"
@@ -33,6 +52,19 @@
  building_type_citadel_skullhammer:1 "Skullhammer"
  building_citadel_skullhammer:1 "Skullhammer Trade Enclave"
  building_citadel_skullhammer_desc:1 "Carved into the jagged cliffs of a lawless Stepstones island, Skullhammer grew from a raider’s refuge into a thriving center of illicit trade. Smugglers, sellsails, and merchants alike gather beneath its weathered towers, where coin flows more freely than loyalty. Though rough in appearance, the enclave fuels local wealth through tariffs, docking rights, and the constant exchange of plunder and goods from across the Narrow Sea."
+
+ building_type_citadel_silverhall:1 "Silverhalls Mines"
+ building_citadel_silverhall:1 "Silverhalls Mines"
+ building_citadel_silverhall_desc:1 "Seat of House Serrett, the Silverhalls are famed for their immense wealth and prosperous lands. Trade, silver, and careful stewardship have made the house one of the richest in the Westerlands, drawing merchants and nobles alike to its glittering halls."
+ building_type_citadel_silverhalls:1 "Expanded Silverhalls Mines"
+ building_citadel_silverhall2:1 "Expanded Silverhalls Mines"
+ building_citadel_silverhall2_desc:1 "The mines of Silverhalls have been expanded, with new shafts driven deeper into the earth in search of richer veins. More workers, more tools, and deeper digging bring ever greater wealth and power to House Serrett."
+
+ building_type_citadel_morrefall:1 "Morrefall Archery Camp"
+ building_citadel_morrefall:1 "Morrefall"
+ building_citadel_morrefall_desc:1 "Hidden among broken cliffs and scrub, Morrefall is known only to those who sail the Stepstones by choice rather than law. Here, pirate bowmen train in silence, learning to strike from concealment and vanish before their prey knows where the arrows came from."
+
+
 
  building_type_test_building_01:1 "Caerphilly Castle"
  building_test_building_01:1 "Caerphilly Castle"

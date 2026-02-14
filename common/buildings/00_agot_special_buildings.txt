@@ -961,7 +961,7 @@ highgarden_01 = {
 		type = pdxmesh
 		name = "building_special_highgarden_mesh"
 	}
-	levy = 600
+	levy = 800
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -974,6 +974,7 @@ highgarden_01 = {
 		owned_legend_spread_mult = 0.1
 		legitimacy_gain_mult = 0.1
 		monthly_court_grandeur_change_mult = 0.1
+		# vassal_tax_contribution_mult = 0.2
 	}
 
 	province_modifier = {
@@ -1876,7 +1877,7 @@ the_twins_01 = {
 		type = pdxmesh
 		name = "building_special_twins_mesh"
 	}
-	levy = 1000
+	levy = 800
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -2775,7 +2776,7 @@ mines_of_the_tooth_01 = {
 		type = pdxmesh
 		name = "building_special_mines_mesh"
 	}
-
+	levy = 500
 	can_construct_potential = {
 		building_requirement_tribal = no
 		building_requirement_castle_city_church = { LEVEL = 01 }
@@ -2791,7 +2792,8 @@ mines_of_the_tooth_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_1
+		monthly_income = 2
+		levy_size = 0.1
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_1
@@ -2819,7 +2821,7 @@ mines_of_the_tooth_02 = {
 		type = pdxmesh
 		name = "building_special_mines_mesh"
 	}
-
+	levy = 500
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -2837,7 +2839,8 @@ mines_of_the_tooth_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_2
+		monthly_income = 4
+		levy_size = 0.1
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_2
@@ -2864,8 +2867,8 @@ mines_of_the_tooth_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_special_mines_mesh"
-	}
-
+	}	
+	levy = 500
 	can_construct_potential = {
 
 		building_requirement_tribal = no
@@ -2884,7 +2887,8 @@ mines_of_the_tooth_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_3
+		monthly_income = 6
+		levy_size = 0.1
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_3
@@ -2910,7 +2914,7 @@ mines_of_the_tooth_04 = {
 		type = pdxmesh
 		name = "building_special_mines_mesh"
 	}
-
+	levy = 500
 	can_construct_potential = {
 
 		building_requirement_tribal = no
@@ -2926,10 +2930,11 @@ mines_of_the_tooth_04 = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = expensive_building_tier_6_cost
+	cost_gold = 8
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_4
+		monthly_income = 8
+		levy_size = 0.1
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_4
@@ -3161,7 +3166,7 @@ nunns_deep_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_1
+		monthly_income = 1
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_1
@@ -3207,7 +3212,7 @@ nunns_deep_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_2
+		monthly_income = 2
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_2
@@ -3254,7 +3259,7 @@ nunns_deep_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_3
+		monthly_income = 3
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_3
@@ -3301,7 +3306,7 @@ nunns_deep_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = special_mine_building_tax_tier_4
+		monthly_income = 4
 	}
 	county_modifier = {
 		# tax_mult = normal_building_tax_mult_tier_4
@@ -3347,7 +3352,7 @@ silverhill_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_1
+		monthly_income = 1
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_5
@@ -3393,7 +3398,7 @@ silverhill_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_2
+		monthly_income = 2
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_6
@@ -3439,7 +3444,7 @@ silverhill_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_3
+		monthly_income = 3
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_7
@@ -3485,7 +3490,7 @@ silverhill_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_4
+		monthly_income = 4
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_8

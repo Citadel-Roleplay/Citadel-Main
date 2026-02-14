@@ -929,7 +929,7 @@ agot_duskendale_01 = {
         building_requirement_tribal = no
         county = { holder.dynasty = dynasty:dynn_Darklyn }
     }
-
+    levy = 400
     can_construct = {
         exists = title:d_kingsguard.holder
         game_start_date >= 8010.1.1
@@ -959,7 +959,7 @@ agot_duskendale_01 = {
         # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
-        levy_size = 0.1
+        levy_size = 0.2 
     }
 
 
@@ -1984,6 +1984,8 @@ hornhill_01 = {
         defender_holding_advantage = 8
         fort_level = 6
         monthly_income = 1
+        stationed_archers_damage_mult = 0.25
+        stationed_archers_pursuit_mult = 0.25
     }
     county_modifier = {
         # tax_mult = 0.3

@@ -2097,7 +2097,7 @@ agot_crakehall_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	levy = 800
+	levy = 400
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4403,7 +4403,7 @@ agot_goldengrove_01 = {
 	levy = 1500
 	province_modifier = {
 		monthly_income = 2
-		levy_size = 0.3
+		levy_size = 0.5
 	}
 
 	ai_value = {
@@ -4589,13 +4589,13 @@ agot_cider_hall_01 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_inn.dds"
+	type_icon = "new_barrel.dds"
 
 	asset = {
 		type = pdxmesh
 		name = "fp4_legendary_hunting_lodge_01_a_mesh"
 	}
-	levy = 500
+	levy = 250
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -4608,8 +4608,6 @@ agot_cider_hall_01 = {
 	county_modifier = {
 		development_growth_factor = 0.1
 		travel_danger = -10
-		levy_size = 0.1
-		monthly_income = 2
 	}
 
 	is_enabled = {
@@ -5457,7 +5455,7 @@ agot_redfort_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	levy = 1000
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -5476,7 +5474,7 @@ agot_redfort_01 = {
 
 	province_modifier = {
 		fort_level = 4
-		levy_size = 0.2
+		levy_size = 0.1
 	}
 
 	ai_value = {
