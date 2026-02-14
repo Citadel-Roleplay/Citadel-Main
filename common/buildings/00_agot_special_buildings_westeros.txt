@@ -3602,7 +3602,7 @@ agot_dreadfort_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 800
+	levy = 500
 	cost_gold = expensive_building_tier_6_cost
 
 	character_modifier = {
@@ -4194,7 +4194,7 @@ agot_last_hearth_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
-		levy_size = 0.2
+		levy_size = 0.1
 	}
 
 	county_modifier = {
@@ -4400,10 +4400,8 @@ agot_goldengrove_01 = {
 		heavy_cavalry_damage_mult = 0.1
 		heavy_cavalry_toughness_mult = 0.1
 	}
-	levy = 1500
 	province_modifier = {
-		monthly_income = 2
-		levy_size = 0.5
+		monthly_income = 3
 	}
 
 	ai_value = {

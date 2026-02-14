@@ -64,6 +64,11 @@
  building_citadel_morrefall:1 "Morrefall"
  building_citadel_morrefall_desc:1 "Hidden among broken cliffs and scrub, Morrefall is known only to those who sail the Stepstones by choice rather than law. Here, pirate bowmen train in silence, learning to strike from concealment and vanish before their prey knows where the arrows came from."
 
+ building_type_citadel_northmarch:1 "The Northmarch"
+ building_citadel_northmarch:1 "Northmarch"
+ building_citadel_northmarch_desc:1 "The vast lands of House Rowan stretch across some of the most fertile fields in the Reach. Rich harvests and wide domains grant the Rowans immense strength, making them among the most powerful lords of the Reach and counted by many among the greatest houses of Westeros."
+ citadel_northmarch_enabled_loc:0 "Building active: Proper title requirement fulfilled."
+ citadel_northmarch_disabled_loc:0 "Building deactivated: You must hold either $k_the_northmarch$ or $e_the_reach$ for this building to be activated."
 
 
  building_type_test_building_01:1 "Caerphilly Castle"

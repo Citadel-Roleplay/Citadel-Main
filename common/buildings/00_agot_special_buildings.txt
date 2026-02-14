@@ -1894,7 +1894,6 @@ the_twins_01 = {
 	province_modifier = {
 		defender_holding_advantage = 6
 		fort_level = 4
-		monthly_income = good_building_tax_tier_6
 		levy_size = 0.2
 	}
 

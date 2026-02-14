@@ -2026,7 +2026,7 @@ agot_karhold_01 = {
     }
 
     type_icon = "icon_structure_hotin_fortress.dds"
-    levy = 1000
+    levy = 900
     can_construct_potential = {
         building_requirement_tribal = no
     }
