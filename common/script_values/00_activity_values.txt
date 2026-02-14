@@ -1526,7 +1526,7 @@ activity_cost_scale_by_tier = {
 		add = {
 			value = root.primary_title.tier
 			subtract = 1
-			multiply = 0.25
+			multiply = 0.25 #Hambone
 		}
 	}
 	min = 1
