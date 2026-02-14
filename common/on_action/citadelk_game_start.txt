@@ -1,0 +1,200 @@
+﻿on_game_start = {
+    on_actions = {
+        set_provinces_start_citadel
+    }
+
+    
+}
+
+set_provinces_start_citadel = {
+    effect = {
+        # title:b_ten_towers.title_province = {
+        #     remove_building = harlaw_mines_01
+        #     add_special_building = citadel_ten_towers_noport
+        # }
+        # title:b_blackhaven.title_province = {
+        #     remove_building = agot_blackhaven_01
+        #     add_special_building = blackhaven2
+        # }
+        title:b_port_of_arryn.title_province = {
+            remove_building = portarryan_01
+            add_special_building = gulltown_customs_house_01
+        }
+        title:b_lanniskeep.title_province = {
+            remove_building = lannisport_01
+            add_special_building = city_of_lannisport_01
+        }
+        title:b_debtors_docks.title_province = {
+            add_special_building = lannisport_01
+        }
+        title:b_whitecaster.title_province = {
+            add_special_building = citadel_fisher
+        }
+        title:b_spearwatch_island.title_province = {
+            add_special_building = citadel_spearwatch_island
+        }
+        title:b_bottleneck.title_province = {
+            add_special_building = citadel_princesspath
+        }
+        title:b_dunestale.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_truestable.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_scarcrest.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_dustwalk.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_first_well.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_goodsprings.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_three_strings.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_castle_burndune.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_willburn.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_hellholt.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_torrid_drifts.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_first_sand.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_arnight_hall.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_sulphur_hall.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_brimstone_hall.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_steamfall.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_dantellion.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_dustbowl_keep.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_desert_hearth.title_province = {
+            add_special_building = citadel_dornishdunes
+        }
+        title:b_blackcrown.title_province = {
+            add_special_building = citadel_singingcliffs
+        }
+        title:b_bandallon.title_province = {
+            add_special_building = citadel_bandallon
+        }
+        title:b_bloatstone.title_province = {
+            add_special_building = citadel_saltcliffe
+        }
+        title:b_blacktyde_castle.title_province = {
+            add_special_building = citadel_blacktyde
+        }
+        title:b_needlewater.title_province = {
+            add_special_building = citadel_crackclaw_mountains
+        }
+        title:b_dyre_den.title_province = {
+            add_special_building = citadel_crackclaw_mountains
+        }
+        title:b_plankside.title_province = {
+            add_special_building = citadel_crackclaw_mountains
+        }
+        title:b_whispers.title_province = {
+            remove_building = whispers_01
+            add_special_building = citadel_whispers_ruin
+        }
+        title:b_castle_stokeworth.title_province = {
+            add_special_building = citadel_castle_stokeworth
+        }
+        title:b_antlers.title_province = {
+            add_special_building = citadel_antlers
+        }
+        title:b_maston.title_province = {
+            add_special_building = citadel_maston
+        }
+        title:b_blackpool.title_province = {
+            add_special_building = citadel_blackpool
+        }
+        title:b_castle_cerwyn.title_province = {
+            add_special_building = citadel_castle_cerwyn
+        }
+        title:b_haystack_hall.title_province = {
+            add_special_building = citadel_haystack_hall
+        }
+        title:b_cleganes_keep.title_province = {
+            remove_building = fang_hill_kennel_01
+        }
+        title:b_deepen_hall.title_province = {
+            add_special_building = citadel_dulver_mine1
+        }
+        title:b_viridian_stay.title_province = {
+            add_special_building = citadel_saan_estate
+        }
+        title:b_three_towers.title_province = {
+            add_special_building = citadel_three_towers
+        } 
+        title:b_skullhammer.title_province = {
+            add_special_building = citadel_skullhammer
+        }
+        title:b_morrefall.title_province = {
+            add_special_building = citadel_morrefall
+        } 
+        title:b_golden_vines.title_province = {  
+            add_special_building = citadel_vinetown
+        }
+        title:b_the_ring.title_province = {  
+            add_special_building = citadel_the_ring 
+        }
+        title:b_newkeep.title_province = {  
+            add_special_building = citadel_newkeep
+        }
+        title:b_hearts_home.title_province = {  
+            add_special_building = citadel_hearts_home
+        }  
+        title:b_snakewood.title_province = {  
+            add_special_building = citadel_snakewood
+        } 
+        title:b_silverhall.title_province = {  
+            add_special_building = citadel_silverhall
+        } 
+        title:b_wesselvare.title_province = {  
+            add_special_building = citadel_wesselvare
+        } 
+        title:b_argent_mine.title_province = {
+            remove_building = silverhill_mines_01
+        }
+        title:b_new_barrel.title_province = {
+            add_special_building = citadel_new_barrel
+        }
+        # title:b_spalding.title_province = {
+        #     add_special_building = silverhill_mines_01
+        # }
+        title:b_sweetport.title_province = {
+            add_special_building = citadel_sweetport
+        } 
+        title:b_starfish_keep.title_province = {
+            add_special_building = citadel_starfish_vineyards
+        }  
+        title:b_peachtree.title_province = {
+            add_special_building = citadel_peachtree_vineyards
+        } 
+        title:b_stoneclaw.title_province = {
+            add_special_building = citadel_stoneclaw_vineyards
+        } 
+    }
+}

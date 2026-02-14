@@ -4439,12 +4439,12 @@ d_rundridge = {
 		holder = Plumm_23
 	}
 	8267.1.1 = {
-		holder = Plumm_1
+		holder = 0
 	}
 }
 c_roundtowers = {
 	7854.1.1 = {
-		liege = d_rundridge
+		liege = e_the_westerlands
 		holder = Plumm_6
 	}
 	7880.1.1 = {
@@ -4495,7 +4495,7 @@ c_roundtowers = {
 }
 c_stilwood = {
 	7854.1.1 = {
-		liege = d_rundridge
+		liege = e_the_westerlands
 	}
 	7877.1.1 = {
 		holder = Stillwood_4
@@ -4557,7 +4557,7 @@ c_pleasant_hills = {
 		holder = Merrell_4
 	}
 	7854.1.1 = {
-		liege = d_rundridge
+		liege = e_the_westerlands
 	}
 	7857.1.1 = {
 		holder = Merrell_5
@@ -4613,7 +4613,7 @@ c_pleasant_hills = {
 }
 c_stingrock = {
 	7854.1.1 = {
-		liege = d_rundridge
+		liege = e_the_westerlands
 	}
 	7864.1.1 = {
 		holder = Lorch_6
@@ -5525,12 +5525,12 @@ d_the_fieldlands = {
 		holder = Swyft_46
 	}
 	8257.1.1 = {
-		holder = Swyft_1
+		holder = 0
 	}
 }
 c_cornfield = {
 	7866.1.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 		holder = Swyft_8
 	}
 	7879.1.1 = {
@@ -5587,7 +5587,7 @@ c_toll_pass = {
 		holder = Tortoll_22
 	}
 	7866.1.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 	}
 	7857.1.1 = {
 		holder = Tortoll_7
@@ -5639,7 +5639,7 @@ c_toll_pass = {
 		liege = e_the_reach
 	}
 	8261.11.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 	}
 	8273.1.1 = {
 		holder = Tortoll_1 # Jason
@@ -5650,7 +5650,7 @@ c_greenfield = {
 		holder = Greenfield_9
 	}
 	7866.1.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 	}
 	7879.1.1 = {
 		holder = Greenfield_10
@@ -6357,7 +6357,7 @@ c_wellsmere = {
 		holder = Voyald_78
 	}
 	7866.1.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 	}
 	7888.1.1 = {
 		holder = Voyald_8
@@ -6481,7 +6481,7 @@ c_midvale = {
 }
 c_averill = {
 	7866.1.1 = {
-		liege = d_the_fieldlands
+		liege = e_the_westerlands
 	}
 	7867.1.1 = {
 		holder = Avery_20
