@@ -5101,7 +5101,7 @@ agot_grafton_keep_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 250
+	levy = 500
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
