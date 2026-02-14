@@ -850,7 +850,7 @@
 }
 ################### b_west_tower ##################
 ########### c_the_westtwins - d_the_westcrossing ##########
-8232 = {
+8233 = {
 	culture = marsh_riverlander
 	religion = fots_seven
 	holding = castle_holding

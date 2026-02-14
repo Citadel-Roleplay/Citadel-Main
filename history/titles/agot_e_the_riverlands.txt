@@ -7414,6 +7414,75 @@ c_the_twins = {
 		holder = Frey_1
 	}
 }
+
+d_the_westcrossing = {
+	holder = 0
+}
+c_the_westtwins{
+	7595.1.1 = {
+		liege = d_the_crossing
+	}
+	7730.1.1 = {
+		holder = Frey_141
+	}
+	7760.1.1 = {
+		holder = Frey_142
+	}
+	7783.1.1 = {
+		holder = Frey_143
+	}
+	7811.1.1 = {
+		holder = Frey_102
+	}
+	7844.1.1 = {
+		holder = Frey_103
+	}
+	7871.1.1 = {
+		holder = Frey_104
+	}
+	7901.1.1 = {
+		holder = Frey_108
+	}
+	7916.1.1 = {
+		holder = Frey_145
+	}
+	7966.1.1 = {
+		holder = Frey_165
+	}
+	7970.1.1 = {
+		holder = Frey_166
+	}
+	8013.1.1 = {
+		holder = Frey_169
+	}
+	8026.1.1 = {
+		holder = Frey_174
+	}
+	8071.1.1 = {
+		holder = Frey_110
+	}
+	8091.1.1 = {
+		holder = Frey_111
+	}
+	8111.1.1 = {
+		holder = Frey_113
+	}
+	8122.1.1 = {
+		holder = Frey_116
+	}
+	8130.3.5 = {
+		holder = Frey_120
+	}
+	8169.1.1 = {
+		holder = Frey_131
+	}
+	8210.1.1 = {
+		holder = Frey_132
+	}
+	8231.1.1 = {
+		holder = Frey_1
+	}
+}
 c_arganbrook = {
 	7595.1.1 = {
 		liege = d_the_crossing

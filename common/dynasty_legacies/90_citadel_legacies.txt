@@ -1,0 +1,10 @@
+﻿ 
+dulver_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Dulver
+			dynasty = { has_dynasty_perk = dulver_legacy_1 }
+		}
+	}
+}
+

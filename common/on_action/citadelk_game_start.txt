@@ -199,5 +199,8 @@ set_provinces_start_citadel = {
         title:b_balmer_mill.title_province = {
             add_special_building = citadel_northmarch
         } 
+        title:b_west_tower.title_province = {
+            add_special_building = citadel_westtwin
+        } 
     }
 }

@@ -1,0 +1,125 @@
+﻿dulver_legacy_1 = { 
+	legacy = dulver_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dulver
+	}
+
+	effect = { # Effect is applied in the on action 'on_birth_child
+		custom_description_no_bullet = {
+			text = dulver_legacy_1_effect
+		}
+	}
+
+	traits = {
+		brave = 100
+	}
+
+	character_modifier = {
+		martial = 1
+		dynasty_opinion = 10
+		prowess = 1 
+	}
+	ai_chance = {
+		value = 100
+	}
+
+}
+
+dulver_legacy_2 = { # Reapers of Fair Isle
+	legacy = dulver_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dulver
+	}
+
+	effect = {  #Unlocks MAA Reapers of Dulver
+		custom_description_no_bullet = {
+			text = dulver_legacy_2_effect
+		}
+	}
+
+	character_modifier = {
+		holding_build_speed = -0.1
+	    holding_build_gold_cost = -0.1
+	}
+	ai_chance = {
+		value = 100
+	}
+
+}
+
+dulver_legacy_3 = { # Bitter Rivals, Broken Chains
+	legacy = dulver_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dulver
+	}
+
+	effect = { 
+		custom_description_no_bullet = {
+			text = dulver_legacy_3_effect
+		}
+	}
+
+	traits = {
+		vengeful = 100
+	}
+
+	character_modifier = {
+		stewardship = 1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		development_growth_factor = 0.15
+	}
+	ai_chance = {
+		value = 100
+	}
+
+}
+
+dulver_legacy_4 = { # Kingsmoot-Crowned
+	legacy = dulver_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dulver
+	}
+
+	effect = { 
+		custom_description_no_bullet = {
+			text = dulver_legacy_4_effect
+		}
+	}
+	
+	character_modifier = {
+		defender_advantage = 3
+		knight_effectiveness_mult = 0.10
+	}
+	ai_chance = {
+		value = 100
+	}
+
+}
+
+dulver_legacy_5 = { #  The Scythe Remembers
+	legacy = dulver_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Dulver
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dulver_legacy_5_effect
+		}
+	}
+
+	character_modifier = {
+		prowess = 2
+		skirmishers_max_size_add = 2
+        skirmishers_screen_add = 10
+	}
+	ai_chance = {
+		value = 100
+	}
+
+}
