@@ -240,7 +240,7 @@ planned_cultivation_perk = {
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		trait_track_travel_xp_gain_mult = 1
-		men_at_arms_recruitment_cost = -0.25
+		men_at_arms_recruitment_cost = -0.10
 	}
 	
 	government_character_modifier = {
@@ -252,7 +252,7 @@ planned_cultivation_perk = {
 	government_character_modifier = {
 		flag = government_is_custom_landless
 		trait_track_travel_xp_gain_mult = 1
-		men_at_arms_recruitment_cost = -0.25
+		men_at_arms_recruitment_cost = -0.10
 	}
 	
 	effect = {
@@ -312,16 +312,16 @@ scholarly_circles_perk = {
 	}
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		enemy_terrain_advantage = -0.5
-		knight_effectiveness_per_learning = 0.005
+		enemy_terrain_advantage = -0.2
+		knight_effectiveness_per_learning = 0.01
 		learning_per_piety_level = -1
 	}
 
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		enemy_terrain_advantage = -0.5
-		knight_effectiveness_per_learning = 0.005
+		enemy_terrain_advantage = -0.2
+		knight_effectiveness_per_learning = 0.01
 		learning_per_piety_level = -1
 	}
 }

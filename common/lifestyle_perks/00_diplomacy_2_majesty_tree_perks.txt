@@ -201,7 +201,7 @@ firm_hand_perk = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
 		monthly_prestige_gain_per_dread_mult = 0.004
-		knight_effectiveness_per_dread = 0.001
+		knight_effectiveness_per_dread = 0.01
 	}
 }
 
@@ -511,17 +511,17 @@ dignitas_perk = {
 	
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		diplomacy_per_prestige_level = 1
-		martial_per_prestige_level = 1
-		intrigue_per_prestige_level = 1
+		# diplomacy_per_prestige_level = 1
+		# martial_per_prestige_level = 1
+		# intrigue_per_prestige_level = 1
 	}
 
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		diplomacy_per_prestige_level = 1
-		martial_per_prestige_level = 1
-		intrigue_per_prestige_level = 1
+		# diplomacy_per_prestige_level = 1
+		# martial_per_prestige_level = 1
+		# intrigue_per_prestige_level = 1
 	}
 
 	effect = {

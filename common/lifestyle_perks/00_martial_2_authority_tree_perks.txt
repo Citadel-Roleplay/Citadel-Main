@@ -132,9 +132,9 @@ enduring_hardships_perk = {
 	
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		provisions_use_mult = -0.2
-		defender_advantage = 10
-		hard_casualty_modifier = -0.25
+		provisions_use_mult = -0.1
+		defender_advantage = 5
+		hard_casualty_modifier = -0.1
 	}
 	
 	effect = {
@@ -153,9 +153,9 @@ enduring_hardships_perk = {
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		provisions_use_mult = -0.2
-		defender_advantage = 10
-		hard_casualty_modifier = -0.25
+		provisions_use_mult = -0.1
+		defender_advantage = 5
+		hard_casualty_modifier = -0.1
 	}
 }
 
@@ -173,11 +173,11 @@ prepared_conscription_perk = {
 		# invert_check = yes
 		flag = government_is_default
 		levy_reinforcement_rate_friendly_territory = 1
-		army_maintenance_mult = -0.15
+		army_maintenance_mult = -0.05
 	}
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		men_at_arms_recruitment_cost = -0.2
+		men_at_arms_recruitment_cost = -0.1
 	}
 	government_character_modifier = {
 		flag = government_is_nomadic
@@ -293,7 +293,7 @@ hard_rule_perk = {
 	}
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		maa_damage_mult = 0.1
+		maa_damage_mult = 0.05
 	}
 
 	effect = {
@@ -318,7 +318,7 @@ hard_rule_perk = {
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		maa_damage_mult = 0.1
+		maa_damage_mult = 0.05
 	}
 }
 
@@ -335,11 +335,11 @@ soldiers_of_lesser_fortune_perk = {
 		# flag = government_is_landless_adventurer
 		# invert_check = yes
 		flag = government_is_default
-		mercenary_hire_cost_mult = -0.3
+		mercenary_hire_cost_mult = -0.2
 	}
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		men_at_arms_recruitment_cost = -0.2
+		men_at_arms_recruitment_cost = -0.1
 	}
 	effect = {
 		if = {
@@ -355,7 +355,7 @@ soldiers_of_lesser_fortune_perk = {
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		men_at_arms_recruitment_cost = -0.2
+		men_at_arms_recruitment_cost = -0.1
 	}
 }
 

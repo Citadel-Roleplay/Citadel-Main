@@ -81,7 +81,7 @@ heregeld_perk = {
 		# flag = government_is_landless_adventurer
 		# invert_check = yes
 		flag = government_is_default
-		vassal_tax_contribution_mult = 0.1
+		vassal_tax_contribution_mult = 0.05
 		tributary_tax_mult = 0.1
 	}
 	
@@ -130,7 +130,7 @@ detailed_ledgers_perk = {
 		# invert_check = yes
 		flag = government_is_default
 		republic_government_opinion = 20
-		republic_government_tax_contribution_mult = 0.15
+		republic_government_tax_contribution_mult = 0.05
 	}
 	
 	government_character_modifier = {
@@ -145,12 +145,12 @@ detailed_ledgers_perk = {
 	
 	government_character_modifier = {
 		flag = government_is_administrative
-		administrative_government_tax_contribution_mult = 0.1
+		administrative_government_tax_contribution_mult = 0.05
 	}
 
 	government_character_modifier = {
 		flag = government_has_treasury
-		monthly_treasury_from_salary_budget_mult = 0.1
+		monthly_treasury_from_salary_budget_mult = 0.05
 	}
 
 	#AGOT Added
@@ -228,7 +228,7 @@ fearful_troops_perk = {
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
-		men_at_arms_maintenance_per_dread_mult = -0.005
+		men_at_arms_maintenance_per_dread_mult = -0.001
 	}
 	
 	effect = {
@@ -336,7 +336,7 @@ golden_aplomb_perk = {
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
-		monthly_income_per_stress_level_mult = 0.1
+		monthly_income_per_stress_level_mult = 0.02
 	}
 	
 	effect = {
@@ -404,13 +404,13 @@ at_any_cost_perk = {
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
-		domain_tax_mult = 0.1
+		domain_tax_mult = 0.05
 	}
 
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		stewardship_per_stress_level = 2
+		stewardship = 2
 	}
 }
 

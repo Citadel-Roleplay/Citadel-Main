@@ -131,7 +131,7 @@ court_of_shadows_perk_admin_percentage = 10
 # Prepared for Anything
 prepared_for_anything_perk_secondary_percentage = 15
 #Dark Insights perk values
-dark_insights_stat_increase_chance = 50 # The chance of gaining a stat point from torturing people
+dark_insights_stat_increase_chance = 25 # The chance of gaining a stat point from torturing people
 dark_insights_prowess_increase_maximum = 5 # The maximum amount of Prowess that can be gained from Dark Insights
 dark_insights_intrigue_increase_maximum = 5 # The maximum amount of Intrigue that can be gained from Dark Insights
 home_advantage_perk_bonus = 50 # Bonus granted to seduce schemes against courtiers
@@ -250,7 +250,7 @@ duty_focus_value = -20
 clerical_justifications_percentage = 20
 
 # Learn on the Job
-learn_on_the_job_percentage = 20
+learn_on_the_job_percentage = 10
 
 # Zealous Proselytizer
 zealous_proselytizer_percentage = 25
@@ -998,7 +998,7 @@ voyager_journey_planner_value = {
 }
 
 wanderer_destination_prestige_value = {
-	value = 50
+	value = 25
 }
 
 wanderer_finally_there_prestige_value = {

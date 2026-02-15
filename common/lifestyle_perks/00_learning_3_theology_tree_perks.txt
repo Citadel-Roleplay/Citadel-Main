@@ -380,16 +380,16 @@ radiant_perk = {
 	}
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		martial_per_piety_level = 1
-		intrigue_per_piety_level = 1
+		# martial_per_piety_level = 1
+		# intrigue_per_piety_level = 1
 		prowess_per_piety_level = 1
 	}
 
 	#AGOT Added
 	government_character_modifier = {
 		flag = government_is_custom_landless
-		martial_per_piety_level = 1
-		intrigue_per_piety_level = 1
+		# martial_per_piety_level = 1
+		# intrigue_per_piety_level = 1
 		prowess_per_piety_level = 1
 	}
 }

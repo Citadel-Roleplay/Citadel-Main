@@ -287,7 +287,8 @@ large_levies_perk = {
 		# flag = government_is_landless_adventurer
 		# invert_check = yes
 		flag = government_is_default
-		vassal_levy_contribution_mult = 0.2
+		# vassal_levy_contribution_mult = 0.2
+		levy_reinforcement_rate_friendly_territory = 1
 	}
 	
 	government_character_modifier = {
@@ -428,8 +429,8 @@ honored_to_serve_perk = {
 	government_character_modifier = {
 		flag = has_unique_government_perks
 		invert_check = yes
-		happy_powerful_vassal_tax_contribution_mult = 0.2
-		happy_powerful_vassal_levy_contribution_mult = 0.2
+		happy_powerful_vassal_tax_contribution_mult = 0.1
+		# happy_powerful_vassal_levy_contribution_mult = 0.2
 		happy_powerful_vassal_herd_contribution_mult = 0.2
 	}
 
