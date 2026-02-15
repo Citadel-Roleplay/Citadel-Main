@@ -2271,6 +2271,10 @@ agot_fair_isle_01 = {
 		diplomatic_range_mult = 0.15
 	}
 
+	province_modifier = {
+		monthly_income = 2
+	}
+
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_3
 		development_growth_factor = 0.15
