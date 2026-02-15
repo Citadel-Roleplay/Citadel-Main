@@ -2928,7 +2928,7 @@ mines_of_the_tooth_04 = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = 8
+	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
 		monthly_income = 8
