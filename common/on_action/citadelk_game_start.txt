@@ -193,6 +193,7 @@ set_provinces_start_citadel = {
         } 
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
+            add_building = tax_assessor_01
         } 
         title:b_wesselvare.title_province = {  
             add_special_building = citadel_wesselvare
@@ -230,6 +231,9 @@ set_provinces_start_citadel = {
         title:b_stillhouse.title_province = {
             add_special_building = citadel_stillhouse_vineyards
         }
+
+        # ADD NORMAL BUILDINGS
+
         title:b_west_tower.title_province = {
             add_special_building = citadel_westtwin
             add_building = curtain_walls_06
@@ -254,5 +258,19 @@ set_provinces_start_citadel = {
             add_building = stables_04
             add_building = windmills_06
         } 
+        title:b_hayholt.title_province = {
+            add_special_building = citadel_hayholt
+            add_building = tax_assessor_03
+        } 
+        title:b_balmer_mill.title_province = {
+            add_special_building = watermills_08
+        } 
+        title:b_spalding.title_province = {  
+            add_building = hill_forts_02
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = watermills_01
+            add_building = quarries_01
+        }
     }
 }

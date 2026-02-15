@@ -157,15 +157,15 @@ feudal_government_levies = {
 			position = { 1 0 }
 
 			levies = {
-				value = 0.1
+				value = 0
 				if = {
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
-						add = -10
+						add = 0
 					}
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
-						add = 0.25
+						add = 0
 					}
 				}
 			}
@@ -181,15 +181,15 @@ feudal_government_levies = {
 			position = { 2 0 }
 
 			levies = {
-				value = 0.25
+				value = 0
 				if = {
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
-						add = -10
+						add = 0
 					}
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
-						add = 0.25
+						add = 0
 					}
 				}
 			}
@@ -203,15 +203,15 @@ feudal_government_levies = {
 			position = { 3 0 }
 			
 			levies = {
-				value = 0.35
+				value = 0
 				if = {
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
-						add = -10
+						add = 0
 					}
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
-						add = 0.25
+						add = 0
 					}
 				}
 			}
@@ -227,15 +227,15 @@ feudal_government_levies = {
 			position = { 4 0 }
 			
 			levies = {
-				value = 0.5
+				value = 0
 				if = {
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
-						add = -10
+						add = 0
 					}
 					if = {
 						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
-						add = 0.25
+						add = 0
 					}
 				}
 			}

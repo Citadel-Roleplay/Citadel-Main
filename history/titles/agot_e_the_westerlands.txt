@@ -4780,6 +4780,11 @@ c_silverhill = {
 		holder = Serrett_1
 	}
 }
+b_spalding = {
+	8266.1.1 = {
+		holder = Serrett_1
+	}
+}
 c_featherhorn = {
 	7855.1.1 = {
 		liege = d_sterling

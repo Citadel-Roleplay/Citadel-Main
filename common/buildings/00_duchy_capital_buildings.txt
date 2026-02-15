@@ -2538,9 +2538,10 @@ tax_assessor_01 = {
 		monthly_county_control_growth_factor = 0.1
 	}
 
-	character_modifier = {
+	province_modifier = {
 		monthly_income = 1
 	}
+
 	
 	next_building = tax_assessor_02
 
@@ -2609,8 +2610,7 @@ tax_assessor_02 = {
 		development_growth = 0.15
 		monthly_county_control_growth_factor = 0.15
 	}
-
-	character_modifier = {
+	province_modifier = {
 		monthly_income = 2
 	}
 	
@@ -2657,7 +2657,7 @@ tax_assessor_03 = {
 		monthly_county_control_growth_factor = 0.2
 	}
 
-	character_modifier = {
+	province_modifier = {
 		monthly_income = 3
 	}
 	

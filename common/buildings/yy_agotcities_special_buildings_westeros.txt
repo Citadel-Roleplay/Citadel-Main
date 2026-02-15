@@ -1983,7 +1983,6 @@ hornhill_01 = {
     province_modifier = {
         defender_holding_advantage = 8
         fort_level = 6
-        monthly_income = 1
         stationed_archers_damage_mult = 0.25
         stationed_archers_pursuit_mult = 0.25
     }
