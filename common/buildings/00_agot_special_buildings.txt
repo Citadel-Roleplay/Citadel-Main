@@ -1618,12 +1618,11 @@ the_hightower_01 = {
 		diplomatic_range_mult = 0.25
 		owned_legend_spread_mult = 0.1
 		legitimacy_gain_mult = 0.1
-		vassal_tax_contribution_mult = -0.2
 	}
 
 	province_modifier = {
 		fort_level = 6
-		monthly_income = 5
+		monthly_income = 10
 	}
 
 	max_garrison = normal_building_max_garrison_tier_3
@@ -1877,7 +1876,7 @@ the_twins_01 = {
 		type = pdxmesh
 		name = "building_special_twins_mesh"
 	}
-	levy = 800
+	levy = 400
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -1894,7 +1893,7 @@ the_twins_01 = {
 	province_modifier = {
 		defender_holding_advantage = 6
 		fort_level = 4
-		levy_size = 0.2
+		levy_size = 0.1
 	}
 
 	county_modifier = {

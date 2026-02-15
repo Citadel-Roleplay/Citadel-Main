@@ -2096,7 +2096,6 @@ the_arbor_01 = {
 
     province_modifier = {
         monthly_income = 5.0
-        tax_mult = 0.2
     }
 
     county_modifier = {

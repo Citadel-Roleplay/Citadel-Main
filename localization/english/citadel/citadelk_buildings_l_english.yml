@@ -16,6 +16,23 @@
  building_citadel_snakewood:1 "Snakewood Castle"
  building_citadel_snakewood_desc:1 "Hidden among dense forests and winding paths, Snakewood serves as the seat of House Lynderly. Its secluded position and cautious rulers have long made it a quiet but respected stronghold of the Vale."
 
+ building_type_citadel_golden_vines:1 "Golden Vines Castle"
+ building_citadel_golden_vines:1 "Golden Vines Castle"
+ building_citadel_golden_vines_desc:1 "Seat of House Goldwyne, Golden Vines Castle oversees the rich vineyards surrounding Vinetown. From its halls, the harvest, trade, and flow of Arbor wines are carefully managed, securing wealth and influence for its lords."
+
+ building_type_citadel_westtwin:1 "The West Twin"
+ building_citadel_westtwin:1 "The West Twin"
+ building_citadel_westtwin_desc:1 "The western keep of the Twins stands guard over the Green Fork, forming half of House Frey’s famed crossing. Its walls watch the river traffic day and night, ensuring that all who pass pay their due to the lords who control the bridge."
+
+ building_type_citadel_woodbine:1 "Woodbine"
+ building_citadel_woodbine:1 "Woodbine Castle"
+ building_citadel_woodbine_desc:1 "Ancestral seat of House Ball, Woodbine stands among the fertile lands of the Reach. Though not among the greatest strongholds, its long lineage and loyal service have secured House Ball a respected place among the marcher lords."
+
+ building_type_citadel_stillhouse_vineyards:1 "Stillhouse Vineyards"
+ building_citadel_stillhouse_vineyards:1 "Stillhouse Vineyards"
+ building_citadel_stillhouse_vineyards_desc:1 "These vast vineyards form the heart of House Redwyne’s famed wine production on the Arbor. Carefully tended rows stretch across the hills, their harvest filling cellars and casks that travel to every corner of Westeros."
+
+
  building_type_citadel_new_barrel:1 "The New Barrel"
  building_citadel_new_barrel:1 "The New Barrel"
  building_citadel_new_barrel_desc:1 "Raised by the Green Apple Fossoways after the Ashford division, the New Barrel is part cellar, part statement. Its cider and wine flow through the Reach, buying friendships and proving that this younger branch can thrive without the red apple’s shadow."

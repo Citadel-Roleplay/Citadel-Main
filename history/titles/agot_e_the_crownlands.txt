@@ -2088,6 +2088,12 @@ c_duskendale = {
 		holder = Rykker_2
 	}
 }
+b_pick_hall {
+	8280.1.1 = {
+		holder = Rykker_2
+	}
+}
+
 b_highley = {
 	8028.1.1 = {
 		holder = Dargood_9

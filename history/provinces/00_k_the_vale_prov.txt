@@ -1565,7 +1565,7 @@
 ################### b_runestone ###################
 ############ c_runestone - d_runestone ############
 2455 = {
-	culture = bronzeman
+	culture = valeman_main
 	religion = fots_oldnew
 	holding = castle_holding
 	special_building = agot_runestone_01
@@ -1614,7 +1614,7 @@
 ################## b_bronzeguard ##################
 ########### c_bronzeguard - d_runestone ###########
 2461 = {
-	culture = bronzeman
+	culture = valeman_main
 	religion = fots_oldnew
 	holding = castle_holding
 	7824.1.1 = {
@@ -1647,7 +1647,7 @@
 ################### b_gull_tower ##################
 ############# c_gullview - d_runestone ############
 2466 = {
-	culture = bronzeman
+	culture = valeman_main
 	religion = fots_seven
 	holding = castle_holding
 	7824.1.1 = {
@@ -1675,7 +1675,7 @@
 ################## b_the_etchings #################
 ########### c_the_etchings - d_runestone ##########
 2470 = {
-	culture = bronzeman
+	culture = valeman_main
 	religion = fots_oldnew
 	holding = castle_holding
 	7824.1.1 = {
@@ -1695,7 +1695,7 @@
 ################# b_upcliffs_haven ################
 ############ c_witch_isle - d_runestone ###########
 2474 = {
-	culture = bronzeman
+	culture = valeman_main
 	religion = fots_oldnew
 	holding = castle_holding
 	special_building = agot_upcliffs_haven_01

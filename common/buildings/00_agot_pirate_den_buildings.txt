@@ -66,7 +66,6 @@ pirate_den_01 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	province_terrain_modifier = {
@@ -148,7 +147,6 @@ pirate_den_02 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	province_terrain_modifier = {
@@ -237,7 +235,6 @@ pirate_den_03 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	province_terrain_modifier = {
