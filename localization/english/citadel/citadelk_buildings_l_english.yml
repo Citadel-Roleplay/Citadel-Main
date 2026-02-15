@@ -61,6 +61,14 @@
  building_citadel_newkeep:1 "Newkeep"
  building_citadel_newkeep_desc:1 "A stern Vale stronghold held by House Hersy, Newkeep guards the mountain roads and stands as a symbol of quiet loyalty to the Arryns. Though modest in size, its disciplined household and enduring reputation bring steady prestige to its rulers."
 
+ building_type_citadel_longcove_center:1 "Longcove"
+ building_citadel_longcove_center:1 "Longcove"
+ building_citadel_longcove_center_desc:1 "Standing at the border between House Dondarrion and House Wyl, Longcove has endured generations of raids and border wars. The constant threat forged a strong martial tradition, keeping a great host always ready for war and earning the Dondarrions a reputation for fielding one of the most formidable armies in the Stormlands."
+
+ building_type_citadel_footway:1 "Footway"
+ building_citadel_footway:1 "Footway"
+ building_citadel_footway_desc:1 "Facing the ever-present strength of House Dondarrion across the border, House Wyl forged a long tradition of intensive conscription. The people of Footway are expected to answer the call to arms, ensuring that even this harsh frontier land can raise a host ready to defend its passes."
+
 
  building_type_citadel_three_towers:1 "Three Towers"
  building_citadel_three_towers:1 "Three Towers"
