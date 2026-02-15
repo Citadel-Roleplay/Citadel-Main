@@ -1,0 +1,437 @@
+﻿# BELAERYS
+
+belaerys_legacy_1 = { # Dragon Roads
+	legacy = belaerys_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Belaerys
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = belaerys_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		movement_speed = 0.05
+		character_travel_speed_mult = 0.05
+		character_travel_safety_mult = 0.05
+		monthly_county_control_growth_add = 0.15
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+belaerys_legacy_2 = { # The Legacy of Jaenara Belaerys
+	legacy = belaerys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = belaerys_legacy_2_effect
+		}
+	}
+
+	traits = {
+		ambitious = 100
+	}
+
+	character_modifier = {
+		martial = 1
+		prowess = 2
+		attraction_opinion = 10
+		glory_hound_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+belaerys_legacy_3 = { # Valyrian Dragonlords
+	legacy = belaerys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = belaerys_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial = 1
+		monthly_prestige_gain_mult = 0.5
+		legitimacy_gain_mult = 0.25
+		dread_baseline_add = 10
+		dread_gain_mult = 0.3
+		vassal_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+belaerys_legacy_4 = { # Riders of Terrax
+	legacy = belaerys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = belaerys_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		diplomacy = 1
+		monthly_prestige = 1
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+belaerys_legacy_5 = { # Valyrian Scouts
+	legacy = belaerys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = belaerys_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		skirmishers_maintenance_mult = -0.1
+		skirmishers_damage_mult = 0.05 
+		skirmishers_toughness_mult = 0.05
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+# VAREZYS
+
+varezys_legacy_1 = { # Valyrian Steel Legionaires
+	legacy = varezys_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Varezys
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = varezys_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		heavy_infantry_maintenance_mult = -0.1
+		heavy_infantry_damage_mult = 0.05 
+		heavy_infantry_toughness_mult = 0.05
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+varezys_legacy_2 = { # Valyrian Dragonlords
+	legacy = varezys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = varezys_legacy_2_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial = 1
+		monthly_prestige = 1.0
+		monthly_prestige_gain_mult = 0.5
+		legitimacy_gain_mult = 0.25
+		dread_baseline_add = 10
+		dread_gain_mult = 0.3
+		vassal_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+varezys_legacy_3 = { # The First Emperor of Valyria
+	legacy = varezys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = varezys_legacy_3_effect
+		}
+	}
+
+	traits = {
+		ambitious = 100
+	}
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+		monthly_prestige = 1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+varezys_legacy_4 = { # Dragon Roads
+	legacy = varezys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = varezys_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		movement_speed = 0.05
+		character_travel_speed_mult = 0.05
+		character_travel_safety_mult = 0.05
+		monthly_county_control_growth_add = 0.25
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+varezys_legacy_5 = { # A House of the Dark Arts
+	legacy = varezys_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = varezys_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		intrigue = 2
+		fertility = 0.05
+		health = 0.1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+# MATAERYON
+
+mataeryon_legacy_1 = { # Riders of Phytax
+	legacy = mataeryon_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Mataeryon
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = mataeryon_legacy_1_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		learning = 2
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+mataeryon_legacy_2 = { # Children of the Fourteen
+	legacy = mataeryon_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = mataeryon_legacy_2_effect
+		}
+	}
+
+	traits = {
+		zealous = 100
+	}
+
+	character_modifier = {
+		martial = 1
+		prowess = 2
+		clergy_opinion = 15
+		same_faith_opinion = 5
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+mataeryon_legacy_3 = { # Dragon Roads
+	legacy = mataeryon_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = mataeryon_legacy_3_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		movement_speed = 0.05
+		character_travel_speed_mult = 0.05
+		character_travel_safety_mult = 0.05
+		monthly_county_control_growth_add = 0.1
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
+
+mataeryon_legacy_4 = { # The Dragons Horns
+	legacy = mataeryon_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = mataeryon_legacy_4_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		pikemen_maintenance_mult = -0.1
+		pikemen_damage_mult = 0.05 
+		pikemen_toughness_mult = 0.05
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+mataeryon_legacy_5 = { # Valyrian Dragonlords
+	legacy = mataeryon_legacy_track
+
+	can_be_picked = { 
+		always = yes
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = mataeryon_legacy_5_effect
+		}
+	}
+
+	traits = {
+		
+	}
+
+	character_modifier = {
+		martial = 1
+		monthly_prestige_gain_mult = 0.5
+		legitimacy_gain_mult = 0.1
+		dread_baseline_add = 10
+		dread_gain_mult = 0.3
+		vassal_opinion = 10
+	}
+	
+	ai_chance = {
+		value = 100
+	}
+}
