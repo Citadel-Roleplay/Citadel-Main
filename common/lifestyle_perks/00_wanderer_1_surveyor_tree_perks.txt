@@ -68,8 +68,8 @@ local_inspection_perk = {
 
 	government_character_modifier = {
 		flag = government_is_settled
-		domain_tax_mult = 0.10
-		barons_and_minor_landholders_tax_contribution_mult = 0.1
+		domain_tax_mult = 0.05
+		barons_and_minor_landholders_tax_contribution_mult = 0.05
 	}
 
 	name = {
@@ -264,7 +264,7 @@ local_arbitration_perk = {
 
 	government_character_modifier = {
 		flag = government_is_settled
-		intimidated_vassal_tax_contribution_mult = 0.2
+		intimidated_vassal_tax_contribution_mult = 0.1
 	}
 
 	government_character_modifier = {
@@ -358,7 +358,7 @@ personal_touch_perk = {
 
 	government_character_modifier = {
 		flag = government_uses_domain_limit
-		domain_tax_mult = 0.15 #Apart from its immediate use this increases the places in which many of the other perks can apply.
+		domain_tax_mult = 0.05 #Apart from its immediate use this increases the places in which many of the other perks can apply.
 	}
 
 	government_character_modifier = {
