@@ -114,10 +114,12 @@ special_contract = {
 			score = 1
 
 			tax_factor = scutage_contract_tax
-			levies_factor = -0.75
+			# levies_factor = -0.75
 
 			subject_modifier = {
-				men_at_arms_maintenance = -0.2
+				levy_size = 0.1
+				levy_reinforcement_rate = 0.1
+				# men_at_arms_maintenance = -0.1
 			}
 
 			flag = has_scutage_contract
@@ -210,12 +212,10 @@ special_contract = {
 			tax_factor = march_contract_taxes
 
 			subject_modifier = {
-				levy_size = 0.2
-				army_maintenance_mult = -0.2
+				army_maintenance_mult = -0.1
 				garrison_size = 0.2
 				#AGOT Modified
 				#levy_reinforcement_rate = 0.2
-				levy_reinforcement_rate = 0.1
 				controlled_province_advantage = 5
 			}
 
@@ -268,8 +268,8 @@ special_contract = {
 			levies_factor = 0.5
 
 			subject_modifier = {
-				levy_size = 0.2
-				army_maintenance_mult = -0.2
+				levy_size = 0.1
+				army_maintenance_mult = -0.1
 				garrison_size = 0.2
 				#AGOT Modified
 				#levy_reinforcement_rate = 0.2
@@ -518,8 +518,8 @@ fortification_rights = {
 			}
 
 			subject_modifier = {
-				castle_holding_build_gold_cost = -0.15
-				castle_holding_holding_build_gold_cost = -0.5
+				castle_holding_build_gold_cost = -0.1
+				castle_holding_holding_build_gold_cost = -0.1
 				additional_fort_level = 1
 			}
 

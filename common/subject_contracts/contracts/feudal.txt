@@ -6,7 +6,7 @@
 			position = { 0 0 }
 
 			tax = exempt_feudal_tax
-			subject_opinion = 10
+			subject_opinion = 30
 
 			ai_liege_desire = 1
 			ai_subject_desire = 5
@@ -17,7 +17,7 @@
 			position = { 1 0 }
 
 			tax = low_feudal_tax
-			subject_opinion = 5
+			subject_opinion = 10
 
 			ai_liege_desire = {
 				value = 2
@@ -71,7 +71,7 @@
 			position = { 3 0 }
 			
 			tax = high_feudal_tax
-			subject_opinion = -15
+			subject_opinion = -50
 
 			ai_liege_desire = {
 				value = 5
@@ -99,7 +99,7 @@
 			position = { 4 0 }
 			
 			tax = extortionate_feudal_tax
-			subject_opinion = -25
+			subject_opinion = -70
 
 			ai_liege_desire = {
 				value = 6
@@ -132,7 +132,20 @@ feudal_government_levies = {
 		feudal_levies_exempt = {
 			position = { 0 0 }
 
-			levies = 0
+			levies = {
+				value = 0
+				if = {
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
+						add = -10
+					}
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
+						add = 0.25
+					}
+				}
+				
+			}
 			subject_opinion = 10
 
 			ai_liege_desire = 1
@@ -143,7 +156,19 @@ feudal_government_levies = {
 			parent = feudal_levies_exempt
 			position = { 1 0 }
 
-			levies = 0
+			levies = {
+				value = 0.1
+				if = {
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
+						add = -10
+					}
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
+						add = 0.25
+					}
+				}
+			}
 			subject_opinion = 5
 
 			ai_liege_desire = 2
@@ -155,7 +180,19 @@ feudal_government_levies = {
 			parent = feudal_levies_low
 			position = { 2 0 }
 
-			levies = 0
+			levies = {
+				value = 0.25
+				if = {
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
+						add = -10
+					}
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
+						add = 0.25
+					}
+				}
+			}
 
 			ai_liege_desire = 3
 			ai_subject_desire = 3
@@ -165,7 +202,19 @@ feudal_government_levies = {
 			parent = feudal_levies_normal
 			position = { 3 0 }
 			
-			levies = 0
+			levies = {
+				value = 0.35
+				if = {
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
+						add = -10
+					}
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
+						add = 0.25
+					}
+				}
+			}
 			subject_opinion = -15
 
 			ai_liege_desire = 4
@@ -177,7 +226,19 @@ feudal_government_levies = {
 			parent = feudal_levies_high
 			position = { 4 0 }
 			
-			levies = 0
+			levies = {
+				value = 0.5
+				if = {
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_disloyal_vassal } }
+						add = -10
+					}
+					if = {
+						limit = { scope:subject = { has_character_flag = agot_immersion_loyal_vassal } }
+						add = 0.25
+					}
+				}
+			}
 			subject_opinion = -25
 
 			ai_liege_desire = 5
