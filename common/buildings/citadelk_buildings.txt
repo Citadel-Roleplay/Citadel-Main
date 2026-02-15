@@ -2779,7 +2779,7 @@ citadel_longcove_center = {
 	ai_value = {
 		base = 100
 	}
-
+	
 	type = special
 	
 	flag = travel_point_of_interest_economic

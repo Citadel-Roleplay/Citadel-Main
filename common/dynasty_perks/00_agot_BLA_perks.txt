@@ -1180,7 +1180,7 @@ mooton_legacy_3 = { # Salt-Harvest Lords
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
+		domain_tax_mult = 0.05
 		vassal_tax_mult = 0.10
 		supply_limit_mult = 0.10
 	}
@@ -1375,8 +1375,8 @@ frey_legacy_1 = { # Taking their Toll
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
-		vassal_tax_mult = 0.10
+		domain_tax_mult = 0.05
+		vassal_tax_mult = 0.05
 		hostile_raid_time = 0.15
 	}
 	ai_chance = {
@@ -2090,8 +2090,8 @@ royce_legacy_4 = { # Runes of Authority
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.25
-		vassal_tax_mult = 0.10
+		monthly_prestige = 0.15
+		vassal_tax_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -6284,9 +6284,9 @@ lannister_legacy_3 = { # Golden Lions
 	
 	character_modifier = {
 		stewardship = 1
-		vassal_tax_mult = 0.10
-		domain_tax_mult = 0.20
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		vassal_tax_mult = 0.02
+		domain_tax_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -6309,10 +6309,10 @@ lannister_legacy_4 = { # To Rule in Shadow
 	}
 
 	character_modifier = {
-		owned_hostile_scheme_success_chance_add = 10
-		owned_personal_scheme_success_chance_add = 15
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
-		dread_baseline_add = 10
+		owned_hostile_scheme_success_chance_add = 5
+		owned_personal_scheme_success_chance_add = 10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		dread_baseline_add = 5
 	}
 	ai_chance = {
 		value = 100
@@ -6335,9 +6335,8 @@ lannister_legacy_5 = { # Hear Me Roar
 
 	character_modifier = {
 		diplomacy = 1
-		monthly_dynasty_prestige = 0.05
-		knight_effectiveness_mult = 0.15
-		dread_gain_mult = 0.20
+		knight_effectiveness_mult = 0.1
+		dread_gain_mult = 0.15
 	}
 	ai_chance = {
 		value = 100
@@ -9585,8 +9584,8 @@ lefford_legacy_3 = { # Coin Through Stone
 	}
 
 	character_modifier = {
-		vassal_tax_mult = 0.10
-		domain_tax_mult = 0.15  
+		vassal_tax_mult = 0.5
+		domain_tax_mult = 0.10 
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
 	}
 	ai_chance = {
@@ -23099,7 +23098,6 @@ rogare_legacy_1 = { #  The Rogare Bank
 
 	character_modifier = {
 		stewardship = 1
-		monthly_income_mult = 0.10
 		build_gold_cost = -0.10
 	}
 	ai_chance = {
@@ -23208,7 +23206,6 @@ rogare_legacy_5 = { # The Fall and the Crypt
 
 	character_modifier = {
 		dread_gain_mult = 0.10
-		monthly_income_mult = -0.05 
 		stress_loss_mult = 0.05
 		learning = 1
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
@@ -23322,7 +23319,6 @@ saan_legacy_4 = { # The Band of Nine
 		heavy_infantry_damage_mult = 0.15
 		heavy_infantry_toughness_mult = 0.15
 		raid_speed = 0.10
-		monthly_income_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -23539,7 +23535,6 @@ antaryon_legacy_2 = { # Bankers' Blood
 	}
 
 	character_modifier = {
-		monthly_income_mult = 0.08
 		build_gold_cost = -0.10
 		mercenary_hire_cost_mult = -0.20
 	}
