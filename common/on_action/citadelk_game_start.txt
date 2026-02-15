@@ -171,6 +171,12 @@ set_provinces_start_citadel = {
         title:b_the_ring.title_province = {  
             add_special_building = citadel_the_ring 
         }
+        title:b_longcove.title_province = {  
+            add_special_building = citadel_longcove_center
+        }
+        title:b_footway.title_province = {  
+            add_special_building = citadel_footway
+        }
         title:b_newkeep.title_province = {  
             add_special_building = citadel_newkeep
             add_building = hill_forts_06
