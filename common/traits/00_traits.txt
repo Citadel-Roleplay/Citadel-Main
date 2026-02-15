@@ -1705,7 +1705,7 @@ avaricious = {
 	category = lifestyle
 
 	stewardship = 2
-	tax_mult = 0.1
+	tax_mult = 0.05
 
 	culture_modifier = {
 		parameter = maritime_mercantilism_avaricious_bonus
