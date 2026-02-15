@@ -3354,7 +3354,6 @@ castle_01 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	#AGOT Disabled until a trait uses these
@@ -6786,7 +6785,6 @@ castle_02 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	#AGOT Disabled until a trait uses these
@@ -10187,7 +10185,6 @@ castle_03 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	#AGOT Disabled until a trait uses these
@@ -13579,7 +13576,6 @@ castle_04 = {
 	province_terrain_modifier = {
 		parameter = maritime_mercantilism_coastal_holdings
 		is_coastal = yes
-		tax_mult = maritime_mercantilism_coastal_holdings_value
 	}
 
 	#AGOT Disabled until a trait uses these

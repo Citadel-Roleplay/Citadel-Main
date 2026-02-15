@@ -2712,7 +2712,6 @@ leisure_palace_01 = {
 		supply_limit_mult = 0.2
 		monthly_county_control_growth_factor = 0.2
 		monthly_county_control_growth_add = 0.2
-		tax_mult = 0.04
 	}
 	
 	next_building = leisure_palace_02
@@ -2788,7 +2787,6 @@ leisure_palace_02 = {
 		supply_limit_mult = 0.3
 		monthly_county_control_growth_factor = 0.4
 		monthly_county_control_growth_add = 0.3
-		tax_mult = 0.06
 	}
 	
 	next_building = leisure_palace_03
@@ -2843,7 +2841,6 @@ leisure_palace_03 = {
 		supply_limit_mult = 0.5
 		monthly_county_control_growth_factor = 0.6
 		monthly_county_control_growth_add = 0.4
-		tax_mult = 0.10
 	}
 	
 	type = duchy_capital

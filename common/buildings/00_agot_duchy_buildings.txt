@@ -106,7 +106,7 @@ agot_vineyard_02 = {
 		monthly_county_control_growth_factor = 0.2
 	}
 	province_modifier = {
-		monthly_income = 1.5 # Nerfed
+		monthly_income = 2 # Nerfed
 	}
 
 	next_building = agot_vineyard_03
@@ -170,7 +170,7 @@ agot_vineyard_03 = {
 		monthly_county_control_growth_factor = 0.3
 	}
 	province_modifier = {
-		monthly_income = 2
+		monthly_income = 3
 	}
 
 	type_icon = "icon_building_vineyard.dds"

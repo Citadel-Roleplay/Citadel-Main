@@ -8,6 +8,17 @@
 
 set_provinces_start_citadel = {
     effect = {
+        # Character Effects:
+        character:Mopatis_1 = {
+			add_gold = {
+				value = {
+					value = 0
+					add = { 1000 1000 }
+				}
+			}
+		}
+		
+		    
         # title:b_ten_towers.title_province = {
         #     remove_building = harlaw_mines_01
         #     add_special_building = citadel_ten_towers_noport
@@ -154,7 +165,7 @@ set_provinces_start_citadel = {
         title:b_morrefall.title_province = {
             add_special_building = citadel_morrefall
         } 
-        title:b_golden_vines.title_province = {  
+        title:b_winehouse.title_province = {  
             add_special_building = citadel_vinetown
         }
         title:b_the_ring.title_province = {  
@@ -162,6 +173,11 @@ set_provinces_start_citadel = {
         }
         title:b_newkeep.title_province = {  
             add_special_building = citadel_newkeep
+            add_building = hill_forts_06
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = watermills_05
+            add_building = smiths_04
         }
         title:b_hearts_home.title_province = {  
             add_special_building = citadel_hearts_home
@@ -187,20 +203,50 @@ set_provinces_start_citadel = {
         title:b_sweetport.title_province = {
             add_special_building = citadel_sweetport
         } 
-        title:b_starfish_keep.title_province = {
+        title:b_starfish_harbor.title_province = {
             add_special_building = citadel_starfish_vineyards
         }  
-        title:b_peachtree.title_province = {
+        title:b_peach_port.title_province = {
             add_special_building = citadel_peachtree_vineyards
         } 
-        title:b_stoneclaw.title_province = {
+        title:b_stonecrab_cay.title_province = {
             add_special_building = citadel_stoneclaw_vineyards
         } 
         title:b_balmer_mill.title_province = {
             add_special_building = citadel_northmarch
         } 
+        title:b_golden_vines.title_province = {
+            add_special_building = citadel_golden_vines
+        }  
+        title:b_woodbine.title_province = {
+            add_special_building = citadel_woodbine
+        }  
+        title:b_stillhouse.title_province = {
+            add_special_building = citadel_stillhouse_vineyards
+        }
         title:b_west_tower.title_province = {
             add_special_building = citadel_westtwin
+            add_building = curtain_walls_06
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = stables_04
+            add_building = smiths_04
+        }
+        title:b_cleganes_keep.title_province = {
+            add_building = curtain_walls_06
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = stables_04
+            add_building = smiths_04
+        } 
+        title:b_stone_hedge.title_province = {
+            add_special_building = agot_stone_hedge_01
+        }
+        title:b_pick_hall.title_province = {
+            add_building = curtain_walls_06
+            add_building = barracks_06
+            add_building = stables_04
+            add_building = windmills_06
         } 
     }
 }

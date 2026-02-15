@@ -2093,7 +2093,7 @@ agot_crakehall_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_building_boar.dds"
-
+	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
