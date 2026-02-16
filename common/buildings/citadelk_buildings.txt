@@ -1874,7 +1874,7 @@ citadel_saan_estate = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_building_pirate_economic.dds"
+	type_icon = "icon_ub_bidar_port.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1973,7 +1973,7 @@ citadel_skullhammer = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_building_pirate_economic.dds"
+	type_icon = "icon_structure_planky_town - Copy.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1998,7 +1998,8 @@ citadel_skullhammer = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = 1
+		monthly_income = 2
+		monthly_barter_goods = 5
 	}
 	county_modifier = {
 		development_growth_factor = 0.1
@@ -2052,6 +2053,8 @@ citadel_morrefall = {
 	}
 	character_modifier = {
 		monthly_prestige = 0.35
+		army_maintenance_mult = -0.15
+		martial = 1
 	}	
 
 	ai_value = {
@@ -2848,7 +2851,7 @@ citadel_hayholt = {
 	province_modifier = {
 		monthly_income = 2
 	}
-	county_modifier = 
+	county_modifier = {
 		hostile_raid_time = -0.25
 	}
 	character_modifier = {
@@ -2863,5 +2866,46 @@ citadel_hayholt = {
 	type = special
 	
 	flag = travel_point_of_interest_economic
+
+}
+
+citadel_gallow_cove = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_pirate_economic.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	levy = 200
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		stationed_skirmishers_damage_mult = 3
+		stationed_skirmishers_toughness_mult = 3
+	}
+	county_modifier = {
+		hostile_raid_time = -0.25
+	}
+	character_modifier = {
+		prowess = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+
 }
 

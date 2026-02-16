@@ -16,12 +16,14 @@ agot_pirate_control_01 = {
 		has_building_or_higher = pirate_den_01
 	}
 
-
 	county_modifier = {
 		monthly_county_control_growth_add = 0.2
 		county_opinion_add = 5
+		
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 0.25
+	}
 	character_modifier = {
 		knight_limit = 1
 		owned_legend_spread_mult = 0.15
@@ -50,7 +52,9 @@ agot_pirate_control_02 = {
 	can_construct_potential = {
 		has_building_or_higher = pirate_den_01
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 0.5
+	}
 	county_modifier = {
 		monthly_county_control_growth_add = 0.4
 		county_opinion_add = 5
@@ -83,7 +87,9 @@ agot_pirate_control_03 = {
 	can_construct_potential = {
 		has_building_or_higher = pirate_den_01
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 0.75
+	}
 	county_modifier = {
 		monthly_county_control_growth_add = 0.6
 		county_opinion_add = 10
@@ -115,7 +121,9 @@ agot_pirate_control_04 = {
 	can_construct_potential = {
 		has_building_or_higher = pirate_den_01
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 1
+	}
 	county_modifier = {
 		monthly_county_control_growth_add = 0.8
 		county_opinion_add = 10
@@ -147,7 +155,9 @@ agot_pirate_control_05 = {
 	can_construct_potential = {
 		has_building_or_higher = pirate_den_01
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 1.25
+	}
 	county_modifier = {
 		monthly_county_control_growth_add = 1
 		county_opinion_add = 15
@@ -179,7 +189,9 @@ agot_pirate_control_06 = {
 	can_construct_potential = {
 		has_building_or_higher = pirate_den_01
 	}
-
+	province_modifier = {
+		monthly_barter_goods = 1.50
+	}
 	county_modifier = {
 		monthly_county_control_growth_add = 1.2
 		county_opinion_add = 15
@@ -214,6 +226,7 @@ agot_pirate_economic_01 = {
 
 	province_modifier = {
 		monthly_income = 0.5
+		monthly_barter_goods = 0.5
 	}
 
 	next_building = agot_pirate_economic_02
@@ -243,6 +256,7 @@ agot_pirate_economic_02 = {
 
 	province_modifier = {
 		monthly_income = 0.7
+		monthly_barter_goods = 0.7
 	}
 
 	next_building = agot_pirate_economic_03
@@ -271,8 +285,9 @@ agot_pirate_economic_03 = {
 
 	province_modifier = {
 		monthly_income = 0.9
+		monthly_barter_goods = 0.9
 	}
-
+	
 	next_building = agot_pirate_economic_04
 	type_icon = "icon_building_pirate_economic.dds"
 	ai_value = {
@@ -299,6 +314,7 @@ agot_pirate_economic_04 = {
 
 	province_modifier = {
 		monthly_income = 1.1
+		monthly_barter_goods = 1.1
 	}
 
 	next_building = agot_pirate_economic_05
@@ -327,6 +343,7 @@ agot_pirate_economic_05 = {
 
 	province_modifier = {
 		monthly_income = 1.3
+		monthly_barter_goods = 1.3
 	}
 
 	next_building = agot_pirate_economic_06
@@ -355,6 +372,7 @@ agot_pirate_economic_06 = {
 
 	province_modifier = {
 		monthly_income = 1.5
+		monthly_barter_goods = 1.5
 	}
 
 	type_icon = "icon_building_pirate_economic.dds"
@@ -382,6 +400,7 @@ agot_pirate_supply_01 = {
 
 	province_modifier = {
 		supply_limit = 300
+		monthly_barter_goods = 0.25
 	}
 
 	county_modifier = {
@@ -419,6 +438,7 @@ agot_pirate_supply_02 = {
 
 	province_modifier = {
 		supply_limit = 600
+		monthly_barter_goods = 0.5
 	}
 
 	county_modifier = {
@@ -455,6 +475,7 @@ agot_pirate_supply_03 = {
 
 	province_modifier = {
 		supply_limit = 900
+		monthly_barter_goods = 0.75	
 	}
 
 	county_modifier = {
@@ -491,6 +512,7 @@ agot_pirate_supply_04 = {
 
 	province_modifier = {
 		supply_limit = 1200
+		monthly_barter_goods = 1.0
 	}
 
 	county_modifier = {
@@ -527,6 +549,7 @@ agot_pirate_supply_05 = {
 
 	province_modifier = {
 		supply_limit = 1500
+		monthly_barter_goods = 1.25
 	}
 
 	county_modifier = {
@@ -563,6 +586,7 @@ agot_pirate_supply_06 = {
 
 	province_modifier = {
 		supply_limit = 1800
+		monthly_barter_goods = 2
 	}
 
 	county_modifier = {

@@ -32,6 +32,10 @@
  building_citadel_stillhouse_vineyards:1 "Stillhouse Vineyards"
  building_citadel_stillhouse_vineyards_desc:1 "These vast vineyards form the heart of House Redwyne’s famed wine production on the Arbor. Carefully tended rows stretch across the hills, their harvest filling cellars and casks that travel to every corner of Westeros."
 
+ building_type_citadel_gallow_cove:1 "Gallow Cove"
+ building_citadel_gallow_cove:1 "Gallow Cove"
+ building_citadel_gallow_cove_desc:1 "Among the lawless islands, Gallow Cove is feared even by pirates and cutthroats alike. Only the most ruthless survive here, where betrayal is common and weakness swiftly punished, making the cove a brutal haven for those willing to live by the blade alone."
+
 
  building_type_citadel_new_barrel:1 "The New Barrel"
  building_citadel_new_barrel:1 "The New Barrel"

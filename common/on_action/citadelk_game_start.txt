@@ -161,6 +161,7 @@ set_provinces_start_citadel = {
         } 
         title:b_skullhammer.title_province = {
             add_special_building = citadel_skullhammer
+            add_building = agot_pirate_control_06
         }
         title:b_morrefall.title_province = {
             add_special_building = citadel_morrefall
@@ -230,6 +231,9 @@ set_provinces_start_citadel = {
         }  
         title:b_stillhouse.title_province = {
             add_special_building = citadel_stillhouse_vineyards
+        }
+        title:b_gallow_cove.title_province = {
+            add_special_building = citadel_gallow_cove
         }
 
         # ADD NORMAL BUILDINGS
