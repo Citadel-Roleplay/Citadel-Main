@@ -1,0 +1,26 @@
+﻿belaerys_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Belaerys
+			dynasty = { has_dynasty_perk = belaerys_legacy_1 }
+		}
+	}
+}
+
+varezys_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Varezys
+			dynasty = { has_dynasty_perk = varezys_legacy_1 }
+		}
+	}
+}
+
+mataeryon_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Mataeryon
+			dynasty = { has_dynasty_perk = mataeryon_legacy_1 }
+		}
+	}
+}

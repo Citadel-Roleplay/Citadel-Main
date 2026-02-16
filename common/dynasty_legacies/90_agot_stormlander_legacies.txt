@@ -1,0 +1,18 @@
+﻿ stormlander_legacy_track = { # Disables Riverland Legacy for the Crownlander Culture
+	is_shown = {
+		OR = {
+			AND = {
+				culture = {
+					OR = {
+						this = culture:stormlander_main
+						any_parent_culture_or_above = {
+							this = culture:stormlander_main
+						}
+					}
+				}
+				NOT = { culture = culture:crownlander }
+			}
+			dynasty = { has_dynasty_perk = stormlander_legacy_1 }
+		}
+	}
+}
