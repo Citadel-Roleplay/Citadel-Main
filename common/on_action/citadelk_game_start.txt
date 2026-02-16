@@ -1,6 +1,10 @@
 ﻿on_game_start = {
     on_actions = {
         set_provinces_start_citadel
+        citadel_renown_set_duke_and_count
+        citadel_renown_set_king_and_empire
+        citadel_renown_set_hegemony
+        
     }
 
     
@@ -255,4 +259,57 @@ set_provinces_start_citadel = {
             add_building = windmills_06
         } 
     }
+}
+
+citadel_renown_set_duke_and_count = { # Renown for 3 perks, duke and counts
+	effect = {
+		every_ruler = {
+			limit = {
+                NOT = { #Excludes characters to not double on any dynasties
+                    this = character:Baelish_2
+
+                }
+				exists = dynasty
+                OR = {
+                    highest_held_title_tier = tier_duchy
+                    highest_held_title_tier = tier_county
+                }
+			}
+			dynasty = { add_dynasty_prestige = 2250 }
+		}
+	}	
+}
+
+citadel_renown_set_king_and_empire = { # Renown for 4 perks, king and empire
+	effect = {
+		every_ruler = {
+			limit = {
+                NOR = { #Excludes characters to not double on any dynasties
+                    this = character:Baratheon_3
+                    this = character:Baratheon_4
+                }
+				exists = dynasty
+                OR = {
+                    highest_held_title_tier = tier_kingdom
+                    highest_held_title_tier = tier_empire 
+                }
+			}
+			dynasty = { add_dynasty_prestige = 4000 }
+		}
+	}	
+}
+
+citadel_renown_set_hegemony = { # Renown for 5 perks, hegemon and targs
+	effect = {
+		every_ruler = {
+			limit = {
+                # NOR = { #Excludes characters to not double on any dynasties
+                #     character:Blank_1
+                # }
+				exists = dynasty
+				highest_held_title_tier = tier_hegemony 
+			}
+			dynasty = { add_dynasty_prestige = 6250}
+		}
+	}	
 }
