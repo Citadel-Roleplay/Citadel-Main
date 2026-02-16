@@ -11,6 +11,55 @@
  building_type_citadel_hearts_home:1 "Heart's Home"
  building_citadel_hearts_home:1 "Heart's Home"
  building_citadel_hearts_home_desc:1 "Seat of House Corbray, Heart's Home is a proud Vale fortress known for its ancient lineage and martial tradition. Its famed knights and storied legacy grant prestige and honor to those who rule within its halls."
+ 
+ building_type_casterly_rock_02:1 "Casterly Rock"
+ building_casterly_rock_02:1 "Casterly Rock"
+ building_casterly_rock_02_desc:1 "Said to be three times the height of the Wall, the massive Casterly Rock remains the heart of House Lannister’s wealth and power. With new tunnels carved deeper into the mountain and mining expanded further than ever before, vast new veins of gold have been uncovered, strengthening both the Rock’s defenses and the riches that flow from its depths."
+
+ building_type_citadel_uplands:1 "Uplands"
+ building_citadel_uplands:1 "Uplands"
+ building_citadel_uplands_desc:1 "Set along the fertile banks of the Honeywine, Uplands is the ancestral seat of House Mullendore. Though not among the greatest powers of the Reach, its rich fields and steady river trade have long sustained the house and secured its place among the loyal bannermen of the region."
+
+ building_type_citadel_castle_darry:1 "Castle Darry"
+ building_citadel_castle_darry:1 "Castle Darry"
+ building_citadel_castle_darry_desc:1 "Once an impressive stronghold of the Riverlands, Castle Darry has never fully recovered from the aftermath of Robert’s Rebellion. Its halls stand quieter than before, and House Darry has lost much of the influence it once wielded among the riverlords."
+
+ building_type_citadel_castle_darry_02:1 "Castle Darry Restored"
+ building_citadel_castle_darry_02:1 "Castle Darry Restored"
+ building_citadel_castle_darry_02_desc:1 "Carefully rebuilt and restored, Castle Darry now stands once more in proud strength. With its defenses renewed and its lands thriving again, House Darry begins to reclaim the standing and respect it once held in the Riverlands."
+
+ building_type_citadel_fairmarket3:1 "Fairmarket"
+
+ building_citadel_fairmarket1:1 "Fairmarket"
+ building_citadel_fairmarket3_desc:1 "What began as a small fishing village along the riverbanks has slowly grown into a modest settlement. Fishermen and traders gather here, laying the first foundations of what may one day become a great city."
+
+ building_citadel_fairmarket2:1 "Fairmarket"
+ building_citadel_fairmarket2_desc:1 "Expanded docks, busy markets, and growing streets have transformed Fairmarket into a bustling river city. Merchants from across the Riverlands pass through its gates, bringing wealth and opportunity to its people."
+
+ building_citadel_fairmarket3:1 "Fairmarket"
+ building_citadel_fairmarket1_desc:1 "Now a bustling metropolis in the heart of the Riverlands, Fairmarket stands as a center of trade, culture, and power. Its crowded quays and thriving markets draw merchants from far and wide, securing its place among the greatest cities of Westeros."
+
+
+ building_type_citadel_maidenpool:1 "Maidenpool"
+ building_citadel_maidenpool:1 "Maidenpool"
+ building_citadel_maidenpool_desc:1 "A wealthy harbor city upon the Bay of Crabs, Maidenpool thrives on trade, ship traffic, and travelers from across the Narrow Sea. Its ancient walls and bustling docks make it one of the most important urban centers of the eastern Riverlands."
+
+ building_type_citadel_lakehaven:1 "Lakehaven"
+ building_citadel_lakehaven:1 "Lakehaven"
+ building_citadel_lakehaven_desc:1 "A modest keep held by House Goodbrook, Lakehaven lacks the size and wealth of greater strongholds. What the house lacks in numbers, however, it makes up for with fierce fighters and a stubborn resolve that has earned them respect beyond their station."
+
+ building_type_citadel_willow_wood_1:1 "Castle Willow Wood"
+ building_citadel_willow_wood_1:1 "Castle Willow Wood"
+ building_citadel_willow_wood_1_desc:1 "Once a proud seat of House Ryger, Willow Wood now stands as a shadow of its former glory. Time and conflict have left its walls worn and its halls diminished, and only extensive repairs can restore the castle to the stature it once held in the Riverlands."
+
+ building_type_citadel_willow_wood_2:1 "Castle Willow Wood Restored"
+ building_citadel_willow_wood_2:1 "Castle Willow Wood Restored"
+ building_citadel_willow_wood_2_desc:1 "Carefully rebuilt and strengthened, Willow Wood has reclaimed its former prominence. With its defenses renewed and halls restored, House Ryger once again stands as an important power among the lords of the Riverlands."
+
+ building_type_citadel_starpike_2:1 "Starpike Restored"
+ building_citadel_starpike_2:1 "Starpike"
+ building_citadel_starpike_2_desc:1 "Restored to its former glory, Starpike stands once more as a proud symbol of House Peake’s ambition. With their strength renewed, the Peakes are ready to throw their hat into the fire of Westerosi politics again, convinced that this time history will favor their house."
+
 
  building_type_citadel_snakewood:1 "Snakewood"
  building_citadel_snakewood:1 "Snakewood Castle"
@@ -31,6 +80,10 @@
  building_type_citadel_stillhouse_vineyards:1 "Stillhouse Vineyards"
  building_citadel_stillhouse_vineyards:1 "Stillhouse Vineyards"
  building_citadel_stillhouse_vineyards_desc:1 "These vast vineyards form the heart of House Redwyne’s famed wine production on the Arbor. Carefully tended rows stretch across the hills, their harvest filling cellars and casks that travel to every corner of Westeros."
+
+ building_type_citadel_gallow_cove:1 "Gallow Cove"
+ building_citadel_gallow_cove:1 "Gallow Cove"
+ building_citadel_gallow_cove_desc:1 "Among the lawless islands, Gallow Cove is feared even by pirates and cutthroats alike. Only the most ruthless survive here, where betrayal is common and weakness swiftly punished, making the cove a brutal haven for those willing to live by the blade alone."
 
 
  building_type_citadel_new_barrel:1 "The New Barrel"

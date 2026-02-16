@@ -5592,7 +5592,7 @@ k_the_northmarch = {
 		holder = Rowan_53
 	}
 	8280.1.1 = {
-		holder = Rowan_1
+		holder = 0 # Default to Rowan_1, but 0 will destroy the Kingdom - Kizan
 	}
 }
 d_goldengrove = {

@@ -20231,141 +20231,141 @@ graceford_legacy_5 = { # Work Her Will
 
 # }
 
-baelish_legacy_1 = { #  The Smallest of Lords
-	legacy = baelish_legacy_track
+# baelish_legacy_1 = { #  The Smallest of Lords
+# 	legacy = baelish_legacy_track
 
-	can_be_picked = { 
-		dynasty = dynasty:dynn_Baelish
-	}
+# 	can_be_picked = { 
+# 		dynasty = dynasty:dynn_Baelish
+# 	}
 
-	effect = {  # Effect is applied in the on action 'on_birth_child
-		custom_description_no_bullet = {
-			text = baelish_legacy_1_effect
-		}
-	}
+# 	effect = {  # Effect is applied in the on action 'on_birth_child
+# 		custom_description_no_bullet = {
+# 			text = baelish_legacy_1_effect
+# 		}
+# 	}
 
-	traits = {
-		ambitious = 100
-	}
+# 	traits = {
+# 		ambitious = 100
+# 	}
 
-	character_modifier = {
-		stewardship = 1
-		owned_personal_scheme_success_chance_add = 20
-		domain_tax_mult = 0.05
-	}
-	ai_chance = {
-		value = 100
-	}
+# 	character_modifier = {
+# 		stewardship = 1
+# 		owned_personal_scheme_success_chance_add = 20
+# 		domain_tax_mult = 0.05
+# 	}
+# 	ai_chance = {
+# 		value = 100
+# 	}
 
-} 
+# } 
 
-baelish_legacy_2 = { # Under the Titan’s Head
-	legacy = baelish_legacy_track
+# baelish_legacy_2 = { # Under the Titan’s Head
+# 	legacy = baelish_legacy_track
 
-	can_be_picked = { 
-		dynasty = dynasty:dynn_Baelish
-	}
+# 	can_be_picked = { 
+# 		dynasty = dynasty:dynn_Baelish
+# 	}
 
-	effect = {# Effect is applied in the on action 'on_birth_child
-		custom_description_no_bullet = {
-			text = baelish_legacy_2_effect
-		}
-	}
+# 	effect = {# Effect is applied in the on action 'on_birth_child
+# 		custom_description_no_bullet = {
+# 			text = baelish_legacy_2_effect
+# 		}
+# 	}
 
-	traits = {
-		shrewd = 100
-	}
+# 	traits = {
+# 		shrewd = 100
+# 	}
 
-	character_modifier = {
-		mercenary_hire_cost_mult = -0.15
-		embarkation_cost_mult = -0.15
-		coastal_advantage = 5
-	}
-	ai_chance = {
-		value = 100
-	}
+# 	character_modifier = {
+# 		mercenary_hire_cost_mult = -0.15
+# 		embarkation_cost_mult = -0.15
+# 		coastal_advantage = 5
+# 	}
+# 	ai_chance = {
+# 		value = 100
+# 	}
 
-}
+# }
 
-baelish_legacy_3 = { # Fostered at Riverrun
-	legacy = baelish_legacy_track
+# baelish_legacy_3 = { # Fostered at Riverrun
+# 	legacy = baelish_legacy_track
 
-	can_be_picked = { 
-		dynasty = dynasty:dynn_Baelish
-	}
+# 	can_be_picked = { 
+# 		dynasty = dynasty:dynn_Baelish
+# 	}
 
-	effect = { #Unlocks MAA 
-		custom_description_no_bullet = {
-			text = baelish_legacy_3_effect
-		}
-	}
+# 	effect = { #Unlocks MAA 
+# 		custom_description_no_bullet = {
+# 			text = baelish_legacy_3_effect
+# 		}
+# 	}
 
-	character_modifier = { 
-		diplomacy = 1
-		liege_opinion = 10
-		intrigue_scheme_resistance = 15
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
-	}
-	ai_chance = {
-		value = 100
-	}
+# 	character_modifier = { 
+# 		diplomacy = 1
+# 		liege_opinion = 10
+# 		intrigue_scheme_resistance = 15
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 	}
+# 	ai_chance = {
+# 		value = 100
+# 	}
 
-}
+# }
 
-baelish_legacy_4 = { # Letters and Ledgers
-	legacy = baelish_legacy_track
+# baelish_legacy_4 = { # Letters and Ledgers
+# 	legacy = baelish_legacy_track
 
-	can_be_picked = { 
-		dynasty = dynasty:dynn_Baelish
-	}
+# 	can_be_picked = { 
+# 		dynasty = dynasty:dynn_Baelish
+# 	}
 
-	effect = { 
-		custom_description_no_bullet = {
-			text = baelish_legacy_4_effect
-		}
-	}
+# 	effect = { 
+# 		custom_description_no_bullet = {
+# 			text = baelish_legacy_4_effect
+# 		}
+# 	}
 
-	character_modifier = {
-		domain_tax_mult = 0.05
-		development_growth_factor = 0.05
-		build_gold_cost  -0.05
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
-	}
-	ai_chance = {
-		value = 100
-	}
+# 	character_modifier = {
+# 		domain_tax_mult = 0.05
+# 		development_growth_factor = 0.05
+# 		build_gold_cost  -0.05
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 	}
+# 	ai_chance = {
+# 		value = 100
+# 	}
 
-} 
+# } 
 
 
-baelish_legacy_5 = { # Mockingbird Ascendant
-	legacy = baelish_legacy_track
+# baelish_legacy_5 = { # Mockingbird Ascendant
+# 	legacy = baelish_legacy_track
 
-	can_be_picked = { 
-		dynasty = dynasty:dynn_Baelish
-	}
+# 	can_be_picked = { 
+# 		dynasty = dynasty:dynn_Baelish
+# 	}
 
-	effect = { # Effect is applied in the on action 'on_birth_child
-		custom_description_no_bullet = {
-			text = baelish_legacy_5_effect
-		}
-	}
+# 	effect = { # Effect is applied in the on action 'on_birth_child
+# 		custom_description_no_bullet = {
+# 			text = baelish_legacy_5_effect
+# 		}
+# 	}
 
-	traits = {
-		deceitful = 100
-	}
+# 	traits = {
+# 		deceitful = 100
+# 	}
 
-	character_modifier = {
-		owned_hostile_scheme_success_chance_add = 25
-		vassal_opinion = 5
-		intrigue = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
-	}
-	ai_chance = {
-		value = 100
-	}
+# 	character_modifier = {
+# 		owned_hostile_scheme_success_chance_add = 25
+# 		vassal_opinion = 5
+# 		intrigue = 1
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 	}
+# 	ai_chance = {
+# 		value = 100
+# 	}
 
-}
+# }
 
 mandrake_legacy_1 = { #  Kings of the Blue Fork
 	legacy = mandrake_legacy_track

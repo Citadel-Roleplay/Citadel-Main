@@ -1,0 +1,126 @@
+﻿webber_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Webber
+			dynasty = { has_dynasty_perk = webber_legacy_1 }
+		}
+	}
+}
+
+osgrey_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Osgrey
+			dynasty = { has_dynasty_perk = osgrey_legacy_1 }
+		}
+	}
+}
+
+beesbury_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Beesbury
+			dynasty = { has_dynasty_perk = beesbury_legacy_1 }
+		}
+	}
+}
+
+bulwer_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Bulwer
+			dynasty = { has_dynasty_perk = bulwer_legacy_1 }
+		}
+	}
+}
+
+hunt_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Hunt
+			dynasty = { has_dynasty_perk = hunt_legacy_1 }
+		}
+	}
+}
+
+santagar_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Santagar
+			dynasty = { has_dynasty_perk = santagar_legacy_1 }
+		}
+	}
+}
+
+dalt_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Dalt
+			dynasty = { has_dynasty_perk = dalt_legacy_1 }
+		}
+	}
+}
+
+scales_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Scales
+			dynasty = { has_dynasty_perk = scales_legacy_1 }
+		}
+	}
+}
+
+farring_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Farring
+			dynasty = { has_dynasty_perk = farring_legacy_1 }
+		}
+	}
+}
+
+pyle_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Pyle
+			dynasty = { has_dynasty_perk = pyle_legacy_1 }
+		}
+	}
+}
+
+gaunt_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Gaunt
+			dynasty = { has_dynasty_perk = gaunt_legacy_1 }
+		}
+	}
+}
+
+hogg_legacy_track = {
+    is_shown = {
+        OR = {
+            dynasty = dynasty:dynn_Hogg
+            dynasty = { has_dynasty_perk = hogg_legacy_1 }
+        }
+    }
+}
+
+brune_legacy_track = {
+    is_shown = {
+        OR = {
+            dynasty = dynasty:dynn_Brune
+            dynasty = { has_dynasty_perk = brune_legacy_1 }
+        }
+    }
+}
+
+rogers_legacy_track = { # House Rogers
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Rogers
+			dynasty = { has_dynasty_perk = rogers_legacy_1 }
+		}
+	}
+}
+

@@ -373,6 +373,7 @@ pirate_government = {
 		create_cadet_branches = yes
 		rulers_should_have_dynasty = yes
 		dynasty_named_realms = yes
+		barter = yes
 	}
 
 	royal_court = any

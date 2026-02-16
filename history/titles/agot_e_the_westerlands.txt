@@ -3930,6 +3930,13 @@ c_hornvale = {
 		holder = Brax_4
 	}
 }
+b_hardline = {
+	8268.1.1 = {
+		holder = Brax_1
+	}
+}
+
+
 c_alderedge = {
 	7866.1.1 = {
 		holder = Garner_4
@@ -4776,6 +4783,11 @@ c_silverhill = {
 	8245.1.1 = {
 		holder = Serrett_22
 	}
+	8266.1.1 = {
+		holder = Serrett_1
+	}
+}
+b_spalding = {
 	8266.1.1 = {
 		holder = Serrett_1
 	}
@@ -6118,6 +6130,11 @@ d_the_golden_tooth = {
 		holder = Lefford_5
 	}
 }
+b_west_jaw = {
+	8272.1.1 = {
+		holder = Lefford_1
+	}
+}
 c_the_golden_tooth = {
 	6338.1.1 = {
 		liege = d_the_golden_tooth
@@ -6184,6 +6201,7 @@ c_the_golden_tooth = {
 		holder = Lefford_5
 	}
 }
+
 c_oxcross = {
 	7826.1.1 = {
 		liege = d_the_golden_tooth
