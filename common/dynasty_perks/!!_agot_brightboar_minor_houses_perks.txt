@@ -2625,6 +2625,25 @@ grandison_legacy_5 = { # The Lions Teeth
 
 # DAYNE
 
+dayne_legacy_1 = { # Blood of the First Men
+	legacy = dayne_legacy_track
+
+	can_be_picked = {
+		dynasty = dynasty:dynn_Dayne
+	}
+
+	ai_chance = {
+		value = 0
+	}
+
+	effect = {
+		# Effect is applied in the on action 'on_birth_child'
+		custom_description_no_bullet = {
+			text = dayne_legacy_1_effect
+		}
+	}
+}
+
 dayne_legacy_2 = { # Swords of the Morning
 	legacy = dayne_legacy_track
 
@@ -4665,6 +4684,30 @@ gargalen_legacy_5 = { # Knights of the Cockatrice
 }
 
 # VELARYON
+
+velaryon_legacy_1 = { # Blood of the First Men
+	legacy = velaryon_legacy_track
+
+	can_be_picked = {
+		dynasty = dynasty:dynn_Velaryon
+	}
+
+	ai_chance = {
+		value = 0
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = velaryon_legacy_1_unlock_sea_snakes
+		}
+		custom_description_no_bullet = {
+			text = velaryon_legacy_1_unlock_trade_expeditions
+		}
+		custom_description_no_bullet = {
+			text = velaryon_legacy_1_trade_expeditions_prestige
+		}
+	}
+}
 
 velaryon_legacy_2 = { # Masters of Ships
 	legacy = velaryon_legacy_track
