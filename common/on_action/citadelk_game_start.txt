@@ -31,6 +31,9 @@ set_provinces_start_citadel = {
             remove_building = portarryan_01
             add_special_building = gulltown_customs_house_01
         }
+        title:b_fairgate_tower.title_province = {
+            add_special_building = citadel_fairmarket3
+        }
         title:b_lanniskeep.title_province = {
             remove_building = lannisport_01
             add_special_building = city_of_lannisport_01
@@ -194,7 +197,7 @@ set_provinces_start_citadel = {
         } 
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
-            add_building = tax_assessor_01
+            add_building = tax_assessor_03
         } 
         title:b_wesselvare.title_province = {  
             add_special_building = citadel_wesselvare
@@ -204,6 +207,12 @@ set_provinces_start_citadel = {
         }
         title:b_new_barrel.title_province = {
             add_special_building = citadel_new_barrel
+        }
+        title:b_lakehaven.title_province = {
+            add_special_building = citadel_lakehaven
+        }
+        title:b_uplands.title_province = {
+            add_special_building = citadel_uplands
         }
         # title:b_spalding.title_province = {
         #     add_special_building = silverhill_mines_01
@@ -235,16 +244,47 @@ set_provinces_start_citadel = {
         title:b_gallow_cove.title_province = {
             add_special_building = citadel_gallow_cove
         }
-
+        title:b_maidenpool.title_province = {
+            add_special_building = citadel_maidenpool
+        }  
+        title:b_willow_wood.title_province = {
+            add_special_building = citadel_willow_wood_1
+        }
+        title:b_castle_darry.title_province = {
+            add_special_building = citadel_castle_darry
+        }
         # ADD NORMAL BUILDINGS
-
+        title:b_silverhall.title_province = {  
+            add_special_building = citadel_silverhall
+            add_building = tax_assessor_01
+        } 
+        title:b_west_jaw.title_province = {  
+            add_building = quarriers_08
+        } 
+        title:b_deep_den.title_province = {  
+            add_building = tax_assessor_03
+            add_building = windmills_03
+        } 
+        title:b_ashemark.title_province = {  
+            add_building = military_academy_02
+        } 
+        title:b_hardline.title_province = {
+            add_building = quarries_08
+        }
+        title:b_hornvale.title_province = {
+            add_building = tax_assessor_03
+            add_building = windmills_02
+        }
+        title:b_pools_guard.title_province = {
+            add_building = tax_assessor_03
+        }
         title:b_west_tower.title_province = {
             add_special_building = citadel_westtwin
-            add_building = curtain_walls_06
-            add_building = military_camps_04
-            add_building = barracks_06
-            add_building = stables_04
-            add_building = smiths_04
+            add_building = curtain_walls_04
+            add_building = military_camps_02
+            add_building = barracks_04
+            add_building = stables_02
+            add_building = smiths_03
         }
         title:b_cleganes_keep.title_province = {
             add_building = curtain_walls_06
@@ -270,11 +310,11 @@ set_provinces_start_citadel = {
             add_special_building = watermills_08
         } 
         title:b_spalding.title_province = {  
-            add_building = hill_forts_02
+            add_building = outposts_06
             add_building = military_camps_04
             add_building = barracks_06
-            add_building = watermills_01
-            add_building = quarries_01
+            add_building = workshops_07
+            add_building = quarries_07
         }
     }
 }

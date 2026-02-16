@@ -1124,13 +1124,15 @@ agot_walls_of_seagard_01 = {
 	max_garrison = 1200
 
 	province_modifier = {
-		hostile_raid_time = 0.25
 		fort_level = 4
-		travel_danger = -25
 		# tax_mult = low_building_tax_mult_tier_3
 		levy_size = 0.1
 	}
-
+	county_modifier = {
+		defender_holding_advantage = 5
+		travel_danger = -25
+		hostile_raid_time = 0.25
+	}
 	character_modifier = {
 		stewardship = 1
 		ironborn_opinion = -5
@@ -1165,7 +1167,6 @@ agot_maidenpool_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 500
 	cost_gold = expensive_building_tier_6_cost
 
 	character_modifier = {
@@ -1176,9 +1177,12 @@ agot_maidenpool_01 = {
 		monthly_dynasty_prestige = 0.25
 		fellow_vassal_opinion = 5
 	}
-
+	province_modifier = {
+		monthly_income = 4
+	}
 	county_modifier = {
 		development_growth_factor = 0.2
+		vassal_tax_mult = 0.1
 	}
 
 	ai_value = {
@@ -1378,7 +1382,6 @@ agot_wayfarers_rest_01 = {
 	construction_time = slow_construction_time
 
 	type_icon = "icon_building_legendary_statue.dds"
-
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -1495,7 +1498,6 @@ agot_atranta_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -1512,6 +1514,7 @@ agot_atranta_01 = {
 		fort_level = 4
 		defender_holding_advantage = 4
 		levy_size = 0.2
+		monthly_income = 2
 	}
 
 	ai_value = {
@@ -1743,20 +1746,19 @@ agot_stone_hedge_01 = {
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_hillside_grazing.dds"
-
+	type_icon = "icon_building_hillside_grazing.dds"  
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 1000
+	levy = 1400
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
 		the_seven_religion_opinion = 10
+		monthly_income = 2
 	}
 
 	province_modifier = {
@@ -1830,161 +1832,159 @@ agot_banefort_01 = {
 }
 
 # Castamere
-agot_castamere_01 = {
+# agot_castamere_01 = {
 
-	construction_time = very_slow_construction_time
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_castamere.dds"
+# 	type_icon = "icon_castamere.dds"
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 
-	asset = {
-		type = pdxmesh
-		name = "agot_holding_westerlands_01_mesh"
-	}
+# 	asset = {
+# 		type = pdxmesh
+# 		name = "agot_holding_westerlands_01_mesh"
+# 	}
 
-	is_enabled = {
-		agot_generic_is_special_building_enabled = yes
-	}
+# 	is_enabled = {
+# 		agot_generic_is_special_building_enabled = yes
+# 	}
 
-	cost_gold = expensive_building_tier_7_cost
+# 	cost_gold = expensive_building_tier_7_cost
 
-	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
-		stewardship = 1
-	}
+# 	character_modifier = {
+# 		monthly_dynasty_prestige_mult = 0.05
+# 		stewardship = 1
+# 	}
 
-	max_garrison = 500
+# 	max_garrison = 500
 
-	province_modifier = {
-		defender_holding_advantage = 15
-		fort_level = 8
-		monthly_income = 7
-	}
+# 	province_modifier = {
+# 		defender_holding_advantage = 15
+# 		fort_level = 8
+# 		monthly_income = 7
+# 	}
 
-	county_modifier = {
-		# tax_mult = low_building_tax_mult_tier_7
-		development_growth_factor = 0.2
-		levy_size = 0.1
-		monthly_county_control_growth_factor = 0.1
-	}
+# 	county_modifier = {
+# 		# tax_mult = low_building_tax_mult_tier_7
+# 		development_growth_factor = 0.2
+# 		levy_size = 0.1
+# 		monthly_county_control_growth_factor = 0.1
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 	}
 
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_economic
-}
-agot_castamere_ruins_01 = {
+# 	flag = travel_point_of_interest_economic
+# }
+# agot_castamere_ruins_01 = {
 
-	construction_time = very_slow_construction_time
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_castamere.dds"
+# 	type_icon = "icon_castamere.dds"
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-		always = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 		always = no
+# 	}
 
-	can_construct = {
-		always = no
-	}
+# 	can_construct = {
+# 		always = no
+# 	}
 
-	asset = {
-		type = pdxmesh
-		name = "agot_building_western_ruin_mesh"
-	}
+# 	asset = {
+# 		type = pdxmesh
+# 		name = "agot_building_western_ruin_mesh"
+# 	}
 
-	next_building = agot_castamere_ruins_02
+# 	next_building = agot_castamere_ruins_02
 
-	character_modifier = {
-		dread_gain_mult = 0.1
-		dread_baseline_add = 10
-		owned_legend_spread_mult = 0.1
-	}
+# 	character_modifier = {
+# 		dread_gain_mult = 0.1
+# 		dread_baseline_add = 10
+# 		owned_legend_spread_mult = 0.1
+# 	}
 
-	county_modifier = {
-		tax_mult = -0.35
-		levy_size = -0.1
-	}
+# 	county_modifier = {
+# 		tax_mult = -0.35
+# 		levy_size = -0.1
+# 	}
 
-	province_modifier = {
-		levy_size = -1.00
-	}
+# 	province_modifier = {
+# 		levy_size = -1.00
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 	}
 
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_martial
-	flag = special_building_enabled_in_ruin_county
-}
-agot_castamere_ruins_02 = {
+# 	flag = travel_point_of_interest_martial
+# 	flag = special_building_enabled_in_ruin_county
+# }
+# agot_castamere_ruins_02 = {
 
-	construction_time = very_slow_construction_time
+# 	construction_time = very_slow_construction_time
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 
-	can_construct = {
-		custom_tooltip = {
-			text = HOLDER_NOT_LANNISTER
-			exists = holder
-			holder = {
-				NOT = { has_dynasty = dynn_Lannister }
-			}
-		}
-	}
+# 	can_construct = {
+# 		custom_tooltip = {
+# 			text = HOLDER_NOT_TYWIN
+# 			NOT = { scope:holder = character:Lannister_1 }
+# 		}
+# 	}
 
-	asset = {
-		type = pdxmesh
-		name = "agot_holding_westerlands_01_mesh"
-	}
+# 	asset = {
+# 		type = pdxmesh
+# 		name = "agot_holding_westerlands_01_mesh"
+# 	}
 
-	is_enabled = {
-		agot_generic_is_special_building_enabled = yes
-	}
+# 	is_enabled = {
+# 		agot_generic_is_special_building_enabled = yes
+# 	}
 
-	cost_gold = expensive_building_tier_8_cost
+# 	cost_gold = expensive_building_tier_8_cost
 
-	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
-		stewardship = 1
-	}
+# 	character_modifier = {
+# 		monthly_dynasty_prestige_mult = 0.05
+# 		stewardship = 1
+# 		domain_limit = -1
+# 	}
+# 	levy = 1000
+# 	max_garrison = 500
 
-	max_garrison = 500
+# 	province_modifier = {
+# 		defender_holding_advantage = 15
+# 		fort_level = 8
+# 		monthly_income = 10
+# 	}
 
-	province_modifier = {
-		defender_holding_advantage = 15
-		fort_level = 8
-		monthly_income = 7
-	}
+# 	county_modifier = {
+# 		# tax_mult = low_building_tax_mult_tier_7
+# 		development_growth_factor = 0.2
+# 		levy_size = 0.3
+# 		monthly_county_control_growth_factor = 0.1
+# 	}
 
-	county_modifier = {
-		# tax_mult = low_building_tax_mult_tier_7
-		development_growth_factor = 0.2
-		levy_size = 0.1
-		monthly_county_control_growth_factor = 0.1
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
+# 	type = special
 
-	type = special
-
-	flag = travel_point_of_interest_economic
-}
+# 	flag = travel_point_of_interest_economic
+# }
 
 # Lann's Sept
 agot_lann_sept_01 = {
@@ -2093,11 +2093,10 @@ agot_crakehall_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_building_boar.dds"
-	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	levy = 400
+	levy = 750
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -2108,16 +2107,19 @@ agot_crakehall_01 = {
 		lifestyle_hunter_xp_gain_mult = 0.2
 		stress_gain_mult = -0.15
 		stress_loss_mult = 0.15
+		army_maintenance_mult = -0.1
 	}
 
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_2
+		levy_size = 0.2
 	}
 
 	province_modifier = {
-		stationed_heavy_cavalry_damage_mult = 0.1
-		stationed_heavy_cavalry_toughness_mult = 0.1
-		levy_size = 0.1
+		stationed_pikemen_damage_mult = 0.25
+		stationed_pikemen_toughness_mult = 0.25
+		stationed_pikemen_pursuit_mult = 0.25
+		monthly_income = 2
 	}
 
 	ai_value = {
@@ -2181,10 +2183,10 @@ agot_deep_den_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
+		monthly_income = 2
 	}
 
 	county_modifier = {
@@ -2311,8 +2313,11 @@ agot_hornvale_01 = {
 		supply_limit = 10000
 	}
 
+	province_modifier = {
+		monthly_income = 4
+	}
 	character_modifier = {
-		monthly_income_mult = 0.15
+		stewardship = 2
 	}
 
 	type = duchy_capital
@@ -2919,7 +2924,7 @@ agot_bronzegate_01 = {
 # Weeping Tower
 agot_weeping_tower_01 = {
 
-	construction_time = very_slow_construction_time
+	construction_time = very_slow_construction_time  
 
 	type_icon = "icon_building_legendary_watchtower.dds"
 
@@ -2976,7 +2981,7 @@ agot_weeping_tower_02 = {
 		exists = character:Targaryen_81
 		character:Targaryen_81 = { is_alive = no }
 	}
-
+	
 	can_construct = {
 		exists = character:Targaryen_81
 		character:Targaryen_81 = { is_alive = no }
@@ -4386,7 +4391,10 @@ agot_goldengrove_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_building_royal_forest.dds"
-
+	asset = {
+		type = entity
+		name = "mlw_goldengrove_entity" 
+	}
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -6268,7 +6276,6 @@ agot_claw_isle_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_lund_cathedral.dds"
-
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -6585,7 +6592,7 @@ agot_driftmark_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = good_building_tax_tier_8
+		monthly_income = 1.6
 	}
 
 	ai_value = {

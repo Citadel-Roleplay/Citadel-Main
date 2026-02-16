@@ -21,19 +21,19 @@ ashemark_01 = {
     can_construct_potential = {
         building_requirement_tribal = no
     }
-
+    levy = 550
     cost_gold = 2000
     max_garrison = 400
     province_modifier = {
         defender_holding_advantage = 8
         fort_level = 6
-        monthly_income = 1
+        monthly_income = 3
     }
     county_modifier = {
         # tax_mult = 0.3
         development_growth_factor = 0.2
         #development_growth = 0.1
-        levy_size = 0.1
+        levy_size = 0.3
     }
 
     ai_value = {
@@ -520,7 +520,7 @@ agot_starpike_01 = {
     is_enabled = {
         agot_generic_is_special_building_enabled = yes
     }
-
+    next_building = citadel_starpike_2
     type_icon = "icon_structure_hotin_fortress.dds"
 
     can_construct_potential = {
@@ -891,12 +891,12 @@ agot_raventree_hall_01 = {
     character_modifier = {
         the_pact_religion_opinion = 10
     }
-    levy = 1000
+    levy = 1400
     max_garrison = 400
     province_modifier = {
         defender_holding_advantage = 8
         fort_level = 6
-        monthly_income = 1
+        monthly_income = 2
     }
     county_modifier = {
         # tax_mult = 0.3
@@ -1523,7 +1523,7 @@ agot_castamere_ruins_02 = {
     province_modifier = {
         defender_holding_advantage = 15
         fort_level = 8
-        monthly_income = special_mine_building_tax_tier_5
+        monthly_income = 7
     }
 
     county_modifier = {
@@ -1574,6 +1574,7 @@ agot_castamere_ruins_02 = {
     character_modifier = {
         monthly_dynasty_prestige_mult = 0.05
         stewardship = 1
+		domain_limit = -1
     }
 
     max_garrison = 500
@@ -1581,9 +1582,9 @@ agot_castamere_ruins_02 = {
     province_modifier = {
         defender_holding_advantage = 15
         fort_level = 8
-        monthly_income = special_mine_building_tax_tier_5
+        monthly_income = 7
     }
-
+    levy = 1000
     county_modifier = {
         # tax_mult = 0.35
         development_growth_factor = 0.2
@@ -1630,7 +1631,7 @@ agot_castamere_ruins_02 = {
     can_construct_showing_failures_only = {
         has_holding_type = castle_holding
     }
-
+    levy = 1200
     cost_gold = 3000
 
     character_modifier = {
@@ -1643,7 +1644,8 @@ agot_castamere_ruins_02 = {
     province_modifier = {
         defender_holding_advantage = 20
         fort_level = 12
-        monthly_income = special_mine_building_tax_tier_6
+        monthly_income = 10
+        levy_size = 0.2
     }
 
     county_modifier = {
@@ -1692,7 +1694,7 @@ agot_castamere_ruins_02 = {
     can_construct_showing_failures_only = {
         has_holding_type = castle_holding
     }
-
+    levy = 1300
     cost_gold = 5000
 
     character_modifier = {
@@ -1705,7 +1707,8 @@ agot_castamere_ruins_02 = {
     province_modifier = {
         defender_holding_advantage = 30
         fort_level = 16
-        monthly_income = special_mine_building_tax_tier_8
+        monthly_income = 12
+        levy_size = 0.3
     }
 
     county_modifier = {
@@ -1829,7 +1832,7 @@ agot_ruins_hightide_02 = {
 
     construction_time = very_slow_construction_time
 
-    cost_gold = 1250
+    cost_gold = 3000
 
     province_modifier = {
         monthly_income = 5

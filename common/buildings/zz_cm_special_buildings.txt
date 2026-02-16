@@ -22,6 +22,7 @@ bloodstone_special_01 = {
 	character_modifier = {
 		pirate_government_opinion = 15
 		raid_speed = 0.5
+		diplomacy = 1
 	}
 	province_modifier = {
 		fort_level = 2
@@ -69,6 +70,7 @@ bloodstone_special_02 = {
 	next_building = bloodstone_special_03
 	character_modifier = {
 		feudal_government_opinion = 15
+		diplomacy = 2
 	}
 	province_modifier = {
 		fort_level = 2

@@ -2488,8 +2488,8 @@ archery_ranges_03 = {
 	}
 	
 	province_modifier = {
-		stationed_archers_damage_mult = 0.35
-		stationed_archers_toughness_mult = 0.15
+		stationed_archers_damage_mult = 0.4
+		stationed_archers_toughness_mult = 0.2
 		stationed_archer_cavalry_screen_mult = high_maa_screen_tier_3
 		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_3
 		stationed_archer_cavalry_toughness_mult = low_maa_toughness_tier_3
