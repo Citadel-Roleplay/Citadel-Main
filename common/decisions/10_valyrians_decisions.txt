@@ -11,7 +11,7 @@
 	desc = fund_expedition_decision_desc_1
 	selection_tooltip = fund_expedition_decision_desc_2
 	is_shown = {
-		debug_mode = yes
+		debug_only = yes
 		is_ai = no
 		is_landed = yes
 		root.culture = { agot_is_wildling_culture = no}

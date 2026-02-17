@@ -3,7 +3,7 @@
 	decision_group_type = debug
 	is_shown = { 
 		is_ai = no 
-		debug_mode = yes
+		debug_only = yes
 	}
 	ai_check_interval = 0
 	ai_potential = { always = no }

@@ -774,7 +774,7 @@ convert_to_administrative_decision = {
 	}
 
 	is_shown = {
-		debug_mode = yes
+		debug_only = yes
 		OR = {
 			has_ep3_dlc_trigger = yes
 			has_tgp_dlc_trigger = yes
