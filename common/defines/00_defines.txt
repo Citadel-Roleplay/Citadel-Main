@@ -699,8 +699,8 @@ NArmy = {
 	MOVEMENT_SPEED_BONUS_FRIENDLY_AREA = 0.2		# In friendly areas you get a 20% speed bonus
 	#AGOT Modified
 	#REGIMENT_MONTHLY_REINFORCE_SPEED = 0.03		
-	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.005		# Monthly reinforcement percentage of unraised chunks [0-1]
-	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.05		# Monthly reinforcement percentage of unraised MAA chunks [0-1]
+	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.004		# Monthly reinforcement percentage of unraised chunks [0-1]
+	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.025	# Monthly reinforcement percentage of unraised MAA chunks [0-1]
 	#AGOT Modified, increased levies to resemble canon numbers without increased income
 	#GOLD_COST_PER_SOLDIER = 0.003					# Gold maintenance cost per soldier
 	GOLD_COST_PER_SOLDIER = 0.005					# Gold maintenance cost per soldier
@@ -1263,8 +1263,8 @@ NCulture = {
 NMercenary = {
 	LEVELS = { 0 7 14 }						# Defines how many different sizes of mercenary companies are there and how many are spawned for a given culture
 											# The numbers correspond to numbers of counties of the culture. No company exists if the number is lower than the first value specified here.
-	HIRE_RANGE = 500						# The maximum distance of mercenaries that can be hired (capital to mercenary location)
-	HIRE_RANGE_SAME_CULTURE = 1500			# The maximum distance of mercenaries with the same culture that can be hired (capital to mercenary location)
+	HIRE_RANGE = 400						# The maximum distance of mercenaries that can be hired (capital to mercenary location)
+	HIRE_RANGE_SAME_CULTURE = 1000			# The maximum distance of mercenaries with the same culture that can be hired (capital to mercenary location)
 	LEVIES = { 100 200 300 }				# The base numbers of levies for levels of mercenary bands
 	MAA_REGIMENTS = { 1 2 3 }				# The number of MAA regiments for levels of mercenary bands
 	NUM_KNIGHTS = { 2 3 4 }					# The number of knights for levels of mercenary bands
