@@ -7,12 +7,7 @@
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:high_valyrian
-				any_parent_culture_or_above = {
-					# this = culture:high_valyrian
-				}
-			}
+			this = culture:high_valyrian
 		}
 	}
 
@@ -115,12 +110,7 @@ high_valyrian_legacy_5 = { # Ashes of the Doom
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:westerosi_valyrian
-				any_parent_culture_or_above = {
-					# this = culture:westerosi_valyrian
-				}
-			}
+			this = culture:westerosi_valyrian
 		}
 	}
 
@@ -223,12 +213,7 @@ westerosi_valyrian_legacy_5 = { # Forged in Smoke and Legacy
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:essosi_valyrian
-				any_parent_culture_or_above = {
-					# this = culture:essosi_valyrian
-				}
-			}
+			this = culture:essosi_valyrian
 		}
 	}
 
@@ -332,12 +317,7 @@ sisterman_legacy_1 = { #  Blood in the Brine
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:sisterman
-				any_parent_culture_or_above = {
-					# this = culture:sisterman
-				}
-			}
+			this = culture:sisterman
 		}
 	}
 
@@ -440,12 +420,7 @@ skagosi_legacy_1 = { # Isleborn Endurance
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:skagosi
-				any_parent_culture_or_above = {
-					# this = culture:skagosi
-				}
-			}
+			this = culture:skagosi
 		}
 	}
 
@@ -672,12 +647,7 @@ wildling_legacy_5 = { # No King or Throne
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:braavosi
-				any_parent_culture_or_above = {
-					# this = culture:braavosi
-				}
-			}
+			this = culture:braavosi
 		}
 	}
 
@@ -781,12 +751,7 @@ braavosi_legacy_5 = { # Will of the Many-Faced God
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:myrish
-				any_parent_culture_or_above = {
-					# this = culture:myrish
-				}
-			}
+			this = culture:myrish
 		}
 	}
 
@@ -894,18 +859,9 @@ myrish_legacy_5 = { # League of Masters
 	legacy = lyseni_legacy_track
 
 	can_be_picked = { 
-		culture = {
-			OR = {
-				this = culture:lyseni
-				any_parent_culture_or_above = {
-					# this = culture:lyseni
-				}
-			}
-			NOT = {
-				this = culture:tyroshi
-			}
-		}
+		culture = lyseni 
 	}
+	
 
 	effect = {
 		custom_description_no_bullet = {
@@ -1020,12 +976,7 @@ lyseni_legacy_5 = { # Pearl of the Summer Sea
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:pentoshi
-				any_parent_culture_or_above = {
-					# this = culture:pentoshi
-				}
-			}
+			this = culture:pentoshi
 		}
 	}
 
@@ -1131,12 +1082,7 @@ pentoshi_legacy_5 = { # The Pact of the Tiger and the Merchant
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:tyroshi
-				any_parent_culture_or_above = {
-					# this = culture:tyroshi
-				}
-			}
+			this = culture:tyroshi
 		}
 	}
 
@@ -1246,12 +1192,7 @@ tyroshi_legacy_5 = { # Sapphire Dominion
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:volantene
-				any_parent_culture_or_above = {
-					# this = culture:volantene
-				}
-			}
+			this = culture:volantene
 		}
 	}
 
@@ -1356,12 +1297,7 @@ volantene_legacy_5 = { # Dream of the First Empire
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:norvoshi
-				any_parent_culture_or_above = {
-					# this = culture:norvoshi
-				}
-			}
+			this = culture:norvoshi
 		}
 	}
 
@@ -1464,12 +1400,7 @@ norvoshi_legacy_5 = { # Iron Faith, Silent Reign
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:hartalari
-				any_parent_culture_or_above = {
-					# this = culture:hartalari
-				}
-			}
+			this = culture:hartalari
 		}
 	}
 
@@ -1573,12 +1504,7 @@ hartalari_legacy_5 = { # Rise of the Fourth
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:rhoynish
-				any_parent_culture_or_above = {
-					# this = culture:rhoynish
-				}
-			}
+			this = culture:rhoynish
 		}
 	}
 
@@ -1683,12 +1609,7 @@ rhoynish_legacy_5 = { # Kingdom in Exile
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:andalosi
-				any_parent_culture_or_above = {
-					# this = culture:andalosi
-				}
-			}
+			this = culture:andalosi
 		}
 	}
 
@@ -1793,12 +1714,7 @@ andalosi_legacy_5 = { # Blood in the Hills
 
 	can_be_picked = { 
 		culture = {
-			OR = {
-				this = culture:crackclaw
-				any_parent_culture_or_above = {
-					# this = culture:crackclaw
-				}
-			}
+			this = culture:crackclaw
 		}
 	}
 
