@@ -4,6 +4,7 @@
         citadel_renown_set_duke_and_count
         citadel_renown_set_king_and_empire
         citadel_renown_set_hegemony
+        citadel_renown_set_other
         
     }
 
@@ -361,9 +362,31 @@ citadel_renown_set_duke_and_count = { # Renown for 3 perks, duke and counts
 	effect = {
 		every_ruler = {
 			limit = {
-                NOT = { #Excludes characters to not double on any dynasties
+                NOR = { #Excludes characters to not double on any dynasties
                     this = character:Baelish_2
-
+                    this = character:ArrynGT_5
+                    this = character:Tully_9
+                    this = character:LannisterLP_2
+                    this = character:Karstark_4
+                    this = character:Ryswell_4
+                    this = character:Flint_5
+                    this = character:Flint_9
+                    this = character:Brownhollow_36
+                    this = character:Dayne_11
+                    this = character:Goldwyne_1
+                    this = character:Fossoway_New_Barrel_4
+                    this = character:Goodbrother_25
+                    this = character:Goodbrother_23
+                    this = character:GoodbrotherSS_60
+                    this = character:Kenning_1
+                    this = character:FarwyndDL_4
+                    this = character:FarwyndLL_1
+                    this = character:Harlaw_5
+                    this = character:Harlaw_6
+                    this = character:Harlaw_4
+                    this = character:Shett_32
+                    this = character:Vance_Atranta_1
+                    this = character:FlintFC_85
                 }
 				exists = dynasty
                 OR = {
@@ -408,4 +431,12 @@ citadel_renown_set_hegemony = { # Renown for 5 perks, hegemon and targs
 			dynasty = { add_dynasty_prestige = 6250}
 		}
 	}	
+}
+
+citadel_renown_set_other = {
+    effect = {
+        dynasty:dynn_Targaryen = {
+			add_dynasty_prestige = 6250
+        }
+    }
 }
