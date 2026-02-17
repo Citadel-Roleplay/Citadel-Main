@@ -8558,6 +8558,11 @@ d_new_barrel = {
 		holder = Fossoway_New_Barrel_4
 	}
 }
+b_stonebushel = {
+	8275.10.10 = {
+		holder = Fossoway_New_Barrel_4
+	}
+}
 
 d_orchard_way = {
 	2000.1.1 = {

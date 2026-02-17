@@ -346,7 +346,7 @@ winged_knights = {
 	high_maintenance_cost = { gold = 2 piety = 1.0 }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 75
-
+	
 	damage = 130
 	toughness = 35
 	pursuit = 30

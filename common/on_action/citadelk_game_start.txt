@@ -255,8 +255,35 @@ set_provinces_start_citadel = {
             add_special_building = citadel_willow_wood_1
         }
         title:b_castle_darry.title_province = {
-            add_special_building = citadel_castle_darry
+            add_special_building = citadel_castle_darry 
         }
+        title:b_coughing_keep.title_province = {
+            add_special_building = citadel_northern_steppes_01
+        }
+        title:b_flints_finger.title_province = {
+            add_special_building = citadel_flints_finger
+        }  
+        title:b_hornwood.title_province = {
+            add_special_building = agot_hornwood_forest_01
+        }  
+        title:b_torrhens_square.title_province = {
+            add_special_building = agot_tallhart_torrhens_square_01
+        }  
+        title:b_oldcastle.title_province = {
+            add_special_building = agot_locke_oldcastle_01
+        }   
+        title:b_whitewalls.title_province = {
+            add_special_building = agot_butterwell_whitewalls_castle_01
+        }
+        title:b_ramsgate.title_province = {
+            add_special_building = citadel_ramsgate
+        }  
+        title:b_wyverns_rest.title_province = {
+            add_special_building = citadel_wyverns_rest
+        } 
+        title:b_sarsfield.title_province = {
+            add_special_building = citadel_sarsfield_1
+        } 
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
@@ -290,6 +317,13 @@ set_provinces_start_citadel = {
             add_building = stables_02
             add_building = smiths_03
         }
+        title:b_stonebushel.title_province = {
+            add_building = outposts_06
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = workshops_07
+            add_building = quarries_07
+        } 
         title:b_cleganes_keep.title_province = {
             add_building = curtain_walls_06
             add_building = military_camps_04

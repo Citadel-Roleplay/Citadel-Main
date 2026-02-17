@@ -493,6 +493,10 @@
 	7824.1.1 = {
 		buildings = { castle_01 }
 	}
+	8211.1.1 = {
+		holding = ruin_holding
+		buildings = { small_ruin_01 }
+	}
 }
 ################### b_greenhill ###################
 ########## c_waspwood - d_blackwood_vale ##########
@@ -2270,7 +2274,8 @@
 		buildings = { castle_03 }
 	}
 	8211.1.1 = {
-		holding = none
+		holding = ruin_holding
+		buildings = { small_ruin_01 }
 	}
 }
 ################### b_nightstay ###################

@@ -133,7 +133,7 @@ bone_collectos = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_very_cheap }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 40
-
+	max_regiments = 1
 	damage = 100
 	toughness = 45
 	pursuit = 10

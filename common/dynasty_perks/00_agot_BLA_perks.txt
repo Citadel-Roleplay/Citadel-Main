@@ -92,9 +92,9 @@ forrester_legacy_4_BLA = { # Rooted Rivalry
 	}
 	
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		defender_advantage = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 		prowess_per_stress_level = 1
 	}
 	ai_chance = {
@@ -214,7 +214,7 @@ bolton_legacy_4_BLA = { # Legacy of the Dreadfort
 	
 	character_modifier = {
 		additional_fort_level = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		castle_holding_build_gold_cost = -0.10
 		castle_holding_build_speed = -0.25
 	}
@@ -241,7 +241,7 @@ bolton_legacy_5_BLA = { # The Quiet Knife
 
 	character_modifier = {
 		owned_scheme_secrecy_add = 15
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		dread_baseline_add = 10
 	}
 	ai_chance = {
@@ -268,8 +268,8 @@ manderly_legacy_1 = { # Last of the Northern Giants
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.5
-		health = 0.25
+		monthly_prestige = 0.05
+		health = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -295,7 +295,7 @@ manderly_legacy_2 = { # Oaths carved in Ice
 	
 	character_modifier = {
 		diplomacy = 1
-		monthly_prestige = 0.25
+		monthly_prestige = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -361,7 +361,7 @@ manderly_legacy_5 = { # Northern Splendor
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		court_grandeur_baseline_add = 2
 		attraction_opinion = 5
 		courtier_and_guest_opinion = 5
@@ -510,7 +510,7 @@ mormont_legacy_1 = { # Bear's Oath
 
 	character_modifier = {
 		diplomacy = 1
-		monthly_prestige = 0.25
+		monthly_prestige = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -582,7 +582,7 @@ mormont_legacy_4 = { # Shieldmaidens of Bear Isle
 	character_modifier = {
 		prowess = 1
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 		levy_size = 0.05
 	}
 	ai_chance = {
@@ -607,7 +607,7 @@ mormont_legacy_5 = { # Keepers of Bear Isle
 	character_modifier = {
 		stewardship = 1
 		monthly_county_control_growth_factor = 0.15
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.15   
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05 
 	}
 	ai_chance = {
 		value = 100
@@ -684,7 +684,6 @@ umber_legacy_3_BLA = { # Oath of the Wolf
 	}
 	
 	character_modifier = {
-		monthly_prestige = 0.25
 		heavy_infantry_damage_mult = 0.15
 		heavy_infantry_toughness_mult = 0.10
 	}
@@ -736,7 +735,7 @@ umber_legacy_5_BLA = { # Last Hearth
 	character_modifier = {
 		additional_fort_level = 1
 		monthly_county_control_growth_factor = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 		defender_advantage = 5
 	}
 	ai_chance = {
@@ -983,7 +982,7 @@ blackwood_legacy_5 = { # dark wings, deep roots
 		learning = 1
 		intrigue = 1
 		owned_hostile_scheme_success_chance_add = 10 
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -1083,7 +1082,7 @@ bracken_legacy_4 = { # Mud War Doctrine
 	character_modifier = {
 		diplomacy = 1
 		intrigue = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.1
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -1156,7 +1155,7 @@ mooton_legacy_2 = { # Keepers of Jonquil's Pool
 	}
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.10
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
 		monthly_piety_gain_mult = 0.05
 		owned_legend_spread_mult = 0.05
 		clergy_opinion = 10
@@ -1256,7 +1255,7 @@ darry_legacy_1 = { # Riders of the Redgrass, Bloody Meadow
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -1306,7 +1305,6 @@ darry_legacy_3 = { # Cloaked in White
 	character_modifier = {
 		knight_limit = 1
 		knight_effectiveness_mult = 0.10
-		monthly_prestige = 0.25
 	}
 	ai_chance = {
 		value = 100
@@ -1532,7 +1530,7 @@ clegane_legacy_2 = { # Blood Hounds
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 		dread_baseline_add = 5
 	}
 	ai_chance = {
@@ -1609,7 +1607,6 @@ clegane_legacy_5 = { # The Name Alone
 	character_modifier = {
 		dread_baseline_add = 15
 		dread_decay_mult = -0.25
-		monthly_prestige = 0.25
 	}
 	ai_chance = {
 		value = 100
@@ -1684,7 +1681,7 @@ reyne_legacy_3 = { # Redmane Pride
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.25
+		monthly_prestige = 0.05
 		attraction_opinion = 5
 		monthly_court_grandeur_change_mult = 0.10
 	}
@@ -1709,7 +1706,7 @@ reyne_legacy_4 = { # Cat of a Different Coat
 	character_modifier = {
 		prowess = 1
 		martial = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 		westerman_opinion = 5	
 	}
 	ai_chance = {
@@ -1807,7 +1804,7 @@ farman_legacy_3 = { # Fair Traders
 	character_modifier = {
 		stewardship = 1
 		domain_tax_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		same_culture_opinion = 10
 	}
 	ai_chance = {
@@ -1831,7 +1828,7 @@ farman_legacy_4 = { # The Sea Knows Our Name
 	character_modifier = {
 		monthly_prestige = 0.25
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -1915,7 +1912,7 @@ crakehall_legacy_2 = { # Backbone of the Rock
 
 	character_modifier = {
 		prowess = 2
-		monthly_martial_lifestyle_xp_gain_mult = 0.10  
+		monthly_martial_lifestyle_xp_gain_mult = 0.05 
 		liege_opinion = 15
 	}
 	ai_chance = {
@@ -1987,7 +1984,6 @@ crakehall_legacy_5 = { # Tales Told in Alehalls
 	}
 	
 	character_modifier = {
-		monthly_prestige = 0.25
 		dread_decay_mult = -0.20 
 		owned_legend_spread_mult = 0.05
 		same_culture_opinion = 10    
@@ -2041,7 +2037,6 @@ royce_legacy_2 = { # First Men's Blood
 	}
 	character_modifier = {
 		army_toughness_mult = 0.15
-		monthly_prestige = 0.25
 		fertility = 0.05
 	}
 	ai_chance = {
@@ -2090,7 +2085,6 @@ royce_legacy_4 = { # Runes of Authority
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.15
 		vassal_tax_mult = 0.05
 	}
 	ai_chance = {
@@ -2119,7 +2113,7 @@ royce_legacy_5 = { # Line of the First Kings, Rooted in Stone
 	character_modifier = {
 		owned_legend_spread_mult = 0.05
 		monthly_dynasty_prestige = 0.05
-		monthly_lifestyle_xp_gain_mult = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -2144,7 +2138,7 @@ corbray_legacy_1 = { # Heirs of Lady Forlorn
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.15 
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -2165,7 +2159,7 @@ corbray_legacy_2 = { # Heart's Discipline
 	}
 	character_modifier = {
 		additional_fort_level = 1
-		monthly_county_control_growth_factor = 0.10
+		monthly_county_control_growth_factor = 0.05
 		heavy_infantry_toughness_mult = 0.10
 	}
 	ai_chance = {
@@ -2191,7 +2185,7 @@ corbray_legacy_3 = { # Blade-Honed Pride
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.25
+		monthly_prestige = 0.05
 		dread_decay_mult = -0.10
 		vassal_opinion = -5
 	}
@@ -2215,7 +2209,7 @@ corbray_legacy_4 = { #Veiled Ambition
 	
 	character_modifier = {
 		intrigue = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		intrigue_per_prestige_level = 1
 		liege_opinion = -10   
 	}
@@ -2291,7 +2285,7 @@ grafton_legacy_2 = { # Coins and Courtiers
 
 	character_modifier = {
 		court_grandeur_baseline_add = 2
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		vassal_opinion = -5
 	}
 	ai_chance = {
@@ -2365,7 +2359,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 
 	character_modifier = {
 		monthly_prestige = 0.25 
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -2500,7 +2494,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 		monthly_county_control_growth_add = 0.10
 # 		supply_capacity_mult = 0.5
 # 		fertility = 0.10
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -2524,7 +2518,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		martial = 1
 # 		army_toughness_mult = 0.15
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -2654,7 +2648,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		monthly_prestige = 0.10
 # 		monthly_dynasty_prestige = 0.02
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -2781,7 +2775,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 
 # 	character_modifier = {
 # 		domain_limit = 1
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05  
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -2979,7 +2973,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 	
 # 	character_modifier = {
 # 		intrigue = 1
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -3099,7 +3093,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 
 # 	character_modifier = {
 # 		diplomacy = 1
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		owned_personal_scheme_success_chance_add = 10
 # 		tyranny_gain_mult = -0.10	
 # 	}
@@ -3234,7 +3228,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 	
 # 	character_modifier = {
 # 		vassal_tax_mult = 0.10
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05 
 # 	}
 # 	ai_chance = {
@@ -3259,7 +3253,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 		knight_effectiveness_mult = 0.15
 # 		men_at_arms_maintenance = -0.10
 # 		owned_legend_spread_mult = 0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -3821,7 +3815,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		prowess = 2
 # 		development_growth_factor = 0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -3871,7 +3865,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 	
 # 	character_modifier = {
 # 		domain_tax_mult = 0.10  
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 		build_gold_cost = -0.10
 # 	}
 # 	ai_chance = {
@@ -3926,7 +3920,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 
 # 	character_modifier = {
 # 		diplomacy = 1
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		owned_legend_spread_mult = 0.05
 # 		court_grandeur_baseline_add = 5
 # 		liege_opinion = -5
@@ -3957,7 +3951,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 		prowess = 1
 # 		monthly_prestige = 0.25
 # 		knight_effectiveness_mult = 0.15
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4004,7 +3998,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		domain_tax_mult = 0.20
 # 		development_growth_factor = 0.05
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4080,7 +4074,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	}
 
 # 	character_modifier = {
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		additional_fort_level = 1
 # 		build_gold_cost = -0.10
 # 	}
@@ -4179,7 +4173,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 
 # 	character_modifier = {
 # 		additional_fort_level = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		monthly_county_control_growth_factor = 0.10
 # 	}
 # 	ai_chance = {
@@ -4254,7 +4248,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		diplomacy = 1
 # 		monthly_prestige = 0.25
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		same_culture_opinion = 10
 		
 # 	}
@@ -4303,7 +4297,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		stewardship = 1
 # 		domain_tax_mult = 0.10
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4378,7 +4372,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		knight_effectiveness_mult = 0.10
 # 		prowess = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4531,7 +4525,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		martial = 1
 # 		prowess = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		knight_limit = 1
 # 	}
 # 	ai_chance = {
@@ -4580,7 +4574,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		skirmishers_damage_mult = 0.10                        
 # 		skirmishers_toughness_mult = 0.15
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4604,7 +4598,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		stewardship = 1
 # 		domain_tax_mult = 0.05
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4754,7 +4748,7 @@ grafton_legacy_5 = { # Legacy of the Gull Throne
 # 	character_modifier = {
 # 		learning = 1
 # 		enemy_hostile_scheme_success_chance_add = -20
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -4831,7 +4825,7 @@ vance_legacy_2 = { # Honor of Atranta
 	character_modifier = {
 		liege_opinion = 10
 		vassal_opinion = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -5037,7 +5031,7 @@ mallister_legacy_5 = { # The Vigil Endures
 		prowess = 1
 		knight_limit = 1
 		supply_limit_mult = 0.15
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
 		value = 100
@@ -5680,8 +5674,8 @@ drumm_legacy_5 = { # Lords of the Deep Salt
 # 	character_modifier = {
 # 		monthly_prestige = 0.25
 # 		monthly_county_control_growth_factor = 0.10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -5751,7 +5745,7 @@ roxton_legacy_3 = { # Shadow of the Orphan Blade
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 		dread_gain_mult = 0.05
 		knight_limit = 1
 		owned_legend_spread_mult = 0.05
@@ -5778,7 +5772,7 @@ roxton_legacy_4 = { # Thorns Among Lords
 		intrigue = 1
 		intrigue_scheme_resistance = 0.10
 		short_reign_duration_mult = -0.15
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -5935,7 +5929,7 @@ roxton_legacy_5 = { # Death Is the Herald
 # 		monthly_dynasty_prestige = 0.05
 # 		army_damage_mult = 0.05
 # 		knight_limit = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.2
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -6125,7 +6119,7 @@ stark_legacy_5_BLA = { # Old Gods' Chosen
 	
 # 	character_modifier = {
 # 		prowess = 2
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -6555,7 +6549,7 @@ arryn_legacy_5 = { # Above the Dragons
 # 	character_modifier = {
 # 		intrigue = 1
 # 		dynasty_opinion = 10
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -6584,7 +6578,7 @@ arryn_legacy_5 = { # Above the Dragons
 # 	character_modifier = {
 # 		owned_hostile_scheme_success_chance_add = 10
 # 		dread_gain_mult = 0.25
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -6659,7 +6653,7 @@ arryn_legacy_5 = { # Above the Dragons
 # 	}
 
 # 	character_modifier = {
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 		vassal_opinion = -5
 # 		short_reign_duration_mult = -0.10
 # 		liege_opinion = 10
@@ -6716,7 +6710,7 @@ arryn_legacy_5 = { # Above the Dragons
 # 	character_modifier = {
 # 		intrigue_scheme_resistance = 10
 # 		dynasty_opinion = 10
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 		owned_personal_scheme_success_chance_add = 15
 # 	}
 # 	ai_chance = {
@@ -6824,7 +6818,7 @@ tully_legacy_3 = { # The Red Fork Way
 		defender_advantage = 5
 		heavy_infantry_damage_mult = 0.10
 		heavy_infantry_toughness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -6872,7 +6866,7 @@ tully_legacy_5 = { # The River Remembers
 
 	character_modifier = {
 		domain_limit = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		monthly_dynasty_prestige = 0.05
 		dread_decay_mult = -0.25
 		
@@ -7276,7 +7270,7 @@ banefort_legacy_5 = { # The Hood Remains
 
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		knight_effectiveness_mult = 0.10
 		monthly_piety = 0.25
 	}
@@ -7413,7 +7407,7 @@ banefort_legacy_5 = { # The Hood Remains
 
 # 	character_modifier = {
 # 		levy_size = 0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -7524,7 +7518,7 @@ banefort_legacy_5 = { # The Hood Remains
 # 		defender_advantage = 5
 # 		martial = 1
 # 		dread_gain_mult = 0.10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -7654,7 +7648,7 @@ banefort_legacy_5 = { # The Hood Remains
 
 # 	character_modifier = {
 #    	   intrigue = 2
-# 	   monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+# 	   monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	   monthly_prestige = -0.1
 # 	}
 # 	ai_chance = {
@@ -7685,7 +7679,7 @@ banefort_legacy_5 = { # The Hood Remains
 # 	character_modifier = {
 # 		martial = 1
 # 		additional_fort_level = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -7761,7 +7755,7 @@ banefort_legacy_5 = { # The Hood Remains
 
 # 	character_modifier = {
 # 		dread_baseline_add = 10
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 		enemy_hostile_scheme_success_chance_add = -10
 # 		knight_effectiveness_mult = 0.05
 # 	}
@@ -7790,7 +7784,7 @@ banefort_legacy_5 = { # The Hood Remains
 
 # 	character_modifier = {
 #    	   	prowess = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		monthly_learning_lifestyle_xp_gain_mult = 0.05	
 # 	}
 # 	ai_chance = {
@@ -7874,7 +7868,7 @@ templeton_legacy_2 = { # Falcons and Fire
 
 	character_modifier = {
 		dread_gain_mult = 0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		liege_opinion = 10
 	}
 	ai_chance = {
@@ -8031,7 +8025,7 @@ shett_legacy_3 = { # Oathbreaker’s Crown
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		intrigue_scheme_resistance = 15
 		owned_personal_scheme_success_chance_add = 10
 	}
@@ -8213,7 +8207,7 @@ shett_legacy_5 = { # Sons of a Vanished King
 # 	character_modifier = {
 # 		prowess = 2
 # 		defender_advantage = 10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		additional_fort_level = 1
 # 	}
 # 	ai_chance = {
@@ -8319,7 +8313,7 @@ codd_legacy_4 = { # Tide-Crawlers
 	character_modifier = {
 		intrigue = 1
 		siege_phase_time = -0.10
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		intrigue_scheme_resistance = 15
 	}
 	ai_chance = {
@@ -8396,7 +8390,7 @@ codd_legacy_5 = { # Though All Men Despise Us
 # 	character_modifier = {
 #   		attraction_opinion = 10  
 #   		stress_gain_mult = -0.1  
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -8445,7 +8439,7 @@ codd_legacy_5 = { # Though All Men Despise Us
 # 	character_modifier = {
 # 		intrigue = 1  
 #   		diplomacy = 1 
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05 
 #   		liege_opinion = 10  
 # 	}
 # 	ai_chance = {
@@ -8578,7 +8572,7 @@ piper_legacy_4 = { # Red Fork Defiance
 	character_modifier = {
 		knight_limit = 1  
   		levy_size = 0.10 
-		monthly_martial_lifestyle_xp_gain_mult = 0.15 
+		monthly_martial_lifestyle_xp_gain_mult = 0.055 
   		vassal_opinion = 5 
 	}
 	ai_chance = {
@@ -8632,7 +8626,7 @@ butterwell_legacy_1 = { # Cattle Lords
 
 	character_modifier = {
 		supply_limit_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		development_growth_factor = 0.05
 		heavy_cavalry_toughness_mult = 0.10  
 	}
@@ -8789,7 +8783,7 @@ vypren_legacy_2 = { # The Line Beyond Steel
 
 	character_modifier = {
 		general_opinion = 5   
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -8969,7 +8963,7 @@ flint_legacy_4 = { # A Night's Crown
 		intrigue = 1 
 		owned_personal_scheme_success_chance_add = 10
 		prowess_per_stress_level = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -9047,7 +9041,7 @@ glover_legacy_2 = { # Oaths to Winter
 
 	character_modifier = {
 		liege_opinion = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -9201,7 +9195,7 @@ glover_legacy_5 = { #  The Motte Endures
 # 	character_modifier = {
 # 		domain_tax_mult = 0.10  
 # 		development_growth_factor = 0.05  
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -9254,7 +9248,7 @@ glover_legacy_5 = { #  The Motte Endures
 # 		monthly_prestige = 0.25 
 # 		fertility = 0.10  
 # 		prowess_per_prestige_level = 2
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -9331,7 +9325,7 @@ glover_legacy_5 = { #  The Motte Endures
 # 		fertility = 0.10  
 # 		monthly_prestige = 0.25
 # 		diplomacy = 1
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -9355,7 +9349,7 @@ glover_legacy_5 = { #  The Motte Endures
 # 	character_modifier = {
 # 		stewardship = 1  
 # 		domain_tax_mult = 0.10  
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05  
 # 		build_gold_cost = -0.05
 # 	}
 # 	ai_chance = {
@@ -9408,7 +9402,7 @@ lydden_legacy_1 = { # Blades from the East
 
 	character_modifier = {
 		prowess = 1  
-		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+		monthly_martial_lifestyle_xp_gain_mult = 0.050 
 	}
 	ai_chance = {
 		value = 100
@@ -9457,7 +9451,7 @@ lydden_legacy_3 = { # Lion by Marriage
 		legitimacy_gain_mult = 0.05 
 		general_opinion = 5
 		monthly_prestige = 0.20
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -9485,7 +9479,7 @@ lydden_legacy_4 = { # Stewards of the Lion
 
 	character_modifier = {
 		liege_opinion = 10  
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05 
 		dread_decay_mult = -0.10  
 	}
 	ai_chance = {
@@ -9537,7 +9531,7 @@ lefford_legacy_1 = { # Iron in the Blood
 	character_modifier = {
 		prowess = 1  
 		general_opinion = 5 
-		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+		monthly_martial_lifestyle_xp_gain_mult = 0.050 
 	}
 	ai_chance = {
 		value = 100
@@ -9586,7 +9580,7 @@ lefford_legacy_3 = { # Coin Through Stone
 	character_modifier = {
 		vassal_tax_mult = 0.5
 		domain_tax_mult = 0.10 
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05  
 	}
 	ai_chance = {
 		value = 100
@@ -9614,7 +9608,7 @@ lefford_legacy_4 = { # Voice of the Lion
 
 	character_modifier = {
 		liege_opinion = 10  
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15 
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055 
 		dread_decay_mult = -0.10 
 	}
 	ai_chance = {
@@ -9640,7 +9634,7 @@ lefford_legacy_5 = { #  Gold Never Yields
 		monthly_prestige = 0.25  
 		short_reign_duration_mult = -0.2  
 		intrigue_scheme_resistance = 15
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -9667,7 +9661,7 @@ marbrand_legacy_1 = { # First-Born Flame
 
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.10 
+		monthly_martial_lifestyle_xp_gain_mult = 0.050 
 		general_opinion = 5 
 	}
 	ai_chance = {
@@ -10163,8 +10157,8 @@ harlaw_legacy_5 = { #  The Scythe Remembers
 # 	character_modifier = {
 # 		monthly_prestige = 0.25  
 # 		liege_opinion = 10  
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10   
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050   
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -10264,7 +10258,7 @@ harlaw_legacy_5 = { #  The Scythe Remembers
 
 # 	character_modifier = {
 # 		enemy_hard_casualty_modifier = 0.10  
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		intrigue_scheme_resistance = 10
 # 		monthly_prestige = 0.25 
 # 	}
@@ -10290,7 +10284,7 @@ harlaw_legacy_5 = { #  The Scythe Remembers
 # 	character_modifier = {
 # 		diplomacy = 1
 # 		dread_gain_mult = 0.10  
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.20 
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.050 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -10395,7 +10389,7 @@ waynwood_legacy_4 = { # Wild Wyl’s Charge
 	character_modifier = {
 		enemy_hard_casualty_modifier = 0.05
 		knight_effectiveness_mult = 0.10  
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -10420,7 +10414,7 @@ waynwood_legacy_5 = { #  Lords of the Ancient Way
 		diplomacy = 1
 		monthly_prestige = 0.25 
 		court_grandeur_baseline_add = 3
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10 
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -10547,7 +10541,7 @@ upcliff_legacy_5 = { #  Whispers That Endure
 		monthly_county_control_growth_factor = 0.10
 		monthly_prestige = 0.25 
 		short_reign_duration_mult = -0.20  
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10 
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05 
 	}
 	ai_chance = {
 		value = 100
@@ -10599,7 +10593,7 @@ brax_legacy_2 = { # Vassals of the Lion
 	character_modifier = {
 		liege_opinion = 10  
 		short_reign_duration_mult = -0.2  
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10  
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -10676,7 +10670,7 @@ brax_legacy_5 = { #  Endurance, Not Echoes
 		intrigue_scheme_resistance = 15
 		monthly_prestige = 0.25 
 		dread_decay_mult = -0.10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15 
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055 
 	}
 	ai_chance = {
 		value = 100
@@ -10730,7 +10724,7 @@ brax_legacy_5 = { #  Endurance, Not Echoes
 # 	character_modifier = {
 # 		dread_gain_mult = 0.10
 # 		diplomacy = 1
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -10779,7 +10773,7 @@ brax_legacy_5 = { #  Endurance, Not Echoes
 # 		fertility = 0.1
 # 		owned_personal_scheme_success_chance_add = 20
 # 		attraction_opinion = 10
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15 
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -10909,7 +10903,7 @@ strong_legacy_4 = { # Hands of Power
 
 	character_modifier = { 
 		stewardship = 1 
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		monthly_county_control_growth_factor = 0.10
 	}
 	ai_chance = {
@@ -11061,7 +11055,7 @@ mudd_legacy_5 = { #  The River’s Claim
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		legitimacy_gain_mult = 0.05 
 		monthly_prestige = 0.25 
 		domain_limit = 1   
@@ -11119,7 +11113,7 @@ mudd_legacy_5 = { #  The River’s Claim
 # 	character_modifier = {
 # 		same_culture_opinion = 10  
 # 		vassal_limit = 5  
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10 
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05 
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -11249,7 +11243,7 @@ mudd_legacy_5 = { #  The River’s Claim
 # 	character_modifier = {
 # 		defender_advantage = 5  
 # 		build_gold_cost = -0.10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -11296,7 +11290,7 @@ mudd_legacy_5 = { #  The River’s Claim
 
 # 	character_modifier = { 
 # 		monthly_prestige = 0.25 
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		short_reign_duration_mult = -0.20 
 # 		fertility = 0.10 
 # 	}
@@ -11455,7 +11449,7 @@ justman_legacy_5 = { #  The Bloody Keep
 		short_reign_duration_mult = -0.2  
 		intrigue_scheme_resistance = 10
 		monthly_dynasty_prestige = 0.05
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
 		value = 100
@@ -11587,7 +11581,7 @@ greyiron_legacy_5 = { #  The Drowning of Kings
 		martial = 1
 		prowess = 1   
 		intrigue_scheme_resistance = 15
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 		vassal_opinion = -5
 	}
 	ai_chance = {
@@ -11665,7 +11659,7 @@ lothston_legacy_3 = { # Crown and Cloak
 
 	character_modifier = {
 		liege_opinion = 10  
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15 
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055 
 		vassal_tax_mult = 0.10   
 		owned_personal_scheme_success_chance_add = 20
 	}
@@ -11723,7 +11717,7 @@ lothston_legacy_5 = { #  The House That Vanished
 		intrigue_scheme_resistance = 20   
 		general_opinion = -5
 		monthly_dynasty_prestige = 0.05
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15 
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05 
 	}
 	ai_chance = {
 		value = 100
@@ -11802,7 +11796,7 @@ casterly_legacy_3 = { # Sun-Shaft Gold
 
 	character_modifier = {
 		development_growth_factor = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10 
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		vassal_tax_mult = 0.10   
 	}
 	ai_chance = {
@@ -11826,7 +11820,7 @@ casterly_legacy_4 = { # Ghosts in the Rock
 
 	character_modifier = { 
 		enemy_hostile_scheme_success_chance_add = -20
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		intrigue_scheme_resistance = 15
 		dread_gain_mult = 0.15  
 	}
@@ -11903,7 +11897,7 @@ qoherys_legacy_2 = { # Sword of the Conqueror
 
 	character_modifier = {
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		liege_opinion = 10
 	}
 	ai_chance = {
@@ -12191,7 +12185,7 @@ qoherys_legacy_5 = { #  House of Curses
 # 	character_modifier = {
 # 		dread_baseline_add = 5
 # 		intimidated_vassal_tax_contribution_mult = 0.05 
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10  
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05  
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -12297,7 +12291,7 @@ qoherys_legacy_5 = { #  House of Curses
 # 	}
 
 # 	character_modifier = { 
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 		prowess = 1
 # 		stress_gain_mult = -0.10
 # 	}
@@ -12425,7 +12419,7 @@ qoherys_legacy_5 = { #  House of Curses
 
 # 	character_modifier = { 
 # 		diplomacy = 1
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		tyranny_gain_mult = -0.10
 # 	}
 # 	ai_chance = {
@@ -12690,7 +12684,7 @@ qoherys_legacy_5 = { #  House of Curses
 # 	character_modifier = {
 # 		dread_baseline_add = 5
 # 		defender_advantage = 5
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -12764,7 +12758,7 @@ qoherys_legacy_5 = { #  House of Curses
 # 		diplomacy = 1
 # 		court_grandeur_baseline_add = 2
 # 		monthly_dynasty_prestige = 0.05
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -13108,7 +13102,7 @@ caswell_legacy_3 = { # Oath of the Wall
 	character_modifier = {
 		monthly_piety_gain_mult = 0.05
 		clergy_opinion = 10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		dread_decay_mult = -0.10
 	}
 	ai_chance = {
@@ -13159,7 +13153,7 @@ caswell_legacy_5 = { #  Bridge Endures
 		additional_fort_level = 1
 		domain_tax_mult = 0.05
 		general_opinion = 5
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 
 	}
 	ai_chance = {
@@ -13258,7 +13252,7 @@ caswell_legacy_5 = { #  Bridge Endures
 
 # 	character_modifier = { 
 # 		intrigue = 1
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 		enemy_hostile_scheme_success_chance_add = -15
 # 		attraction_opinion = 5
 # 		dread_baseline_add = 10
@@ -13287,7 +13281,7 @@ caswell_legacy_5 = { #  Bridge Endures
 # 		monthly_dynasty_prestige = 0.05
 # 		court_grandeur_baseline_add = 2
 # 		general_opinion = 5
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -13338,7 +13332,7 @@ caswell_legacy_5 = { #  Bridge Endures
 # 		dread_baseline_add = 5
 # 		diplomacy = 1
 # 		enemy_hostile_scheme_success_chance_add = -10
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		stone_dornish_opinion = -5
 # 		sand_dornish_opinion = -5
 # 		salt_dornish_opinion = -5
@@ -13415,7 +13409,7 @@ caswell_legacy_5 = { #  Bridge Endures
 # 	}
 
 # 	character_modifier = {
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 		monthly_dynasty_prestige = 0.05
 # 		court_grandeur_baseline_add = 2
 # 		vassal_limit = 5
@@ -13444,7 +13438,7 @@ hewett_legacy_1 = { # Gates of Oak
 	character_modifier = {
 		additional_fort_level = 1
 		defender_advantage = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -13670,7 +13664,7 @@ ashford_legacy_5 = { #  Crown’s Steadfast Bannermen
 	character_modifier = {
 		monthly_dynasty_prestige = 0.05
 		intrigue_scheme_resistance = 15
-        	monthly_martial_lifestyle_xp_gain_mult = 0.15
+        	monthly_martial_lifestyle_xp_gain_mult = 0.055
         	vassal_limit = 2
 	}
 	ai_chance = {
@@ -13802,7 +13796,7 @@ merryweather_legacy_5 = { #  Honeyed Hosts of the Reach
 		monthly_dynasty_prestige = 0.05
 		court_grandeur_baseline_add = 2
 		general_opinion = 5
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -13881,7 +13875,7 @@ mullendore_legacy_3 = { # Matches of Distinction
 		fertility = 0.05
 		owned_personal_scheme_success_chance_add = 10
 		monthly_prestige = 0.25
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -13906,7 +13900,7 @@ mullendore_legacy_4 = { # Queen’s Favor
 		legitimacy_gain_mult = 0.05
 		attraction_opinion = 5
 		liege_opinion = 10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -13958,7 +13952,7 @@ footly_legacy_1 = { # Field of Caltrops
 	character_modifier = {
 		enemy_hard_casualty_modifier = 0.15
 		monthly_prestige = 0.25
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -14032,7 +14026,7 @@ footly_legacy_4 = { # Humor and Humility
 		diplomacy = 1
 		general_opinion = 5
 		stress_gain_mult = -0.10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -14058,7 +14052,7 @@ footly_legacy_5 = { #  Tread Lightly Here
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		legitimacy_gain_mult = 0.05
 		same_culture_opinion = 5
 	}
@@ -14188,7 +14182,7 @@ meadows_legacy_5 = { #  Meadowlord’s Bounty
 		stewardship = 1
 		vassal_opinion = 5
 		court_grandeur_baseline_add = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -14267,7 +14261,7 @@ varner_legacy_3 = { # Knights of Varner Hall
 	character_modifier = {
 		knight_effectiveness_mult = 0.10
 		prowess = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -14583,7 +14577,7 @@ norcross_legacy_5 = { # The House That Yields Not
 		vassal_opinion = 5
 		tyranny_gain_mult = -0.10
 		defender_advantage = 10
-		monthly_martial_lifestyle_xp_gain_mult = 0.20
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -14610,7 +14604,7 @@ willum_legacy_1 = { # Black Swords at the Wall
 	character_modifier = {
 		prowess = 1
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -14635,7 +14629,7 @@ willum_legacy_2 = { # Silvered Ambition
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
         	diplomacy = 1
         	legitimacy_gain_mult = 0.05
 	}
@@ -14951,7 +14945,7 @@ serrett_legacy_4 = { # Guardians of the Pass
 	character_modifier = { 
 		defender_advantage = 5
         	additional_fort_level = 1
-        	monthly_martial_lifestyle_xp_gain_mult = 0.20
+        	monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -15000,7 +14994,7 @@ prester_legacy_1 = { # Feastfires March
 		defender_advantage = 3
 		monthly_county_control_growth_factor = 0.05
 		liege_opinion = 10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -15028,7 +15022,7 @@ prester_legacy_2 = { # Blood and Betrayal
 		embarkation_cost_mult = -0.10
 		dread_gain_mult = 0.10
 		stress_gain_mult = -0.05
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -15342,7 +15336,7 @@ greenfield_legacy_4 = { # Guardians of Vale and Field
 	character_modifier = { 
 		defender_advantage = 5
 		levy_size = 0.15
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -15368,7 +15362,7 @@ greenfield_legacy_5 = { # Deep Roots
 		liege_opinion = 5
 		vassal_opinion = 5
 		short_reign_duration_mult = -0.20
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -15498,7 +15492,7 @@ greenfield_legacy_5 = { # Deep Roots
 # 		health = 0.25  
 # 		stress_gain_mult = -0.05
 # 		martial = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -15526,7 +15520,7 @@ greenfield_legacy_5 = { # Deep Roots
 # 	character_modifier = {
 # 		stewardship = 1
 #         	domain_tax_mult = 0.10
-#         	monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+#         	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -15630,7 +15624,7 @@ greenfield_legacy_5 = { # Deep Roots
 # 		monthly_dynasty_prestige = 0.05
 #         	court_grandeur_baseline_add = 2
 #         	monthly_prestige = 0.25
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -15762,7 +15756,7 @@ buckler_legacy_5 = { # The Storm's Defiance
 		knight_effectiveness_mult = 0.12
 		defender_advantage = 5
 		same_culture_opinion = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -15814,7 +15808,7 @@ buckler_legacy_5 = { # The Storm's Defiance
 # 	character_modifier = {
 # 		stress_gain_mult = -0.10
 # 		diplomacy = 1
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -15862,7 +15856,7 @@ buckler_legacy_5 = { # The Storm's Defiance
 # 		}
 # 	}
 # 	character_modifier = { 
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		vassal_opinion = 5
 # 		monthly_piety = 0.25
 # 		enemy_hostile_scheme_success_chance_add = -10
@@ -15891,7 +15885,7 @@ buckler_legacy_5 = { # The Storm's Defiance
 # 	}
 
 # 	character_modifier = {
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 		short_reign_duration_mult = -0.20
 # 		health = 0.10
 # 	}
@@ -16019,7 +16013,7 @@ lonmouth_legacy_5 = { # Sigil Never Fades
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055
 		monthly_dynasty_prestige = 0.05
         	court_grandeur_baseline_add = 1
         	diplomacy_per_prestige_level = 1
@@ -16045,7 +16039,7 @@ cole_legacy_1 = { # Black Pellets of Blackhaven
 
 	character_modifier = {
 		defender_advantage = 5
-        	monthly_martial_lifestyle_xp_gain_mult = 0.10
+        	monthly_martial_lifestyle_xp_gain_mult = 0.050
         	monthly_prestige = 0.25
         	martial = 1
 	}
@@ -16074,7 +16068,7 @@ cole_legacy_2 = { # Steward’s Lineage
 	character_modifier = {
 		stewardship = 1
         	martial = 1
-        	monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+        	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
         	domain_tax_mult = 0.05
 	}
 	ai_chance = {
@@ -16262,7 +16256,7 @@ trant_legacy_4 = { # So End Our Foes
 	character_modifier = { 
 		enemy_hard_casualty_modifier = 0.10
 		vassal_opinion = 5
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		army_damage_mult = 0.05
 	}
 	ai_chance = {
@@ -16289,7 +16283,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 		dread_decay_mult = -0.20
 		same_faith_opinion = 5
 		short_reign_duration_mult = -0.15
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -16370,7 +16364,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		prowess = 2
 # 		monthly_prestige = 0.25
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16448,7 +16442,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		martial = 1
 # 		defender_advantage = 5
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16476,7 +16470,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 		vassal_opinion = 5
 # 		liege_opinion = 10
 # 		monthly_prestige = 0.20
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16555,7 +16549,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 		stress_loss_mult = 0.10
 # 		intrigue_scheme_resistance = 10
 # 		same_culture_opinion = 5
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16634,7 +16628,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		light_cavalry_damage_mult = 0.15
 # 		light_cavalry_toughness_mult = 0.08
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16660,7 +16654,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 		liege_opinion = 10
 # 		vassal_opinion = 5
 # 		monthly_prestige = 0.25
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16765,7 +16759,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		knight_effectiveness_mult = 0.05
 # 		enemy_hostile_scheme_success_chance_add = -10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -16950,7 +16944,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 		defender_advantage = 5
 # 		monthly_county_control_growth_factor = 0.10
 # 		levy_reinforcement_rate = 0.12
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.15
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.055
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -17162,7 +17156,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		dread_baseline_add = 10
 # 		diplomatic_range_mult = -0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -17187,7 +17181,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 		tyranny_gain_mult = -0.05
 # 		owned_hostile_scheme_success_chance_add = 10
 # 		diplomacy = 1
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -17215,7 +17209,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		stress_gain_mult = -0.10
 # 		levy_reinforcement_rate = 0.15
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 		defender_advantage = 5
 # 	}
 # 	ai_chance = {
@@ -17271,7 +17265,7 @@ trant_legacy_5 = { # Gallows Made Eternal
 # 	character_modifier = {
 # 		 diplomacy = 1
 #         	 liege_opinion = 10
-#         	 monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+#         	 monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -17452,7 +17446,7 @@ hornwood_legacy_4 = { # White Knife Wardens
 
 	character_modifier = { 
 		supply_limit_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		domain_tax_mult = 0.10
 		movement_speed = 0.10
 	}
@@ -17584,7 +17578,7 @@ wull_legacy_4 = { # Buckets Against the Iron Tide
 	character_modifier = { 
 		martial = 1
 		hostile_raid_time = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 		ironborn_opinion = -20
 	}
 	ai_chance = {
@@ -17692,7 +17686,7 @@ cerwyn_legacy_3 = { # Kingsroad Musters
 		hostile_raid_time = 0.10
 		army_maintenance_mult = -0.10
 		movement_speed = 0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -17933,7 +17927,7 @@ locke_legacy_2 = { # Oathkeepers of Oldcastle
 	character_modifier = {
 		 diplomacy = 1
         	 liege_opinion = 10
-        	 monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+        	 monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -17983,7 +17977,7 @@ locke_legacy_4 = { # Waymasters of the White Knife
 		movement_speed = 0.10
 		supply_limit_mult = 0.10
 		development_growth_factor = 0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		wetlands_advantage = 10
 	}
 	ai_chance = {
@@ -18091,7 +18085,7 @@ tallhart_legacy_3 = { # Drill of the Square
 		prowess = 1
         	knight_limit = 1
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
 		value = 100
@@ -18141,7 +18135,7 @@ tallhart_legacy_5 = { # Roots Before Storms
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		vassal_opinion = 10
 		county_opinion_add = 5
 		tyranny_gain_mult = -0.10
@@ -18335,7 +18329,7 @@ egen_legacy_2 = { # Moonwatch Vigil
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		travel_danger = -10
 		enemy_scheme_secrecy_add = -30 
 	}
@@ -18418,7 +18412,7 @@ egen_legacy_5 = { # By Day or Night
 
 	character_modifier = {
 		martial = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		short_reign_duration_mult = -0.10
 	}
 	ai_chance = {
@@ -18447,7 +18441,7 @@ tollett_legacy_1 = { #  When All Is Darkest
 		intrigue_scheme_resistance = 10
 		travel_danger = -15 
 		hostile_raid_time = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -18780,7 +18774,7 @@ redfort_legacy_3 = { # Under the Falcon’s Peace
 	}
 
 	character_modifier = { 
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		liege_opinion = 10
 		travel_danger = -10
 		monthly_county_control_growth_factor = 0.10
@@ -18812,7 +18806,7 @@ redfort_legacy_4 = { # Keystone Keepers
 		development_growth_factor = 0.03
 		garrison_size = 0.15
 		hostile_raid_time = 0.20
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -19089,7 +19083,7 @@ hunter_legacy_4 = { # Fosters and Bound Oaths
 		liege_opinion = 10
 		short_reign_duration_mult = -0.10
 		intrigue_scheme_resistance = 10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -19113,7 +19107,7 @@ hunter_legacy_5 = { # Feather-Law and Field Rights
 
 	character_modifier = {
 		stewardship = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		tyranny_gain_mult = -0.10  
 		domain_tax_mult = 0.05            
 		county_opinion_add = 10
@@ -19199,7 +19193,7 @@ borrell_legacy_3_BLA = { # Masters of Breakwater
 		garrison_size = 0.15
 		defender_advantage = 5
 		build_gold_cost = -0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -19337,7 +19331,7 @@ paege_legacy_3 = { # Against the Storm King
 		defender_advantage = 5
 		garrison_size = 0.10
 		knight_effectiveness_mult = 0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -19364,7 +19358,7 @@ paege_legacy_4 = { # Quay-Ledgers and River Oaths
 		development_growth_factor = 0.05
 		domain_tax_mult = 0.05
 		hostile_raid_time = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -19390,7 +19384,7 @@ paege_legacy_5 = { # Serpents Endure
 		vassal_opinion = 5
 		short_reign_duration_mult = -0.10
 		title_creation_cost_mult = -0.10
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		prowess = 1 
 	}
 	ai_chance = {
@@ -19445,7 +19439,7 @@ charlton_legacy_2 = { # Oaths at Fairmarket
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		forest_advantage = 5
 		legitimacy_gain_mult = 0.05	
 		martial = 1
@@ -19665,7 +19659,7 @@ smallwood_legacy_5 = { # Riders Against the Red
 	character_modifier = {
 		martial = 1
 		men_at_arms_maintenance = -0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		defender_advantage = 5  
 		hostile_raid_time = 0.15
 	}
@@ -19692,7 +19686,7 @@ whent_legacy_1 = { #  Bats on Gold
 	}
 
 	character_modifier = {
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		monthly_prestige = 0.30
 		court_grandeur_baseline_add = 1
 	}
@@ -19916,7 +19910,7 @@ teague_legacy_4 = { # Wars of the River Crowns
 		short_reign_duration_mult = -0.10
 		legitimacy_gain_mult = 0.05
 		vassal_opinion = -10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -20055,7 +20049,7 @@ graceford_legacy_4 = { # Tithes and Tend
 		domain_tax_mult = 0.05
 		development_growth_factor = 0.05
 		build_gold_cost  -0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20086,7 +20080,7 @@ graceford_legacy_5 = { # Work Her Will
 		same_faith_opinion = 10
 		short_reign_duration_mult = -0.08
 		court_grandeur_baseline_add = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -20192,7 +20186,7 @@ graceford_legacy_5 = { # Work Her Will
 # 		tyranny_gain_mult = -0.08
 # 		county_opinion_add = 5
 # 		stress_gain_mult = -0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 		intrigue_scheme_resistance = 15
 # 	}
 # 	ai_chance = {
@@ -20304,7 +20298,7 @@ graceford_legacy_5 = { # Work Her Will
 # 		diplomacy = 1
 # 		liege_opinion = 10
 # 		intrigue_scheme_resistance = 15
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -20329,7 +20323,7 @@ graceford_legacy_5 = { # Work Her Will
 # 		domain_tax_mult = 0.05
 # 		development_growth_factor = 0.05
 # 		build_gold_cost  -0.05
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -20359,7 +20353,7 @@ graceford_legacy_5 = { # Work Her Will
 # 		owned_hostile_scheme_success_chance_add = 25
 # 		vassal_opinion = 5
 # 		intrigue = 1
-# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+# 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -20441,7 +20435,7 @@ mandrake_legacy_3 = { # River Throne in Rival Hands
 		diplomacy = 1
 		title_creation_cost_mult = -0.10
 		defender_advantage = 5
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20495,7 +20489,7 @@ mandrake_legacy_5 = { # Exiles’ Gold, Company’s Bread
 	character_modifier = {
 		mercenary_hire_cost_mult = -0.25
 		embarkation_cost_mult = -0.20
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
 		value = 100
@@ -20576,7 +20570,7 @@ ryger_legacy_3 = { # Willow's Wardens
 		wetlands_advantage = 5
 		movement_speed = 0.05
 		archers_damage_mult = 0.05
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20629,7 +20623,7 @@ ryger_legacy_5 = { # Bend, Do Not Break
 		prowess = 1
 		additional_fort_level = 1
 		army_maintenance_mult = -0.05
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
 		value = 100
@@ -20740,7 +20734,7 @@ seaworth_legacy_4 = { # Left-Hand Reckoning
 		tyranny_gain_mult = -0.10
 		monthly_county_control_growth_factor = 0.10
 		vassal_opinion = 5
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20871,7 +20865,7 @@ toyne_legacy_4 = { # Golden Company Elite
 	character_modifier = {
 		mercenary_hire_cost_mult = -0.25
 		men_at_arms_maintenance  = -0.08
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.055
 		embarkation_cost_mult    = -0.20
 	}
 	ai_chance = {
@@ -20899,7 +20893,7 @@ toyne_legacy_5 = { # Fly High, Fly Far
 		monthly_prestige = 0.25
 		courtier_and_guest_opinion = 10
 		owned_legend_spread_mult = 0.05
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20925,7 +20919,7 @@ toyne_legacy_5 = { # Fly High, Fly Far
 
 # 	character_modifier = {
 # 		prowess = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -21059,7 +21053,7 @@ farwynd_legacy_1 = { #  Beacon of the Lonely Light
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		coastal_advantage = 10
 		sea_travel_danger = low_sea_danger_reduction
 	}
@@ -21090,7 +21084,7 @@ farwynd_legacy_2 = { # Skins of the Sea
 		supply_limit_mult = 0.10
 		stress_loss_mult = 0.05
 		prowess = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -21275,7 +21269,7 @@ volmark_legacy_4 = { # Hooks in the Reef
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.10
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		intrigue_scheme_resistance = 15
 		martial = 1
 	}
@@ -21439,7 +21433,7 @@ volmark_legacy_5 = { # Salt and Stone Endure
 # 		additional_fort_level = 1
 # 		defender_advantage = 5
 # 		monthly_county_control_growth_factor = 0.10
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		
 # 	}
 # 	ai_chance = {
@@ -21466,7 +21460,7 @@ volmark_legacy_5 = { # Salt and Stone Endure
 # 	character_modifier = {
 # 		monthly_prestige = 0.30
 # 		knight_effectiveness_mult = 0.10
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -21546,7 +21540,7 @@ volmark_legacy_5 = { # Salt and Stone Endure
 # 		build_gold_cost = -0.10
 # 		domain_tax_mult = 0.05
 # 		jungle_advantage = 10
-# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+# 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -21653,7 +21647,7 @@ swyft_legacy_3 = { # White Cloak of Cornfield
 	character_modifier = { 
 		prowess = 1
 		knight_effectiveness_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -21682,7 +21676,7 @@ swyft_legacy_4 = { # Sharp Tongues, Shrewd Ledgers
 		vassal_tax_mult = 0.05
 		domain_tax_mult = 0.05
 		monthly_county_control_growth_factor = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -21817,7 +21811,7 @@ jast_legacy_4 = { # Lions on the March
 		movement_speed = 0.05
 		hills_advantage = 5
 		supply_limit_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.12
+		monthly_martial_lifestyle_xp_gain_mult = 0.052
 	}
 	ai_chance = {
 		value = 100
@@ -21843,7 +21837,7 @@ jast_legacy_5 = { # Peace Paid in Full
 		monthly_county_control_growth_factor = 0.10
 		diplomacy = 1
 		legitimacy_gain_mult = 0.05
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -21983,7 +21977,7 @@ falwell_legacy_5 = { # Motley Can Still Rule
 		diplomacy = 1
 		general_opinion = 5
 		court_grandeur_baseline_add = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.12
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -22036,7 +22030,7 @@ falwell_legacy_5 = { # Motley Can Still Rule
 # 		tyranny_gain_mult = -0.10
 # 		stress_gain_mult = -0.05
 # 		knight_limit = 1
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -22117,7 +22111,7 @@ falwell_legacy_5 = { # Motley Can Still Rule
 # 		vassal_opinion = 5
 # 		general_opinion = 5
 # 		monthly_prestige = 0.20
-# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+# 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -22255,7 +22249,7 @@ falwell_legacy_5 = { # Motley Can Still Rule
 # 		prowess = 1
 # 		stress_loss_mult = -0.05
 # 		archers_damage_mult = 0.05
-# 		monthly_martial_lifestyle_xp_gain_mult = 0.10
+# 		monthly_martial_lifestyle_xp_gain_mult = 0.050
 # 	}
 # 	ai_chance = {
 # 		value = 100
@@ -22361,7 +22355,7 @@ botley_legacy_4 = { # Pyke’s Eastward Hand
 		martial = 1
 		liege_opinion = 10
 		monthly_prestige = 0.25
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		levy_size = 0.10
 	}
 	ai_chance = {
@@ -22385,7 +22379,7 @@ botley_legacy_5 = { # Keepers of Lordsport
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.12
+		monthly_martial_lifestyle_xp_gain_mult = 0.052
 		additional_fort_level = 1
 		garrison_size = 0.15
 		hostile_raid_time = 0.15
@@ -22469,7 +22463,7 @@ stout_legacy_3 = { # Wynton’s Breath
 	character_modifier = { 
 		prowess = 1
 		winter_advantage = 10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		archers_toughness_mult = 0.10
 	}
 	ai_chance = {
@@ -22715,7 +22709,7 @@ waxley_legacy_2 = { # Bees and Bay
 	character_modifier = {
 		embarkation_cost_mult = -0.20
 		supply_limit_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -22740,7 +22734,7 @@ waxley_legacy_3 = { # Keepers of the Wick
 		additional_fort_level = 1
 		defender_advantage = 5
 		monthly_county_control_growth_factor = 0.08
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -22991,7 +22985,7 @@ belaerys_legacy_2 = { # Bloodbinders
 		health = -0.05
 		owned_hostile_scheme_success_chance_add = 20 
 		dread_gain_mult = 0.15
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -23043,7 +23037,7 @@ belaerys_legacy_4 = { # The Sothoryi Expedition
 		travel_danger = -10
 		embarkation_cost_mult = -0.15
 		learning = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -23153,7 +23147,7 @@ rogare_legacy_3 = { # Web of Intrigue
 		intrigue_scheme_resistance = 15
 		dread_gain_mult = 0.05
 		owned_hostile_scheme_success_chance_add = 15
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -23208,7 +23202,7 @@ rogare_legacy_5 = { # The Fall and the Crypt
 		dread_gain_mult = 0.10
 		stress_loss_mult = 0.05
 		learning = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -23293,7 +23287,7 @@ saan_legacy_3 = { # The Brotherhood of Bones
 		intrigue = 1
 		intrigue_scheme_resistance = 15
 		owned_personal_scheme_success_chance_add = 15
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 	ai_chance = {
 		value = 100
@@ -23457,7 +23451,7 @@ haen_legacy_4 = { # The Maiden’s Day Curse
 		intrigue = 1
 		stress_gain_mult = 0.05
 		diplomatic_range_mult = 0.10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -23484,7 +23478,7 @@ haen_legacy_5 = { # The Feast of Ashes
 		dread_decay_mult = -0.10
 		enemy_hostile_scheme_success_chance_add = -15
 		owned_legend_spread_mult = 0.05
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
 		value = 100

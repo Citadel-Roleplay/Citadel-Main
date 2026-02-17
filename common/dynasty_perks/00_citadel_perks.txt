@@ -68,7 +68,7 @@ dulver_legacy_3 = { # Bitter Rivals, Broken Chains
 
 	character_modifier = {
 		stewardship = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		development_growth_factor = 0.15
 	}
 	ai_chance = {
@@ -159,7 +159,7 @@ baelish_legacy_2 = {
 		owned_scheme_secrecy_add = 40
 		enemy_hostile_scheme_success_chance_add = -35
 		general_opinion = -10
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 
 	effect = {
@@ -179,7 +179,7 @@ baelish_legacy_3 = {
     }
 
 	character_modifier = {
-			stewardship = 2
+			stewardship = 3
 			development_growth_factor = 0.1
 			character_capital_county_monthly_development_growth_add = 0.1
 			monthly_stewardship_lifestyle_xp_gain_mult = 0.05
@@ -205,7 +205,7 @@ baelish_legacy_4 = {
 
 	character_modifier = {
 			monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
-			diplomacy = 3
+			diplomacy = 4
 			general_opinion = 20
 	}
 
@@ -230,7 +230,7 @@ baelish_legacy_5 = {
     	build_gold_cost = -0.2
 		build_speed = -0.2
 		monthly_income = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 
 	effect = {

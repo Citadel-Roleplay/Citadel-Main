@@ -160,7 +160,7 @@ westerosi_valyrian_legacy_2 = { # Serpents of the Sea-Wind
 		coastal_advantage = 15  
 		naval_movement_speed_mult = 0.15 
 		supply_limit_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 }
 
@@ -174,7 +174,6 @@ westerosi_valyrian_legacy_3 = { # Blood of the High Towered Houses
 	}
 
 	character_modifier = {
-		monthly_income_mult = 0.05
 		monthly_piety_gain_mult = 0.10
 		high_valyrian_opinion = 10
 		court_grandeur_baseline_add = 2
@@ -320,7 +319,7 @@ essosi_valyrian_legacy_5 = { # Blood Above All
 		monthly_prestige = 0.50
     		diplomacy = 2
     		monthly_dynasty_prestige = 0.20
-    		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+    		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 }
 
@@ -379,7 +378,7 @@ sisterman_legacy_2 = { # Storm-Kissed Sails
 		retreat_losses = -0.30
 		naval_movement_speed_mult = 0.15
 		supply_capacity_mult = 0.10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 	}
 }
 
@@ -540,7 +539,7 @@ skagosi_legacy_5 = { # The Silent Rule
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.1  
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		defender_advantage = 5  
 		tyranny_gain_mult = -0.25
 	}
@@ -804,7 +803,7 @@ braavosi_legacy_5 = { # Will of the Many-Faced God
 	character_modifier = {
 		stewardship = 1
 		build_gold_cost = -0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		court_grandeur_baseline_add = 2
 	}
 	
@@ -864,7 +863,7 @@ myrish_legacy_4 = { # Silver-Tongued Syndicates
 
 	character_modifier = {
 		monthly_prestige = 1.5
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		vassal_opinion = 5
 	}
 }
@@ -913,7 +912,7 @@ myrish_legacy_5 = { # League of Masters
 
 	character_modifier = {
 		owned_personal_scheme_success_chance_add = 20
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 		court_grandeur_baseline_add = 2
 		same_culture_opinion = 10
 		
@@ -988,7 +987,7 @@ lyseni_legacy_4 = { # Tears of Lys
 		owned_hostile_scheme_success_chance_add = 20
 		dread_gain_mult = 0.25
 		tyranny_gain_mult = -0.10
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
 }
 
@@ -1097,7 +1096,7 @@ pentoshi_legacy_4 = { # Courts of Velvet Blades
 	character_modifier = {
 		intrigue = 1
 		owned_hostile_scheme_success_chance_add = 20
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		monthly_court_grandeur_change_mult = 0.05
 	}
 }
@@ -1194,7 +1193,7 @@ tyroshi_legacy_3 = { # Masks and Mirrors
 	character_modifier = {
 		intrigue = 1
 		court_grandeur_baseline_add = 5
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 		owned_hostile_scheme_success_chance_add = 0.15
 	}
 }
@@ -1306,7 +1305,7 @@ volantene_legacy_3 = { # Elephants’ Cunning
 	character_modifier = {
 		stewardship = 1
 		development_growth_factor = 0.10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
 }
 
@@ -1887,7 +1886,7 @@ clawman_legacy_5 = { # Bones in the Bog
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.10
 		defender_advantage = 10
-		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		monthly_martial_lifestyle_xp_gain_mult = 0.050
 		legitimacy_gain_mult = 0.03
 	}
 }

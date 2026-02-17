@@ -254,8 +254,38 @@
  building_citadel_westerling_mine3:1 "Sizeable Crag Mine"
  building_citadel_westerling_mine3_desc:1 "As the mining operations grow, so do the mines themselves. More entrances are constructed, and large shafts are dug to allow the extraction of deep ore."
 
+ building_type_citadel_wyverns_rest:1 "Wyvern's Rest"
+ building_citadel_wyverns_rest:1 "Wyvern's Rest"
+ building_citadel_wyverns_rest_desc:1 "Wyvern's Rest stands as a quiet stronghold upon rugged lands, more known for vigilance than grandeur. Though not counted among the great castles, its garrison keeps steady watch over the surrounding countryside, ensuring safety and order in a often untamed region."
+
+ building_type_citadel_sarsfield_1:1 "Sarsfield Stables"
+ building_citadel_sarsfield_1:1 "Sarsfield Riders"
+ building_citadel_sarsfield_1_desc:1 "House Sarsfield is known for an unusual martial tradition in Westeros: mounted archers trained to fight among rolling hills and broken ground. Though few in number, these riders learn to loose arrows from horseback while weaving through slopes that would break the charge of heavier cavalry."
+
+ building_type_citadel_sarsfield_2:1 "Sarsfield Horse Grounds"
+ building_citadel_sarsfield_2:1 "Sarsfield Horse Grounds"
+ building_citadel_sarsfield_2_desc:1 "Expanded training grounds and new breeding fields allow House Sarsfield to refine their famed hilly horse archers. Riders drill endlessly along winding ridges, mastering hit and run tactics that exhaust slower foes and make pursuit nearly impossible."
+
+ building_type_citadel_sarsfield_3:1 "Sarsfield War Riders"
+ building_citadel_sarsfield_3:1 "Sarsfield War Riders"
+ building_citadel_sarsfield_3_desc:1 "At their height, the riders of House Sarsfield are a force unlike almost any other in Westeros. Swift, disciplined, and perfectly adapted to uneven terrain, they strike from the hills in coordinated volleys before vanishing again, turning the very landscape into a weapon in their hands."
+
+
+
  building_citadel_westerling_mine4:1 "Large Crag Mine"
  building_citadel_westerling_mine4_desc:1 "As the production of ore increases, several foundries and smelters are set up around the settlement. The processing of metal has become second nature to the inhabitants, and their skill is renowned across the known world."
+
+ building_type_citadel_northern_steppes_01:1 "Northern Steppes"
+ building_citadel_northern_steppes_01:1 "Northern Steppes"
+ building_citadel_northern_steppes_01_desc:1 "The wide steppes of the North provide any House the ideal conditions to breed strong and resilient horses. Raised in open grasslands and hardened by the harsh climate, their mounts are prized for endurance, speed, and reliability in war."
+
+ building_type_citadel_flints_finger:1 "Flint's Finger"
+ building_citadel_flints_finger:1 "Flint's Finger"
+ building_citadel_flints_finger_desc:1 "Standing upon the cold shores of Blazewater Bay, Flint's Finger watches the western seas from a harsh and windswept coast. Once held by ironborn raiders, the castle now serves as the rugged seat of House Flint, whose stone-handed sigil reflects the hard land and harder people who defend it."
+
+ building_type_citadel_ramsgate:1 "Ramsgate"
+ building_citadel_ramsgate:1 "Ramsgate"
+ building_citadel_ramsgate_desc:1 "Ramsgate is not a particularly large, strong, or wealthy castle, yet it serves its purpose well. Standing watch at the mouth of the Broken Branch, it faithfully protects the river and the nearby coast from threats that might come by sea."
 
 
  building_type_citadel_grand_markets_of_fairisle:1 "The Grand Market of Fair Isle"
@@ -276,10 +306,10 @@
  building_citadel_ashemark_mine4:1 "Large Ashemark Mine"
  building_citadel_ashemark_mine4_desc:1 "As the production of ore increases, several foundries and smelters are set up around the settlement. The processing of metal has become second nature to the inhabitants, and their skill is renowned across the known world."
 
- building_type_citadel_fisher:1 "Fisher’s Harbor Bastion"
- building_citadel_fisher:1 "Fisher’s Harbor Bastion"
- building_citadel_fisher_desc:1 "A stout stone fortress perched where the Stony Shore meets the Sunset Sea, Fisher’s Harbor Bastion features a deep-water dock and reinforced watchtower facing the waves. Its walls are built with river-worn cobblestones and driftwood bands, reflecting House Fisher’s history along both coast and river."
- 
+ building_type_citadel_fisher:1 "Whitecaster"
+ building_citadel_fisher:1 "Whitecaster"
+ building_citadel_fisher_desc:1 "Whitecaster stands as the seat of House Fisher in the cold northern lands. Though far from the wealth of southern castles, its stout walls and hardy garrison endure the harsh climate, guarding the surrounding rivers and serving as a symbol of the house’s quiet resilience."
+
  
  building_type_citadel_spearwatch_island:1 "Spearwatch Island"
  building_citadel_spearwatch_island:1 "Spearwatch Island"
