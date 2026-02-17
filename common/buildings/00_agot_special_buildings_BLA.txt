@@ -2210,293 +2210,299 @@ agot_wyl_tunnels_of_wyl_01 = {
 # 	flag = travel_point_of_interest_martial
 
 # }
-# agot_butterwell_whitewalls_castle_01 = {
+agot_butterwell_whitewalls_castle_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_butterwell_whitewalls.dds"
+    type_icon = "icon_butterwell_whitewalls.dds"
 
-#     character_modifier = {
-#         monthly_prestige = 0.3
-#         knight_effectiveness_mult = 0.05	
-# 	domain_tax_mult = 0.05
-#     }
+    character_modifier = {
+        monthly_prestige = 0.3
+        knight_effectiveness_mult = 0.05	
+	domain_tax_mult = 0.05
+    }
 
-#     province_modifier = {
-#         fort_level = 2
-#         garrison_size = 0.1     
-#     }
+    province_modifier = {
+        fort_level = 2
+        garrison_size = 0.1     
+    }
 
-#     county_modifier = {
-#         development_growth_factor = 0.05
-#         monthly_county_control_growth_factor = 0.05
-#     }
+    county_modifier = {
+        development_growth_factor = 0.05
+        monthly_county_control_growth_factor = 0.05
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
-# 	next_building = agot_butterwell_whitewalls_castle_02
+    ai_value = {
+        base = 100
+    }
+	next_building = agot_butterwell_whitewalls_castle_02
 
-# 	flag = travel_point_of_interest_economic
+	flag = travel_point_of_interest_economic
 
-# }
-# agot_butterwell_whitewalls_castle_02 = {
+}
+agot_butterwell_whitewalls_castle_02 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		has_holding_type = castle_holding
+	}
 
 
-#     cost_gold = expensive_building_tier_4_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_4_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_butterwell_whitewalls.dds"
+    type_icon = "icon_butterwell_whitewalls.dds"
 
-#     character_modifier = {
-#         monthly_prestige = 0.6
-#         knight_effectiveness_mult = 0.1
-#         court_grandeur_baseline_add = 1	
-# 	domain_tax_mult = 0.1
-#     }
+    character_modifier = {
+        monthly_prestige = 0.6
+        knight_effectiveness_mult = 0.1
+        court_grandeur_baseline_add = 1	
+		 
+    }
 
-#     province_modifier = {
-#         fort_level = 3
-#         garrison_size = 0.15
-#         levy_size = 0.05        
-#     }
+    province_modifier = {
+        fort_level = 3
+        garrison_size = 0.15
+        levy_size = 0.05 
+		monthly_income = 1       
+    }
 
-#     county_modifier = {
-#         development_growth_factor = 0.08
-#         county_opinion_add = 5
-#         monthly_county_control_growth_factor = 0.08
-#     }
+    county_modifier = {
+        development_growth_factor = 0.08
+        county_opinion_add = 5
+        monthly_county_control_growth_factor = 0.08
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
-# 	next_building = agot_butterwell_whitewalls_castle_03
+    ai_value = {
+        base = 100
+    }
+	next_building = agot_butterwell_whitewalls_castle_03
 
-# 	flag = travel_point_of_interest_economic
+	flag = travel_point_of_interest_economic
 
-# }
-# agot_butterwell_whitewalls_castle_03 = {
+}
+agot_butterwell_whitewalls_castle_03 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_5_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_5_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_butterwell_whitewalls.dds"
+    type_icon = "icon_butterwell_whitewalls.dds"
 
-#     character_modifier = {
-#         monthly_prestige = 1.0
-#         knight_effectiveness_mult = 0.15
-#         court_grandeur_baseline_add = 2
-#         vassal_limit = 2
-# 	domain_tax_mult = 0.15
-#     }
+    character_modifier = {
+        monthly_prestige = 1.0
+        knight_effectiveness_mult = 0.15
+        court_grandeur_baseline_add = 2
+        vassal_limit = 2
+		monthly_income = 2
+    }
+
+    province_modifier = {
+        fort_level = 4
+        garrison_size = 0.2
+        levy_size = 0.1
+		monthly_income = 2
+    }
 
-#     province_modifier = {
-#         fort_level = 4
-#         garrison_size = 0.2
-#         levy_size = 0.1
-#     }
+    county_modifier = {
+        development_growth_factor = 0.12
+        county_opinion_add = 10
+        monthly_county_control_growth_factor = 0.12
+    }
 
-#     county_modifier = {
-#         development_growth_factor = 0.12
-#         county_opinion_add = 10
-#         monthly_county_control_growth_factor = 0.12
-#     }
+    ai_value = {
+        base = 100
+    }
+	next_building = agot_butterwell_whitewalls_grand_castle_01
+	flag = travel_point_of_interest_economic
 
-#     ai_value = {
-#         base = 100
-#     }
+}
 
-# 	flag = travel_point_of_interest_economic
+agot_butterwell_whitewalls_grand_castle_01 = {
 
-# }
+    type = special
 
-# agot_butterwell_whitewalls_grand_castle_01 = {
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
-#     type = special
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_butterwell_whitewalls.dds"
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    character_modifier = {
+        monthly_prestige = 0.75
+        court_grandeur_baseline_add = 1
+        knight_effectiveness_mult = 0.1	
+		 
+    }
+
+    province_modifier = {
+        fort_level = 5
+        garrison_size = 0.15
+        levy_size = 0.05 
+		monthly_income = 3
+    }
+
+    county_modifier = {
+        development_growth_factor = 0.1
+        monthly_county_control_growth_factor = 0.1
+    }
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    ai_value = {
+        base = 100
+    }
 
-#     type_icon = "icon_butterwell_whitewalls.dds"
+	next_building = agot_butterwell_whitewalls_grand_castle_02
 
-#     character_modifier = {
-#         monthly_prestige = 0.75
-#         court_grandeur_baseline_add = 1
-#         knight_effectiveness_mult = 0.1	
-# 	domain_tax_mult = 0.1
-#     }
+	flag = travel_point_of_interest_economic
 
-#     province_modifier = {
-#         fort_level = 3
-#         garrison_size = 0.15
-#         levy_size = 0.05 
-#     }
+}
+agot_butterwell_whitewalls_grand_castle_02 = {
 
-#     county_modifier = {
-#         development_growth_factor = 0.1
-#         monthly_county_control_growth_factor = 0.1
-#     }
+    type = special
 
-#     ai_value = {
-#         base = 100
-#     }
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
-# 	next_building = agot_butterwell_whitewalls_grand_castle_02
+    cost_gold = expensive_building_tier_4_cost
+    construction_time = slow_construction_time
 
-# 	flag = travel_point_of_interest_economic
+    type_icon = "icon_butterwell_whitewalls.dds"
 
-# }
-# agot_butterwell_whitewalls_grand_castle_02 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-#     cost_gold = expensive_building_tier_4_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_butterwell_whitewalls.dds"
-
-#     character_modifier = {
-#         monthly_prestige = 1.25
-#         knight_effectiveness_mult = 0.15
-#         court_grandeur_baseline_add = 2
-# 	domain_tax_mult = 0.15
-#     }
-
-#     province_modifier = {
-#         fort_level = 4
-#         levy_size = 0.1
-#         garrison_size = 0.2  
-#     }
-
-#     county_modifier = {
-#         development_growth_factor = 0.15
-#         monthly_county_control_growth_factor = 0.15
-#         county_opinion_add = 10
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-# 	next_building = agot_butterwell_whitewalls_grand_castle_03
-
-# 	flag = travel_point_of_interest_economic
-
-# }
-# agot_butterwell_whitewalls_grand_castle_03 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-#     cost_gold = expensive_building_tier_5_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_butterwell_whitewalls.dds"
-
-#     character_modifier = {
-#         monthly_prestige = 1.75
-#         court_grandeur_baseline_add = 3
-#         monthly_dynasty_prestige = 0.15
-#         knight_effectiveness_mult = 0.10
-# 	diplomacy = 1
-# 	domain_tax_mult = 0.2
-#     }
-
-#     province_modifier = {
-#         fort_level = 5
-#         garrison_size = 0.25
-#         levy_size = 0.15
-#     }
-
-#     county_modifier = {
-#         development_growth_factor = 0.2
-#         county_opinion_add = 15
-#         monthly_county_control_growth_factor = 0.2
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-# 	next_building = agot_butterwell_whitewalls_grand_castle_04
-
-# 	flag = travel_point_of_interest_economic
-
-# }
-# agot_butterwell_whitewalls_grand_castle_04 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-#     cost_gold = expensive_building_tier_6_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_butterwell_whitewalls.dds"
-
-#     character_modifier = {
-#         monthly_prestige = 2.0
-#         court_grandeur_baseline_add = 5
-#         diplomacy = 1
-# 	stewardship = 1
-#         monthly_dynasty_prestige = 0.20
-#         knight_effectiveness_mult = 0.15
-# 	domain_tax_mult = 0.25
-#     }
-
-#     province_modifier = {
-#         fort_level = 6
-#         garrison_size = 0.3
-#         levy_size = 0.2   
-#     }
-
-#     county_modifier = {
-#         development_growth_factor = 0.25
-#         county_opinion_add = 20
-#         monthly_county_control_growth_factor = 0.25
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-# 	flag = travel_point_of_interest_economic
-
-# }
+    character_modifier = {
+        monthly_prestige = 1.25
+        knight_effectiveness_mult = 0.15
+        court_grandeur_baseline_add = 2
+		monthly_income = 4
+    }
+
+    province_modifier = {
+        fort_level = 6
+        levy_size = 0.1
+        garrison_size = 0.2  
+		monthly_income = 4
+    }
+
+    county_modifier = {
+        development_growth_factor = 0.15
+        monthly_county_control_growth_factor = 0.15
+        county_opinion_add = 10
+		domain_tax_mult = 0.04
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+	next_building = agot_butterwell_whitewalls_grand_castle_03
+
+	flag = travel_point_of_interest_economic
+
+}
+agot_butterwell_whitewalls_grand_castle_03 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+    cost_gold = expensive_building_tier_5_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_butterwell_whitewalls.dds"
+
+    character_modifier = {
+        monthly_prestige = 1.75
+        court_grandeur_baseline_add = 3
+        monthly_dynasty_prestige = 0.15
+        knight_effectiveness_mult = 0.10
+	diplomacy = 1
+    }
+
+    province_modifier = {
+        fort_level = 7
+        garrison_size = 0.25
+        levy_size = 0.15
+		monthly_income = 5
+    }
+
+    county_modifier = {
+        development_growth_factor = 0.2
+        county_opinion_add = 15
+        monthly_county_control_growth_factor = 0.2
+		domain_tax_mult = 0.05
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+	next_building = agot_butterwell_whitewalls_grand_castle_04
+
+	flag = travel_point_of_interest_economic
+
+}
+agot_butterwell_whitewalls_grand_castle_04 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+    cost_gold = expensive_building_tier_6_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_butterwell_whitewalls.dds"
+
+    character_modifier = {
+        monthly_prestige = 2.0
+        court_grandeur_baseline_add = 5
+        diplomacy = 1
+	stewardship = 1
+        monthly_dynasty_prestige = 0.20
+        knight_effectiveness_mult = 0.15
+    }
+
+    province_modifier = {
+        fort_level = 8
+        garrison_size = 0.3
+        levy_size = 0.2   
+		monthly_income = 6
+    }
+
+    county_modifier = {
+        development_growth_factor = 0.25
+        county_opinion_add = 20
+        monthly_county_control_growth_factor = 0.25
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+	flag = travel_point_of_interest_economic
+
+}
 # agot_glover_deepwood_motte_01 = {
 
 #     type = special
@@ -3680,114 +3686,114 @@ agot_wyl_tunnels_of_wyl_01 = {
 
 #     flag = travel_point_of_interest_learning
 # }
-# agot_penrose_parchments_01 = {
+agot_penrose_parchments_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_structure_alhambra.dds"
-
-#     character_modifier = {
-#        	learning = 1
-#         monthly_piety = 0.20
-#     }
-
-#     province_modifier = {
-# 	monthly_income = good_building_tax_tier_2
-#     }
-
-#     county_modifier = {
-# 	 development_growth_factor = 0.10
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-#     next_building = agot_penrose_parchments_02
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     flag = travel_point_of_interest_learning
-# }
-# agot_penrose_parchments_02 = {
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type = special
+    type_icon = "icon_structure_alhambra.dds"
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    character_modifier = {
+       	learning = 1
+        monthly_piety = 0.20
+    }
 
+    province_modifier = {
+	monthly_income = good_building_tax_tier_2
+    }
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    county_modifier = {
+	 development_growth_factor = 0.10
+    }
 
-#     type_icon = "icon_structure_alhambra.dds"
-
-#     character_modifier = {
-#        	learning = 2
-#         monthly_piety = 0.30
-# 	monthly_lifestyle_xp_gain_mult = 0.05
-#     }
-
-#     province_modifier = {
-# 	monthly_income = good_building_tax_tier_3
-#     }
-
-#     county_modifier = {
-# 	 development_growth_factor = 0.15
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-#     next_building = agot_penrose_parchments_03
+    ai_value = {
+        base = 100
+    }
+    next_building = agot_penrose_parchments_02
 
 
-#     flag = travel_point_of_interest_learning
-# }
-# agot_penrose_parchments_03 = {
+    flag = travel_point_of_interest_learning
+}
+agot_penrose_parchments_02 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_structure_alhambra.dds"
+    type_icon = "icon_structure_alhambra.dds"
 
-#     character_modifier = {
-#         learning = 3
-#         monthly_piety = 0.50
-# 	court_grandeur_baseline_add = 3
-# 	monthly_lifestyle_xp_gain_mult = 0.10
+    character_modifier = {
+       	learning = 2
+        monthly_piety = 0.30
+	monthly_lifestyle_xp_gain_mult = 0.05
+    }
 
-#     }
+    province_modifier = {
+	monthly_income = good_building_tax_tier_3
+    }
 
-#     province_modifier = {
-# 	monthly_income = good_building_tax_tier_4
-#     }
+    county_modifier = {
+	 development_growth_factor = 0.15
+    }
 
-#     county_modifier = {
-# 	 development_growth_factor = 0.20
-# 	 county_opinion_add = 5
-#     }
+    ai_value = {
+        base = 100
+    }
+    next_building = agot_penrose_parchments_03
 
-#     ai_value = {
-#         base = 100
-#     }
 
-#     flag = travel_point_of_interest_learning
-# }
+    flag = travel_point_of_interest_learning
+}
+agot_penrose_parchments_03 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_structure_alhambra.dds"
+
+    character_modifier = {
+        learning = 3
+        monthly_piety = 0.50
+	court_grandeur_baseline_add = 3
+	monthly_lifestyle_xp_gain_mult = 0.10
+
+    }
+
+    province_modifier = {
+	monthly_income = good_building_tax_tier_4
+    }
+
+    county_modifier = {
+	 development_growth_factor = 0.20
+	 county_opinion_add = 5
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_learning
+}
 # agot_morrigen_crows_nest_01 = {
 
 #     type = special
@@ -4023,43 +4029,43 @@ agot_wyl_tunnels_of_wyl_01 = {
 #     flag = travel_point_of_interest_martial
 # }
 
-# agot_hornwood_forest_01 = {
+agot_hornwood_forest_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_building_royal_forest.dds"
+    type_icon = "icon_building_royal_forest.dds"
 
-#     character_modifier = {
-#         prowess = 1
-#         stress_loss_mult = -0.05
-# 	lifestyle_hunter_xp_gain_mult = 0.20
-#     }
+    character_modifier = {
+        prowess = 1
+        stress_loss_mult = -0.05
+	lifestyle_hunter_xp_gain_mult = 0.20
+    }
 
-#     province_modifier = {
-# 	fort_level = 2
-# 	travel_danger = 20
+    province_modifier = {
+	fort_level = 2
+	travel_danger = 20
 	            
-#     }
+    }
 
-#     county_modifier = {
-#         development_growth_factor = 0.05
-#         hostile_raid_time = 0.15
-#     }
+    county_modifier = {
+        development_growth_factor = 0.05
+        hostile_raid_time = 0.15
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
+    ai_value = {
+        base = 100
+    }
 
-#     flag = travel_point_of_interest_martial
-# }
+    flag = travel_point_of_interest_martial
+}
 
 # agot_breakstone_cave_01 = {
 
@@ -4099,83 +4105,83 @@ agot_wyl_tunnels_of_wyl_01 = {
 #     flag = travel_point_of_interest_martial
 # }
 
-# agot_locke_oldcastle_01 = {
+agot_locke_oldcastle_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_structure_kassiopi_castle.dds"
-
-#     character_modifier = {
-# 	diplomacy = 1
-#         monthly_county_control_growth_factor = 0.10
-#         court_grandeur_baseline_add = 1
-#         monthly_dynasty_prestige = 0.50
-#     }
-
-#     province_modifier = {
-# 	fort_level = 2
-# 	travel_danger = -10
-#     }
-
-#     county_modifier = {
-#         hostile_raid_time = 0.15
-#         development_growth_factor = 0.05
-# 	supply_limit_mult = 0.10
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-#     flag = travel_point_of_interest_martial
-# }
-
-# agot_tallhart_torrhens_square_01 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_structure_visegrad_castle.dds"
+    type_icon = "icon_structure_kassiopi_castle.dds"
 
-#     character_modifier = {
-#         knight_limit = 1
-#         knight_effectiveness_mult = 0.05
-#         monthly_prestige = 0.25
-#     }
+    character_modifier = {
+	diplomacy = 1
+        monthly_county_control_growth_factor = 0.10
+        court_grandeur_baseline_add = 1
+        monthly_dynasty_prestige = 0.50
+    }
 
-#     province_modifier = {
-# 	fort_level = 3
-#         travel_danger = -10  
-#     }
+    province_modifier = {
+	fort_level = 2
+	travel_danger = -10
+    }
 
-#     county_modifier = {
-#         supply_limit_mult = 0.10
-#         development_growth_factor = 0.05
-#         hostile_raid_time = 0.20
-#         garrison_size = 0.10
-#     }
+    county_modifier = {
+        hostile_raid_time = 0.15
+        development_growth_factor = 0.05
+	supply_limit_mult = 0.10
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
+    ai_value = {
+        base = 100
+    }
 
-#     flag = travel_point_of_interest_martial
-# }
+    flag = travel_point_of_interest_martial
+}
+
+agot_tallhart_torrhens_square_01 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_structure_visegrad_castle.dds"
+
+    character_modifier = {
+        knight_limit = 1
+        knight_effectiveness_mult = 0.05
+        monthly_prestige = 0.25
+    }
+
+    province_modifier = {
+	fort_level = 3
+        travel_danger = -10  
+    }
+
+    county_modifier = {
+        supply_limit_mult = 0.10
+        development_growth_factor = 0.05
+        hostile_raid_time = 0.20
+        garrison_size = 0.10
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
+}
 # agot_kingshouse_stone_and_sea_01 = {
 
 #     type = special

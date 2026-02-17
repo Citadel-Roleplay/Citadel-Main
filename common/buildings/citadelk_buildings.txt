@@ -2361,7 +2361,10 @@ citadel_new_barrel = {
 	construction_time = slow_construction_time
 
 	type_icon = "new_barrel.dds"
-
+	asset = {
+		type = pdxmesh
+		name = "fp4_legendary_hunting_lodge_01_a_mesh"
+	}
 	effect_desc = feast_cost_discount_max_desc
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3308,4 +3311,265 @@ citadel_castle_darry_02 = {
 	
 	flag = travel_point_of_interest_economic
 
+}
+
+citadel_northern_steppes_01 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_horse_pastures.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1500
+	province_modifier = {
+		stationed_heavy_cavalry_damage_mult = 0.1
+		stationed_heavy_cavalry_toughness_mult = 0.1
+		stationed_heavy_cavalry_pursuit_mult = 0.1
+		stationed_heavy_cavalry_screen_mult = 0.1
+		stationed_light_cavalry_damage_mult = 0.25
+		stationed_light_cavalry_toughness_mult = 0.25
+		stationed_light_cavalry_pursuit_mult = 0.25
+		stationed_light_cavalry_screen_mult = 0.25
+	}
+	county_modifier = {
+		county_fertility_growth_mult = 0.5
+	}
+	character_modifier = {
+	}	
+	county_holder_character_modifier = {
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+
+}
+
+citadel_flints_finger = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_ma_castle_ferrara.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1500
+	province_modifier = {
+		stationed_heavy_infantry_damage_mult = 0.2
+		stationed_heavy_infantry_toughness_mult = 0.2
+		hostile_raid_time = 0.25
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.3
+		county_opinion_add = 15
+	}
+	character_modifier = {
+		ironborn_opinion = -25
+	}	
+	county_holder_character_modifier = {
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+
+}
+
+citadel_ramsgate = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_ma_castle_ferrara.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1500
+	province_modifier = {
+		stationed_heavy_infantry_damage_mult = 0.2
+		stationed_heavy_infantry_toughness_mult = 0.2
+		hostile_raid_time = 0.25
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.3
+		county_opinion_add = 15
+	}
+	character_modifier = {
+		sisterman_opinion = -25
+	}	
+	county_holder_character_modifier = {
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+
+}
+
+citadel_wyverns_rest = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_structure_kassiopi_castle.dds"
+
+    character_modifier = {
+	monthly_prestige = 0.15
+	intrigue = 1
+        knight_effectiveness_mult = 0.10
+        army_maintenance_mult = -0.05  
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+    }
+
+    province_modifier = {
+	fort_level = 2
+	garrison_size = 0.10
+
+    }
+
+    county_modifier = {
+        defender_holding_advantage = 3
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
+}
+
+citadel_sarsfield_1 = {
+
+    type = special
+	next_building = citadel_sarsfield_2
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_building_horse_pastures.dds"
+
+    character_modifier = {
+    }
+
+    province_modifier = {
+		stationed_archer_cavalry_damage_mult = 0.1
+		stationed_archer_cavalry_toughness_mult = 0.1
+    }
+
+    county_modifier = {
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
+}
+
+citadel_sarsfield_2 = {
+
+    type = special
+	next_building = citadel_sarsfield_3
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_building_horse_pastures.dds"
+
+    character_modifier = {
+    }
+
+    province_modifier = {
+		stationed_archer_cavalry_damage_mult = 0.15
+		stationed_archer_cavalry_toughness_mult = 0.15
+		stationed_archer_cavalry_pursuit_mult = 0.15
+		stationed_archer_cavalry_screen_mult = 0.15
+    }
+
+    county_modifier = {
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
+}
+
+citadel_sarsfield_3 = {
+
+    type = special
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_building_horse_pastures.dds"
+
+    character_modifier = {
+    }
+
+    province_modifier = {
+		stationed_archer_cavalry_damage_mult = 0.25
+		stationed_archer_cavalry_toughness_mult = 0.25
+		stationed_archer_cavalry_pursuit_mult = 0.25
+		stationed_archer_cavalry_screen_mult = 0.25
+    }
+
+    county_modifier = {
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
 }

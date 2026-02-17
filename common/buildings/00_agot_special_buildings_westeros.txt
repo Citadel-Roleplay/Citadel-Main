@@ -282,7 +282,7 @@ agot_vultures_roost_01 = {
 agot_skyreach_01 = {
 
 	construction_time = very_slow_construction_time
-
+	
 	type_icon = "icon_structure_alamut_castle.dds"
 
 	is_enabled = {
@@ -3780,6 +3780,7 @@ agot_greywater_watch_01 = {
 	province_modifier = {
 		fort_level = 2
 		stationed_archers_damage_mult = high_maa_damage_tier_8
+		stationed_archers_toughness_mult = high_maa_toughness_tier_8
 		stationed_skirmishers_damage_mult = high_maa_damage_tier_8
 		stationed_skirmishers_toughness_mult = high_maa_toughness_tier_8
 	}

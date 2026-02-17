@@ -4138,6 +4138,9 @@ c_milkstone = {
 	8279.1.1 = {
 		holder = Butterwell_1
 	}
+	8285.1.1 = {
+		holder = Butterwell_1
+	}  
 }
 c_rippledown_rill = {
 	7641.1.1 = {

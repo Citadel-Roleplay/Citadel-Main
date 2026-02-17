@@ -1068,7 +1068,7 @@ westerosi_sellswords = {
 	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 75
-	max_regiments = 2
+	max_regiments = 1
 	damage = 90
 	toughness = 30
 	pursuit = 15
