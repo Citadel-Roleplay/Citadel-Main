@@ -11,3 +11,11 @@
  amber_knights_flavor: "Light equipped cavalry armed with honey gilded lances and flowing bee embroidered banners. Their mounts are bred on wildflower meadows, giving them remarkable endurance and a striking golden appearance."
  sanddornish_horse_archers: "Sand Steed Archers"
  sanddornish_horse_archers_flavor: "Those who cross the Sand Steed Archers in the open or the desert soon learn their folly none escape their arrows, and the sands remember only the bones of their enemies. To face them beneath the sun in the open is to invite certain death."
+ 
+ # Dayne Heavy Infantry
+ dayne_heavy_infantry: "Elite Starfall Knights"
+ dayne_heavy_infantry_flavor: "The Elite Starfall Knights are counted among the most elite troops in all of Westeros. Though few in number, their discipline, skill, and unbreakable spirit make them a formidable force upon any battlefield."
+
+ # Blackwood Archers
+ citadel_raventree_bows: "Raventree Bows"
+ citadel_raventree_bows_flavor: "Famed archers of House Blackwood, the Raventree Bows are raised among deep woods and ancient weirwoods. Their skill with the bow is renowned across the Riverlands, striking true with deadly precision long before their enemies can close the distance."

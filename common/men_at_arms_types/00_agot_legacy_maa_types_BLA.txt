@@ -2375,7 +2375,7 @@ frey_bridge_guard  = {
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = frey_bridge_guard
+	icon = twins_guards
 }
 
 darry_knights_furrow = {
@@ -2613,7 +2613,7 @@ mallister_eagleguard = {
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = mallister_eagleguard
+	icon = sea_watch
 }
 
 westerling_oathbound = {
