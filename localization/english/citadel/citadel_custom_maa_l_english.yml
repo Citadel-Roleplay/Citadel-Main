@@ -51,3 +51,19 @@
  # Reach Spearmen
  reach_spears: "Reach Spears"
  reach_spears_flavor: "Raised from the fertile heartlands of the Reach, these spearmen fight in orderly ranks with long ash shafts and steady discipline. While not famed for ferocity, their cohesion and numbers make them a reliable wall of steel on the battlefield."
+
+ # Westerlands Footmen
+ westerlands_footmen: "Westerlands Footmen"
+ westerlands_footmen_flavor: "Armored and disciplined, the Westerlands Footmen are equipped through the wealth of their gold rich homeland. Trained to fight in tight formations, these heavy infantry form a stubborn core that advances steadily behind shield and steel."
+
+ # Westerlands Spearmen
+ westerlands_spears: "Western Billmen"
+ westerlands_spears_flavor: "Armed with long hooked bills, these soldiers of the Westerlands are trained to drag riders from the saddle and break enemy lines. Though less heavily armored than noble retinues, their discipline and brutal weapons make them dangerous opponents in close battle."
+
+ # Westerlands Bowmen
+ westerlands_bowmen: "Westerlands Bowmen"
+ westerlands_bowmen_flavor: "Recruited from the hills and valleys of the Westerlands, these bowmen are valued for their steady aim and disciplined volleys. Well supplied by their wealthy homeland, they rain arrows upon the enemy before the clash of steel begins."
+
+ # Westerlands Skirmishers
+ westerlands_skirmishers: "Westerlands Skirmishers"
+ westerlands_skirmishers_flavor: "Lightly armed and quick on their feet, the Westerlands Skirmishers are used to fighting across rocky hills and uneven ground. They harass the enemy with hit-and-run tactics, softening formations before the heavy troops advance."
