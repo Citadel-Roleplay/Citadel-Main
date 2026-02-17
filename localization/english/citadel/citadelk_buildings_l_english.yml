@@ -276,10 +276,10 @@
  building_citadel_ashemark_mine4:1 "Large Ashemark Mine"
  building_citadel_ashemark_mine4_desc:1 "As the production of ore increases, several foundries and smelters are set up around the settlement. The processing of metal has become second nature to the inhabitants, and their skill is renowned across the known world."
 
- building_type_citadel_fisher:1 "Fisher’s Harbor Bastion"
- building_citadel_fisher:1 "Fisher’s Harbor Bastion"
- building_citadel_fisher_desc:1 "A stout stone fortress perched where the Stony Shore meets the Sunset Sea, Fisher’s Harbor Bastion features a deep-water dock and reinforced watchtower facing the waves. Its walls are built with river-worn cobblestones and driftwood bands, reflecting House Fisher’s history along both coast and river."
- 
+ building_type_citadel_fisher:1 "Whitecaster"
+ building_citadel_fisher:1 "Whitecaster"
+ building_citadel_fisher_desc:1 "Whitecaster stands as the seat of House Fisher in the cold northern lands. Though far from the wealth of southern castles, its stout walls and hardy garrison endure the harsh climate, guarding the surrounding rivers and serving as a symbol of the house’s quiet resilience."
+
  
  building_type_citadel_spearwatch_island:1 "Spearwatch Island"
  building_citadel_spearwatch_island:1 "Spearwatch Island"

@@ -1133,7 +1133,6 @@ fossoway_legacy_4 = { # The Cockleswhent and the Mander
 	}
 
 	character_modifier = {
-		monthly_income_mult = 0.05
 		monthly_income_per_stress_level_mult = 0.1
 		courtly_opinion = -15
 	}
@@ -1876,7 +1875,6 @@ swann_legacy_4 = { # Rulers of the Slayne
 
     character_modifier = {
 		diplomacy = 2
-		monthly_income_mult = 0.05
 		stewardship_per_prestige_level = 1
 	}
 
@@ -1962,7 +1960,7 @@ tarth_legacy_2 = { # First Men and Andals
 		monthly_prestige_gain_per_knight_mult  = 0.01
 		knight_limit = 1
 		knight_effectiveness_mult = 0.05
-		monthly_piety = 0.25
+		monthly_piety = 0.05
     }
 
     ai_chance = {
@@ -2103,7 +2101,7 @@ estermont_legacy_2 = { # Doubtful Ancestry
     }
 
     character_modifier = {
-		monthly_piety = 0.25
+		monthly_piety = 0.05
 		stewardship_per_prestige_level = 1
     }
 
@@ -2244,7 +2242,7 @@ connington_legacy_2 = { # Renowened Warriors
     character_modifier = {
 		prowess = 2
 		martial = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
     }
 
     ai_chance = {
@@ -2298,7 +2296,6 @@ connington_legacy_4 = { # Wealthy Stormlanders?
     }
 
     character_modifier = {
-		monthly_income_mult = 0.05
 		hills_development_growth = 0.1
 		minorroad_hills_development_growth = 0.1
 		majorroad_hills_development_growth = 0.1
@@ -2585,8 +2582,8 @@ grandison_legacy_4 = { # House of Scholars
     }
 
     character_modifier = {
-		monthly_lifestyle_xp_gain_mult = 0.1
-		monthly_martial_lifestyle_xp_gain_mult = -0.1
+		monthly_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = -0.05
 		martial = -2
 		learning = 2
 	}
@@ -3308,7 +3305,7 @@ wyl_legacy_4 = { # House of the Black Adder
     character_modifier = {
 		intrigue = 1
 		learning = 1
-		monthly_piety_gain_mult = -0.2
+		monthly_piety_gain_mult = -0.05
 		faith_conversion_piety_cost_mult = -0.2
 		zealot_opinion = -15
 	}
@@ -3458,7 +3455,6 @@ yronwood_legacy_4 = { # Lords of Yronwood
     }
 
     character_modifier = {
-		monthly_income_mult = 0.05
 		defender_advantage = 2
 	}
 
@@ -3546,7 +3542,6 @@ qorgyle_legacy_2 = { # Lords of Sandstone
     }
 
     character_modifier = {
-		monthly_income_mult = 0.05
 		desert_development_growth = 0.1
 		minorroad_desert_development_growth = 0.1
 		majorroad_desert_development_growth = 0.1
@@ -3579,7 +3574,7 @@ qorgyle_legacy_3 = { # Andal Adventurers
 		learning = 1
 		diplomacy = 1
 		health = 0.05
-		monthly_wanderer_lifestyle_xp_gain_mult = 0.2
+		monthly_wanderer_lifestyle_xp_gain_mult = 0.05
     }
 
     ai_chance = {
@@ -4010,7 +4005,6 @@ allyrion_legacy_3 = { # Lords of Godsgrace
     }
 
     character_modifier = {
-		monthly_income_mult = 0.05
 		floodplains_development_growth = 0.1
 		minorroad_floodplains_development_growth = 0.1
 		majorroad_floodplains_development_growth = 0.1
@@ -4133,7 +4127,7 @@ vaith_legacy_2 = { # Andal Adventurers
 		learning = 1
 		diplomacy = 1
 		health = 0.05
-		monthly_wanderer_lifestyle_xp_gain_mult = 0.2
+		monthly_wanderer_lifestyle_xp_gain_mult = 0.05
 	}
 
     ai_chance = {
@@ -4188,7 +4182,6 @@ vaith_legacy_4 = { # Lords of the Red Dunes
     }
 
     character_modifier = {
-		monthly_income_mult = 0.05
 		drylands_development_growth = 0.1
 		minorroad_drylands_development_growth = 0.1
 		majorroad_drylands_development_growth = 0.1
@@ -4880,7 +4873,6 @@ celtigar_legacy_4 = { # Fabulous Treasures of House Celtigar
 	}
 
 	character_modifier = {
-		monthly_income_mult = 0.05
 		monthly_income_per_stress_level_mult = 0.1
 		courtly_opinion = -10
 	}
@@ -4999,7 +4991,7 @@ bar_emmon_legacy_3 = { # Andal Adventurers
 		learning = 1
 		diplomacy = 2
 		health = 0.05
-		monthly_wanderer_lifestyle_xp_gain_mult = 0.1
+		monthly_wanderer_lifestyle_xp_gain_mult = 0.05
 	}
 	
 	ai_chance = {
@@ -5254,7 +5246,7 @@ bywater_legacy_2 = { # A House of Humble Fishers
     }
 
     character_modifier = {
-        monthly_piety = 0.5
+        monthly_piety = 0.05
 		opinion_of_liege = 10
 		vassal_opinion = 10
 		glory_hound_opinion = -20
@@ -5428,7 +5420,7 @@ follard_legacy_3 = { # Every Man has his Price
 
     character_modifier = {
         stewardship = 2
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
     }
     
     ai_chance = {
@@ -6052,7 +6044,7 @@ rosby_legacy_5 = { # Ermine Hunters
     }
 
     character_modifier = {
-        monthly_prestige_gain_mult = 0.2
+        monthly_prestige_gain_mult = 0.05
 		stress_loss_mult = 0.1
     }
     
@@ -6138,7 +6130,7 @@ hayford_legacy_3 = { # Lords of Hayford
     }
 
     character_modifier = {
-        monthly_piety_gain_mult = 0.1
+        monthly_piety_gain_mult = 0.05
 		courtier_and_guest_opinion = 10
 		monthly_learning_lifestyle_xp_gain_mult = 0.05
     }
@@ -6505,7 +6497,6 @@ cargyll_legacy_1 = { # House of the Golden Goose
     }
 
     character_modifier = {
-        monthly_income_mult = 0.05
 		stewardship = 2
 		learning = 1
     }
@@ -6699,8 +6690,8 @@ crabb_legacy_3 = { # Kingsguard Traditions
     }
 
     character_modifier = {
-		monthly_piety_gain_mult = 0.01
-		monthly_prestige_gain_mult = 0.2
+		monthly_piety_gain_mult = 0.05
+		monthly_prestige_gain_mult = 0.05
     }
     
     ai_chance = {
@@ -6852,7 +6843,7 @@ cafferen_legacy_3 = { # House of the Fawn
 
     character_modifier = {
 		short_reign_duration_mult = -0.25
-		monthly_influence = 0.25
+		monthly_influence = 0.05
     }
     
     ai_chance = {
@@ -7337,7 +7328,7 @@ penrose_legacy_5 = { # Lords of Parchments
     }
 
     character_modifier = {
-		monthly_lifestyle_xp_gain_mult = 0.1
+		monthly_lifestyle_xp_gain_mult = 0.05
     }
     
     ai_chance = {
@@ -7394,7 +7385,7 @@ morrigen_legacy_2 = { # Black Wings Over Crow’s Nest
 
     character_modifier = {
 		martial = 1
-		monthly_county_control_growth_add = 0.5
+		monthly_county_control_growth_add = 0.05
 		epidemic_resistance = 5
     }
     
@@ -7423,7 +7414,7 @@ morrigen_legacy_3 = { # Stag, Star & Dragon
     character_modifier = {
         liege_opinion = 15
 		diplomacy = 1
-		monthly_piety_gain_mult = 0.2
+		monthly_piety_gain_mult = 0.05
     }
     
     ai_chance = {

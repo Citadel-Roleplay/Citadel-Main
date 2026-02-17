@@ -21,7 +21,7 @@ belaerys_legacy_1 = { # Dragon Roads
 		movement_speed = 0.05
 		character_travel_speed_mult = 0.05
 		character_travel_safety_mult = 0.05
-		monthly_county_control_growth_add = 0.15
+		monthly_county_control_growth_add = 0.05
 	}
 	
 	ai_chance = {
@@ -108,7 +108,7 @@ belaerys_legacy_4 = { # Riders of Terrax
 
 	character_modifier = {
 		diplomacy = 1
-		monthly_prestige = 1
+		monthly_prestige = 0.05
 	}
 
 	ai_chance = {
@@ -193,8 +193,7 @@ varezys_legacy_2 = { # Valyrian Dragonlords
 
 	character_modifier = {
 		martial = 1
-		monthly_prestige = 1.0
-		monthly_prestige_gain_mult = 0.5
+		monthly_prestige = 0.05
 		legitimacy_gain_mult = 0.25
 		dread_baseline_add = 10
 		dread_gain_mult = 0.3
@@ -226,7 +225,6 @@ varezys_legacy_3 = { # The First Emperor of Valyria
 	character_modifier = {
 		diplomacy = 1
 		martial = 1
-		monthly_prestige = 1
 	}
 	
 	ai_chance = {

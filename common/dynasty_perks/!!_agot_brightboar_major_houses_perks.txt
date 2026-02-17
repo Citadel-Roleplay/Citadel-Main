@@ -47,7 +47,6 @@ gardener_legacy_2 = { # Children of Garth the Gardener
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.1
 		reachman_opinion = 15
 		shieldman_opinion = 15
 		harborman_opinion = 5
@@ -78,7 +77,6 @@ gardener_legacy_3 = { # The Golden Reign
 	}
 
 	character_modifier = {
-		monthly_prestige = 0.5
 		domain_tax_mult = 0.2
 		vassal_tax_mult = 0.2
 		general_opinion = 10
@@ -110,7 +108,7 @@ gardener_legacy_4 = { # House of Highgarden
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.15
 		stewardship = 5
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		fort_level = 4
 	}
 
@@ -258,7 +256,7 @@ tyrell_legacy_4 = { # Legacy as High Stewards
 
 	character_modifier = {
 		stewardship = 2
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		development_growth = 0.2
 		opinion_of_liege = 10
 	}
@@ -382,7 +380,7 @@ hightower_legacy_3 = { # Patrons of the Faith of the Seven
 
 	character_modifier = {
 		same_faith_opinion = 30
-		monthly_piety = 2
+		monthly_piety = 0.5
 		clergy_opinion = 20
 		learning = 1
 	}

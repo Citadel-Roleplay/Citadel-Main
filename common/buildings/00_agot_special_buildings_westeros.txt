@@ -5388,11 +5388,14 @@ agot_gates_of_the_moon_02 = {
 		the_seven_religion_opinion = 10
 		martial_per_piety_level = 2
 		owned_legend_spread_mult = 0.1
+		domain_limit = 1
 	}
 
 	county_modifier = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
+		stationed_heavy_cavalry_damage_mult = 0.1
+		stationed_heavy_cavalry_toughness_mult = 0.1
 	}
 
 	province_modifier = {

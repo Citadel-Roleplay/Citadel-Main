@@ -18,7 +18,7 @@ webber_legacy_1 = { # Rulers of the Coldmoat
 	}
 
 	character_modifier = {
-		monthly_prestige_gain_mult = 0.05
+		intrigue = 1
 	}
 	
 	ai_chance = {
@@ -186,7 +186,6 @@ osgrey_legacy_2 = { # Proud House Osgrey
 	character_modifier = {
 		castle_holding_build_speed = -0.1
 		castle_holding_build_gold_cost = -0.1
-		monthly_dynasty_prestige_mult = 0.05
 	}
 	
 	ai_chance = {
@@ -269,7 +268,7 @@ osgrey_legacy_5 = { # Supporters of the Faith Militant
 	character_modifier = {
 		the_seven_religion_opinion = 5
 		religious_head_opinion = 15
-		monthly_piety_gain_mult = 0.2
+		monthly_piety_gain_mult = 0.05
 	}
 	
 	ai_chance = {
@@ -331,7 +330,7 @@ beesbury_legacy_2 = { # Tiny wings, mighty will
 	character_modifier = {
 		prowess = 1
 		martial = 1
-		monthly_prestige = 0.5
+		monthly_prestige = 0.01
 	}
 	
 	ai_chance = {
@@ -387,7 +386,7 @@ beesbury_legacy_4 = { # Lords of Honeyholt
 	}
 
 	character_modifier = {
-		monthly_income_mult = 0.05
+		stewardship = 1
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 	
@@ -1144,7 +1143,7 @@ scales_legacy_5 = { # The sword of justice is ill-placed in the hands of an angr
 
 	character_modifier = {
 		diplomacy = 1
-		monthly_prestige = 0.5
+		monthly_prestige = 0.05
 	}
 	
 	ai_chance = {
@@ -1313,7 +1312,7 @@ pyle_legacy_1 = { # Born with Swords in the Cradle
 
     character_modifier = {
         prowess = 2
-		monthly_prestige = 0.25
+		monthly_prestige = 0.05
     }
     
     ai_chance = {

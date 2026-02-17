@@ -1072,6 +1072,11 @@ c_moongates = {
 		holder = Arryn_13
 	}
 	8283.1.1 = {
+		holder = Arryn_3
+	}
+}
+b_sky = {
+	8283.1.1 = {
 		holder = RoyceGOTM_1
 	}
 }
