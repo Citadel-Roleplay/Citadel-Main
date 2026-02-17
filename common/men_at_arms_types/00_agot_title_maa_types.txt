@@ -225,7 +225,7 @@ sea_watch = {
 	}
 }
 
-#Lannisport
+#Redcloaks - Lannisport
 redcloaks = {
 	type = heavy_infantry
 
@@ -325,7 +325,7 @@ redcloaks = {
 	}
 }
 
-#Oldtown
+#Cobblestone Guard - Oldtown
 greycloaks = {
 	type = heavy_infantry
 

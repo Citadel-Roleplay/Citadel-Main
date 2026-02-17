@@ -19,3 +19,35 @@
  # Blackwood Archers
  citadel_raventree_bows: "Raventree Bows"
  citadel_raventree_bows_flavor: "Famed archers of House Blackwood, the Raventree Bows are raised among deep woods and ancient weirwoods. Their skill with the bow is renowned across the Riverlands, striking true with deadly precision long before their enemies can close the distance."
+
+ # Stormlands Pikemen
+ Stormbreakers_unit: "Stormbreakers"
+ Stormbreakers_unit_flavor: "Feared across the Stormlands, the Stormbreakers form an unyielding wall of pikes that turns cavalry charges into slaughter. Drilled to hold their line through wind, rain, and chaos, they break the enemy’s momentum and leave only splintered spears and broken banners behind."
+
+ # Stormbows Bows
+ storm_bows_unit: "Storm Bows"
+ storm_bows_unit_flavor: "Drawn from the windswept marches of the Stormlands, the Storm Bows are disciplined archers trained to loose volleys even in rain and heavy wind. Their arrows fall like a gathering storm, softening enemy lines long before steel meets steel."
+
+ # Marcher Footmen
+ marcher_heavy_infantry: "Marcher Footmen"
+ marcher_heavy_infantry_flavor: "Hardened by constant skirmishes along the Dornish Marches, these heavy infantry are accustomed to harsh terrain and sudden raids. Disciplined and resilient, the Marcher Footmen hold the line where others would break, standing as steadfast defenders of the borderlands."
+
+ # Honeywine Footmen
+ honeywine_footmen: "Honeywine Footmen"
+ honeywine_footmen_flavor: "Drawn from the rich lands along the Honeywine, these armored footmen fight with steady discipline and well maintained equipment. Accustomed to defending fertile fields and busy river roads, they form a reliable line of steel that can hold firm against both raiders and rival hosts."
+
+ # Honeywine Spearmen
+ honeywine_spears: "Honeywine Spears"
+ honeywine_spears_flavor: "Raised along the fertile banks of the Honeywine, these spearmen fight in tight ranks with long reach and steady discipline. Trained to defend fields, roads, and river crossings, they form a stubborn wall of spears that few enemies can break."
+
+ # Reach Spearman
+ reach_footmen: "Reach Footmen"
+ reach_footmen_flavor: "Drawn from the fertile fields and prosperous towns of the Reach, these soldiers fight with discipline born of wealth and tradition. Well supplied and steady in formation, the Reach Footmen form the dependable backbone of many southern armies."
+
+ # Reach Militia
+ reach_militia: "Reach Militia"
+ reach_militia_flavor: "The vast and fertile lands of the Reach provide no shortage of men to call upon, making these levies cheap and easy to raise. Though numerous, the Reach Militia lack proper training and discipline, serving best as a simple mass of bodies rather than skilled soldiers. However, raising the Militia will drastically drain our coffins."
+
+ # Reach Spearmen
+ reach_spears: "Reach Spears"
+ reach_spears_flavor: "Raised from the fertile heartlands of the Reach, these spearmen fight in orderly ranks with long ash shafts and steady discipline. While not famed for ferocity, their cohesion and numbers make them a reliable wall of steel on the battlefield."

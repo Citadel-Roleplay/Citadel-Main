@@ -38,7 +38,7 @@ ironborn_reavers = {
 	}
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
-	max_regiments = 3
+	max_regiments = 2
 	damage = 40
 	toughness = 30
 	pursuit = 0
@@ -61,7 +61,7 @@ ironborn_reavers = {
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = ironborn_reavers
+	icon = varangian_veterans
 
 	terrain_bonus = {
 		hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }

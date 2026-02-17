@@ -1366,7 +1366,7 @@ accolade_maa_horse_archers = {
 	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_cheap
 	
-	max_sub_regiments = 5
+	 
 	
 	stack = 100
 	ai_quality = {

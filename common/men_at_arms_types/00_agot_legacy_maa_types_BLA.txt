@@ -56,7 +56,7 @@ sarsfield_horse_archers = {
 	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_moderate
 
-	max_sub_regiments = 5
+	 
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -104,7 +104,7 @@ royce_runesworn = {
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -153,7 +153,7 @@ royce_rune_guardians = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -196,7 +196,7 @@ grafton_baywatch_sentries = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -236,7 +236,7 @@ manderly_white_harbor_sentinels = {
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -277,7 +277,7 @@ forrester_ironguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -327,7 +327,7 @@ bolton_dreadriders = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -374,7 +374,7 @@ dustin_barrow_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -443,7 +443,7 @@ mormont_shield_bears = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -513,7 +513,7 @@ mormont_she_bears = {
 	provision_cost = @provisions_cost_infantry_cheap
 	
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -575,7 +575,7 @@ umber_howling_line = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -625,7 +625,7 @@ reyne_crimson_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -661,7 +661,7 @@ farman_fair_isle_striders = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 120.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -718,7 +718,7 @@ crakehall_grizzled_pikes = {
 	provision_cost = @provisions_cost_infantry_moderate
 	
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -776,7 +776,7 @@ blackwood_valewood_rangers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -837,7 +837,7 @@ bracken_redmane_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -897,7 +897,7 @@ mooton_maidenpool_wardens = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 80.0
@@ -955,7 +955,7 @@ rowan_sentinels_of_the_gold_tree = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 80.0
@@ -1023,7 +1023,7 @@ rowan_goldengrove_lancers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1092,7 +1092,7 @@ tarly_hornhill_linebreakers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1164,7 +1164,7 @@ osgrey_gilded_thorns = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1219,7 +1219,7 @@ redwyne_sailsword_archers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1269,7 +1269,7 @@ hightower_the_tower_guard = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -1331,7 +1331,7 @@ florent_brightwater_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1437,7 +1437,7 @@ sea_snakes = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 
 	stack = 80.0
@@ -1497,7 +1497,7 @@ velaryon_tideforged_sentinels = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1547,7 +1547,7 @@ celtigar_tithecrabs = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1597,7 +1597,7 @@ scales_measured_knives  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1658,7 +1658,7 @@ dayne_starfall_outriders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1722,7 +1722,7 @@ yronwood_stone_companions = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1781,7 +1781,7 @@ uller_hellholt_bowmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1841,7 +1841,7 @@ ryswell_riders_rills = {
 	provision_cost = @provisions_cost_cavalry_normal
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 75.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1887,7 +1887,7 @@ swann_winged_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1934,7 +1934,7 @@ tarth_sapphire_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -1996,7 +1996,7 @@ darklyn_shadow_shields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2041,7 +2041,7 @@ dondarrion_stormriders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2096,7 +2096,7 @@ caron_nightsong_nightingales = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2144,7 +2144,7 @@ estermont_greenstone_breakers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2189,7 +2189,7 @@ mertyns_knights_of_the_mist = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2245,7 +2245,7 @@ corbray_heartsworn = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2295,7 +2295,7 @@ clegane_blood_hounds  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2371,7 +2371,7 @@ frey_bridge_guard  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2433,7 +2433,7 @@ darry_knights_furrow = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2500,7 +2500,7 @@ darry_plowmans_pikes = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2552,7 +2552,7 @@ vance_river_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2608,7 +2608,7 @@ mallister_eagleguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -2674,7 +2674,7 @@ westerling_oathbound = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2719,7 +2719,7 @@ reed_crannog_stalkers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2786,7 +2786,7 @@ hoare_blackhold_reavers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2852,7 +2852,7 @@ drumm_deep_salt_raiders = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2908,7 +2908,7 @@ fossoway_ciderwatch_knights = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -2974,7 +2974,7 @@ roxton_ring_lancers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3029,7 +3029,7 @@ wyl_maidens_blades = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3082,7 +3082,7 @@ stark_winterfell_swornswords = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3161,7 +3161,7 @@ baratheon_stormbreakers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3229,7 +3229,7 @@ lannister_redcloaks = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3287,7 +3287,7 @@ arryn_knights_of_the_lance = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3347,7 +3347,7 @@ martell_sunspear_spearmen = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3407,7 +3407,7 @@ tyrell_highgarden_honor_guard = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3479,7 +3479,7 @@ tully_trident_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3544,7 +3544,7 @@ greyjoy_naggas_sons = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3622,7 +3622,7 @@ targaryon_blackshields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3683,7 +3683,7 @@ banefort_hooded_blades = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3749,7 +3749,7 @@ connington_griffin_guard = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3812,7 +3812,7 @@ crane_whitefoot_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3883,7 +3883,7 @@ manwoody_redmount_raiders = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -3952,7 +3952,7 @@ toland_laughing_spears = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4011,7 +4011,7 @@ templeton_wardens_of_ninestars = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4074,7 +4074,7 @@ shett_spears_of_the_true_men = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4140,7 +4140,7 @@ rogers_amberly_seawatch = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4221,7 +4221,7 @@ codd_gutcutters  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4282,7 +4282,7 @@ wylde_rainwood_wardens = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4331,7 +4331,7 @@ piper_maidenguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4397,7 +4397,7 @@ butterwell_gilt_lancers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4471,7 +4471,7 @@ vypren_widows_sons = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4510,7 +4510,7 @@ flint_stonebound = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4557,7 +4557,7 @@ karstark_winter_sun_ravagers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4599,7 +4599,7 @@ glover_deepwood_ironshields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4644,7 +4644,7 @@ selmy_harvest_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4702,7 +4702,7 @@ massey_stonedance_knights = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -4775,7 +4775,7 @@ lydden_crownridge_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4854,7 +4854,7 @@ lefford_goldenroad_pikes = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -4900,7 +4900,7 @@ marbrand_flameborn_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -4967,7 +4967,7 @@ goodbrother_hammerhorn_stoneguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5049,7 +5049,7 @@ harlaw_reapers_of_harlaw  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5107,7 +5107,7 @@ fowler_highridge_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5174,7 +5174,7 @@ qorgyle_scorpion_strikers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5244,7 +5244,7 @@ waynwood_knights_of_ironoaks = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5319,7 +5319,7 @@ upcliff_witch_isle_watchers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5397,7 +5397,7 @@ brax_silverhorn_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5463,7 +5463,7 @@ peake_starpike_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5515,7 +5515,7 @@ strong_blackmud_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5569,7 +5569,7 @@ mudd_rivercrown_sentinels = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5632,7 +5632,7 @@ gardener_goldenhand_companions = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 50.0
@@ -5711,7 +5711,7 @@ durrandon_godsgrief_champions = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5765,7 +5765,7 @@ justman_swords_of_justman = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5829,7 +5829,7 @@ greyiron_black_crown_reavers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5886,7 +5886,7 @@ lothston_blackwing_stalkers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -5952,7 +5952,7 @@ casterly_goldcloaks = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6012,7 +6012,7 @@ qoherys_blackened_blades = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6059,7 +6059,7 @@ bar_emmon_hook_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6111,7 +6111,7 @@ brune_crackclaw_champions = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6187,7 +6187,7 @@ crabb_whispering_spears = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6238,7 +6238,7 @@ rosby_ermine_shields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6299,7 +6299,7 @@ stokeworth_redwatch = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -6352,7 +6352,7 @@ staunton_black_rook_archers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6424,7 +6424,7 @@ sunglass_sweetport_oathmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -6489,7 +6489,7 @@ beesbury_honeyholt_stingers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6545,7 +6545,7 @@ caswell_bitterbridge_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -6611,7 +6611,7 @@ webber_black_coursers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6661,7 +6661,7 @@ oakheart_old_oak_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6711,7 +6711,7 @@ hewett_oakenshields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6767,7 +6767,7 @@ ashford_saffron_cloaks = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -6822,7 +6822,7 @@ merryweather_longtable_longspears = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6876,7 +6876,7 @@ mullendore_butterfly_guard = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6930,7 +6930,7 @@ footly_bloody_caltrops = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -6995,7 +6995,7 @@ meadows_golden_spur_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7053,7 +7053,7 @@ varner_hall_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -7109,7 +7109,7 @@ ambrose_red_ants = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7179,7 +7179,7 @@ norcross_neveryield_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7234,7 +7234,7 @@ willum_silverbane_bowmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7298,7 +7298,7 @@ vyrwel_shadow_wing_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7373,7 +7373,7 @@ serrett_silverhill_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7452,7 +7452,7 @@ prester_feastfire_watch  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7507,7 +7507,7 @@ plumm_purple_mantles = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7582,7 +7582,7 @@ greenfield_bower_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7634,7 +7634,7 @@ fell_felwood_huntsmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7700,7 +7700,7 @@ penrose_riverwards = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7757,7 +7757,7 @@ buckler_kingswood_harriers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7802,7 +7802,7 @@ grandison_storm_lions = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -7860,7 +7860,7 @@ lonmouth_reapers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7912,7 +7912,7 @@ cole_crossbowmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -7987,7 +7987,7 @@ trant_gallows_men = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8048,7 +8048,7 @@ morrigen_thundershields = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8104,7 +8104,7 @@ staedmon_crimson_daggers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8158,7 +8158,7 @@ errol_wendwater_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -8218,7 +8218,7 @@ blackmont_vultures = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8279,7 +8279,7 @@ allyrion_golden_hand_wardens = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8340,7 +8340,7 @@ jordayne_tor_sentinels = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8405,7 +8405,7 @@ vaith_red_dune_wardens = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8471,7 +8471,7 @@ gargalen_cockatrice_guard = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8511,7 +8511,7 @@ hornwood_axe_brothers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 	
 
 	stack = 100.0
@@ -8551,7 +8551,7 @@ wull_shieldbearers = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 	
 
 	stack = 100.0
@@ -8592,7 +8592,7 @@ cerwyn_winterwardens = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	
 	stack = 100.0
@@ -8631,7 +8631,7 @@ whitehill_highpoint_watch = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 	
 
 	stack = 100.0
@@ -8670,7 +8670,7 @@ locke_oldcastle_keywardens = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 	
 
 	stack = 100.0
@@ -8711,7 +8711,7 @@ tallhart_wild_hares = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	
 	stack = 100.0
@@ -8751,7 +8751,7 @@ magnar_kingshouse_stoneguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 	
 
 	stack = 100.0
@@ -8794,7 +8794,7 @@ egen_high_road_lancers = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8851,7 +8851,7 @@ tollett_grim_guard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8905,7 +8905,7 @@ hardyng_scarlet_pass_lancers = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -8943,7 +8943,7 @@ redfort_stonefoot = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	
 	stack = 100.0
@@ -8998,7 +8998,7 @@ belmore_bellguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9048,7 +9048,7 @@ hunter_high_road_yewmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9087,7 +9087,7 @@ borrell_saltcutters = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	
 	stack = 100.0
@@ -9144,7 +9144,7 @@ paege_river_serpents = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9215,7 +9215,7 @@ charlton_crossing_wardens = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9286,7 +9286,7 @@ smallwood_river_oak_knights = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9351,7 +9351,7 @@ whent_nightwings = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 50.0
@@ -9424,7 +9424,7 @@ teague_golden_tridents = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9480,7 +9480,7 @@ graceford_mothers_marksmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -9546,7 +9546,7 @@ bulwer_blackcrown_knights = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9619,7 +9619,7 @@ baelish_mockingbird_skirmishers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9672,7 +9672,7 @@ mandrake_blue_fork_rangers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9724,7 +9724,7 @@ ryger_weeping_willow_bowmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9788,7 +9788,7 @@ seaworth_onion_runners = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9866,7 +9866,7 @@ toyne_black_bordure_line = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -9924,7 +9924,7 @@ farring_blackwater_wardens = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -9990,7 +9990,7 @@ farwynd_lonely_light_marauders = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10071,7 +10071,7 @@ volmark_leviathan_cutters  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10127,7 +10127,7 @@ dalt_lemonwood_knights = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10183,7 +10183,7 @@ santagar_leopard_maidens = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10259,7 +10259,7 @@ swyft_bantam_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10314,7 +10314,7 @@ hayford_pikes_of_the_pale = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 
 	stack = 100.0
@@ -10383,7 +10383,7 @@ jast_three_lion_vanguard = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10451,7 +10451,7 @@ falwell_fighting_fools = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10516,7 +10516,7 @@ ball_red_lances = {
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10597,7 +10597,7 @@ botley_shoal_reavers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10664,7 +10664,7 @@ stout_goldgrass_bowmen = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10715,7 +10715,7 @@ lynderly_vipers_of_the_bough = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10781,7 +10781,7 @@ waxley_bright_pikes = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10837,7 +10837,7 @@ varezys_bloody_mummer_skirmishers  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10901,7 +10901,7 @@ varezys_bloody_mummer_zorse_riders = {
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -10959,7 +10959,7 @@ belaerys_terrax_longspears = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -11015,7 +11015,7 @@ haen_azure_phalanx  = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -11071,7 +11071,7 @@ antaryon_free_company_of_the_key  = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -11127,7 +11127,7 @@ rogare_vaultwardens_of_lys  = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -11187,7 +11187,7 @@ saan_basilisk_marauders  = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -11245,7 +11245,7 @@ saan_corsairs  = {
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
-	max_sub_regiments = 5
+	 
 
 	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
