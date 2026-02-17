@@ -100,7 +100,7 @@ high_valyrian_legacy_5 = { # Ashes of the Doom
 	
 	character_modifier = {
 		learning = 1
-		monthly_dynasty_prestige = 0.20
+		# monthly_dynasty_prestige = 0.20
 		monthly_piety_gain_mult = 0.10
 		owned_hostile_scheme_success_chance_add = 10 
 	}
@@ -132,7 +132,7 @@ high_valyrian_legacy_5 = { # Ashes of the Doom
 
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.10
-		monthly_dynasty_prestige = 0.20
+		# monthly_dynasty_prestige = 0.20
 		title_creation_cost_mult = -0.10  
 		character_capital_county_monthly_development_growth_add = 0.1
 	}
@@ -318,7 +318,7 @@ essosi_valyrian_legacy_5 = { # Blood Above All
 	character_modifier = {
 		monthly_prestige = 0.50
     		diplomacy = 2
-    		monthly_dynasty_prestige = 0.20
+    		# monthly_dynasty_prestige = 0.20
     		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
 }
@@ -968,7 +968,7 @@ lyseni_legacy_3 = { # Blessed by Beauty
 	character_modifier = {
 		health = 0.05
 		fertility = 0.10
-		monthly_dynasty_prestige_mult = 0.05
+		# monthly_dynasty_prestige_mult = 0.05
 		attraction_opinion = 10
 	}
 }
@@ -1112,7 +1112,7 @@ pentoshi_legacy_5 = { # The Pact of the Tiger and the Merchant
 	
 	character_modifier = {
 		monthly_prestige = 0.3
-		monthly_dynasty_prestige = 0.1
+		# monthly_dynasty_prestige = 0.1
 		dread_baseline_add = 10
 		intrigue_per_prestige_level = 1
 	}
@@ -1227,7 +1227,7 @@ tyroshi_legacy_5 = { # Sapphire Dominion
 	
 	character_modifier = {
 		diplomacy = 1
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		development_growth_factor = 0.10
 		tyranny_gain_mult = -0.10
 	}
@@ -1554,7 +1554,7 @@ hartalari_legacy_5 = { # Rise of the Fourth
 	}
 	
 	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
+		# monthly_dynasty_prestige_mult = 0.05
 		legitimacy_gain_mult = 0.05
 		men_at_arms_maintenance = -0.20
 		maa_toughness_mult = 0.15
@@ -1664,7 +1664,7 @@ rhoynish_legacy_5 = { # Kingdom in Exile
 	}
 	
 	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.10
+		# monthly_dynasty_prestige_mult = 0.10
 		monthly_piety_gain_mult = 0.10
 		domain_limit = 1
 		legitimacy_gain_mult = 0.03
@@ -1742,7 +1742,7 @@ andalosi_legacy_3 = { # Sons of Hugor
 	character_modifier = {
 		monthly_prestige = 0.75
 		short_reign_duration_mult = -0.1
-		monthly_dynasty_prestige_mult = 0.05
+		# monthly_dynasty_prestige_mult = 0.05
 		dynasty_opinion = 5
 	}
 }

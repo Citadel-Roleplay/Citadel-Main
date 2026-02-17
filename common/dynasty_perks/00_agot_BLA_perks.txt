@@ -121,7 +121,7 @@ forrester_legacy_5_BLA = { # Winter's Bloodline
 	character_modifier = {
 		prowess = 1
 		negate_health_penalty_add = 0.2
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -481,7 +481,7 @@ dustin_legacy_5 = { # Barrow Kings
 
 	character_modifier = {
 		short_reign_duration_mult = -0.2
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		vassal_limit = 5
 		court_grandeur_baseline_add = 5
 	}
@@ -2112,7 +2112,7 @@ royce_legacy_5 = { # Line of the First Kings, Rooted in Stone
 
 	character_modifier = {
 		owned_legend_spread_mult = 0.05
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
@@ -4900,7 +4900,7 @@ vance_legacy_5 = { # Legacy of the Wayfarer
 
 	character_modifier = {
 		monthly_prestige = 0.25
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
@@ -5002,7 +5002,7 @@ mallister_legacy_4 = { # Loyal unto Death
 	}
 	
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_county_control_growth_factor = 0.10
 		vassal_opinion = 5
 		diplomacy = 1
@@ -5060,7 +5060,7 @@ westerling_legacy_1 = { # The Old Blood Endures
 
 	
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		same_culture_opinion = 5
 	}
 	ai_chance = {
@@ -5421,7 +5421,7 @@ hoare_legacy_5 = { # Reclaim the Flame
 
 	character_modifier = {
 		martial = 1
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		dread_per_tyranny_mult = 0.10
 		knight_effectiveness_mult = 0.10
 	}
@@ -6031,7 +6031,7 @@ stark_legacy_4_BLA = { # Legacy of Bran the Builder
 
 	character_modifier = {
 		monthly_prestige = 0.25
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_piety_gain_mult = 0.05
 		build_gold_cost = -0.15
 		build_speed = -0.10
@@ -6466,7 +6466,7 @@ arryn_legacy_5 = { # Above the Dragons
 
 	character_modifier = {
 		diplomacy = 1
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		additional_fort_level = 1
 		monthly_prestige = 0.25
 	}
@@ -6867,7 +6867,7 @@ tully_legacy_5 = { # The River Remembers
 	character_modifier = {
 		domain_limit = 1
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		dread_decay_mult = -0.25
 		
 	}
@@ -7187,9 +7187,9 @@ banefort_legacy_2 = { # The Hooded Kings
 
 	character_modifier = {
 		same_culture_opinion = 5
-		monthly_dynasty_prestige = 0.05
-            	tyranny_gain_mult = -0.20
-            	levy_size = 0.20
+		# monthly_dynasty_prestige = 0.05
+        tyranny_gain_mult = -0.20
+        levy_size = 0.20
 	}
 	ai_chance = {
 		value = 100
@@ -8286,7 +8286,8 @@ codd_legacy_3 = { # Salt-Spat Bastards
 
 	character_modifier = {
 		health = 0.25
-		positive_random_genetic_chance = 10
+		positive_random_genetic_chance = 0.25
+		negative_random_genetic_chance = 0.25
 		clergy_opinion = -10
 		dynasty_opinion = 10
 		knight_limit = 1
@@ -9901,7 +9902,7 @@ goodbrother_legacy_5 = { #  Brother to Kings
 
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		legitimacy_gain_mult = 0.05  
 		intrigue_scheme_resistance = 10
 	}
@@ -10004,7 +10005,7 @@ harlaw_legacy_4 = { # Kingsmoot-Crowned
 	}
 	
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		short_reign_duration_mult = -0.20  
 		diplomacy = 1 
 		monthly_piety = 0.25 
@@ -11007,7 +11008,7 @@ mudd_legacy_3 = { # Stone Without Crown
 	character_modifier = {
 		additional_fort_level = 1  
 		short_reign_duration_mult = -0.2
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_county_control_growth_factor = 0.10
 	}
 	ai_chance = {
@@ -11448,7 +11449,7 @@ justman_legacy_5 = { #  The Bloody Keep
 		courtier_and_guest_opinion = 10
 		short_reign_duration_mult = -0.2  
 		intrigue_scheme_resistance = 10
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055
 	}
 	ai_chance = {
@@ -11716,7 +11717,7 @@ lothston_legacy_5 = { #  The House That Vanished
 		tyranny_gain_mult = -0.15
 		intrigue_scheme_resistance = 20   
 		general_opinion = -5
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05 
 	}
 	ai_chance = {
@@ -11847,7 +11848,7 @@ casterly_legacy_5 = { #  The First Lions
 
 	character_modifier = {
 		knight_effectiveness_mult = 0.15
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_prestige = 0.50
 	}
 	ai_chance = {
@@ -13662,7 +13663,7 @@ ashford_legacy_5 = { #  Crown’s Steadfast Bannermen
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		intrigue_scheme_resistance = 15
         	monthly_martial_lifestyle_xp_gain_mult = 0.055
         	vassal_limit = 2
@@ -13793,7 +13794,7 @@ merryweather_legacy_5 = { #  Honeyed Hosts of the Reach
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		court_grandeur_baseline_add = 2
 		general_opinion = 5
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
@@ -13922,7 +13923,7 @@ mullendore_legacy_5 = { #  Prestige of the Butterfly
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		courtier_and_guest_opinion = 10
 		diplomacy = 1
 		court_grandeur_baseline_add = 2
@@ -14310,7 +14311,7 @@ varner_legacy_5 = { #  Faith and Fealty
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		tyranny_gain_mult = -0.10
 		monthly_learning_lifestyle_xp_gain_mult = 0.15
 		clergy_opinion = 10
@@ -14707,7 +14708,7 @@ willum_legacy_5 = { # Songs of Silver
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		monthly_prestige = 0.25
 		court_grandeur_baseline_add = 1
 		same_culture_opinion = 5
@@ -14842,7 +14843,7 @@ vyrwel_legacy_5 = { # The Wyvern's Echo
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		prowess = 1
 		clergy_opinion = 5
 		dread_decay_mult = -0.15
@@ -15226,7 +15227,7 @@ plumm_legacy_5 = { # The Purple Line
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		vassal_opinion = 5
 		same_faith_opinion = 5
 		monthly_lifestyle_xp_gain_mult = 0.10
@@ -16014,7 +16015,7 @@ lonmouth_legacy_5 = { # Sigil Never Fades
 
 	character_modifier = {
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.055
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
         	court_grandeur_baseline_add = 1
         	diplomacy_per_prestige_level = 1
 	}
@@ -16147,7 +16148,7 @@ cole_legacy_5 = { # Butcher’s Ballad
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
         	stress_gain_mult = -0.15
         	enemy_hostile_scheme_success_chance_add = -10
         	health = 0.10
@@ -17737,7 +17738,7 @@ cerwyn_legacy_5 = { # The Axe at Hand
 		martial = 1
 		prowess = 1
 		additional_fort_level = 1
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 		short_reign_duration_mult = -0.10
 	}
 	ai_chance = {
@@ -19798,7 +19799,7 @@ whent_legacy_5 = { # Harrenhal’s Price
 		stress_loss_mult = -0.05
 		short_reign_duration_mult = -0.10
 		owned_legend_spread_mult = 0.05
-		monthly_dynasty_prestige = 0.05
+		# monthly_dynasty_prestige = 0.05
 	}
 	ai_chance = {
 		value = 100

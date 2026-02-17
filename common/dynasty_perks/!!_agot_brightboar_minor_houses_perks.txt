@@ -6886,7 +6886,8 @@ cafferen_legacy_3 = { # House of the Fawn
 
     character_modifier = {
 		short_reign_duration_mult = -0.25
-		monthly_influence = 0.05
+		diplomacy = 1
+        marcher_opinion = 10
     }
     
     ai_chance = {
