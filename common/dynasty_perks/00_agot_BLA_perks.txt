@@ -8286,7 +8286,8 @@ codd_legacy_3 = { # Salt-Spat Bastards
 
 	character_modifier = {
 		health = 0.25
-		positive_random_genetic_chance = 10
+		positive_random_genetic_chance = 0.25
+		negative_random_genetic_chance = 0.25
 		clergy_opinion = -10
 		dynasty_opinion = 10
 		knight_limit = 1
