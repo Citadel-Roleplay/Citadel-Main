@@ -5723,7 +5723,7 @@ roxton_legacy_2 = { # No Second Swing
 
 	character_modifier = {
 		martial = 1
-		heavy_infantry_damage_mult = 0.15
+		heavy_cavalry_damage_mult = 0.05
 		prowess = 1
 	}
 	ai_chance = {
