@@ -730,7 +730,7 @@ yronwood_01 = {
         type = pdxmesh
         name = "building_special_yronwood_mesh"
     }
-    levy = 1000
+    levy = 500
     is_enabled = {
         agot_generic_is_special_building_enabled = yes
     }

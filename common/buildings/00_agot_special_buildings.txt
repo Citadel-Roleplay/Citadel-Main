@@ -1077,6 +1077,8 @@ sunspear_01 = {
 		court_grandeur_baseline_add = 5
 	}
 
+	levy = 750
+
 	max_garrison = good_building_max_garrison_tier_2
 
 	province_modifier = {
