@@ -854,16 +854,22 @@ westerlands_knights = {
 	}
 }
 
-# innovation_agot_stormlands_fighting aka Temperstuous Warfare
+# innovation_agot_stormlands_fighting aka Temperstuous Warfare # Antlermen - Kizan
 stormlands_heavy_infantry = {
 	type = heavy_infantry
 
 	buy_cost = { 
 		gold = 60
-		prestige = 60
+		prestige = 50
 	}
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+	low_maintenance_cost = { 
+		gold = 0.23
+		prestige = 0.22
+	}
+	high_maintenance_cost = { 
+		gold = 0.48
+		prestige = 0.47
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 100
 	max_regiments = 2
@@ -878,15 +884,17 @@ stormlands_heavy_infantry = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stormlands_fighting }
+		ROOT.culture = { has_innovation = innovation_agot_stormlands_fighting }
 		NOT = { government_has_flag = government_is_nw }
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+
+		NOR = {
+			ROOT.culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+			ROOT.culture = { has_cultural_tradition = tradition_agot_marcher }
 		}
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = stormlands_heavy_infantry
 
 	terrain_bonus = {
 		hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
@@ -1277,9 +1285,9 @@ goldenheart_bowmen = {
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 80
 	max_regiments = 2
-	damage = 40
-	toughness = 10
-	pursuit = 15
+	damage = 20
+	toughness = 25
+	pursuit = 0
 	screen = 0
 
 	counters = {

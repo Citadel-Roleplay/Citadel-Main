@@ -25,8 +25,8 @@ summer_knights = {
 	type = heavy_cavalry
 
 	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_expensive }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_cavalry_expensive
 	stack = 75
 	max_regiments = 1
@@ -129,9 +129,9 @@ summer_knights = {
 honeywine_quirrels = {
 	type = archers
 
-	buy_cost = { gold = crossbowmen_recruitment_cost_normal }
-	low_maintenance_cost = { gold = crossbowmen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = crossbowmen_high_maint_cost_expensive }
+	buy_cost = { gold = 125 }
+	low_maintenance_cost = { gold = 0.7 }
+	high_maintenance_cost = { gold = 1.8 }
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
 	max_regiments = 2
@@ -153,7 +153,7 @@ honeywine_quirrels = {
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = crossbowmen
+	icon = italian_crossbowmen
 
 	terrain_bonus = {
 		plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }

@@ -281,6 +281,7 @@ bowmen = {
 		}
 		NOR = {
 			culture = { has_innovation = innovation_agot_goldenheart_bowmen }
+			culture = { has_innovation = innovation_agot_stormlands_fighting }
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -451,7 +452,7 @@ light_horsemen = {
 			}
 		}
 		NOR = {
-			culture = { has_innovation = innovation_agot_reach_fighting }
+			culture = { has_innovation = innovation_agot_reach_fighting } 
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -632,6 +633,9 @@ pikemen_unit = {
 			culture = { has_innovation = innovation_agot_northern_fighting }
 			culture = { has_innovation = innovation_agot_crownlands_fighting }
 			culture = { has_innovation = innovation_agot_rubies_and_iron }
+			culture = { has_innovation = innovation_agot_stormlands_fighting }
+			culture = { has_cultural_parameter = unlock_maa_honeywine_quirrels }  
+			culture = { has_cultural_parameter = unlock_maa_summer_knights }  
 		}
 
 		NOT = {
@@ -781,15 +785,21 @@ armored_footmen = {
 			has_innovation = innovation_agot_mail
 		}
 		NOR = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }  
+			culture = { has_cultural_parameter = unlock_maa_honeywine_quirrels } 
 			culture = { has_innovation = innovation_agot_vale_fighting }
 			culture = { has_innovation = innovation_agot_stormlands_fighting }
+			culture = { has_cultural_parameter = unlock_maa_summer_knights }  
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 			#AGOT Added
 			government_has_flag = government_is_nw
+		}
+		NOR = {
+			has_title = title:c_oldtown
+			has_title = title:c_lannisport
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -1249,8 +1259,11 @@ crossbowmen = {
 				valid_for_maa_trigger = {
 					PARAMETER = unlock_maa_royal_crossbowmen
 				}
-				valid_for_maa_trigger = {
+				valid_for_maa_trigger = { 
 					PARAMETER = unlock_maa_rain_bringers
+				}
+				valid_for_maa_trigger = {  
+					PARAMETER = unlock_maa_honeywine_quirrels 
 				}
 		}
 		NOR = {

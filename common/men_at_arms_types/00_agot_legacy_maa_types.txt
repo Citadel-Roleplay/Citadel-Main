@@ -24,7 +24,7 @@
 sarsfield_horse_archers = {
 	type = archer_cavalry
 
-	max_sub_regiments = 5
+	 
 
 	buy_cost = { gold = archer_cavalry_recruitment_cost_normal }
 	low_maintenance_cost = { gold = archer_cavalry_low_maint_cost_normal }

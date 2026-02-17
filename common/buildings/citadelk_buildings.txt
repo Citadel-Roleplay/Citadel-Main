@@ -3142,7 +3142,7 @@ citadel_starpike_2 = {
 
 casterly_rock_02 = {
 
-	construction_time = very_slow_construction_time
+	construction_time = 39000
 
 	type_icon = "icon_casterly_rock.dds"
 
