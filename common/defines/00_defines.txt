@@ -699,7 +699,7 @@ NArmy = {
 	MOVEMENT_SPEED_BONUS_FRIENDLY_AREA = 0.2		# In friendly areas you get a 20% speed bonus
 	#AGOT Modified
 	#REGIMENT_MONTHLY_REINFORCE_SPEED = 0.03		
-	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.004		# Monthly reinforcement percentage of unraised chunks [0-1]
+	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.0035		# Monthly reinforcement percentage of unraised chunks [0-1]
 	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.025	# Monthly reinforcement percentage of unraised MAA chunks [0-1]
 	#AGOT Modified, increased levies to resemble canon numbers without increased income
 	#GOLD_COST_PER_SOLDIER = 0.003					# Gold maintenance cost per soldier
