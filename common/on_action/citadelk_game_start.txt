@@ -282,9 +282,12 @@ set_provinces_start_citadel = {
         title:b_wyverns_rest.title_province = {
             add_special_building = citadel_wyverns_rest
         } 
-        title:b_sarsfield.title_province = {
+        title:b_sarsfield.title_province = { 
             add_special_building = citadel_sarsfield_1
-        } 
+        }  
+        title:b_barrowton.title_province = { 
+            add_special_building = citadel_barrowton
+        }
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall

@@ -3572,7 +3572,7 @@ agot_new_castle_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = good_building_tax_tier_5
+		monthly_income = 4
 		fort_level = 2
 		garrison_size = 0.15
 	}
@@ -3655,7 +3655,7 @@ agot_karhold_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 1000
+	levy = 900
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
@@ -3665,7 +3665,7 @@ agot_karhold_01 = {
 	county_modifier = {
 		hostile_raid_time = 0.8
 		defender_holding_advantage = 8
-		levy_size = 0.2
+		levy_size = 0.1
 	}
 
 	ai_value = {
