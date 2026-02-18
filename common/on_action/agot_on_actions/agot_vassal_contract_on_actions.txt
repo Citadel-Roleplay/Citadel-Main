@@ -531,6 +531,8 @@
 			agot_mw_reset_vassal_contract = yes
 		}
 		title:d_fairmarket.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
 			set_variable = mw_obl_title_revocation_rights_protected
 			add_character_flag = {
 				flag = startup_contracts
@@ -555,7 +557,96 @@
 				}
 			}
 		}
-
+		title:d_southstone.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_cape_of_eagles.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_blackwood_vale.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_harrenhal.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_lakehaven.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_wayfarers_rest.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_atranta.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_pinkmaiden.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_the_crossing.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_maidenpool.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
 		### THE IRON ISLANDS
 		title:e_the_iron_islands = {
 			every_de_jure_county_holder = {
@@ -588,14 +679,14 @@
 		}
 		title:c_iron_holt.holder ?= {
 			set_variable = mw_obl_council_rights_guaranteed
-			set_variable = mw_obl_title_revocation_rights_protected
+			set_variable = mw_obl_feudal_levies_exempt
 			add_character_flag = {
 				flag = startup_contracts
 				days = 1
 			}
 			agot_mw_reset_vassal_contract = yes
 		}
-
+		
 		### THE WESTERLANDS
 		title:d_withermoore.holder ?= {
 			set_variable = mw_obl_fortification_rights_granted

@@ -716,6 +716,7 @@ winterfell_01 = {
 
 	province_modifier = {
 		fort_level = 4
+		monthly_income = 1
 	}
 
 	county_modifier = {
@@ -769,6 +770,7 @@ winterfell_02 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 2
+		monthly_income = 2
 	}
 
 	county_modifier = {
@@ -814,6 +816,8 @@ winterfell_03 = {
 		legitimacy_gain_mult = 0.1
 		owned_legend_spread_mult = 0.1
 		court_grandeur_baseline_add = 2
+		monthly_prestige_gain_mult = 0.1
+		monthly_prestige = 1
 	}
 
 	max_garrison = good_building_max_garrison_tier_3
@@ -821,6 +825,7 @@ winterfell_03 = {
 	province_modifier = {
 		fort_level = 6
 		defender_holding_advantage = 4
+		monthly_income = 3
 	}
 
 	county_modifier = {
@@ -868,6 +873,7 @@ the_eyrie_01 = {
 		court_grandeur_baseline_add = 8
 		legitimacy_gain_mult = 0.1
 		courtier_opinion = 10
+		monthly_piety = 2
 	}
 
 	province_modifier = {
@@ -1118,7 +1124,7 @@ storms_end_01 = {
 		type = pdxmesh
 		name = "building_special_stormsend_castle_mesh"
 	}
-
+	levy = 100
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -1129,6 +1135,8 @@ storms_end_01 = {
 		legitimacy_gain_mult = 0.1
 		owned_legend_spread_mult = 0.1
 		knight_effectiveness_mult = 0.1
+		monthly_prestige_gain_mult = 0.15
+		monthly_prestige = 1
 	}
 
 	max_garrison = good_building_max_garrison_tier_10
@@ -1137,6 +1145,7 @@ storms_end_01 = {
 		fort_level = 8
 		defender_holding_advantage = 10
 		supply_limit_mult = -0.1
+		monthly_income = 2
 	}
 
 	county_modifier = {
@@ -1565,6 +1574,8 @@ dragonstone_01 = {
 		owned_legend_spread_mult = 0.1
 		knight_effectiveness_per_dread = 0.0025
 		army_maintenance_mult = -0.2
+		monthly_prestige_gain_mult = 0.2
+		monthly_prestige = 1
 	}
 
 	province_modifier = {
