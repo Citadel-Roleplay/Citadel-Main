@@ -103,3 +103,27 @@
  # Vale Archers
  vale_bows_unit: "Eyrie Longbows"
  vale_bows_unit_flavor: "Trained among the high valleys and wind swept ridges of the Vale, the Eyrie Longbows are known for their steady aim and discipline. From elevated ground they rain arrows upon their foes, breaking formations long before the enemy can close for battle."
+
+ # North Archers:
+ north_bows_unit: "Winterwood Archers"
+ north_bows_unit_flavor: "Raised among the deep forests and frozen fields of the North, the Winterwood Archers are patient hunters turned soldiers. Hardened by harsh winters and long watches, they loose steady volleys that wear down even the hardiest foes before steel is ever crossed."
+
+ # North Knights:
+ northern_knights: "Wintersteel Riders"
+ northern_knights_flavor: "Though rare compared to the south, the knights of the North are seasoned riders forged by harsh winters and hard war. Clad in heavy armor and bound by stern honor, the Wintersteel Riders strike with relentless force, proving that northern steel can rival any chivalric host in Westeros."
+
+ # North Skirmishers
+ northern_skirmishers: "Northern Skirmishers"
+ northern_skirmishers_flavor: "Hardened by the cold and vast wilderness of the North, these skirmishers fight with patience and endurance. Moving swiftly through forests and rough terrain, they strike from cover before fading back into the wild."
+
+ # North Light Cavalry
+ north_light_riders: "Northern Light Riders"
+ north_light_riders_flavor: "Mounted scouts and raiders from the wide lands of the North, these riders favor speed and endurance over heavy armor. Accustomed to long distances and harsh conditions, they harry the enemy with swift strikes before disappearing beyond reach."
+
+ # Stormland Skirmishers
+ stormlands_skirmishers: "Stormlands Skirmishers"
+ stormlands_skirmishers_flavor: "Though called light troops, the skirmishers of the Stormlands are among the fiercest warriors in the realm. Hardened by harsh weather and constant conflict, they fight with relentless aggression and should never be underestimated."
+
+ # Crownlands Knights
+ knight_of_blackwater: "Knights of Blackwater"
+ knight_of_blackwater_flavor: "Drawn from the Crownlands surrounding Blackwater Bay, these knights are sworn to defend the heart of the realm. Well equipped and proud, they combine courtly discipline with battlefield experience gained from guarding the roads and shores near the capital."
