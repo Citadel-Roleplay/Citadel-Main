@@ -334,11 +334,12 @@ valeman_finger = {
 
 	traditions = {
 		tradition_agot_vale
-		tradition_agot_valemen_finger
+		tradition_agot_valemen_main
 		tradition_agot_insular_marriage
 		tradition_stalwart_defenders
 		tradition_pastoralists
 		tradition_modest
+		
 	}
 
 	ethnicities = {
@@ -405,7 +406,7 @@ valeman_upper = {
 
 	traditions = {
 		tradition_agot_vale
-		tradition_agot_valemen_upper
+		tradition_agot_valemen_main
 		tradition_metal_craftsmanship
 		tradition_hill_dwellers
 		tradition_mountain_homes

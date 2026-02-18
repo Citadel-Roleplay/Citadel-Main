@@ -123,7 +123,11 @@ light_footmen = {
 		}
 		NOR = {
 			culture = { has_innovation = innovation_agot_riverlands_fighting }
-			culture = { has_innovation = innovation_agot_stepstone_fighting }
+			culture = { has_innovation = innovation_agot_stepstone_fighting }  
+			culture = { has_innovation = innovation_agot_stormlands_fighting }  
+			culture = { has_cultural_parameter = unlock_maa_rain_bringers }
+			culture = { has_cultural_parameter = unlock_maa_ironborn_reavers }  
+			culture = { has_cultural_parameter = unlock_northman_maa }  
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -281,7 +285,11 @@ bowmen = {
 		}
 		NOR = {
 			culture = { has_innovation = innovation_agot_goldenheart_bowmen }
-			culture = { has_innovation = innovation_agot_stormlands_fighting }
+			culture = { has_innovation = innovation_agot_stormlands_fighting } 
+			culture = { has_cultural_parameter = unlock_maa_rain_bringers }  
+			culture = { has_cultural_parameter = unlock_maa_ironborn_reavers }     
+			culture = { has_cultural_parameter = unlock_maa_winged_knights } 
+			culture = { has_cultural_parameter = unlock_northman_maa } 
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -455,6 +463,10 @@ light_horsemen = {
 			culture = { has_innovation = innovation_agot_reach_fighting } 
 		}
 		NOT = {
+			culture = { has_cultural_parameter = unlock_maa_ironborn_reavers }  
+			culture = { has_cultural_parameter = unlock_maa_river_bows }  
+			culture = { has_cultural_parameter = unlock_maa_winged_knights } 
+			culture = { has_cultural_parameter = unlock_northman_maa  } 
 			valid_for_maa_trigger = {
 				PARAMETER = unlock_maa_cape_watch
 			}
@@ -636,6 +648,9 @@ pikemen_unit = {
 			culture = { has_innovation = innovation_agot_stormlands_fighting }
 			culture = { has_cultural_parameter = unlock_maa_honeywine_quirrels }  
 			culture = { has_cultural_parameter = unlock_maa_summer_knights }  
+			culture = { has_cultural_parameter = unlock_maa_rain_bringers } 
+			culture = { has_cultural_parameter = unlock_maa_ironborn_reavers } 
+			culture = { has_cultural_parameter = unlock_maa_winged_knights }
 		}
 
 		NOT = {
@@ -789,7 +804,9 @@ armored_footmen = {
 			culture = { has_cultural_parameter = unlock_maa_honeywine_quirrels } 
 			culture = { has_innovation = innovation_agot_vale_fighting }
 			culture = { has_innovation = innovation_agot_stormlands_fighting }
-			culture = { has_cultural_parameter = unlock_maa_summer_knights }  
+			culture = { has_cultural_parameter = unlock_maa_summer_knights }   
+			culture = { has_cultural_parameter = unlock_maa_rain_bringers }  
+			culture = { has_cultural_parameter = unlock_maa_river_bows }
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
@@ -1020,10 +1037,12 @@ armored_horsemen = {
 		}
 		NOT = {
 			OR = {
-				culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+				culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }   
+				culture = { has_cultural_parameter = unlock_northman_maa } 
 				culture = { has_innovation = innovation_agot_valyrian_knights }
 				culture = { has_innovation = innovation_agot_westerlands_fighting }
 				culture = { has_innovation = innovation_agot_free_companies }
+				culture = { has_cultural_parameter = unlock_maa_royal_crossbowmen } 
 			}
 		}
 		NOT = {
