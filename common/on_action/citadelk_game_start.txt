@@ -388,6 +388,7 @@ citadel_renown_set_duke_and_count = { # Renown for 3 perks, duke and counts
                     this = character:Vance_Atranta_1
                     this = character:FlintFC_85
                 }
+                this = dynasty.dynast
 				exists = dynasty
                 OR = {
                     highest_held_title_tier = tier_duchy
