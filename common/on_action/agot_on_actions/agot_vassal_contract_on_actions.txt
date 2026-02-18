@@ -226,6 +226,7 @@
 
 		### THE NORTH
 		title:k_the_white_knife.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
 			set_variable = mw_obl_religious_rights_protected
 			set_variable = mw_obl_coinage_rights_granted
 			set_variable = mw_obl_title_revocation_rights_protected
@@ -427,7 +428,7 @@
 		### THE VALE
 		title:d_gulltown.holder ?= {
 			set_variable = mw_obl_feudal_levies_low
-			set_variable = mw_obl_feudal_tax_high
+			set_variable = mw_obl_feudal_tax_low
 			set_variable = mw_obl_title_revocation_rights_protected
 			add_character_flag = {
 				flag = startup_contracts
@@ -446,7 +447,7 @@
 			agot_mw_reset_vassal_contract = yes
 		}
 		title:d_the_sisters.holder ?= {
-			set_variable = mw_obl_feudal_levies_low
+			set_variable = mw_obl_feudal_levies_exempt
 			set_variable = mw_obl_feudal_tax_low
 			set_variable = mw_obl_title_revocation_rights_protected
 			add_character_flag = {
@@ -465,8 +466,8 @@
 			agot_mw_reset_vassal_contract = yes
 		}
 		title:c_port_of_arryn.holder ?= {
-			set_variable = mw_obl_feudal_levies_low
-			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			set_variable = mw_obl_feudal_tax_high
 			set_variable = mw_obl_title_revocation_rights_protected
 			add_character_flag = {
 				flag = startup_contracts
@@ -504,6 +505,24 @@
 		title:c_coldwater_burn.holder ?= {
 			set_variable = mw_obl_fortification_rights_granted
 			set_variable = mw_obl_title_revocation_rights_protected
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_gulltown.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
+			add_character_flag = {
+				flag = startup_contracts
+				days = 1
+			}
+			agot_mw_reset_vassal_contract = yes
+		}
+		title:d_runestone.holder ?= {
+			set_variable = mw_obl_feudal_tax_low
+			set_variable = mw_obl_feudal_levies_exempt
 			add_character_flag = {
 				flag = startup_contracts
 				days = 1

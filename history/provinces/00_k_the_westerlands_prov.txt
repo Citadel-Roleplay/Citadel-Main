@@ -2840,7 +2840,7 @@
 	culture = westerman_main
 	religion = fots_seven
 	holding = castle_holding
-	duchy_capital_building = agot_lighthouse_01
+	duchy_capital_building = citadel_grand_markets_of_fairisle
 	special_building = agot_fair_isle_01
 	7824.1.1 = {
 		buildings = { castle_03 }

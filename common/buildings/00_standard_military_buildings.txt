@@ -6037,6 +6037,7 @@ smiths_01 = {
 	
 	province_modifier = {
 		stationed_maa_damage_mult = 0.05
+		stationed_heavy_cavalry_damage_mult = -0.025
 		# tax_mult = low_building_tax_mult_tier_1
 	}
 	county_modifier = {
@@ -6206,6 +6207,7 @@ smiths_02 = {
 	
 	province_modifier = {
 		stationed_maa_damage_mult = 0.1
+		stationed_heavy_cavalry_damage_mult = -0.05
 		# tax_mult = low_building_tax_mult_tier_2
 	}
 	county_modifier = {
@@ -6299,6 +6301,8 @@ smiths_03 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.15
 		stationed_maa_toughness_mult = 0.05
+		stationed_heavy_cavalry_damage_mult = -0.065
+		stationed_heavy_cavalry_toughness_mult = -0.025
 		# tax_mult = low_building_tax_mult_tier_3
 	}
 	county_modifier = {
@@ -6388,6 +6392,8 @@ smiths_04 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.2
 		stationed_maa_toughness_mult = 0.1
+		stationed_heavy_cavalry_damage_mult = -0.1
+		stationed_heavy_cavalry_toughness_mult = -0.05
 		# tax_mult = low_building_tax_mult_tier_4
 	}
 	county_modifier = {
@@ -6476,6 +6482,8 @@ smiths_05 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.25
 		stationed_maa_toughness_mult = 0.15
+		stationed_heavy_cavalry_damage_mult = -0.125
+		stationed_heavy_cavalry_toughness_mult = -0.075
 		# tax_mult = low_building_tax_mult_tier_5
 	}
 	county_modifier = {
@@ -6564,6 +6572,8 @@ smiths_06 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.3
 		stationed_maa_toughness_mult = 0.2
+		stationed_heavy_cavalry_damage_mult = -0.15
+		stationed_heavy_cavalry_toughness_mult = -0.1
 		# tax_mult = low_building_tax_mult_tier_6
 	}
 	county_modifier = {
@@ -6650,8 +6660,10 @@ smiths_07 = {
 	cost_gold = normal_building_tier_7_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = 0.3
-		stationed_maa_toughness_mult = 0.2
+		stationed_maa_damage_mult = 0.35
+		stationed_maa_toughness_mult = 0.25
+		stationed_heavy_cavalry_damage_mult = -0.175
+		stationed_heavy_cavalry_toughness_mult = -0.125
 		# tax_mult = low_building_tax_mult_tier_7
 	}
 	county_modifier = {
@@ -6738,8 +6750,10 @@ smiths_08 = {
 	cost_gold = normal_building_tier_8_cost
 	
 	province_modifier = {
-		stationed_maa_damage_mult = 0.35
-		stationed_maa_toughness_mult = 0.25
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.3
+		stationed_heavy_cavalry_damage_mult = -0.2
+		stationed_heavy_cavalry_toughness_mult = -0.15
 		# tax_mult = low_building_tax_mult_tier_8
 	}
 	county_modifier = {

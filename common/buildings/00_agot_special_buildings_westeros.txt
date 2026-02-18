@@ -3325,7 +3325,7 @@ agot_white_harbor_01 = {
 
 	province_modifier = {
 		levy_size = 1
-		monthly_income = copper_mine_building_tax_tier_2
+		monthly_income = 7.5
 	}
 
 	ai_value = {
@@ -3382,7 +3382,9 @@ agot_sept_of_the_snows_01 = {
 		martial_per_piety_level = 1
 		clergy_opinion = 5
 	}
-
+	province_modifier = {
+		monthly_income = 5
+	}
 	character_modifier = {
 		monthly_piety = 0.5
 		martial_per_piety_level = 1
@@ -5130,7 +5132,7 @@ agot_grafton_keep_01 = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
 		tax_mult = 0.15
-		levy_size = 0.5
+		levy_size = 0.25
 	}
 
 	ai_value = {
@@ -5154,7 +5156,7 @@ agot_gull_harbor_01 = {
 	}
 
 	cost_gold = expensive_building_tier_5_cost
-	levy = 1000
+	levy = 400
 	county_modifier = {
 		development_growth_factor = 0.3
 	}
