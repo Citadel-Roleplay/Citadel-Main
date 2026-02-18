@@ -288,11 +288,12 @@ agot_skyreach_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 500
 	cost_gold = expensive_building_tier_5_cost
 
 	county_modifier = {
 		hostile_raid_time = 0.5
+		levy_size = 0.1
 	}
 
 	character_modifier = {
@@ -1126,7 +1127,7 @@ agot_walls_of_seagard_01 = {
 	province_modifier = {
 		fort_level = 4
 		# tax_mult = low_building_tax_mult_tier_3
-		levy_size = 0.1
+		levy_size = 0.3
 	}
 	county_modifier = {
 		defender_holding_advantage = 5
@@ -1385,19 +1386,18 @@ agot_wayfarers_rest_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	levy = 500
+	levy = 1200
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
 	province_modifier = {
-		levy_size = 0.1
+		levy_size = 0.4
 	}
 
 	cost_gold = expensive_building_tier_7_cost
 
 	character_modifier = {
-		men_at_arms_cap = 1
 		men_at_arms_maintenance = -0.25
 	}
 
@@ -1501,7 +1501,7 @@ agot_atranta_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 800
+	levy = 1200
 	cost_gold = expensive_building_tier_6_cost
 
 	county_holder_character_modifier = {
@@ -1513,7 +1513,7 @@ agot_atranta_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
-		levy_size = 0.2
+		levy_size = 0.3
 		monthly_income = 2
 	}
 
@@ -1753,7 +1753,7 @@ agot_stone_hedge_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 1400
+	levy = 1000
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
@@ -2107,7 +2107,7 @@ agot_crakehall_01 = {
 		lifestyle_hunter_xp_gain_mult = 0.2
 		stress_gain_mult = -0.15
 		stress_loss_mult = 0.15
-		army_maintenance_mult = -0.1
+		army_maintenance_mult = -0.15
 	}
 
 	county_modifier = {
@@ -2119,7 +2119,6 @@ agot_crakehall_01 = {
 		stationed_pikemen_damage_mult = 0.25
 		stationed_pikemen_toughness_mult = 0.25
 		stationed_pikemen_pursuit_mult = 0.25
-		monthly_income = 2
 	}
 
 	ai_value = {
@@ -2186,7 +2185,7 @@ agot_deep_den_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
-		monthly_income = 2
+		monthly_income = 4
 	}
 
 	county_modifier = {
@@ -3324,7 +3323,7 @@ agot_white_harbor_01 = {
 
 	province_modifier = {
 		levy_size = 1
-		monthly_income = 7.5
+		monthly_income = 10
 	}
 
 	ai_value = {
@@ -3382,7 +3381,7 @@ agot_sept_of_the_snows_01 = {
 		clergy_opinion = 5
 	}
 	province_modifier = {
-		monthly_income = 5
+		monthly_income = 10
 	}
 	character_modifier = {
 		monthly_piety = 0.5
@@ -5060,7 +5059,7 @@ agot_old_oak_01 = {
 		barony = title:b_old_oak
 		building_requirement_tribal = no
 	}
-
+	levy = 800
 	cost_gold = 1000
 
 	max_garrison = 500
@@ -5074,6 +5073,7 @@ agot_old_oak_01 = {
 	province_modifier = {
 		fort_level = 4
 		defender_holding_advantage = 4
+		levy_size = 0.2
 	}
 
 	character_modifier = {
@@ -5113,7 +5113,7 @@ agot_grafton_keep_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-	levy = 500
+	levy = 250
 	cost_gold = expensive_building_tier_5_cost
 
 	character_modifier = {
@@ -5131,7 +5131,7 @@ agot_grafton_keep_01 = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
 		tax_mult = 0.15
-		levy_size = 0.25
+		levy_size = 0.15
 	}
 
 	ai_value = {
@@ -5155,7 +5155,7 @@ agot_gull_harbor_01 = {
 	}
 
 	cost_gold = expensive_building_tier_5_cost
-	levy = 400
+	levy = 150
 	county_modifier = {
 		development_growth_factor = 0.3
 	}

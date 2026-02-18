@@ -262,6 +262,10 @@
  building_citadel_sarsfield_1:1 "Sarsfield Riders"
  building_citadel_sarsfield_1_desc:1 "House Sarsfield is known for an unusual martial tradition in Westeros: mounted archers trained to fight among rolling hills and broken ground. Though few in number, these riders learn to loose arrows from horseback while weaving through slopes that would break the charge of heavier cavalry."
 
+ building_type_citadel_ninestars:1 "Ninestars"
+ building_citadel_ninestars:1 "Ninestars"
+ building_citadel_ninestars_desc:1 "Seat of House Templeton, Ninestars stands among the highlands of the Vale as a proud and ancient stronghold. Known for their martial tradition and disciplined knights, the Templetons guard the mountain roads and uphold the honor of one of the Vale’s oldest noble lines."
+
  building_type_citadel_sarsfield_2:1 "Sarsfield Horse Grounds"
  building_citadel_sarsfield_2:1 "Sarsfield Horse Grounds"
  building_citadel_sarsfield_2_desc:1 "Expanded training grounds and new breeding fields allow House Sarsfield to refine their famed hilly horse archers. Riders drill endlessly along winding ridges, mastering hit and run tactics that exhaust slower foes and make pursuit nearly impossible."
