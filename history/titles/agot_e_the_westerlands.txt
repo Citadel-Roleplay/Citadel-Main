@@ -1394,8 +1394,8 @@ c_nunns_deep = {
 	8235.1.1 = {
 		holder = Foote_29
 	}
-	8263.1.1 = {
-		holder = Foote_1
+	8260.1.18 = {
+		holder = Marbrand_1
 	}
 }
 c_the_drop = {

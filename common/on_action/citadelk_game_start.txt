@@ -298,6 +298,9 @@ set_provinces_start_citadel = {
         } 
         title:b_proudwood.title_province = { 
             add_special_building = citadel_ironoaks_quarry1
+        }  
+        title:b_ninestars.title_province = { 
+            add_special_building = citadel_ninestars
         }
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  

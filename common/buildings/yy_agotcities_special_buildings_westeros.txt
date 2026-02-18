@@ -891,7 +891,7 @@ agot_raventree_hall_01 = {
     character_modifier = {
         the_pact_religion_opinion = 10
     }
-    levy = 1400
+    levy = 1000
     max_garrison = 400
     province_modifier = {
         defender_holding_advantage = 8
@@ -1980,7 +1980,7 @@ hornhill_01 = {
     can_construct_potential = {
         building_requirement_tribal = no
     }
-
+    levy = 500
     cost_gold = 2000
     max_garrison = 400
     province_modifier = {
@@ -2507,10 +2507,10 @@ agot_starfall_01 = {
     type_icon = "palestone_tower.dds"
 
     cost_gold = 3000
-    levy = 500
+    levy = 150
     county_modifier = {
         hostile_raid_time = 0.5
-        levy_size = 0.2
+        levy_size = 0.05
     }
     
     character_modifier = {
@@ -2753,7 +2753,7 @@ agot_runestone_01 = {
     can_construct_potential = {
         building_requirement_tribal = no
     }
-    levy = 800
+    levy = 1000
     character_modifier = {
         the_pact_religion_opinion = 10
         martial_per_piety_level = 2
@@ -2765,6 +2765,7 @@ agot_runestone_01 = {
         hostile_raid_time = 0.5
         # tax_mult = 0.3
         development_growth_factor = 0.2
+        levy_size = 0.2
     }
 
     province_modifier = {

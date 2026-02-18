@@ -1782,6 +1782,7 @@
 	culture = Western_Valelanders
 	religion = fots_seven
 	holding = castle_holding
+	duchy_capital_building = tax_assessors_03
 	7824.1.1 = {
 		buildings = { castle_03 }
 	}
