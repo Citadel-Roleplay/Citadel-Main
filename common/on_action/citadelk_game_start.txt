@@ -17,12 +17,24 @@ set_provinces_start_citadel = {
         character:Mopatis_1 = {
 			add_gold = {
 				value = {
-					value = 0
-					add = { 1000 1000 }
+					value = 1500
 				}
 			}
 		}
-		
+		character:Baratheon_2 = {
+			add_gold = {
+				value = {
+					value = 4000
+				}
+			}
+		}
+        character:Saan_2 = {
+			add_barter_goods = {
+				value = {
+					value = 1423
+				}
+			}
+		}
 		    
         # title:b_ten_towers.title_province = {
         #     remove_building = harlaw_mines_01
@@ -301,7 +313,13 @@ set_provinces_start_citadel = {
         }  
         title:b_ninestars.title_province = { 
             add_special_building = citadel_ninestars
-        }
+        }  
+        title:b_greenstone.title_province = { 
+            add_special_building = citadel_greenstone
+        }  
+        title:b_harrentown.title_province = { 
+            add_special_building = citadel_harrentown 
+        } 
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
@@ -369,6 +387,13 @@ set_provinces_start_citadel = {
             add_special_building = watermills_08
         } 
         title:b_spalding.title_province = {  
+            add_building = outposts_06
+            add_building = military_camps_04
+            add_building = barracks_06
+            add_building = workshops_07
+            add_building = quarries_07
+        }
+        title:b_karmfort.title_province = {  
             add_building = outposts_06
             add_building = military_camps_04
             add_building = barracks_06
