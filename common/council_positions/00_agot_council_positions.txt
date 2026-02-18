@@ -62,6 +62,17 @@ councillor_admiral = {
 		NOT = { has_character_flag = nw_ranger_title }
 	}
 
+	modifier = { #Hambone added
+		name = councillor_admiral_modifier
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
+		scale = council_scaled_monthly_income
+	}
 
 	modifier = {
 		name = councillor_admiral_modifier
@@ -141,6 +152,18 @@ councillor_castellan = {
 	}
 
 	tooltip = game_concept_castellan_desc
+
+	modifier = { #Hambone added
+		name = councillor_castellan_modifier
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
+		scale = council_scaled_monthly_income
+	}
 
 	modifier = {
 		name = councillor_castellan_modifier

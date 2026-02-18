@@ -95,6 +95,18 @@
 		scale = council_scaled_by_liege_tier
 	}
 
+	modifier = { #Hambone added
+		name = councillor_chancellor_modifier
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
+		scale = council_scaled_monthly_income
+	}
+
 	modifier = {
 		name = councillor_chancellor_modifier
 		monthly_prestige = 1
@@ -254,9 +266,15 @@ councillor_steward = {
 		}
 	}
 
-	modifier = {
+	modifier = { #Hambone added
 		name = councillor_steward_modifier
-		monthly_income = 1
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
 		scale = council_scaled_monthly_income
 	}
 
@@ -419,6 +437,18 @@ councillor_marshal = {
 			#AGOT Added
 			government_has_flag = government_is_custom_landless
 		}
+	}
+
+	modifier = { #Hambone added
+		name = councillor_marshal_modifier
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
+		scale = council_scaled_monthly_income
 	}
 
 	modifier = {
@@ -611,6 +641,18 @@ councillor_spymaster = {
 		NOT = { government_has_flag = government_is_landless_adventurer }
 		#AGOT Added
 		NOT = { government_has_flag = government_is_custom_landless }
+	}
+
+	modifier = { #Hambone added
+		name = councillor_spymaster_modifier
+		monthly_income = 0.25
+		scale = council_scaled_monthly_income
+	}
+
+	council_owner_modifier = { #Hambone added
+		name = councillor_cost_modifier
+		monthly_income = -0.25
+		scale = council_scaled_monthly_income
 	}
 
 	# Scaled modifiers.
