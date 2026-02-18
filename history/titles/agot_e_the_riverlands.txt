@@ -3707,6 +3707,11 @@ c_harrenhal = {
 		holder = Baelish_2
 	}
 }
+b_worthriver = {
+	8265.1.1 = {
+		holder = Whent_4
+	}
+}
 c_briarwhite = {
 	7641.1.1 = {
 		liege = d_eastern_eye
@@ -5769,6 +5774,11 @@ c_maidenpool = {
 	}
 	8292.4.2 = {
 		holder = Mooton_2
+	}
+}
+b_karmfort = {
+	8263.1.1 = {
+		holder = Mooton_1
 	}
 }
 c_honeymaiden = {

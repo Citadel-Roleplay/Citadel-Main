@@ -2096,7 +2096,7 @@ ruins_harrenhal_01 = {
 	}
 
 	max_garrison = 1000
-
+	levy = 800
 	province_modifier = {
 		defender_holding_advantage = 5
 		fort_level = 5
@@ -2128,7 +2128,7 @@ ruins_harrenhal_02 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-
+	levy = 800
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_1_mesh"
@@ -2223,7 +2223,7 @@ ruins_harrenhal_03 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-
+	levy = 800
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_2_mesh"
@@ -2319,7 +2319,7 @@ ruins_harrenhal_04 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-
+	levy = 800
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_3_mesh"
