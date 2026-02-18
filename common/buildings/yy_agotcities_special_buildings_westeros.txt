@@ -2028,7 +2028,7 @@ agot_karhold_01 = {
     }
 
     type_icon = "icon_structure_hotin_fortress.dds"
-    levy = 900
+    levy = 800
     can_construct_potential = {
         building_requirement_tribal = no
     }
@@ -2040,7 +2040,7 @@ agot_karhold_01 = {
         fort_level = 4
         monthly_income = 2
         hostile_raid_time = 0.8
-        levy_size = 0.2
+        levy_size = 0.1
     }
     county_modifier = {
         # tax_mult = 0.3

@@ -1011,7 +1011,6 @@ military_academy_01 = {
 		martial = 1
 		knight_limit = 2
 		knight_effectiveness_mult = 0.25
-		army_maintenance_mult = -0.025
 		men_at_arms_recruitment_cost = -0.1
 	}
 	
@@ -1067,8 +1066,8 @@ military_academy_02 = {
 		martial = 2
 		knight_limit = 4
 		knight_effectiveness_mult = 0.5
-		army_maintenance_mult = -0.035
 		men_at_arms_recruitment_cost = -0.2
+		men_at_arms_limit = 1
 	}
 	
 	next_building = military_academy_03
@@ -1113,9 +1112,8 @@ military_academy_03 = {
 		martial = 3
 		knight_limit = 6
 		knight_effectiveness_mult = 0.75
-		army_maintenance_mult = -0.05
 		men_at_arms_recruitment_cost = -0.3
-		men_at_arms_limit = 1
+		men_at_arms_limit = 2
 	}
 	
 	type = duchy_capital
@@ -1584,6 +1582,7 @@ royal_armory_01 = {
 	
 	character_modifier = {
 		army_maintenance_mult = -0.025
+		heavy_cavalry_maintenance_mult = 0.0125
 	}
 	
 	province_modifier = {
@@ -1607,6 +1606,8 @@ royal_armory_01 = {
 		parameter = better_armory_buildings
 		stationed_maa_damage_mult = normal_maa_damage_tier_1
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+		stationed_heavy_cavalry_damage_mult = -0.05
+		stationed_heavy_cavalry_toughness_mult = -0.05
 	}
 	
 	next_building = royal_armory_02
@@ -1678,11 +1679,14 @@ royal_armory_02 = {
 	
 	character_modifier = {
 		army_maintenance_mult = -0.05
+		heavy_cavalry_maintenance_mult = 0.025
 	}
 	
 	province_modifier = {
-		stationed_maa_damage_mult = 0.15
-		stationed_maa_toughness_mult = 0.15
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.2
+		stationed_heavy_cavalry_damage_mult = -0.1
+		stationed_heavy_cavalry_toughness_mult = -0.1
 	}
 
 	duchy_capital_county_culture_modifier = {
@@ -1749,11 +1753,14 @@ royal_armory_03 = {
 	character_modifier = {
 		army_maintenance_mult = -0.1
 		levy_reinforcement_rate = 0.3
+		heavy_cavalry_maintenance_mult = 0.05
 	}
 	
 	province_modifier = {
-		stationed_maa_damage_mult = 0.2
-		stationed_maa_toughness_mult = 0.2
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.4
+		stationed_heavy_cavalry_damage_mult = -0.2
+		stationed_heavy_cavalry_toughness_mult = -0.2
 	}
 
 	province_culture_modifier = {
@@ -1824,8 +1831,6 @@ jousting_lists_01 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	character_modifier = {	
-		heavy_cavalry_maintenance_mult = 0.01
-		light_cavalry_maintenance_mult = 0.01
 	}
 	
 	province_modifier = {
@@ -1925,8 +1930,6 @@ jousting_lists_02 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	character_modifier = {	
-		heavy_cavalry_maintenance_mult = 0.02
-		light_cavalry_maintenance_mult = 0.02
 	}
 	
 	province_modifier = {
@@ -1991,15 +1994,13 @@ jousting_lists_03 = {
 	cost_gold = expensive_building_tier_5_cost
 	
 	character_modifier = {
-		heavy_cavalry_maintenance_mult = 0.03
-		light_cavalry_maintenance_mult = 0.03
 	}
 	
 	province_modifier = {
-		stationed_heavy_cavalry_damage_mult = 0.3
-		stationed_heavy_cavalry_toughness_mult = 0.3
-		stationed_heavy_cavalry_screen_mult = 0.3
-		stationed_heavy_cavalry_pursuit_mult = 0.3
+		stationed_heavy_cavalry_damage_mult = 0.35
+		stationed_heavy_cavalry_toughness_mult = 0.35
+		stationed_heavy_cavalry_screen_mult = 0.35
+		stationed_heavy_cavalry_pursuit_mult = 0.35
 		stationed_light_cavalry_damage_mult = high_maa_damage_tier_3
 		stationed_light_cavalry_toughness_mult = high_maa_toughness_tier_3
 		stationed_light_cavalry_screen_mult = high_maa_screen_tier_3
@@ -2055,12 +2056,13 @@ blacksmiths_01 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.01
+		heavy_infantry_maintenance_mult = -0.01
+		pikemen_maintenance_mult = -0.03
 	}
 	
 	province_modifier = {
-		stationed_pikemen_damage_mult = 0.1
-		stationed_pikemen_toughness_mult = 0.1
+		stationed_pikemen_damage_mult = 0.2
+		stationed_pikemen_toughness_mult = 0.2
 		stationed_heavy_infantry_damage_mult = 0.1
 		stationed_heavy_infantry_toughness_mult = 0.1
 	}
@@ -2195,12 +2197,13 @@ blacksmiths_02 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.03
+		heavy_infantry_maintenance_mult = -0.03
+		pikemen_maintenance_mult = -0.06
 	}
 	
 	province_modifier = {
-		stationed_pikemen_damage_mult = 0.2
-		stationed_pikemen_toughness_mult = 0.2
+		stationed_pikemen_damage_mult = 0.3
+		stationed_pikemen_toughness_mult = 0.3
 		stationed_heavy_infantry_damage_mult = 0.2
 		stationed_heavy_infantry_toughness_mult = 0.2
 	}
@@ -2266,12 +2269,13 @@ blacksmiths_03 = {
 	cost_gold = expensive_building_tier_5_cost
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.05
+		heavy_infantry_maintenance_mult = -0.05
+		pikemen_maintenance_mult = -0.09
 	}
 	
 	province_modifier = {
-		stationed_pikemen_damage_mult = 0.3
-		stationed_pikemen_toughness_mult = 0.3
+		stationed_pikemen_damage_mult = 0.4
+		stationed_pikemen_toughness_mult = 0.4
 		stationed_heavy_infantry_damage_mult = 0.3
 		stationed_heavy_infantry_toughness_mult = 0.3
 	}
@@ -2338,8 +2342,8 @@ archery_ranges_01 = {
 	}
 	
 	province_modifier = {
-		stationed_archers_damage_mult = 0.15
-		stationed_archers_toughness_mult = 0.05
+		stationed_archers_damage_mult = 0.2
+		stationed_archers_toughness_mult = 0.2
 		stationed_archer_cavalry_screen_mult = high_maa_screen_tier_1
 		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_1
 		stationed_archer_cavalry_toughness_mult = low_maa_toughness_tier_1
@@ -2433,8 +2437,8 @@ archery_ranges_02 = {
 	}
 	
 	province_modifier = {
-		stationed_archers_damage_mult = 0.25
-		stationed_archers_toughness_mult = 0.1
+		stationed_archers_damage_mult = 0.4
+		stationed_archers_toughness_mult = 0.4
 		stationed_archer_cavalry_screen_mult = high_maa_screen_tier_2
 		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_2
 		stationed_archer_cavalry_toughness_mult = low_maa_toughness_tier_2
@@ -2488,8 +2492,8 @@ archery_ranges_03 = {
 	}
 	
 	province_modifier = {
-		stationed_archers_damage_mult = 0.4
-		stationed_archers_toughness_mult = 0.2
+		stationed_archers_damage_mult = 0.8
+		stationed_archers_toughness_mult = 0.8
 		stationed_archer_cavalry_screen_mult = high_maa_screen_tier_3
 		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_3
 		stationed_archer_cavalry_toughness_mult = low_maa_toughness_tier_3
@@ -2530,7 +2534,7 @@ tax_assessor_01 = {
 	}
 	show_disabled = yes
 	
-	cost_gold = expensive_building_tier_3_cost
+	cost_gold = 1500
 	
 	duchy_capital_county_modifier = {
 		# tax_mult = 0.15
@@ -2541,7 +2545,9 @@ tax_assessor_01 = {
 	province_modifier = {
 		monthly_income = 1
 	}
-
+	character_modifier = {
+		vassal_tax_mult = 0.02
+	}
 	
 	next_building = tax_assessor_02
 
@@ -2603,7 +2609,7 @@ tax_assessor_02 = {
 	}
 	show_disabled = yes
 	
-	cost_gold = expensive_building_tier_4_cost
+	cost_gold = 2000
 	
 	duchy_capital_county_modifier = {
 		# tax_mult = 0.15
@@ -2613,7 +2619,9 @@ tax_assessor_02 = {
 	province_modifier = {
 		monthly_income = 2
 	}
-	
+	character_modifier = {
+		vassal_tax_mult = 0.04
+	}
 	next_building = tax_assessor_03
 	
 	type = duchy_capital
@@ -2649,14 +2657,16 @@ tax_assessor_03 = {
 	}
 	show_disabled = yes
 	
-	cost_gold = expensive_building_tier_5_cost
+	cost_gold = 2500
 	
 	duchy_capital_county_modifier = {
 		# tax_mult = 0.15
 		development_growth = 0.2
 		monthly_county_control_growth_factor = 0.2
 	}
-
+	character_modifier = {
+		vassal_tax_mult = 0.06
+	}
 	province_modifier = {
 		monthly_income = 3
 	}
@@ -2701,10 +2711,11 @@ leisure_palace_01 = {
 	character_modifier = {
 		monthly_prestige = 0.3
 		monthly_prestige_gain_mult = 0.05
+		vassal_tax_mult = 0.01
 		stress_loss_mult = 0.15
 		owned_hostile_scheme_success_chance_add = 5
 		owned_personal_scheme_success_chance_add = 5
-		diplomacy = 1
+		diplomacy = 2
 		health = 0.2
 	}
 	
@@ -2776,10 +2787,11 @@ leisure_palace_02 = {
 	character_modifier = {
 		monthly_prestige = 0.6
 		monthly_prestige_gain_mult = 0.1
+		vassal_tax_mult = 0.02
 		stress_loss_mult = 0.25
 		owned_hostile_scheme_success_chance_add = 15
 		owned_personal_scheme_success_chance_add = 15
-		diplomacy = 2
+		diplomacy = 3
 		health = 0.1
 	}
 	
@@ -2828,12 +2840,13 @@ leisure_palace_03 = {
 	cost_gold = expensive_building_tier_5_cost
 	
 	character_modifier = {
-		monthly_prestige = 1
+		monthly_prestige = 1.5
 		monthly_prestige_gain_mult = 0.15
+		vassal_tax_mult = 0.03
 		stress_loss_mult = 0.35
 		owned_hostile_scheme_success_chance_add = 25
 		owned_personal_scheme_success_chance_add = 25
-		diplomacy = 3
+		diplomacy = 5
 		health = 0.1
 	}
 	
@@ -2917,7 +2930,7 @@ royal_forest_01 = {
 		stationed_skirmishers_pursuit_mult = 0.25
 	}
 	character_modifier = {
-		skirmishers_maintenance_mult = 0.03
+		skirmishers_maintenance_mult = 0.01
 	}
 	next_building = royal_forest_02
 
@@ -2984,7 +2997,7 @@ royal_forest_02 = {
 	}
 
 	character_modifier = {
-		skirmishers_maintenance_mult = 0.06
+		skirmishers_maintenance_mult = 0.02
 	}
 	
 	next_building = royal_forest_03
@@ -3042,7 +3055,7 @@ royal_forest_03 = {
 	}
 
 	character_modifier = {
-		skirmishers_maintenance_mult = 0.1
+		skirmishers_maintenance_mult = 0.03
 	}
 	
 	type = duchy_capital
