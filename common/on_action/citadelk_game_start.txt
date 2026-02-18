@@ -288,10 +288,24 @@ set_provinces_start_citadel = {
         title:b_barrowton.title_province = { 
             add_special_building = citadel_barrowton
         }
+        title:b_old_anchor.title_province = { 
+            add_special_building = citadel_old_anchor
+            add_building = agot_lighthouse_03
+        }  
+        title:b_longbow_hall.title_province = { 
+            add_special_building = citadel_longbow_hall
+            add_building = archery_ranges_03
+        } 
+        title:b_proudwood.title_province = { 
+            add_special_building = citadel_ironoaks_quarry1
+        }
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
             add_building = tax_assessor_01
+        } 
+        title:b_strongsong.title_province = {  
+            add_building = tax_assessor_02
         } 
         title:b_west_jaw.title_province = {  
             add_building = quarriers_08

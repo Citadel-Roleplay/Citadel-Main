@@ -866,7 +866,7 @@ the_eyrie_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	levy = 500
 	cost_gold = expensive_building_tier_8_cost
 
 	character_modifier = {
@@ -882,6 +882,7 @@ the_eyrie_01 = {
 		garrison_size = -0.1
 		supply_loss_winter = -500
 		supply_limit_mult = -0.1
+		levy_size = 0.2
 	}
 
 	ai_value = {

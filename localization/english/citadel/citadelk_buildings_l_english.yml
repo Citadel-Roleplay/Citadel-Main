@@ -270,7 +270,25 @@
  building_citadel_sarsfield_3:1 "Sarsfield War Riders"
  building_citadel_sarsfield_3_desc:1 "At their height, the riders of House Sarsfield are a force unlike almost any other in Westeros. Swift, disciplined, and perfectly adapted to uneven terrain, they strike from the hills in coordinated volleys before vanishing again, turning the very landscape into a weapon in their hands."
 
+ building_type_citadel_old_anchor:1 "Old Anchor"
+ building_citadel_old_anchor:1 "Old Anchor"
+ building_citadel_old_anchor_desc:1 "Seat of House Melcolm, Old Anchor stands where river and sea meet along the coast of the Vale. Though not counted among the greatest strongholds of the region, its harbor and watchful towers guard the shoreline and the waters that flow into the Narrow Sea, serving dutifully as a quiet anchor for the lords who hold it."
 
+ building_type_citadel_longbow_hall:1 "Longbow Hall"
+ building_citadel_longbow_hall:1 "Longbow Hall"
+ building_citadel_longbow_hall_desc:1 "Seat of House Hunter, Longbow Hall is famed for its deep forests and enduring hunting traditions. Lords and retainers alike train with bow and spear among the wooded hills, producing skilled woodsmen and keen archers who know every trail and shadow of their domain."
+
+ building_type_citadel_ironoaks_quarry1:1 "Ironoaks Quarry"
+ building_citadel_ironoaks_quarry1:1 "Ironoaks Quarry"
+ building_citadel_ironoaks_quarry1_desc:1 "Little more than a rocky hillside for now, this area near Ironoaks shows promise for quarrying. Though the stone of the Vale mountains is not the finest, a small investment and careful planning could turn these rough slopes into a profitable enterprise."
+
+ building_type_citadel_ironoaks_quarry2:1 "Ironoaks Quarry"
+ building_citadel_ironoaks_quarry2:1 "Ironoaks Quarry"
+ building_citadel_ironoaks_quarry2_desc:1 "With workers and tools now in place, the quarry begins to produce steady amounts of stone. While the quality may not rival finer quarries elsewhere, wise management and trade agreements allow Ironoaks to sell its output for dependable income."
+
+ building_type_citadel_ironoaks_quarry3:1 "Ironoaks Grand Quarry"
+ building_citadel_ironoaks_quarry3:1 "Ironoaks Grand Quarry"
+ building_citadel_ironoaks_quarry3_desc:1 "Expanded works and organized labor have transformed the quarry into a thriving industry. Though the mountains yield only modest stone, shrewd decisions and efficient trade have made Ironoaks' quarry a profitable and respected source of wealth in the Vale."
 
  building_citadel_westerling_mine4:1 "Large Crag Mine"
  building_citadel_westerling_mine4_desc:1 "As the production of ore increases, several foundries and smelters are set up around the settlement. The processing of metal has become second nature to the inhabitants, and their skill is renowned across the known world."

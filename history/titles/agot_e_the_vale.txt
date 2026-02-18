@@ -1072,14 +1072,14 @@ c_moongates = {
 		holder = Arryn_13
 	}
 	8283.1.1 = {
-		holder = Arryn_3
-	}
-}
-b_sky = {
-	8283.1.1 = {
 		holder = RoyceGOTM_1
 	}
 }
+# b_sky = {
+# 	8283.1.1 = {
+# 		holder = RoyceGOTM_1
+# 	}
+# }
 b_stoneybrook = {
 	7790.1.1 = {
 		holder = Darkholme_1
@@ -3144,6 +3144,11 @@ c_ironoaks = {
 	8256.1.1 = {
 		holder = Waynwood_2
 	}
+	8257.1.1 = {
+		holder = Waynwood_5
+	}
+}
+b_proudwood = {
 	8257.1.1 = {
 		holder = Waynwood_5
 	}
@@ -5790,6 +5795,11 @@ c_strongsong = {
 	8234.1.1 = {
 		holder = Belmore_1
 	}
+	8279.1.1 = {
+		holder = Belmore_3
+	}
+}
+b_bronze_rings = {
 	8279.1.1 = {
 		holder = Belmore_3
 	}

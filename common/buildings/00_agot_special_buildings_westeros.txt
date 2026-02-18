@@ -2274,7 +2274,6 @@ agot_fair_isle_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 2
 	}
 
 	county_modifier = {
