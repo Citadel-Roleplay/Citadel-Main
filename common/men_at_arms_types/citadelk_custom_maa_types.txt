@@ -3534,7 +3534,8 @@ northern_knights = {
 		NOT = { government_has_flag = government_is_nw }
 		NOT = {  
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-			culture = { has_cultural_parameter = unlock_maa_barrow_knights }
+			culture = { has_cultural_parameter = unlock_maa_barrow_knights }  
+			culture = { has_cultural_parameter = unlock_maa_green_hand } 
 		}
 	}
 
