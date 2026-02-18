@@ -67,3 +67,39 @@
  # Westerlands Skirmishers
  westerlands_skirmishers: "Westerlands Skirmishers"
  westerlands_skirmishers_flavor: "Lightly armed and quick on their feet, the Westerlands Skirmishers are used to fighting across rocky hills and uneven ground. They harass the enemy with hit-and-run tactics, softening formations before the heavy troops advance."
+
+ #Saltbow Raiders
+ ironisland_bows_unit: "Saltbow Raiders"
+ ironisland_bows_unit_flavor: "Iron Island raiders armed with bows and hardened by wind and salt, the Saltbow Raiders strike swiftly from ship and shore alike. Accustomed to coastal skirmishes and sudden assaults, they loose deadly volleys before closing in like true reavers of the Iron Isles."
+
+ # Iron Pikes
+ iron_pikes_unit: "Iron Pike Reavers"
+ iron_pikes_unit_flavor: "Forged in the harsh ways of the Iron Isles, the Iron Pike Reavers fight as relentless boarding spearmen and coastal defenders. Their long pikes hold firm against cavalry and shield walls alike, turning narrow decks and rocky shores into killing grounds where the drowned god’s chosen thrive."
+
+ # Iron Riders
+ iron_riders: "Iron Riders"
+ iron_riders_flavor: "Hardened by harsh lands and harder lives, the Iron Riders strike fast and without mercy. Skilled in sudden charges and brutal skirmishes, they rely on aggression and resolve rather than elegance, breaking weaker lines through sheer force."
+
+ # Riverlands Heavy Inf
+ river_footmen: "Riverlands Footmen"
+ river_footmen_flavor: "Drawn from the many rivers and fertile fields of the Trident, these heavy foot soldiers are equipped to endure long campaigns and shifting fronts. Seasoned by the constant wars that sweep through the Riverlands, they stand firm as a sturdy core of any host."
+
+ # Riverlands Light Horse
+ river_light_horsemen: "Trident Outriders"
+ river_light_horsemen_flavor: "Used to the shifting battlefields of the Riverlands, the Trident Outriders ride swift horses along riverbanks and open plains. They excel at scouting, raiding, and striking where the enemy is weakest before vanishing back into the countryside."
+
+ # Stone Hedge - Riverlands
+ stone_hedge_footmen: "Stone Hedge Footmen"
+ stone_hedge_footmen_flavor: "Raised from the lands of House Bracken, the Stone Hedge Footmen are sturdy soldiers shaped by generations of rivalry and border conflict. Well armed and stubborn in battle, they form a reliable line of steel beneath the banners of Stone Hedge."
+
+ # Light Cavalry Vale
+ vale_light_riders: "Windward Lancers"
+ vale_light_riders_flavor: "While counted as light cavalry, the riders of the Vale are trained and equipped to a standard few in Westeros can match. Swift across mountain paths yet fierce in open battle, the Windward Lancers strike with a force that rivals heavier horse, making them among the most dangerous foes a commander can face."
+
+ # Vale Pikemen
+ vale_pike_unit: "Highpass Pikemen"
+ vale_pike_unit_flavor: "Drawn from the valleys and mountain passes of the Vale, the Highpass Pikemen are drilled to hold firm against charges and block narrow approaches. Fighting in disciplined ranks, their long pikes turn steep ground and tight formations into deadly defensive walls."
+
+ # Vale Archers
+ vale_bows_unit: "Eyrie Longbows"
+ vale_bows_unit_flavor: "Trained among the high valleys and wind swept ridges of the Vale, the Eyrie Longbows are known for their steady aim and discipline. From elevated ground they rain arrows upon their foes, breaking formations long before the enemy can close for battle."
