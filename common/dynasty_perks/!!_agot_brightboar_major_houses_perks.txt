@@ -171,7 +171,7 @@ tyrell_legacy_1 = { # Our claim to Highgarden
 		harborman_opinion = 5
 		honeywiner_opinion = 5
 		marcher_opinion = 5
-		diplomacy_per_prestige_level = 2
+		diplomacy_per_prestige_level = 1
 	}
 	
 	ai_chance = {
@@ -285,8 +285,8 @@ tyrell_legacy_5 = { # Lord Paramounts of the Mander
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
-		knight_effectiveness_mult = 0.1
+		knight_limit = 4
+		knight_effectiveness_mult = 0.50
 		legitimacy_gain_mult = 0.25
 	}
 	
@@ -440,7 +440,7 @@ hightower_legacy_5 = { # Mythical Heritage
 
 	character_modifier = {
 		health = 0.25
-		fertility = 0.05
+		fertility = 0.1
 		stress_gain_mult = -0.2
 		years_of_fertility = 2
 	}
@@ -502,8 +502,8 @@ baratheon_legacy_2 = { # Lord Paramounts of the Stormlands
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
-		knight_effectiveness_mult = 0.1
+		knight_limit = 4
+		knight_effectiveness_mult = 0.50
 		legitimacy_gain_mult = 0.25
 	}
 	
@@ -586,7 +586,7 @@ baratheon_legacy_5 = { # Decendants of the Storm Kings
 
 	character_modifier = {
 		legitimacy_gain_mult = 0.2
-		prowess = 1
+		prowess = 3
 		glory_hound_opinion = 10
 	}
 	
@@ -821,9 +821,9 @@ martell_legacy_3 = { # Princes of Dorne
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
-		knight_effectiveness_mult = 0.1
-		legitimacy_gain_mult = 0.05
+		knight_limit = 2
+		knight_effectiveness_mult = 0.6
+		legitimacy_gain_mult = 0.15
 	}
 	
 	ai_chance = {
@@ -998,10 +998,10 @@ targaryen_legacy_4 = { # Valyrian Knights
 	}
 
 	character_modifier = {
-		monthly_prestige_gain_per_knight_mult  = 0.02
-		knight_limit = 1
-		knight_effectiveness_mult = 0.15
-		legitimacy_gain_mult = 0.1
+		monthly_prestige_gain_per_knight_mult  = 0.04
+		knight_limit = 3
+		knight_effectiveness_mult = 0.25
+		legitimacy_gain_mult = 0.2
 	}
 
 	ai_chance = {
@@ -1028,7 +1028,7 @@ targaryen_legacy_5 = { # Balerion, Meraxes, & Vhagar
 
 	character_modifier = {
 		years_of_fertility = 5
-		prowess = 1
+		prowess = 2
 	}
 	
 	ai_chance = {

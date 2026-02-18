@@ -18,7 +18,7 @@ webber_legacy_1 = { # Rulers of the Coldmoat
 	}
 
 	character_modifier = {
-		intrigue = 1
+		intrigue = 2
 	}
 	
 	ai_chance = {
@@ -72,7 +72,7 @@ webber_legacy_3 = { # Sworn to Goldengrove
 	}
 
 	character_modifier = {
-		liege_opinion = 15
+		liege_opinion = 10
 		diplomacy = 1
 	}
 	
@@ -99,7 +99,7 @@ webber_legacy_4 = { # Northmarcher upbringing
 	}
 
 	character_modifier = {
-		army_toughness_mult = 0.15
+		army_toughness_mult = 0.1
 		controlled_province_advantage = 2
 	}
 	
@@ -129,7 +129,7 @@ webber_legacy_5 = { # Lords of the Horseshoe Hills
 		hills_development_growth_factor = 0.15
 		majorroad_hills_development_growth_factor = 0.15
 		minorroad_hills_development_growth_factor = 0.15
-		monthly_county_control_growth_factor = 0.2
+		monthly_county_control_growth_factor = 0.3
 	}
 	
 	ai_chance = {
@@ -184,7 +184,7 @@ osgrey_legacy_2 = { # Proud House Osgrey
 	}
 
 	character_modifier = {
-		castle_holding_build_speed = -0.1
+		castle_holding_build_speed = -0.2
 		castle_holding_build_gold_cost = -0.1
 	}
 	
@@ -211,9 +211,9 @@ osgrey_legacy_3 = { # Punishment as Landed Gentry
 	}
 
 	character_modifier = {
-		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
-		knight_effectiveness_mult = 0.1
+		monthly_prestige_gain_per_knight_mult  = 0.02
+		knight_limit = 3
+		knight_effectiveness_mult = 0.2
 	}
 	
 	ai_chance = {
@@ -240,7 +240,7 @@ osgrey_legacy_4 = { # Old Marshalls of the Northmarch
 
 	character_modifier = {
 		martial_per_prestige_level = 1
-		stewardship = 2
+		# stewardship = 1
 	}
 	
 	ai_chance = {
@@ -266,7 +266,7 @@ osgrey_legacy_5 = { # Supporters of the Faith Militant
 	}
 
 	character_modifier = {
-		the_seven_religion_opinion = 5
+		the_seven_religion_opinion = 10
 		religious_head_opinion = 15
 		monthly_piety_gain_mult = 0.05
 	}
@@ -330,7 +330,7 @@ beesbury_legacy_2 = { # Tiny wings, mighty will
 	character_modifier = {
 		prowess = 1
 		martial = 1
-		monthly_prestige = 0.01
+		monthly_prestige = 0.1
 	}
 	
 	ai_chance = {
@@ -451,8 +451,8 @@ bulwer_legacy_1 = { # Blood of Bors the Breaker
     }
 
 	character_modifier = {
-		prowess = 2
-		health = 0.05
+		prowess = 1
+		health = 0.15
 		attraction_opinion = 10
 	} 
 	
@@ -480,11 +480,11 @@ bulwer_legacy_2 = { # Death Before Disgrace
 
 	character_modifier = {
 		martial = 1
-		prowess = 2
+		prowess = 1
 		attraction_opinion = 10
 		glory_hound_opinion = 10
-		hard_casualty_modifier = 0.2
-		enemy_hard_casualty_modifier = 0.2
+		hard_casualty_modifier = 0.1
+		enemy_hard_casualty_modifier = 0.1
 	}
 	
 	ai_chance = {
@@ -568,7 +568,7 @@ bulwer_legacy_5 = { # Blackcrown Knights
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
+		knight_limit = 4
 		knight_effectiveness_mult = 0.1
 	}
 	
@@ -715,7 +715,7 @@ hunt_legacy_5 = { # Knightly House
 	}
 
 	character_modifier = {
-		martial = 2
+		martial = 1
 		prowess = 1
 		attraction_opinion = 10
 		glory_hound_opinion = 10
@@ -748,7 +748,7 @@ santagar_legacy_1 = { # Knights of Spottswood
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
+		knight_limit = 3
 		knight_effectiveness_mult = 0.1
 	}
 	
@@ -776,7 +776,7 @@ santagar_legacy_2 = { # House of the Leopard
 
 	character_modifier = {
 		martial = 1
-		prowess = 2
+		prowess = 1
 		attraction_opinion = 10
 		glory_hound_opinion = 10
 	}
@@ -945,7 +945,7 @@ dalt_legacy_3 = { # Knights of Lemonwood
 
 	character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
+		knight_limit = 4
 		knight_effectiveness_mult = 0.1
 	}
 	
@@ -1254,7 +1254,7 @@ farring_legacy_4 = { # Pages from Birth
     }
 
     character_modifier = {
-        prowess = 2
+        prowess = 1
 		monthly_prestige = 0.02
     }
 
@@ -1282,7 +1282,7 @@ farring_legacy_5 = { # Knights of the Northern Kingswood
 
     character_modifier = {
         monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
+		knight_limit = 3
 		knight_effectiveness_mult = 0.05
     }
     
@@ -1311,7 +1311,7 @@ pyle_legacy_1 = { # Born with Swords in the Cradle
     }
 
     character_modifier = {
-        prowess = 2
+        prowess = 1
 		monthly_prestige = 0.05
     }
     
@@ -1339,7 +1339,7 @@ pyle_legacy_2 = { # Chivalrous Traditions
 
     character_modifier = {
 		tyranny_gain_mult = 0.1
-		accolade_glory_gain_mult = 0.1
+		accolade_glory_gain_mult = 0.25
 		attraction_opinion = 15
     }
     
@@ -1367,7 +1367,7 @@ pyle_legacy_3 = { # All Honour can be Redeemed
 
     character_modifier = {
         monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
+		knight_limit = 3
 		knight_effectiveness_mult = 0.1
     }
     
@@ -1424,8 +1424,8 @@ pyle_legacy_5 = { # Black Shields of House Pyle
     }
 
     character_modifier = {
-        prowess = 2
-		heavy_infantry_maintenance_mult = -0.1
+        prowess = 1
+		heavy_infantry_maintenance_mult = -0.05
 		heavy_infantry_damage_mult = 0.05 
 		heavy_infantry_toughness_mult = 0.05
 		heavy_infantry_max_size_add = 1
@@ -1541,7 +1541,7 @@ gaunt_legacy_4 = { # Rigerous Training
     }
 
     character_modifier = {
-         heavy_cavalry_damage_mult = 0.05
+        heavy_cavalry_damage_mult = 0.05
 		heavy_cavalry_pursuit_mult = 0.05
 		heavy_cavalry_max_size_add = 1
     }
@@ -1571,7 +1571,7 @@ gaunt_legacy_5 = { # Andal Adventurers
     character_modifier = {
         character_travel_speed_mult = 0.05
 		learning = 1
-		diplomacy = 2
+		diplomacy = 1
 		health = 0.05
 		monthly_wanderer_lifestyle_xp_gain_mult = 0.05
     }
@@ -1630,7 +1630,7 @@ hogg_legacy_2 = { # Tourney Knights
 
     character_modifier = {
         prowess = 1
-		knight_effectiveness_mult = 0.05
+		knight_effectiveness_mult = 0.25
     }
     
     ai_chance = {
@@ -1743,7 +1743,7 @@ brune_legacy_1 = { # House of the Bear
 
     character_modifier = {
         diplomacy = -1
-		intrigue = -1
+		intrigue = 1
 		character_travel_speed = -10
 		stress_loss_mult = 0.5
     }
@@ -1858,7 +1858,7 @@ brune_legacy_5 = { # No Quarry Escapes the Den
     }
 
     character_modifier = {
-        fertility = 0.05
+        fertility = 0.15
 		close_relative_opinion = 10
 		dynasty_house_opinion = 10
     }

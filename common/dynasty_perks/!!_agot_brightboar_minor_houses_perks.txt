@@ -129,9 +129,9 @@ rowan_legacy_5 = { # Knights of the Golden Tree
 	}
 
 	character_modifier = {
-		monthly_prestige_gain_per_knight_mult  = 0.01
-		knight_limit = 1
-		knight_effectiveness_mult = 0.1
+		monthly_prestige_gain_per_knight_mult  = 0.02
+		knight_limit = 5
+		knight_effectiveness_mult = 0.25
 		
 	}
 	
@@ -256,7 +256,7 @@ crane_legacy_4 = { # Rulers of the Red Lake
 	character_modifier = {
 		monthly_prestige_gain_per_dread_mult = 0.01
 		knight_effectiveness_per_dread = 0.01
-		dread_decay_mult = 0.1
+		dread_decay_mult = -0.1
 	}
 	
 	ai_chance = {
@@ -815,7 +815,7 @@ florent_legacy_3 = { # The Superior Claim
 	}
 
 	character_modifier = {
-		diplomacy = 2
+		# diplomacy = 2
 		intrigue_per_prestige_level = 1
 		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
 	}
@@ -1343,10 +1343,10 @@ caron_legacy_1 = { # House of Warriors and Singers
     }
 
     character_modifier = {
-		diplomacy_per_prestige_level = 1
+		# diplomacy_per_prestige_level = 1
 		stress_loss_mult = 0.1
 		martial = 1
-		prowess = 2
+		prowess = 1
 		attraction_opinion = 10
 		glory_hound_opinion = 10
     }
@@ -1490,7 +1490,7 @@ selmy_legacy_1 = { # Sentinels of the Fertile Fields
     character_modifier = {
 		domain_tax_mult = 0.05
 		diplomacy = 1
-		learning = 2
+		learning = 1
     }
 
     ai_chance = {
@@ -1751,7 +1751,7 @@ dondarrion_legacy_5 = { # Heritage of the Last Storm
     }
 
     character_modifier = {
-		martial = 1
+		martial = 2
 		diplomacy = -1
 		attraction_opinion = 10
 		glory_hound_opinion = 10
@@ -1846,8 +1846,8 @@ swann_legacy_3 = { # Swann Knights
     }
 
     character_modifier = {
-		prowess_per_prestige_level = 2
-		knight_limit = 1
+		prowess_per_prestige_level = 1
+		knight_limit = 4
 		tourney_participant_xp_gain_mult = 0.15
     }
 
@@ -1874,7 +1874,7 @@ swann_legacy_4 = { # Rulers of the Slayne
     }
 
     character_modifier = {
-		diplomacy = 2
+		diplomacy = 1
 		stewardship_per_prestige_level = 1
 	}
 
@@ -1902,7 +1902,7 @@ swann_legacy_5 = { # Lords of Stonehelm
 
     character_modifier = {
 		monthly_martial_lifestyle_xp_gain_mult = 0.05
-		martial = 2
+		martial = 1
     }
 
     ai_chance = {
@@ -2013,7 +2013,7 @@ tarth_legacy_4 = { # House of the Sun and Moon
     }
 
     character_modifier = {
-		prowess_per_prestige_level = 2
+		prowess_per_prestige_level = 1
 		fertility = 0.05
 		life_expectancy = 5
 	}
