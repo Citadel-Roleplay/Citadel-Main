@@ -780,7 +780,10 @@ citadel_singingcliffs = {	#Singing Cliffs - House Bulwer .
 	construction_time = very_slow_construction_time
 
 	type_icon = "gibraltar.dds"
-
+	asset = {
+		type = pdxmesh
+		name = "blackcrown_mesh"
+	}
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -2120,7 +2123,10 @@ citadel_the_ring = {
 	construction_time = slow_construction_time
 
 	type_icon = "icon_ub_cothon.dds"
-
+	asset = {
+		type = pdxmesh
+		name = "the_ring_mesh"
+	}
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -3615,7 +3621,7 @@ citadel_old_anchor = {
     can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	
 	
     cost_gold = expensive_building_tier_3_cost
     construction_time = slow_construction_time
@@ -4198,4 +4204,41 @@ citadel_pronged_port = {
 	
 	flag = travel_point_of_interest_economic
 
+}
+
+
+# 3D MODELS !
+
+im_footly_hall = {
+	construction_time = slow_construction_time
+	type = special
+	type_icon = "gfx/interface/icons/buildings/footly_hall_icon.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "footly_hall_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	character_modifier = {
+		stewardship = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	county_modifier = {
+		development_growth_mult = 0.15
+	}
+
+	province_modifier = {
+		tax_mult = 0.10
+	}
+
+	ai_value = {
+		base = 90
+	}
+
+	flag = travel_point_of_interest_civic
 }

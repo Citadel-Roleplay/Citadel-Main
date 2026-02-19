@@ -421,6 +421,14 @@ set_provinces_start_citadel = {
             add_building = workshops_07
             add_building = quarries_07
         }
+
+        # 3D MODELS
+        
+        title:b_footly_hall.title_province = {
+            add_special_building_slot = im_footly_hall
+            add_special_building = im_footly_hall
+        }
+
     }
 }
 
