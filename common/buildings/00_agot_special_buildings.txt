@@ -1031,6 +1031,7 @@ pyke_01 = {
 		dread_gain_mult = 0.1
 		men_at_arms_maintenance_per_dread_mult = -0.0025
 		owned_legend_spread_mult = 0.1
+		no_disembark_penalty = yes
 	}
 
 	province_modifier = {
@@ -3739,7 +3740,7 @@ harlaw_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_1
+		monthly_income = 0.55
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_1
@@ -3787,7 +3788,7 @@ harlaw_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_2
+		monthly_income = 0.75
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_2
@@ -3835,7 +3836,7 @@ harlaw_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_3
+		monthly_income = 1.0
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_3
@@ -3883,7 +3884,7 @@ harlaw_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
+		monthly_income = 1.25
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_4
@@ -3931,7 +3932,7 @@ orkmont_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_1
+		monthly_income = 0.55
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_1
@@ -3978,7 +3979,7 @@ orkmont_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_2
+		monthly_income = 0.75
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_2
@@ -4025,7 +4026,7 @@ orkmont_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_3
+		monthly_income = 1.0
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_3
@@ -4072,7 +4073,7 @@ orkmont_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
+		monthly_income = 1.25
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_4
@@ -4119,7 +4120,7 @@ hardstone_hills_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_1
+		monthly_income = 0.55
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_1
@@ -4166,7 +4167,7 @@ hardstone_hills_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_2
+		monthly_income = 0.75
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_2
@@ -4213,7 +4214,7 @@ hardstone_hills_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_3
+		monthly_income = 1.0
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_3
@@ -4260,7 +4261,7 @@ hardstone_hills_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
+		monthly_income = 1.25
 	}
 	county_modifier = {
 		# tax_mult = low_building_tax_mult_tier_4

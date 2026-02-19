@@ -68,25 +68,25 @@ agot_brightboar_on_game_start_after_lobby = {
 				}
                 house_rowan_knight_effect = yes
 			}
-			if = {
-				limit = { 
-					dynasty ?= dynasty:dynn_Florent
-					NOT = {
-						OR = {
-							title:e_the_reach.holder = {
-								dynasty = { has_dynasty_perk = florent_legacy_1 }
-							}
-							title:e_the_reach.holder = {
-								dynasty = { has_dynasty_perk = gardener_legacy_1 }
-							}
-						}
-					}
-				}
-				add_unpressed_claim = title:e_the_reach
-				add_unpressed_claim = title:d_highgarden
-				add_unpressed_claim = title:c_manderside
-				add_unpressed_claim = title:c_highgarden
-			}
+			# if = {
+			# 	limit = { 
+			# 		dynasty ?= dynasty:dynn_Florent
+			# 		NOT = {
+			# 			OR = {
+			# 				title:e_the_reach.holder = {
+			# 					dynasty = { has_dynasty_perk = florent_legacy_1 }
+			# 				}
+			# 				title:e_the_reach.holder = {
+			# 					dynasty = { has_dynasty_perk = gardener_legacy_1 }
+			# 				}
+			# 			}
+			# 		}
+			# 	}
+			# 	add_unpressed_claim = title:e_the_reach
+			# 	add_unpressed_claim = title:d_highgarden
+			# 	add_unpressed_claim = title:c_manderside
+			# 	add_unpressed_claim = title:c_highgarden
+			# }
 		}
 		
 		every_player = {

@@ -1220,6 +1220,7 @@ lifestyle_blademaster = {
 		}
 		100 = {
 			prowess = 6
+			negate_prowess_penalty_add = 5
 			
 			#AGOT Disabled
 			# culture_modifier = {
@@ -17094,7 +17095,7 @@ education_martial_prowess_1 = {
 	#minimum_age = 16
 	#AGOT Modified
 	#prowess = 1
-	prowess = 2
+	prowess = 1
 	
 	culture_modifier = {
 		parameter = prowess_traits_more_valued
@@ -17161,7 +17162,8 @@ education_martial_prowess_3 = {
 	#AGOT Modified
 	#prowess = 3
 	prowess = 6
-	
+	negate_prowess_penalty_add = 6
+
 	culture_modifier = {
 		parameter = prowess_traits_more_valued
 		same_culture_opinion = 3
@@ -17193,7 +17195,8 @@ education_martial_prowess_4 = {
 	#minimum_age = 16
 	#AGOT Modified
 	#prowess = 4
-	prowess = 8
+	prowess = 10
+	negate_prowess_penalty_add = 10
 	
 	culture_modifier = {
 		parameter = prowess_traits_more_valued

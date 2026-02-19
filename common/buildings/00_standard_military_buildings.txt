@@ -4927,7 +4927,6 @@ barracks_08 = {
 
 	character_culture_modifier = {
 		parameter = strength_in_numbers_maa_limit_bonus 
-		men_at_arms_limit = 1
 	}
 
 	province_culture_modifier = {
@@ -6767,7 +6766,6 @@ smiths_08 = {
 	character_culture_modifier = {
 		parameter = frugal_blacksmith_maa_size 
 		knight_limit = 4
-		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = coking_smith_bonuses

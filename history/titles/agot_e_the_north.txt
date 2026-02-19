@@ -10114,12 +10114,12 @@ k_the_neck = {
 		holder = Reed_22
 	}
 	8282.1.1 = {
-		holder = Reed_1
+		holder = 0
 	}
 }
 d_the_neck = {
 	6500.1.1 = {
-		liege = k_the_neck
+		liege = e_the_north
 		effect = {
 			set_variable = agot_historical_march
 		}

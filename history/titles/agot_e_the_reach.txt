@@ -7131,7 +7131,7 @@ c_mandervale = {
 		holder = Itchweed_68
 	}
 	8274.1.1 = {
-		holder = Itchweed_70
+		holder = Risley_4
 	}
 }
 c_oaken_rills = {
@@ -7255,10 +7255,10 @@ c_windflower = {
 		holder = Winfler_95
 	}
 	8270.1.1 = {
-		holder = Winfler_98
+		holder = Risley_4
 	}
 	8294.1.1 = {
-		holder = Winfler_118
+		holder = Risley_4
 	}
 }
 c_daisyfield = {
@@ -8627,12 +8627,12 @@ d_orchard_way = {
 		holder = Fossoway_57
 	}
 	8279.1.1 = {
-		holder = Fossoway_1
+		holder = 0
 	}
 }
 c_cider_crossing = {
 	2000.1.1 = {
-		liege = d_orchard_way
+		liege = d_cider_hall2
 		holder = Fossoway_8
 	}
 	2035.1.1 = {
@@ -8696,9 +8696,15 @@ c_cider_crossing = {
 		holder = Fossoway_1
 	}
 }
+d_cider_hall2 {
+	8279.1.1 = {
+		liege = e_the_reach
+		holder = Fossoway_1
+	}
+}
 c_appleton = {
 	50.1.1 = {
-		liege = d_orchard_way
+		liege = d_cider_hall2
 	}
 	7833.1.1 = {
 		holder = Appleton_5
@@ -8751,7 +8757,7 @@ c_appleton = {
 }
 c_new_barrel = {
 	2000.1.1 = {
-		liege = d_orchard_way
+		liege = d_cider_hall2
 		holder = Fossoway_8
 	}
 	2035.1.1 = {
@@ -8815,7 +8821,7 @@ c_new_barrel = {
 }
 c_sugarbush = {
 	50.1.1 = {
-		liege = d_orchard_way
+		liege = d_cider_hall2
 	}
 	7797.1.1 = {
 		holder = Rummand_1

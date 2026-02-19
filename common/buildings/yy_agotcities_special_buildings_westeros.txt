@@ -117,12 +117,11 @@ agot_lordsport_01 = {
         barony = title:b_lordsport
         building_requirement_tribal = no
     }
-
+    levy = 150
     asset = {
         type = pdxmesh
         name = "lordsport_mesh"
     }
-
     cost_gold = expensive_building_tier_1_cost
 
     county_holder_character_modifier = {
@@ -131,8 +130,15 @@ agot_lordsport_01 = {
         raid_speed = 0.5
     }
 
+    character_modifier = {
+        domain_size = -1
+    }
+
     province_modifier = {
-        monthly_income = 2
+        monthly_income = 4
+    }
+    county_modifier = {
+        development_growth_factor = 0.2
     }
 
     ai_value = {
@@ -1060,7 +1066,6 @@ agot_ten_towers_01 = {
 
     province_modifier = {
         fort_level = 4
-        monthly_income = 1
     }
 
     ai_value = {

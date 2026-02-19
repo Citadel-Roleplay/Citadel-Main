@@ -1,8 +1,11 @@
 d_new_barrel = {
     color = { 136 147 111 }
     color2 = { 255 255 255 }
+    capital = c_new_barrel
+}
 
-    # capital = 1   # optional, county id
+d_cider_hall2 = {
+    color = { 128 177 51 }
+    capital = c_cider_crossing
 
-    # IMPORTANT: no de jure duchies/counties here
 }

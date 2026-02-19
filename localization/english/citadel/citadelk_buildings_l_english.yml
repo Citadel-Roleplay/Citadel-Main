@@ -7,6 +7,10 @@
  building_type_citadel_vinetown:1 "Vinefields of Vinetown"
  building_citadel_vinetown:1 "Vinefields of Vinetown"
  building_citadel_vinetown_desc:1 "Stretching across gentle hills above the harbor, the vinefields of Vinetown produce vast quantities of renowned Arbor wine. Their harvest fuels the wealth and trade power of House Redwyne, bringing coin from every corner of the Narrow Sea."
+ 
+ building_type_citadel_pebbleton_tower:1 "Pebbleton Tower"
+ building_citadel_pebbleton_tower:1 "Pebbleton Tower"
+ building_citadel_pebbleton_tower_desc:1 "Seat of House Merlyn upon the harsh shores of the Iron Islands, Pebbleton Tower rises against wind and wave alike. Though not the grandest of keeps, its watchful towers guard the surrounding waters, and its people live by salt, steel, and the old ways of the isles."
 
  building_type_citadel_hearts_home:1 "Heart's Home"
  building_citadel_hearts_home:1 "Heart's Home"

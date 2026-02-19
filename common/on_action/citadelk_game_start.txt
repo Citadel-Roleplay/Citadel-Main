@@ -319,6 +319,9 @@ set_provinces_start_citadel = {
         }  
         title:b_harrentown.title_province = { 
             add_special_building = citadel_harrentown 
+        }  
+        title:b_pebbleton_tower.title_province = { 
+            add_special_building = citadel_pebbleton_tower
         } 
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  

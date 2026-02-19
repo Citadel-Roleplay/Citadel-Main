@@ -3463,12 +3463,12 @@ d_ninestars = {
 		holder = Templeton_32
 	}
 	8261.1.1 = {
-		holder = Templeton_1
+		holder = 0
 	}
 }
 c_ninestars = {
 	5790.1.1 = {
-		liege = d_ninestars
+		liege = e_the_vale
 		holder = Templeton_5
 	}
 	7856.1.1 = {
@@ -3581,7 +3581,7 @@ b_old_andals_grave = {
 }
 c_kipress = {
 	6535.1.1 = {
-		liege = d_ninestars
+		liege = e_the_vale
 	}
 	7865.1.1 = {
 		holder = Dutton_5
@@ -3690,7 +3690,7 @@ b_riving = {
 }
 c_newberry = {
 	6535.1.1 = {
-		liege = d_ninestars
+		liege = e_the_vale
 	}
 	7798.1.1 = {
 		holder = Upshall_1
@@ -3752,7 +3752,7 @@ c_newberry = {
 }
 c_stoutstone = {
 	6535.1.1 = {
-		liege = d_ninestars
+		liege = e_the_vale
 	}
 	7826.1.1 = {
 		holder = Stewart_1
