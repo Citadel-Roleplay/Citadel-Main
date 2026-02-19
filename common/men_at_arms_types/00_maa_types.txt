@@ -885,7 +885,7 @@ onager = {
 	fights_in_main_phase = no
 
 	damage = 0
-	toughness = 12
+	toughness = 3
 	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 1
@@ -923,7 +923,7 @@ onager = {
 	high_maintenance_cost = { gold = mangonel_high_maint_cost }
 	provision_cost = @provisions_cost_special_moderate
 
-	stack = 10
+	stack = 40
 	allowed_in_hired_troops = no
 }
 
@@ -1117,7 +1117,7 @@ mangonel = {
 	fights_in_main_phase = no
 
 	damage = 0
-	toughness = 12
+	toughness = 3
 	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 2
@@ -1156,7 +1156,7 @@ mangonel = {
 	high_maintenance_cost = { gold = trebuchet_high_maint_cost }
 	provision_cost = @provisions_cost_special_expensive
 
-	stack = 10
+	stack = 40
 	allowed_in_hired_troops = no
 }
 
@@ -1338,7 +1338,7 @@ trebuchet = {
 	fights_in_main_phase = no
 
 	damage = 0
-	toughness = 12
+	toughness = 3
 	max_regiments = 2
 	#AGOT Modified
 	# siege_tier = 3
@@ -1378,7 +1378,7 @@ trebuchet = {
 	high_maintenance_cost = { gold = bombard_high_maint_cost }
 	provision_cost = @provisions_cost_special_bankrupting
 
-	stack = 10
+	stack = 40
 	allowed_in_hired_troops = no
 
 }
