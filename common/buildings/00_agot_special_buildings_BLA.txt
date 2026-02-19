@@ -74,7 +74,10 @@ agot_grandison_grandview_01 = {
     can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+    asset = {
+		type = pdxmesh
+		name = "grandview_mesh"
+	}
 
     cost_gold = expensive_building_tier_3_cost
     construction_time = slow_construction_time
@@ -1810,7 +1813,10 @@ agot_wyl_tunnels_of_wyl_01 = {
 	construction_time = slow_construction_time
 
 	type_icon = "icon_structure_vatapi_caves.dds"
-
+    asset = {
+        type = pdxmesh
+        name = "wyl_mesh"
+    }
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -2819,7 +2825,7 @@ agot_selmy_harvest_hall_01 = {
     can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+    
 
     cost_gold = expensive_building_tier_3_cost
     construction_time = slow_construction_time
@@ -3655,7 +3661,7 @@ agot_penrose_parchments_01 = {
     can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+    
 
     cost_gold = expensive_building_tier_3_cost
     construction_time = slow_construction_time

@@ -794,24 +794,24 @@ agot_warg_king_01 = {
 }
 agot_warg_king_02 = {
 
-	construction_time = very_slow_construction_time
+	construction_time = 6500
 
 	type_icon = "icon_structure_hotin_fortress.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 
-		custom_tooltip = {
-			text = warg_king
-			OR = {
-				scope:holder = {
-					agot_is_independent_ruler = yes
-				}
-				scope:holder = {
-					dynasty = dynasty:dynn_Stark
-				}
-			}
-		}
+		# custom_tooltip = {
+		# 	text = warg_king
+		# 	OR = {
+		# 		scope:holder = {
+		# 			agot_is_independent_ruler = yes
+		# 		}
+		# 		scope:holder = {
+		# 			dynasty = dynasty:dynn_Stark
+		# 		}
+		# 	}
+		# }
 	}
 
 	asset = {
@@ -823,7 +823,7 @@ agot_warg_king_02 = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = expensive_building_tier_5_cost
+	cost_gold = 1500
 
 	character_modifier = {
 		the_pact_religion_opinion = 10
@@ -849,24 +849,24 @@ agot_warg_king_02 = {
 
 agot_warg_king_03 = {
 
-	construction_time = very_slow_construction_time
+	construction_time = 15000
 
-	type_icon = "icon_building_wolf1.dds"
+	type_icon = "icon_structure_hotin_fortress.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 
-		custom_tooltip = {
-			text = warg_king
-			OR = {
-				scope:holder = {
-					agot_is_independent_ruler = yes
-				}
-				scope:holder = {
-					dynasty = dynasty:dynn_Stark
-				}
-			}
-		}
+		# custom_tooltip = {
+		# 	text = warg_king
+		# 	OR = {
+		# 		scope:holder = {
+		# 			agot_is_independent_ruler = yes
+		# 		}
+		# 		scope:holder = {
+		# 			dynasty = dynasty:dynn_Stark
+		# 		}
+		# 	}
+		# }
 	}
 
 	asset = {
@@ -877,7 +877,7 @@ agot_warg_king_03 = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = expensive_building_tier_6_cost
+	cost_gold = 3500
 
 	character_modifier = {
 		the_pact_religion_opinion = 10
@@ -887,7 +887,7 @@ agot_warg_king_03 = {
 
 	province_modifier = {
 		fort_level = 6
-		monthly_income = excellent_building_tax_tier_2
+		monthly_income = 4
 	}
 	county_modifier = {
 		hostile_raid_time = 0.6
@@ -909,24 +909,24 @@ agot_warg_king_03 = {
 }
 agot_warg_king_04 = {
 
-	construction_time = very_slow_construction_time
+	construction_time = 15000
 
-	type_icon = "icon_building_wolf1.dds"
+	type_icon = "icon_structure_hotin_fortress.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 
-		custom_tooltip = {
-			text = warg_king
-			OR = {
-				scope:holder = {
-					agot_is_independent_ruler = yes
-				}
-				scope:holder = {
-					dynasty = dynasty:dynn_Stark
-				}
-			}
-		}
+		# custom_tooltip = {
+		# 	text = warg_king
+		# 	OR = {
+		# 		scope:holder = {
+		# 			agot_is_independent_ruler = yes
+		# 		}
+		# 		scope:holder = {
+		# 			dynasty = dynasty:dynn_Stark
+		# 		}
+		# 	}
+		# }
 	}
 
 	asset = {
@@ -937,7 +937,7 @@ agot_warg_king_04 = {
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = expensive_building_tier_7_cost
+	cost_gold = 5000
 
 	character_modifier = {
 		the_pact_religion_opinion = 10
@@ -946,8 +946,8 @@ agot_warg_king_04 = {
 	}
 
 	province_modifier = {
-		fort_level = 8
-		monthly_income = excellent_building_tax_tier_3
+		fort_level = 14
+		monthly_income = 8
 	}
 	county_modifier = {
 		hostile_raid_time = 0.8
