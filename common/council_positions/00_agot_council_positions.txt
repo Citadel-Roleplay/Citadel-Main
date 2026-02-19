@@ -62,17 +62,17 @@ councillor_admiral = {
 		NOT = { has_character_flag = nw_ranger_title }
 	}
 
-	modifier = { #Hambone added
-		name = councillor_admiral_modifier
-		monthly_income = 0.25
-		scale = council_scaled_monthly_income
-	}
+	# modifier = { #Hambone added
+	# 	name = councillor_admiral_modifier
+	# 	monthly_income = 0.25
+	# 	scale = council_scaled_monthly_income
+	# }
 
-	council_owner_modifier = { #Hambone added
-		name = councillor_cost_modifier
-		monthly_income = -0.25
-		scale = council_scaled_monthly_income
-	}
+	# council_owner_modifier = { #Hambone added
+	# 	name = councillor_cost_modifier
+	# 	monthly_income = -0.25
+	# 	scale = council_scaled_monthly_income
+	# }
 
 	modifier = {
 		name = councillor_admiral_modifier
@@ -81,6 +81,12 @@ councillor_admiral = {
 		naval_movement_speed_mult = 0.05
 		embarkation_cost_mult = -0.05
 		scale = council_scaled_by_liege_tier
+	}
+
+	modifier = {
+		name = councillor_castellan_modifier
+		monthly_dynasty_prestige = 1
+		scale = council_scaled_by_liege_tier_citadel
 	}
 
 	modifier = {
@@ -153,17 +159,17 @@ councillor_castellan = {
 
 	tooltip = game_concept_castellan_desc
 
-	modifier = { #Hambone added
-		name = councillor_castellan_modifier
-		monthly_income = 0.25
-		scale = council_scaled_monthly_income
-	}
+	# modifier = { #Hambone added
+	# 	name = councillor_castellan_modifier
+	# 	monthly_income = 0.25
+	# 	scale = council_scaled_monthly_income
+	# }
 
-	council_owner_modifier = { #Hambone added
-		name = councillor_cost_modifier
-		monthly_income = -0.25
-		scale = council_scaled_monthly_income
-	}
+	# council_owner_modifier = { #Hambone added
+	# 	name = councillor_cost_modifier
+	# 	monthly_income = -0.25
+	# 	scale = council_scaled_monthly_income
+	# }
 
 	modifier = {
 		name = councillor_castellan_modifier
@@ -172,6 +178,12 @@ councillor_castellan = {
 		monthly_prestige = 1.0
 		stress_loss_mult = -0.05
 		scale = council_scaled_by_liege_tier
+	}
+
+	modifier = {
+		name = councillor_castellan_modifier
+		monthly_dynasty_prestige = 2
+		scale = council_scaled_by_liege_tier_citadel
 	}
 
 	modifier = {
