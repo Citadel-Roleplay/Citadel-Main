@@ -5889,13 +5889,18 @@ agot_lonely_light_01 = {
 	cost_gold = expensive_building_tier_6_cost
 
 	province_modifier = {
-		monthly_income = good_building_tax_tier_1
+		monthly_income = 0.75
 		fort_level = 2
 	}
 
 	character_modifier = {
-		embarkation_cost_mult = -0.35
-		diplomatic_range_mult = 0.35
+		movement_speed_land_raiding = 0.2
+		raid_speed = 0.2
+		no_water_crossing_penalty = yes
+		hostile_county_attrition_raiding = -0.2
+		no_disembark_penalty = yes
+		max_loot_mult = 0.2
+		monthly_prestige = 1
 	}
 
 	ai_value = {
@@ -5977,9 +5982,14 @@ agot_lordsport_01 = {
 		raid_speed = 0.5
 	}
 
-	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_2
-	}
+	character_modifier = {
+        domain_size = -1
+    }
+
+    province_modifier = {
+        monthly_income = 4
+    }
+
 
 	ai_value = {
 		base = 100
@@ -6016,7 +6026,7 @@ agot_grey_garden_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_1
+		monthly_income = 0.25
 	}
 
 	ai_value = {
@@ -6060,7 +6070,7 @@ agot_volmark_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1
+		monthly_income = 0.5
 	}
 
 	ai_value = {

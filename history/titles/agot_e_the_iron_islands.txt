@@ -642,6 +642,16 @@ c_lordsport = {
 		holder = Botley_4
 	}
 }
+b_lordsport = {
+	8281.1.1 = {
+		holder = Botley_3
+	}
+}
+b_shoalstone = {
+	8281.1.1 = {
+		holder = Botley_3
+	}
+}
 c_seagrave = {
 	3578.1.1 = {
 		liege = d_pyke

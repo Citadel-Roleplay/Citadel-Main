@@ -24,7 +24,7 @@ set_provinces_start_citadel = {
 		character:Baratheon_2 = {
 			add_gold = {
 				value = {
-					value = 4000
+					value = 3000
 				}
 			}
 		}
@@ -319,6 +319,27 @@ set_provinces_start_citadel = {
         }  
         title:b_harrentown.title_province = { 
             add_special_building = citadel_harrentown 
+        }  
+        title:b_pebbleton_tower.title_province = { 
+            add_special_building = citadel_pebbleton_tower
+        }   
+        title:b_pronged_port.title_province = { 
+            add_special_building = citadel_pronged_port
+        } 
+        title:b_harvest_hall.title_province = { 
+            add_special_building = agot_selmy_harvest_hall_01
+        } 
+        title:b_lord_hewetts_town.title_province = { 
+            add_special_building = agot_hewett_lord_hewetts_town_01
+        }  
+        title:b_crows_nest.title_province = { 
+            add_special_building = agot_morrigen_crows_nest_01
+        } 
+        title:b_grandview.title_province = { 
+            add_special_building = agot_grandison_grandview_01
+        } 
+        title:b_bearstone.title_province = { 
+            add_special_building = agot_mormont_russet_den_01
         } 
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  

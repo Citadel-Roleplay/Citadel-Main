@@ -667,7 +667,6 @@ peake_legacy_3 = { # Reach Court Intrigue
     }
 
     character_modifier = {
-		monthly_income_mult = -0.05
 		intrigue = 2
 		diplomacy = 1
     }
@@ -724,8 +723,8 @@ peake_legacy_5 = { # Peake Pikes
     }
 
     character_modifier = {
-		pikemen_max_size_add = 1
-		pikemen_toughness_mult = 0.05
+		heavy_cavalry_max_size_add = 1
+		heavy_cavalry_toughness_mult = 0.05
     }
 
     ai_chance = {
@@ -934,9 +933,9 @@ tarly_legacy_2 = { # The Tarly Huntsmen
 
 	character_modifier = {
 		prowess = 2
-		archers_maintenance_mult = 0.1
-		archers_damage_mult = 0.1 
-		archers_toughness_mult = 0.1
+		heavy_infantry_maintenance_mult = 0.1
+		heavy_infantry_damage_mult = 0.1 
+		heavy_infantry_toughness_mult = 0.1
 	}
 	
 	ai_chance = {
@@ -1160,8 +1159,8 @@ fossoway_legacy_5 = { # The Amber Wardens
 	}
 
 	character_modifier = {
-		heavy_cavalry_toughness_mult = 0.1
-        heavy_cavalry_damage_mult = 0.1
+		heavy_infantry_toughness_mult = 0.1
+        heavy_infantry_damage_mult = 0.1
 	}
 	
 	ai_chance = {
@@ -5231,9 +5230,9 @@ massey_legacy_5 = { # Hooked Spears
     }
 
     character_modifier = {
-		pikemen_maintenance_mult = -0.1
-		pikemen_damage_mult = 0.05 
-		pikemen_toughness_mult = 0.05
+		heavy_infantry_maintenance_mult = -0.1
+		heavy_infantry_damage_mult = 0.05 
+		heavy_infantry_toughness_mult = 0.05
     }
     
     ai_chance = {
