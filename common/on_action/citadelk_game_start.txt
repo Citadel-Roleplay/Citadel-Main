@@ -31,7 +31,7 @@ set_provinces_start_citadel = {
         character:Saan_2 = {
 			add_barter_goods = {
 				value = {
-					value = 1423
+					value = 452
 				}
 			}
 		}

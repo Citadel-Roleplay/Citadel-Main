@@ -1501,7 +1501,7 @@ NBarter = {
 	BASE_PROGRESS = 15
 	PROGRESS_PER_SOLDIER = 0.005
 	LOOT_PER_SOLDIER = 0.1				# How much loot can a single soldier carry? Minimum increment is 0.001
-	BARTER_GOODS_TO_LOOT_MULT = 0.5 	# Used to convert Barter Goods to Loot. A value of 0.5 means that 2 Barter Goods are worth 1 Loot
+	BARTER_GOODS_TO_LOOT_MULT = 0.5		# Used to convert Barter Goods to Loot. A value of 0.5 means that 2 Barter Goods are worth 1 Loot
 }
 
 NCharacterGlow = {

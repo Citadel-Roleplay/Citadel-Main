@@ -3951,3 +3951,166 @@ citadel_harrentown = {
 
     flag = travel_point_of_interest_martial
 }
+
+citadel_whitehills_01 = {
+
+	construction_time = 3500
+
+	type_icon = "icon_building_ironwoods.dds"
+	next_building = citadel_whitehills_02
+	can_construct = {
+		scope:holder = {
+			stewardship >= 10
+			dynasty = dynasty:dynn_Whitehill
+		}
+	}
+	levy = 250
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 500
+
+	character_modifier = {
+		men_at_arms_maintenance = -0.05
+		monthly_dynasty_prestige_mult = 0.05
+		stewardship = 2
+	}
+	province_modifier = {
+		defender_holding_advantage = 2
+		fort_level = 3
+		monthly_income = 2
+		levy_size = 0.1
+	}
+	county_modifier = {
+		# tax_mult = low_building_tax_mult_tier_1
+		development_growth_factor = 0.1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = special_building_enabled_in_ruin_county
+}
+
+citadel_whitehills_02 = {
+
+	construction_time = 5000
+
+	type_icon = "icon_building_ironwoods.dds"
+
+	can_construct = {
+		scope:holder = {
+			dynasty = dynasty:dynn_Whitehill
+		}
+	}
+	levy = 500
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 500
+
+	character_modifier = {
+		men_at_arms_maintenance = -0.1
+		monthly_dynasty_prestige_mult = 0.1
+		stewardship = 2
+	}
+	province_modifier = {
+		defender_holding_advantage = 4
+		fort_level = 5
+		monthly_income = 5
+		levy_size = 0.2
+	}
+	county_modifier = {
+		# tax_mult = low_building_tax_mult_tier_1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = special_building_enabled_in_ruin_county
+}
+
+citadel_ironrath_01 = {
+
+	construction_time = 3500
+
+	type_icon = "icon_building_ironwoods.dds"
+	next_building = citadel_ironrath_02
+	can_construct = {
+		scope:holder = {
+			stewardship >= 10
+		}
+	}
+	levy = 250
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 500
+
+	max_garrison = 400
+    province_modifier = {
+        defender_holding_advantage = 10
+        fort_level = 8
+        monthly_income = 2.5
+    }
+    county_modifier = {
+        # tax_mult = 0.3
+        #development_growth = 0.1
+        levy_size = 0.1
+    }
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = special_building_enabled_in_ruin_county
+}
+
+citadel_ironrath_02 = {
+
+	construction_time = 5000
+
+	type_icon = "icon_building_ironwoods.dds"
+	levy = 500
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 500
+
+	max_garrison = 400
+    province_modifier = {
+        defender_holding_advantage = 12
+        fort_level = 10
+        monthly_income = 5
+    }
+    county_modifier = {
+        # tax_mult = 0.3
+        development_growth_factor = 0.3
+        #development_growth = 0.1
+        levy_size = 0.2
+    }
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = special_building_enabled_in_ruin_county
+}

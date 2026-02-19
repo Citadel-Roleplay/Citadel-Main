@@ -2139,7 +2139,7 @@ ironwrath_01 = {
         type = pdxmesh
         name = "building_special_ironrath_mesh"
     }
-
+    next_building = citadel_ironrath_01
     is_enabled = {
         agot_generic_is_special_building_enabled = yes
     }

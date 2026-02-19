@@ -44,6 +44,7 @@ pirate_den_01 = {
 		fort_level = 1
 		travel_danger = 10
 		monthly_county_control_growth_factor = -0.1
+		monthly_barter_goods = 0.5
 	}
 	levy = 150
 	max_garrison = 200
@@ -125,6 +126,7 @@ pirate_den_02 = {
 		fort_level = 2
 		travel_danger = 20
 		monthly_county_control_growth_factor = -0.2
+		monthly_barter_goods = 1
 	}
 	levy = 300
 	max_garrison = 400
@@ -213,6 +215,7 @@ pirate_den_03 = {
 		fort_level = 3
 		travel_danger = 30
 		monthly_county_control_growth_factor = -0.3
+		monthly_barter_goods = 1.5
 	}
 	levy = 450
 	max_garrison = 600
