@@ -2758,7 +2758,7 @@ agot_runestone_01 = {
     can_construct_potential = {
         building_requirement_tribal = no
     }
-    levy = 1000
+    levy = 700
     character_modifier = {
         the_pact_religion_opinion = 10
         martial_per_piety_level = 2

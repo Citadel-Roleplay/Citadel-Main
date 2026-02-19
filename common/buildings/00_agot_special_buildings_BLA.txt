@@ -1,4 +1,113 @@
-﻿# agot_dayne_starsport_spire_01 = {
+﻿agot_morrigen_crows_nest_01 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_building_legendary_watchtower.dds"
+
+    character_modifier = {
+	defender_advantage = 5
+	knight_effectiveness_mult = 0.08
+	monthly_piety = 0.20
+	archers_damage_mult = 0.10
+	pikemen_damage_mult = 0.05
+    }
+
+    province_modifier = {
+	garrison_size = 0.15
+
+    }
+
+    county_modifier = {
+        levy_size = 0.10
+	development_growth_factor = 0.08
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_martial
+}
+agot_mormont_russet_den_01 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_hunting_grounds.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+	cost_gold = 3000
+
+	character_modifier = {
+		stress_loss_mult = 0.1
+		monthly_prestige = 0.4
+		monthly_piety = 0.3
+	}
+
+	province_modifier = {
+		monthly_county_control_growth_add = 0.05
+		development_growth_factor = 0.05
+	}
+
+	ai_value = {
+		base = 100
+	}
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+agot_grandison_grandview_01 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_structure_kassiopi_castle.dds"
+
+    character_modifier = {
+	court_grandeur_baseline_add = 2
+	monthly_prestige = 0.25
+	owned_personal_scheme_success_chance_add = 10
+	diplomacy = 2
+	defender_advantage = 2
+    }
+
+    province_modifier = {
+	fort_level = 2
+	
+    }
+
+    county_modifier = {
+        county_opinion_add = 4
+	development_growth_factor = 0.06
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_diplomatic
+}
+
+
+# agot_dayne_starsport_spire_01 = {
 
 # 	construction_time = slow_construction_time
 
@@ -731,117 +840,6 @@
 # 	flag = travel_point_of_interest_martial
 # }
 
-# agot_vikary_crimson_bastion_01 = {
-
-# 	construction_time = slow_construction_time
-
-# 	type_icon = "icon_building_hill_forts.dds"
-
-# 	can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-	
-# 	cost_gold = expensive_building_tier_3_cost
-
-# 	character_modifier = {
-# 		martial = 1
-# 		monthly_prestige = 0.3
-# 		knight_effectiveness_mult = 0.1
-# 	}		
-	
-# 	province_modifier = {
-# 		county_opinion_add = 4
-# 	}
-# 	county_modifier = {
-# 	}
-	
-# 	next_building = agot_vikary_crimson_bastion_02
-	
-# 	ai_value = {
-# 		base = 100
-# 	}
-	
-# 	type = special
-	
-# 	flag = travel_point_of_interest_martial
-# }
-
-# agot_vikary_crimson_bastion_02 = {
-
-# 	construction_time = slow_construction_time
-
-# 	type_icon = "icon_building_hill_forts.dds"
-
-# 	can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-	
-# 	cost_gold = expensive_building_tier_4_cost
-	
-# 	character_modifier = {		
-# 		martial = 1
-# 		monthly_prestige = 0.6
-# 		knight_effectiveness_mult = 0.15
-# 		army_damage_mult = 0.05
-# 	}	
-	
-# 	province_modifier = {
-# 		stationed_maa_damage_mult = low_maa_damage_tier_1
-# 	}
-# 	county_modifier = {
-# 		county_opinion_add = 6
-# 	}
-	
-# 	next_building = agot_vikary_crimson_bastion_03
-	
-# 	ai_value = {
-# 		base = 100
-# 	}
-	
-# 	type = special
-	
-# 	flag = travel_point_of_interest_martial
-# }
-
-# agot_vikary_crimson_bastion_03 = {
-
-# 	construction_time = slow_construction_time
-
-# 	type_icon = "icon_building_hill_forts.dds"
-
-# 	can_construct_potential = {
-		
-# 		building_requirement_tribal = no
-# 	}
-
-	
-# 	cost_gold = expensive_building_tier_5_cost
-	
-# 	character_modifier = {
-# 		martial = 2
-# 		monthly_prestige = 1
-# 		knight_effectiveness_mult = 0.2
-# 		monthly_dynasty_prestige = 0.10
-# 		army_damage_mult = 0.1
-# 	}	
-	
-# 	province_modifier = {
-# 		stationed_maa_damage_mult = low_maa_damage_tier_1
-# 	}
-# 	county_modifier = {
-# 		county_opinion_add = 8
-# 	}
-	
-	
-# 	ai_value = {
-# 		base = 100
-# 	}
-	
-# 	type = special
-	
-# 	flag = travel_point_of_interest_martial
-# }
 
 # agot_reyne_mineral_market_01 = {
 
@@ -1370,37 +1368,7 @@
 # 	flag = travel_point_of_interest_martial
 # }
 
-# agot_mormont_russet_den_01 = {
-
-# 	construction_time = slow_construction_time
-
-# 	type_icon = "icon_building_hunting_grounds.dds"
-
-# 	can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-
-# 	cost_gold = 3000
-
-# 	character_modifier = {
-# 		stress_loss_mult = 0.1
-# 		monthly_prestige = 0.4
-# 		monthly_piety = 0.3
-# 	}
-
-# 	province_modifier = {
-# 		monthly_county_control_growth_add = 0.05
-# 		development_growth_factor = 0.05
-# 	}
-
-# 	ai_value = {
-# 		base = 100
-# 	}
-# 	type = special
-
-# 	flag = travel_point_of_interest_martial
-# }
+ 
 
 # agot_estermont_greenstone_crag_01 = {
 
@@ -2844,41 +2812,41 @@ agot_butterwell_whitewalls_grand_castle_04 = {
 
 #     flag = travel_point_of_interest_martial
 # }
-# agot_selmy_harvest_hall_01 = {
+agot_selmy_harvest_hall_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_structure_hotin_fortress.dds"
+    type_icon = "icon_structure_hotin_fortress.dds"
 
-#     character_modifier = {
-#         development_growth_factor = 0.10
-# 	monthly_dynasty_prestige = 0.10
-#     }
+    character_modifier = {
+        development_growth_factor = 0.10
+	monthly_dynasty_prestige = 0.10
+    }
 
-#     province_modifier = {
-# 	fort_level = 4
-#     }
+    province_modifier = {
+	fort_level = 4
+    }
 
-#     county_modifier = {
-#         monthly_county_control_growth_factor = 0.05
-# 	defender_holding_advantage = 5
-# 	levy_size = 0.10
-#     }
+    county_modifier = {
+        monthly_county_control_growth_factor = 0.05
+	defender_holding_advantage = 5
+	levy_size = 0.10
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
+    ai_value = {
+        base = 100
+    }
 
-#     flag = travel_point_of_interest_stewardship
-# }
+    flag = travel_point_of_interest_stewardship
+}
 # agot_strong_keep_01 = {
 
 #     type = special
@@ -3467,115 +3435,109 @@ agot_butterwell_whitewalls_grand_castle_04 = {
 
 #     flag = travel_point_of_interest_martial
 # }
-# agot_hewett_lord_hewetts_town_01 = {
+agot_hewett_lord_hewetts_town_01 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_structure_alhambra.dds"
-
-#     character_modifier = {
-#         domain_tax_mult = 0.05
-# 	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
-#     }
-
-#     province_modifier = {
-# 	development_growth_factor = 0.05
-# 	tax_mult = 0.10
-# 	supply_limit_mult = 0.10
-#     }
-
-#     county_modifier = {
-# 	monthly_county_control_growth_factor = 0.05
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-#     next_building = agot_hewett_lord_hewetts_town_02
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     flag = travel_point_of_interest_economic
-# }
-# agot_hewett_lord_hewetts_town_02 = {
+    cost_gold = expensive_building_tier_3_cost
+    construction_time = slow_construction_time
 
-#     type = special
+    type_icon = "icon_structure_alhambra.dds"
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    character_modifier = {
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+    }
 
+    province_modifier = {
+	development_growth_factor = 0.05
+	supply_limit_mult = 0.10
+    }
 
-#     cost_gold = expensive_building_tier_4_cost
-#     construction_time = slow_construction_time
+    county_modifier = {
+	monthly_county_control_growth_factor = 0.05
+    }
 
-#     type_icon = "icon_structure_alhambra.dds"
-
-#     character_modifier = {
-#         domain_tax_mult = 0.10
-# 	monthly_stewardship_lifestyle_xp_gain_mult = 0.10
-#     }
-
-#     province_modifier = {
-# 	development_growth_factor = 0.15
-# 	tax_mult = 0.15
-# 	supply_limit_mult = 0.15
-#     }
-
-#     county_modifier = {
-# 	monthly_county_control_growth_factor = 0.07
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-#     next_building = agot_hewett_lord_hewetts_town_03
+    ai_value = {
+        base = 100
+    }
+    next_building = agot_hewett_lord_hewetts_town_02
 
 
-#     flag = travel_point_of_interest_economic
-# }
-# agot_hewett_lord_hewetts_town_03 = {
+    flag = travel_point_of_interest_economic
+}
+agot_hewett_lord_hewetts_town_02 = {
 
-#     type = special
+    type = special
 
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
 
 
-#     cost_gold = expensive_building_tier_5_cost
-#     construction_time = slow_construction_time
+    cost_gold = expensive_building_tier_4_cost
+    construction_time = slow_construction_time
 
-#     type_icon = "icon_structure_alhambra.dds"
+    type_icon = "icon_structure_alhambra.dds"
 
-#     character_modifier = {
-#         domain_tax_mult = 0.15
-# 	monthly_stewardship_lifestyle_xp_gain_mult = 0.15
-#     }
+    character_modifier = {
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+    }
 
-#     province_modifier = {
-# 	development_growth_factor = 0.20
-# 	tax_mult = 0.20
-# 	supply_limit_mult = 0.20
-#     }
+    province_modifier = {
+	development_growth_factor = 0.15
+	supply_limit_mult = 0.15
+    }
 
-#     county_modifier = {
-# 	monthly_county_control_growth_factor = 0.05
-#     }
+    county_modifier = {
+	monthly_county_control_growth_factor = 0.07
+    }
 
-#     ai_value = {
-#         base = 100
-#     }
+    ai_value = {
+        base = 100
+    }
+    next_building = agot_hewett_lord_hewetts_town_03
 
-#     flag = travel_point_of_interest_economic
-# }
+
+    flag = travel_point_of_interest_economic
+}
+agot_hewett_lord_hewetts_town_03 = {
+
+    type = special
+
+    can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+
+    cost_gold = expensive_building_tier_5_cost
+    construction_time = slow_construction_time
+
+    type_icon = "icon_structure_alhambra.dds"
+
+    character_modifier = {
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+    }
+
+    province_modifier = {
+	development_growth_factor = 0.20
+	supply_limit_mult = 0.20
+    }
+
+    county_modifier = {
+	monthly_county_control_growth_factor = 0.05
+    }
+
+    ai_value = {
+        base = 100
+    }
+
+    flag = travel_point_of_interest_economic
+}
 # agot_merryweather_longtable_court_01 = {
 
 #     type = special
@@ -3794,82 +3756,8 @@ agot_penrose_parchments_03 = {
 
     flag = travel_point_of_interest_learning
 }
-# agot_morrigen_crows_nest_01 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
 
 
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_building_legendary_watchtower.dds"
-
-#     character_modifier = {
-# 	defender_advantage = 5
-# 	knight_effectiveness_mult = 0.08
-# 	monthly_piety = 0.20
-# 	archers_damage_mult = 0.10
-# 	pikemen_damage_mult = 0.05
-#     }
-
-#     province_modifier = {
-# 	garrison_size = 0.15
-
-#     }
-
-#     county_modifier = {
-#         levy_size = 0.10
-# 	development_growth_factor = 0.08
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-#     flag = travel_point_of_interest_martial
-# }
-# agot_grandison_grandview_01 = {
-
-#     type = special
-
-#     can_construct_potential = {
-# 		building_requirement_tribal = no
-# 	}
-
-
-#     cost_gold = expensive_building_tier_3_cost
-#     construction_time = slow_construction_time
-
-#     type_icon = "icon_structure_kassiopi_castle.dds"
-
-#     character_modifier = {
-# 	court_grandeur_baseline_add = 2
-# 	monthly_prestige = 0.25
-# 	owned_personal_scheme_success_chance_add = 10
-# 	diplomacy = 2
-# 	defender_advantage = 2
-#     }
-
-#     province_modifier = {
-# 	fort_level = 2
-	
-#     }
-
-#     county_modifier = {
-#         county_opinion_add = 4
-# 	development_growth_factor = 0.06
-#     }
-
-#     ai_value = {
-#         base = 100
-#     }
-
-#     flag = travel_point_of_interest_diplomatic
-# }
 
 # agot_blackmont_castle_01 = {
 
