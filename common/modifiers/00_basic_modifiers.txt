@@ -17,6 +17,7 @@ diplomacy_modifier_with_offset = {
 	vassal_tax_mult = 0.005
 	vassal_limit = 0.5
 	army_damage_mult = 0.01
+	monthly_barter_goods_mult = 0.02
 }
 
 intrigue_modifier = {
@@ -35,7 +36,6 @@ intrigue_modifier_with_offset = { #Hambone
 
 stewardship_modifier = {
 	character_travel_speed = 1
-	monthly_barter_goods_mult = 0.01
 	development_growth_factor = 0.01
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.01
 }

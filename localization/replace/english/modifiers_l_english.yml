@@ -1394,8 +1394,8 @@
  recently_looted_modifier:0 "Recently Looted"
  recently_looted_modifier_desc:0 "This [holding|E] has been recently looted by a [raid|E] or [siege|E] and cannot be looted until this modifier expires."
 
- recently_bartered_modifier: "Recently Bartered"
- recently_bartered_modifier_desc: "A party of Traders from the Stepstones have recently [bartered|E] with this [holding|E] and it cannot be looted or bartered in until this modifier expires."
+ recently_bartered_modifier: "Recently Smuggled"
+ recently_bartered_modifier_desc: "A party of Smugglers from the Stepstones have recently [bartered|E] within this [holding|E] and it cannot be looted or smuggled with again until this modifier expires."
 
  shattered_defenses_modifier: "Shattered Defenses"
  shattered_defenses_modifier_desc: "This [holding|E] has recently had its defenses shattered by violent raiders."

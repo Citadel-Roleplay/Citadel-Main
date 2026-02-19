@@ -266,6 +266,23 @@
  building_citadel_greenstone:1 "Greenstone"
  building_citadel_greenstone_desc:1 "Seat of House Estermont, Greenstone rises above the stormy shores of a small island off Cape Wrath. Though neither the largest nor the richest of castles, its strong walls and sheltered harbor make it a steadfast coastal hold, guarding the Narrow Sea while its lords endure with patience and quiet resilience."
  
+ building_type_citadel_whitehills_01:1 "Whitehills Ironwood Forrests"
+ building_citadel_whitehills_01:1 "Whitehills Ironwood Forrests"
+ building_citadel_whitehills_01_desc:1 "After years of hardship, House Whitehill has once more succeeded in restoring its ironwood production through unmatched skill and determination. With saws running again and trade resuming, the time has come to prove that Whitehill ironwood stands far superior to that of House Forrester."
+ 
+ building_type_citadel_ironrath_01:1 "Forrester Ironwood Forests"
+ building_citadel_ironrath_01:1 "Forrester Ironwood Forests"
+ building_citadel_ironrath_01_desc:1 "The ironwood groves of Ironrath have already seen expansion, increasing production and strengthening House Forrester’s standing. Yet the Whitehills continue to press their own claims, and if Ironrath wishes to ensure they are not overtaken in power, further growth will be necessary."
+
+ building_type_citadel_ironrath_02:1 "Ironrath Ironwood Works"
+ building_citadel_ironrath_02:1 "Ironrath Ironwood Works"
+ building_citadel_ironrath_02_desc:1 "Driven by rivalry with House Whitehill, Ironrath pushes its ironwood production ever further. The forests yield more than ever before, though such relentless expansion comes at a cost, straining the land itself as House Forrester fights to secure its dominance in the North."
+
+
+ building_type_citadel_whitehills_02:1 "Whitehills Ironwood Works"
+ building_citadel_whitehills_02:1 "Whitehills Ironwood Works"
+ building_citadel_whitehills_02_desc:1 "Once again the Whitehills have outdone themselves. Ironwood production now runs at full strength, filling yards and storehouses with timber prized across the North. Yet even with such massive output, expansion seems difficult from here... perhaps those pesky Forresters still have more ironwood to spare after all."
+
  building_type_citadel_harrentown:1 "Harrentown"
  building_citadel_harrentown:1 "Harrentown"
  building_citadel_harrentown_desc:1 "Lying in the shadow of vast Harrenhal, Harrentown serves as a busy settlement of craftsmen, traders, and smallfolk drawn to the great castle nearby. Though often overlooked beside its colossal neighbor, the town remains an important center of trade and labor in the heart of the Riverlands."

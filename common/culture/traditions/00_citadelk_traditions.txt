@@ -202,3 +202,36 @@ tradition_citadel_horse = {
 		value = 400
 	}
 }
+
+# tradition_citadel_smuggle = {
+
+#         category = combat
+
+#         layers = {
+#             0 = martial
+#             1 = eastern
+#             4 = soldiers4.dds
+#         }
+
+# 		is_shown = {
+# 			always = no
+# 		}
+
+#         can_pick = {
+#             always = no
+# 	    }
+
+#         parameters = {
+#             can_culturally_barter = yes
+#         }
+
+#         character_modifier = {
+#         }
+
+#         cost = {
+#         }
+
+#         ai_will_do = {
+#             value = 0 #So the AI doesn't pick the Tradition.
+#         }
+# }
