@@ -136,4 +136,10 @@
  knight_of_blackwater: "Knights of Blackwater"
  knight_of_blackwater_flavor: "Drawn from the Crownlands surrounding Blackwater Bay, these knights are sworn to defend the heart of the realm. Well equipped and proud, they combine courtly discipline with battlefield experience gained from guarding the roads and shores near the capital."
 
- 
+ # Stepstones Firearchers
+ pirate_firebow: "Firearchers of the Stepstones"
+ pirate_firebow_flavor: "‘Dragons are gods,’ some say. The pirates of the Stepstones answer with fire. If their enemies fight with ruthless tactics, so will they. During the Stepstones Wars, these archers loosed flaming arrows into sky and sail alike, forcing even Daemon Targaryen and Caraxes to hesitate before diving into the fray. Smoke and flame turned the air into a weapon, making any direct assault from above a dangerous gamble."
+
+ # Stepstones Bowmen
+ pirate_bows_unit: "Stepstones Bowmen"
+ pirate_bows_unit_flavor: "Drawn from the lawless crews of the Stepstones, these pirate archers favor speed and surprise over discipline. Fighting from decks, cliffs, and hidden coves, they loose quick volleys before melting away into smoke, surf, and shadow."

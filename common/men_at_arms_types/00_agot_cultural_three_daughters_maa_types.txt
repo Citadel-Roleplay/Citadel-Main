@@ -143,6 +143,7 @@ weeping_guard = {
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_weeping_guard }
 		NOT = { government_has_flag = government_is_nw }
+		NOT = { government_has_flag = government_is_pirate }
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
@@ -249,6 +250,7 @@ myrish_crossbows = {
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_myrish_crossbows }
 		NOT = { government_has_flag = government_is_nw }
+		NOT = { government_has_flag = government_is_pirate }
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -352,6 +354,7 @@ ornate_helms = {
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_ornate_helms }
 		NOT = { government_has_flag = government_is_nw }
+		NOT = { government_has_flag = government_is_pirate }
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
