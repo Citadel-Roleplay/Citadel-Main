@@ -1629,14 +1629,13 @@ reach_spears = {
 reach_bowmen = { # Change this Nicken !
 	type = archers
 	icon = anglosaxon_bowmen
-	damage = 22
+	damage = 24
 	toughness = 15
 	pursuit = 0
 	screen = 2
 	max_regiments = 2
 	terrain_bonus = {
-		hills = { damage = 10  toughness = 10  }
-		urban = { damage = 10   }
+		hills = { damage = 5 }
 		forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		cloudforest = { damage = 5  toughness = 5  }
 		highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
@@ -1654,8 +1653,7 @@ reach_bowmen = { # Change this Nicken !
 		taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
 		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 
-		majorroad_hills = { damage = 10  toughness = 10   }
-		majorroad_urban = { damage = 10   }
+		majorroad_hills = { damage = 10 }
 		majorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_cloudforest = { damage = 5  toughness = 5   }
 		majorroad_highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
@@ -1738,8 +1736,8 @@ reach_crossbow = {
 	provision_cost = @provisions_cost_infantry_expensive
 	stack = 80
 	max_regiments = 2
-	damage = 45
-	toughness = 30
+	damage = 42
+	toughness = 20
 	pursuit = 0
 	screen = 0
 
