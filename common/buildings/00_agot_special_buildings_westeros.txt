@@ -1395,13 +1395,13 @@ agot_wayfarers_rest_01 = {
 	}
 
 	province_modifier = {
-		levy_size = 0.4
+		levy_size = 0.3
 	}
 
 	cost_gold = expensive_building_tier_7_cost
 
 	character_modifier = {
-		men_at_arms_maintenance = -0.25
+		men_at_arms_maintenance = -0.2
 	}
 
 	ai_value = {

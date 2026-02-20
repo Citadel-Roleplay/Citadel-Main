@@ -52,6 +52,14 @@
  reach_spears: "Reach Spears"
  reach_spears_flavor: "Raised from the fertile heartlands of the Reach, these spearmen fight in orderly ranks with long ash shafts and steady discipline. While not famed for ferocity, their cohesion and numbers make them a reliable wall of steel on the battlefield."
 
+ # Reach Bowmen
+ reach_bowmen: "Reach Bowmen"
+ reach_bowmen_flavor: "Drawn from the fertile fields and wooded vales of the Reach, these archers are well supplied and carefully trained. Fighting in disciplined ranks, the Reach Bowmen loose steady volleys that darken the sky before the clash of armies begins."
+
+ # Reach Crossbowmen
+ reach_crossbow: "Reach Crossbowmen"
+ reach_crossbow_flavor: "Equipped with sturdy crossbows forged in the prosperous towns of the Reach, these soldiers deliver powerful, armor-piercing volleys. Though slower to reload than traditional bowmen, their disciplined formations and steady aim make them a dangerous presence on the battlefield."
+
  # Westerlands Footmen
  westerlands_footmen: "Westerlands Footmen"
  westerlands_footmen_flavor: "Armored and disciplined, the Westerlands Footmen are equipped through the wealth of their gold rich homeland. Trained to fight in tight formations, these heavy infantry form a stubborn core that advances steadily behind shield and steel."
@@ -127,3 +135,5 @@
  # Crownlands Knights
  knight_of_blackwater: "Knights of Blackwater"
  knight_of_blackwater_flavor: "Drawn from the Crownlands surrounding Blackwater Bay, these knights are sworn to defend the heart of the realm. Well equipped and proud, they combine courtly discipline with battlefield experience gained from guarding the roads and shores near the capital."
+
+ 
