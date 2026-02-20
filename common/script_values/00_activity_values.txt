@@ -2218,7 +2218,7 @@ roaming_test_value = {
 # JOURNEY #
 ###########
 standard_journey_activity_cost = {
-	value = 10
+	value = 20
 	multiply = {
 		value = root.primary_title.tier
 		subtract = 1
@@ -2226,7 +2226,7 @@ standard_journey_activity_cost = {
 	}
 	if = {
 		limit = {
-			root.primary_title.tier > tier_duchy
+			root.primary_title.tier >= tier_duchy
 		}
 		add = 25
 	}
@@ -2418,12 +2418,12 @@ journey_inspired_journey_costs_value = {
 # SURVEY #
 ##########
 standard_survey_activity_cost = {
-	value = 50
+	value = 100
 	if = {
 		limit = {
-			root.primary_title.tier > tier_duchy
+			root.primary_title.tier >= tier_duchy
 		}
-		add = 25
+		add = 50
 	}
 	multiply = {
 		value = root.primary_title.tier
@@ -2618,7 +2618,7 @@ inspection_success_chance_value = {
 		}
 	}
 	min = 5
-	max = 95
+	max = 80
 }
 
 survey_province_development_info_value = { value = root.location.county.development_level }
