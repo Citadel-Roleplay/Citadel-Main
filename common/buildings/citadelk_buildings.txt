@@ -3405,7 +3405,7 @@ citadel_flints_finger = {
 citadel_ramsgate = {
 
 	construction_time = slow_construction_time
-
+	
 	type_icon = "icon_ma_castle_ferrara.dds"
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3979,7 +3979,10 @@ citadel_whitehills_01 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	asset = {
+		type = pdxmesh
+		name = "blackcrown_mesh"
+	}
 	cost_gold = 500
 
 	character_modifier = {
@@ -4013,7 +4016,10 @@ citadel_whitehills_02 = {
 	construction_time = 5000
 
 	type_icon = "icon_building_ironwoods.dds"
-
+	asset = {
+		type = pdxmesh
+		name = "blackcrown_mesh"
+	}
 	can_construct = {
 		scope:holder = {
 			dynasty = dynasty:dynn_Whitehill
@@ -4054,7 +4060,10 @@ citadel_whitehills_02 = {
 citadel_ironrath_01 = {
 
 	construction_time = 3500
-
+	asset = {
+        type = pdxmesh
+        name = "building_special_ironrath_mesh"
+    }
 	type_icon = "icon_building_ironwoods.dds"
 	next_building = citadel_ironrath_02
 	can_construct = {
@@ -4094,7 +4103,10 @@ citadel_ironrath_01 = {
 citadel_ironrath_02 = {
 
 	construction_time = 5000
-
+	asset = {
+        type = pdxmesh
+        name = "building_special_ironrath_mesh"
+    }
 	type_icon = "icon_building_ironwoods.dds"
 	levy = 500
 	is_enabled = {
