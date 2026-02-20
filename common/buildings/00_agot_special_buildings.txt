@@ -2741,7 +2741,10 @@ depleted_ironwood_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-
+	asset = {
+		type = pdxmesh
+		name = "blackcrown_mesh"
+	}
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}

@@ -3405,7 +3405,7 @@ citadel_flints_finger = {
 citadel_ramsgate = {
 
 	construction_time = slow_construction_time
-
+	
 	type_icon = "icon_ma_castle_ferrara.dds"
 	can_construct_potential = {
 		building_requirement_tribal = no
