@@ -19,8 +19,7 @@ forrester_legacy_1_BLA = { # Ironwood Lords
 
 	character_modifier = {
 		stewardship = 1
-		domain_tax_mult = 0.05
-		development_growth_factor = 0.05
+		development_growth_factor = 0.1
 	}
 
 	ai_chance = {
@@ -315,9 +314,8 @@ manderly_legacy_3 = { # White Harbor's Golden Gate
 	}
 
 	character_modifier = {
-		stewardship = 1
-		domain_tax_mult = 0.10
-		development_growth_factor = 0.05 
+		stewardship = 2
+		development_growth_factor = 0.1 
 	}
 	ai_chance = {
 		value = 100
@@ -457,7 +455,7 @@ dustin_legacy_4 = { # Lords of the Barrow
 	}
 	
 	character_modifier = { 
-		domain_tax_mult = 0.10
+		development_growth = 0.25
 		monthly_county_control_growth_factor = 0.15
 		monthly_piety_gain_mult = 0.05  
 	}
@@ -1132,9 +1130,8 @@ mooton_legacy_1 = { # Lord of the Pools
 	}
 
 	character_modifier = {
-		stewardship = 1
-		domain_tax_mult = 0.05
-		development_growth_factor = 0.05
+		stewardship = 2
+		development_growth_factor = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -1179,9 +1176,8 @@ mooton_legacy_3 = { # Salt-Harvest Lords
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
-		vassal_tax_mult = 0.10
-		supply_limit_mult = 0.10
+		vassal_tax_mult = 0.15
+		supply_limit_mult = 0.15
 	}
 	ai_chance = {
 		value = 100
@@ -1255,7 +1251,7 @@ darry_legacy_1 = { # Riders of the Redgrass, Bloody Meadow
 	}
 
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -1373,8 +1369,7 @@ frey_legacy_1 = { # Taking their Toll
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
-		vassal_tax_mult = 0.05
+		vassal_tax_mult = 0.1
 		hostile_raid_time = 0.15
 	}
 	ai_chance = {
@@ -1654,9 +1649,8 @@ reyne_legacy_2 = { # Silver and Blood
 		}
 	}
 	character_modifier = {
-		stewardship = 1
-		domain_tax_mult = 0.10 
-		development_growth_factor = 0.05		
+		stewardship = 2
+		development_growth_factor = 0.1		
 	}
 	ai_chance = {
 		value = 100
@@ -1802,9 +1796,8 @@ farman_legacy_3 = { # Fair Traders
 	}
 	
 	character_modifier = {
-		stewardship = 1
-		domain_tax_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		stewardship = 2
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 		same_culture_opinion = 10
 	}
 	ai_chance = {
@@ -1960,9 +1953,8 @@ crakehall_legacy_4 = { # Boar's Harvest
 	}
 
 	character_modifier = {
-		stewardship = 1
-		domain_tax_mult = 0.10
-		knight_limit = 1
+		stewardship = 2
+		knight_limit = 2
 	}
 	ai_chance = {
 		value = 100
@@ -2258,9 +2250,8 @@ grafton_legacy_1 = { # Lords of the Gulltown Quay
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
-		vassal_tax_mult = 0.10
-		development_growth_factor = 0.05
+		vassal_tax_mult = 0.15
+		development_growth_factor = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -5164,7 +5155,7 @@ westerling_legacy_5 = { # Lords of Dust and Echoes
 	}
 
 	character_modifier = {
-		knight_effectiveness_mult = 0.10
+		knight_effectiveness_mult = 0.15
 		monthly_lifestyle_xp_gain_mult = 0.05
 		legitimacy_gain_mult = 0.05
 	}
@@ -5546,7 +5537,7 @@ drumm_legacy_5 = { # Lords of the Deep Salt
 
 	character_modifier = {
 		martial = 1
-		domain_tax_mult = 0.10
+		heavy_infantry_maintenance_mult = -0.1
 		embarkation_cost_mult = -0.75
 		naval_movement_speed_mult = 0.20
 	}
@@ -6278,9 +6269,8 @@ lannister_legacy_3 = { # Golden Lions
 	
 	character_modifier = {
 		stewardship = 1
-		vassal_tax_mult = 0.02
-		domain_tax_mult = 0.05
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		vassal_tax_mult = 0.1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -6841,7 +6831,7 @@ tully_legacy_4 = { # Riverlords
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.10
-		domain_tax_mult = 0.10
+		vassal_tax_mult = 0.10
 		vassal_limit = 2
 		same_culture_opinion = 10
 	}
@@ -6865,8 +6855,8 @@ tully_legacy_5 = { # The River Remembers
 	}
 
 	character_modifier = {
-		domain_limit = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+		diplomacy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
 		# monthly_dynasty_prestige = 0.05
 		dread_decay_mult = -0.25
 		
@@ -7951,7 +7941,7 @@ templeton_legacy_5 = { # The Ninth Star Rises
 
 	character_modifier = {
 		additional_fort_level = 1
-		domain_limit = 1
+		development_growth = 0.15
 	}
 	ai_chance = {
 		value = 100
@@ -8659,7 +8649,7 @@ butterwell_legacy_2 = { # Coin Over Crown
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.15 
+		vassal_tax_mult = 0.15 
 		liege_opinion = 10
 	}
 	ai_chance = {
@@ -8838,7 +8828,7 @@ vypren_legacy_4 = { # Keepers of the Crossing
 		monthly_county_control_growth_factor = 0.10
 		supply_limit_mult = 0.1  
 		travel_danger = -10  
-		domain_tax_mult = 0.05
+		vassal_tax_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -8867,6 +8857,7 @@ vypren_legacy_5 = { #  Taking the Leap
 	character_modifier = {
 		knight_effectiveness_mult = 0.10
 		stewardship = 1
+		intrigue = 1
 	}
 	ai_chance = {
 		value = 100
@@ -8990,7 +8981,7 @@ flint_legacy_5 = { #  Harder Than Stone
 	}
 
 	character_modifier = {
-		domain_limit = 1 
+		martial = 1
 		levy_size = 0.10
 		winter_movement_speed = 0.20
 	}
@@ -9583,8 +9574,8 @@ lefford_legacy_3 = { # Coin Through Stone
 	}
 
 	character_modifier = {
-		vassal_tax_mult = 0.5
-		domain_tax_mult = 0.10 
+		vassal_tax_mult = 0.3
+		stewardship = 1
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05  
 	}
 	ai_chance = {
@@ -9798,7 +9789,7 @@ goodbrother_legacy_1 = { # Hardstone Lords
 
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.10
-		domain_tax_mult = 0.10  
+		build_gold_cost = -0.1 
 		development_growth_factor = 0.05
 	}
 	ai_chance = {
@@ -10648,7 +10639,7 @@ brax_legacy_4 = { # Vales and Vineyards
 	}
 
 	character_modifier = { 
-		domain_tax_mult = 0.20  
+		martial = 2
 		development_growth_factor = 0.05   
 		monthly_county_control_growth_factor = 0.10 
 	}
@@ -13156,9 +13147,9 @@ caswell_legacy_5 = { #  Bridge Endures
 
 	character_modifier = {
 		additional_fort_level = 1
-		domain_tax_mult = 0.05
-		general_opinion = 5
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		stewardship = 2
+		general_opinion = 10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 
 	}
 	ai_chance = {
@@ -13468,7 +13459,7 @@ hewett_legacy_2 = { # Harbor Lords
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
+		vassal_tax_mult = 0.10
 		development_growth_factor = 0.10
 		monthly_prestige = 0.25
 	}
@@ -13542,10 +13533,10 @@ hewett_legacy_5 = { #  Oaken Shields of the Reach
 	}
 
 	character_modifier = {
-		general_opinion = 5
+		general_opinion = 10
 		court_grandeur_baseline_add = 1
-		tax_mult = 0.10
-		knight_effectiveness_mult = 0.10
+		knight_effectiveness_mult = 0.15
+		heavy_infantry_maintenance_mult = -0.15
 	}
 	ai_chance = {
 		value = 100
@@ -13567,7 +13558,7 @@ ashford_legacy_1 = { # First of the Fords
 
 	character_modifier = {
 		stewardship = 1
-        	domain_tax_mult = 0.10
+        	vassal_tax_mult = 0.10
         	development_growth_factor = 0.05
 	}
 	ai_chance = {
@@ -13618,7 +13609,7 @@ ashford_legacy_3 = { # Ashford Tourney Tradition
 	}
 	
 	character_modifier = {
-		 prowess = 1
+		 prowess = 2
         	 knight_effectiveness_mult = 0.15
         	 monthly_prestige = 0.25
 	}
@@ -13694,7 +13685,6 @@ merryweather_legacy_1 = { # Lords of Longtable
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
 		development_growth_factor = 0.10
 		monthly_prestige = 0.25
 	}
@@ -13853,7 +13843,6 @@ mullendore_legacy_2 = { # Lords of Uplands
 	}
 
 	character_modifier = { 
-		domain_tax_mult = 0.10
 		development_growth_factor = 0.10
 		stewardship = 1
 	}
@@ -13905,7 +13894,7 @@ mullendore_legacy_4 = { # Queen’s Favor
 		legitimacy_gain_mult = 0.05
 		attraction_opinion = 5
 		liege_opinion = 10
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -13928,8 +13917,8 @@ mullendore_legacy_5 = { #  Prestige of the Butterfly
 
 	character_modifier = {
 		# monthly_dynasty_prestige = 0.05
-		courtier_and_guest_opinion = 10
-		diplomacy = 1
+		courtier_and_guest_opinion = 15
+		diplomacy = 2
 		court_grandeur_baseline_add = 2
 	}
 	ai_chance = {
@@ -13980,7 +13969,7 @@ footly_legacy_2 = { # Keepers of Tumbleton
 
 	character_modifier = {
 		development_growth_factor = 0.10
-		domain_tax_mult = 0.10
+		stewardship = 1
 		monthly_county_control_growth_factor = 0.10
 	}
 	ai_chance = {
@@ -14057,7 +14046,7 @@ footly_legacy_5 = { #  Tread Lightly Here
 	}
 
 	character_modifier = {
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 		legitimacy_gain_mult = 0.05
 		same_culture_opinion = 5
 	}
@@ -14085,7 +14074,7 @@ meadows_legacy_1 = { # Grassfield Husbandry
 
 	character_modifier = {
 		development_growth_factor = 0.10
-		domain_tax_mult = 0.10
+		vassal_tax_mult = 0.10
 		supply_limit_mult = 0.10
 	}
 	ai_chance = {
@@ -14184,8 +14173,8 @@ meadows_legacy_5 = { #  Meadowlord’s Bounty
 	}
 
 	character_modifier = {
-		stewardship = 1
-		vassal_opinion = 5
+		stewardship = 2
+		vassal_opinion = 10
 		court_grandeur_baseline_add = 1
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
 	}
@@ -14237,7 +14226,7 @@ varner_legacy_2 = { # Gift of the Sage Kings
 
 	character_modifier = {
 		liege_opinion = 10
-		domain_tax_mult = 0.10
+		vassal_tax_mult = 0.10
 		monthly_county_control_growth_factor = 0.10
 	}
 	ai_chance = {
@@ -14371,7 +14360,6 @@ ambrose_legacy_2 = { # Never Resting
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.10
 		levy_reinforcement_rate = 0.10
 		stress_gain_mult = -0.10
 	}
@@ -14740,7 +14728,7 @@ vyrwel_legacy_1 = { # Darkdell Lords
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
+		liege_opinion = 10
 		monthly_county_control_growth_factor = 0.10
 		stress_loss_mult = 0.05 
 	}
@@ -14972,7 +14960,7 @@ serrett_legacy_5 = { # Legacy of Silverhill
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
+		vassal_tax_mult = 0.1
 		monthly_county_control_growth_factor = 0.10
 		stress_loss_mult = 0.05 
         	vassal_opinion = 5
@@ -15127,7 +15115,7 @@ plumm_legacy_1 = { # Roots of Stone
 
 	character_modifier = {
 		monthly_prestige = 0.20
-		domain_tax_mult = 0.10
+		vassal_tax_mult = 0.10
 		monthly_county_control_growth_factor = 0.10
 	}
 	ai_chance = {
@@ -15286,7 +15274,6 @@ greenfield_legacy_2 = { # Timber Lords
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
 		development_growth_factor = 0.10
 		build_gold_cost = -0.05 
 	}
@@ -17451,8 +17438,7 @@ hornwood_legacy_4 = { # White Knife Wardens
 
 	character_modifier = { 
 		supply_limit_mult = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
-		domain_tax_mult = 0.10
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 		movement_speed = 0.10
 	}
 	ai_chance = {
@@ -17714,10 +17700,9 @@ cerwyn_legacy_4 = { # Stewards of the Kingsroad
 
 
 	character_modifier = { 
-		monthly_county_control_growth_factor = 0.12
+		monthly_county_control_growth_factor = 0.15
 		defender_advantage = 5
 		development_growth_factor = 0.05
-		domain_tax_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -17820,9 +17805,8 @@ whitehill_legacy_3 = { # Ironwood Feud
 	}
 
 	character_modifier = { 
-		domain_tax_mult = 0.05
-		build_gold_cost = -0.05
-		build_speed = -0.05
+		build_gold_cost = -0.1
+		build_speed = -0.1
 	}
 	ai_chance = {
 		value = 100
@@ -18666,10 +18650,9 @@ hardyng_legacy_4 = { # Feather and Chain
 	}
 
 	character_modifier = {
-		stewardship = 1
+		stewardship = 2
 		monthly_county_control_growth_factor = 0.10
-		vassal_opinion = 5
-		domain_tax_mult = 0.05
+		vassal_opinion = 10
 		court_grandeur_baseline_add = 1
 	}
 	ai_chance = {
@@ -19111,10 +19094,9 @@ hunter_legacy_5 = { # Feather-Law and Field Rights
 	}
 
 	character_modifier = {
-		stewardship = 1
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
-		tyranny_gain_mult = -0.10  
-		domain_tax_mult = 0.05            
+		stewardship = 2
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		tyranny_gain_mult = -0.10       
 		county_opinion_add = 10
 	}
 	ai_chance = {
@@ -19169,8 +19151,7 @@ borrell_legacy_2_BLA = { # Web of the Spider Crab
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
-		men_at_arms_maintenance = -0.05
+		men_at_arms_maintenance = -0.1
 		tyranny_gain_mult = -0.05
 		hostile_raid_time = 0.10
 	}
@@ -19361,7 +19342,7 @@ paege_legacy_4 = { # Quay-Ledgers and River Oaths
 
 	character_modifier = {
 		development_growth_factor = 0.05
-		domain_tax_mult = 0.05
+		stewardship = 2
 		hostile_raid_time = 0.10
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 	}
@@ -19473,7 +19454,6 @@ charlton_legacy_3 = { # Under the Twins' Toll
 		levy_reinforcement_rate = 0.10
 		heavy_infantry_toughness_mult = 0.05
 		liege_opinion = 10
-		domain_tax_mult = 0.08 
 	}
 	ai_chance = {
 		value = 100
@@ -19581,7 +19561,6 @@ smallwood_legacy_2 = { # Clearing Claimed by Oak
 		stewardship = 1
 		supply_limit_mult = 0.10
 		hostile_raid_time = 0.10
-		domain_tax_mult = 0.05
 	}
 	ai_chance = {
 		value = 100
@@ -20051,10 +20030,9 @@ graceford_legacy_4 = { # Tithes and Tend
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
-		development_growth_factor = 0.05
-		build_gold_cost  -0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		development_growth_factor = 0.1
+		build_gold_cost  -0.15
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -20599,7 +20577,6 @@ ryger_legacy_4 = { # Law of the Low Banks
 	character_modifier = {
 		monthly_county_control_growth_factor = 0.10
 		supply_limit_mult = 0.10
-		domain_tax_mult = 0.05
 		hostile_raid_time = 0.10
 		build_gold_cost = -0.05
 	}
@@ -20762,10 +20739,9 @@ seaworth_legacy_5 = { # Cape Wrath Searoads
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.05
 		development_growth_factor = 0.05
-		mercenary_hire_cost_mult = -0.10
-		stewardship = 1
+		mercenary_hire_cost_mult = -0.15
+		stewardship = 2
 		monthly_martial_lifestyle_xp_gain_mult = 0.05
 	}
 	ai_chance = {
@@ -21248,10 +21224,9 @@ volmark_legacy_3 = { # Harlaw Sea-Claims
 	}
 
 	character_modifier = { 
-		domain_tax_mult = 0.05
-		development_growth_factor = 0.05
-		supply_limit_mult = 0.08
-		build_speed = -0.05
+		development_growth_factor = 0.1
+		supply_limit_mult = 0.15
+		build_speed = -0.1
 	}
 	ai_chance = {
 		value = 100
@@ -21678,10 +21653,9 @@ swyft_legacy_4 = { # Sharp Tongues, Shrewd Ledgers
 	}
 
 	character_modifier = {
-		vassal_tax_mult = 0.05
-		domain_tax_mult = 0.05
+		vassal_tax_mult = 0.1
 		monthly_county_control_growth_factor = 0.10
-		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.1
 	}
 	ai_chance = {
 		value = 100
@@ -21761,7 +21735,7 @@ jast_legacy_2 = { # Pact of Stone and Steel
 
 	character_modifier = {
 		development_growth_factor = 0.05
-		domain_tax_mult = 0.05
+		stewardship = 1
 		build_speed = -0.05
 	}
 	ai_chance = {
@@ -22304,8 +22278,8 @@ botley_legacy_2 = { # Shoal of Silver
 		diligent = 100
 	}
 	character_modifier = {
-		domain_tax_mult = 0.05
-		build_speed = -0.05
+		build_gold_cost = -0.1
+		build_speed = -0.1
 		supply_limit_mult = 0.10
 	}
 	ai_chance = {
@@ -22684,7 +22658,7 @@ waxley_legacy_1 = { #  Candles of Wickenden
 	}
 
 	character_modifier = {
-		domain_tax_mult = 0.07
+		build_gold_cost = -0.1
 		development_growth_factor = 0.05
 		court_grandeur_baseline_add = 1
 	}
@@ -22790,10 +22764,10 @@ waxley_legacy_5 = { # Master Chandlers’ Guild
 	}
 
 	character_modifier = {
-		tax_mult = 0.10
+		stewardship = 1
 		monthly_prestige = 0.25
 		men_at_arms_maintenance = -0.05
-		general_opinion = 5
+		general_opinion = 10
 	}
 	ai_chance = {
 		value = 100

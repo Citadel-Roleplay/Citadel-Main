@@ -318,7 +318,7 @@ rykker_legacy_2 = {
 		character_modifier = {
 			development_growth_factor = 0.25
 			supply_capacity_mult = 0.15
-			domain_tax_mult = 0.15
+			stewardship = 1
 		}
 }
 
@@ -340,10 +340,10 @@ rykker_legacy_3 = {
 		}
 	
 		character_modifier = {
-			high_valyrian_opinion = 25
-			vassal_opinion = 30
+			high_valyrian_opinion = 15
+			vassal_opinion = 20
 			control_growth = 0.25
-			vassal_tax_mult = 0.3
+			vassal_tax_mult = 0.2
 		}
 }
 
@@ -365,8 +365,8 @@ rykker_legacy_4 = {
 		}
 	
 		character_modifier = {
-			accolade_glory_gain_mult = 0.05
-			prowess = 1
+			accolade_glory_gain_mult = 0.1
+			prowess = 2
 		}
 }
 
@@ -389,7 +389,7 @@ rykker_legacy_5 = {
 	
 		character_modifier = {
 			diplomacy = 3
-			general_opinion = 10
+			general_opinion = 15
 		}
 }
 
@@ -635,7 +635,7 @@ staedmon_legacy_5 = {
 	
 		character_modifier = {
 			diplomacy = 2
-			domain_tax_mult = 0.10
+			vassal_tax_mult = 0.10
 			general_opinion = 10
 		}
 }
