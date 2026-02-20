@@ -786,9 +786,9 @@ combat_event.1001 = {
 						}
 						modifier = {
 							factor = { # Prowess directly reduces chance of capture.
-								value = 30 # Value at which 'immunity' happens.
+								value = 40 # Value at which 'immunity' happens.
 								subtract = prowess
-								divide = 30
+								divide = 40
 								min = 0.1 # Everyone makes mistakes.
 							}
 						}
@@ -940,7 +940,7 @@ combat_event.1001 = {
 						# Being stackwiped greatly increases the chance of capture and/or death.
 						modifier = {
 							scope:wipe = yes
-							factor = 0.20
+							factor = 0.15
 						}
 					}
 					15 = { # Imprisonment
@@ -952,9 +952,9 @@ combat_event.1001 = {
 
 						modifier = {
 							factor = { # Prowess directly reduces chance of capture
-								value = 30 # Value at which 'immunity' happens
+								value = 40 # Value at which 'immunity' happens
 								subtract = prowess
-								divide = 30
+								divide = 40
 								min = 0.1 # Everyone makes mistakes.
 							}
 						}
