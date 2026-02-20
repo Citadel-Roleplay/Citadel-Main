@@ -811,7 +811,6 @@ wylde_legacy_2 = {
 			controlled_province_advantage = 5
 			archers_toughness_add = 2
 			archers_damage_add = 4
-			archers_pursuit_mult = 0.1
 			archers_maintenance_mult = 0.1
 		}
 }

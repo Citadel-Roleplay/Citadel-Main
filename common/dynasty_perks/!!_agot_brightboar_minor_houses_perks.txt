@@ -872,7 +872,7 @@ florent_legacy_5 = { # The Foxes Messengers
 	character_modifier = {
 		movement_speed = 0.05
 		pursue_efficiency = 0.05
-		light_cavalry_damage_mult = 0.1
+		heavy_cavalry_damage_mult = 0.1
 	}
 	
 	ai_chance = {
@@ -1403,9 +1403,9 @@ caron_legacy_3 = { # Heirs of Ellyn Caron
     }
 
     character_modifier = {
-		pikemen_maintenance_mult = -0.1
-		pikemen_damage_mult = 0.05 
-		pikemen_toughness_mult = 0.05
+		archers_maintenance_mult = -0.1
+		archers_damage_mult = 0.05 
+		archers_toughness_mult = 0.05
     }
 
     ai_chance = {
@@ -2925,6 +2925,7 @@ fowler_legacy_1 = { # Lords of the Wide Way
     }
 
     character_modifier = {
+        intrigue = 1
 		stormlander_main_opinion = -10
 		reachman_opinion = -10
 		shieldman_opinion = -10
@@ -2986,9 +2987,9 @@ fowler_legacy_3 = { # House of the Blue Hawk
 
     character_modifier = {
 		prowess = 1
-		skirmishers_maintenance_mult = -0.05
-		skirmishers_damage_mult = 0.05 
-		skirmishers_toughness_mult = 0.05
+		light_cavalry_maintenance_mult = -0.05
+		light_cavalry_damage_mult = 0.05 
+		light_cavalry_toughness_mult = 0.05
     }
 
     ai_chance = {
@@ -3533,8 +3534,8 @@ qorgyle_legacy_1 = { # The Scorpions Stinger
 
     character_modifier = {
 		prowess = 1
-		pikemen_maintenance_mult = -0.1
-		pikemen_damage_mult = 0.10
+		skirmishers_maintenance_mult = -0.1
+		skirmishers_damage_mult = 0.10
     }
 
     ai_chance = {
@@ -4439,6 +4440,7 @@ toland_legacy_2 = { # As Illusive as a Ghost
 		intrigue = 1
 		prowess = 2
 		dread_gain_mult = 0.15
+        skirmishers_maintenance_mult = -0.05
 	}
 
     ai_chance = {
@@ -4520,10 +4522,9 @@ toland_legacy_5 = { # Spears of the Ghosts
 
     character_modifier = {
 		prowess = 1
-		pikemen_maintenance_mult = -0.1
-		pikemen_damage_mult = 0.05 
-		pikemen_toughness_mult = 0.05
-		pikemen_max_size_add = 1
+		skirmishers_damage_mult = 0.05 
+		skirmishers_toughness_mult = 0.05
+		skirmishers_max_size_add = 1
     }
 
     ai_chance = {
@@ -5059,9 +5060,9 @@ bar_emmon_legacy_4 = { # Swords of the Bay
 	}
 
 	character_modifier = {
-		skirmishers_maintenance_mult = -0.05
-		skirmishers_damage_mult = 0.05 
-		skirmishers_toughness_mult = 0.05
+		light_cavalry_maintenance_mult = -0.05
+		light_cavalry_damage_mult = 0.05 
+		light_cavalry_toughness_mult = 0.05
 	}
 
 	ai_chance = {
@@ -5686,9 +5687,9 @@ stokeworth_legacy_1 = { # Swords of the Lamb
     }
 
     character_modifier = {
-		heavy_infantry_maintenance_mult = -0.1
-		heavy_infantry_damage_mult = 0.05 
-		heavy_infantry_toughness_mult = 0.05
+		skirmishers_maintenance_mult = -0.1
+		skirmishers_damage_mult = 0.05 
+		skirmishers_toughness_mult = 0.05
     }
     
     ai_chance = {
@@ -6146,7 +6147,7 @@ hayford_legacy_2 = { # Scouts of the Blackwater
     character_modifier = {
         movement_speed = 0.1
 		pursue_efficiency = 0.1
-		light_cavalry_damage_mult = 0.1
+		pikemen_damage_mult = 0.1
     }
     
     ai_chance = {
