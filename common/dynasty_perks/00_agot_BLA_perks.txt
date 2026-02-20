@@ -2160,7 +2160,7 @@ corbray_legacy_2 = { # Heart's Discipline
 	character_modifier = {
 		additional_fort_level = 1
 		monthly_county_control_growth_factor = 0.05
-		heavy_infantry_toughness_mult = 0.10
+		skirmishers_toughness_mult = 0.10
 	}
 	ai_chance = {
 		value = 100
@@ -4796,7 +4796,7 @@ vance_legacy_1 = { # Gatekeepers of the Trident
 
 	character_modifier = {
 		additional_fort_level = 1
-		archers_damage_mult = 0.10
+		heavy_cavalry_damage_mult = 0.05
 		men_at_arms_maintenance = -0.10
 	}
 	ai_chance = {
@@ -7842,6 +7842,10 @@ templeton_legacy_1 = { # Knight of Nine Stars
 		knight_effectiveness_mult = 0.10
 		monthly_prestige = 0.25
 		same_culture_opinion = 5
+		heavy_cavalry_maintenance_mult = -0.1
+		heavy_cavalry_damage_mult = 0.15
+		heavy_cavalry_toughness_mult = 0.15
+		heavy_cavalry_max_size_add = 1
 	}
 	ai_chance = {
 		value = 100
@@ -9716,7 +9720,7 @@ marbrand_legacy_3 = { # Wardens of the Western Hills
 	character_modifier = {
 		movement_speed = 0.10  
 		hills_advantage = 10  
-		light_cavalry_damage_mult = 0.15
+		skirmishers_damage_mult = 0.15
 	}
 	ai_chance = {
 		value = 100
@@ -12839,7 +12843,7 @@ sunglass_legacy_3 = { # Dragonstone Bannermen
 		liege_opinion = 10
 		martial = 1
 		knight_effectiveness_mult = 0.05
-		pikemen_damage_mult = 0.10
+		skirmishers_damage_mult = 0.10
 	}
 	ai_chance = {
 		value = 100
@@ -13743,8 +13747,8 @@ merryweather_legacy_3 = { # The Rout at the Gods Eye
 	character_modifier = {
 		martial = 1
 		knight_effectiveness_mult = 0.05
-		heavy_infantry_damage_mult = 0.05
-		heavy_infantry_toughness_mult = 0.10
+		pikemen_damage_mult = 0.05
+		pikemen_toughness_mult = 0.10
 	}
 	ai_chance = {
 		value = 100
@@ -14002,7 +14006,7 @@ footly_legacy_3 = { # Oaths to Highgarden
 		martial = 1
 		knight_effectiveness_mult = 0.10
 		liege_opinion = 10
-		heavy_infantry_toughness_mult = 0.10
+		pikemen_toughness_mult = 0.10
 	}
 	ai_chance = {
 		value = 100
@@ -18110,7 +18114,7 @@ tallhart_legacy_4 = { # Earthwrights of Cailin
 	character_modifier = {
 		defender_advantage = 5
 		the_bog_advantage = 20 
-        	skirmishers_toughness_mult = 0.15
+        	light_cavalry_toughness_mult = 0.15
         	supply_limit_mult = 0.10   
 		hostile_raid_time = 0.10
 	}
