@@ -1404,8 +1404,8 @@ caron_legacy_3 = { # Heirs of Ellyn Caron
 
     character_modifier = {
 		archers_maintenance_mult = -0.1
-		archers_damage_mult = 0.05 
-		archers_toughness_mult = 0.05
+		archers_damage_mult = 0.1 
+		archers_toughness_mult = 0.1
     }
 
     ai_chance = {
@@ -1487,7 +1487,6 @@ selmy_legacy_1 = { # Sentinels of the Fertile Fields
     }
 
     character_modifier = {
-		domain_tax_mult = 0.05
 		diplomacy = 1
 		learning = 1
     }
@@ -1695,7 +1694,8 @@ dondarrion_legacy_3 = { # Lords of Blackhaven
     }
 
     character_modifier = {
-		domain_tax_mult = 0.1
+		martial = 1
+        monthly_martial_lifestyle_xp_gain_mult = 0.1
     }
 
     ai_chance = {
@@ -1900,8 +1900,8 @@ swann_legacy_5 = { # Lords of Stonehelm
     }
 
     character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
-		martial = 1
+		monthly_martial_lifestyle_xp_gain_mult = 0.1
+		martial = 2
     }
 
     ai_chance = {
@@ -1958,7 +1958,7 @@ tarth_legacy_2 = { # First Men and Andals
     character_modifier = {
 		monthly_prestige_gain_per_knight_mult  = 0.01
 		knight_limit = 1
-		knight_effectiveness_mult = 0.05
+		knight_effectiveness_mult = 0.1
 		monthly_piety = 0.05
     }
 
@@ -3645,13 +3645,12 @@ qorgyle_legacy_5 = { # Loyal Bannermen
     }
 
     traits = {
-		
+		patient = 100
     }
 
     character_modifier = {
 		liege_opinion = 15
-		diplomacy = 1
-		intrigue = -1
+		intrigue = 2
     }
 
     ai_chance = {
@@ -4229,7 +4228,7 @@ vaith_legacy_5 = { # House of the Panther
     }
 
     character_modifier = {
-		prowess = 1
+		prowess = 2
 		attraction_opinion = 10
 		glory_hound_opinion = 10
     }
@@ -5828,7 +5827,6 @@ buckwell_legacy_1 = { # Fertile Forests
     }
 
     character_modifier = {
-        domain_tax_mult = 0.15
 		diplomacy = 1
 		learning = 2
     }
@@ -6061,7 +6059,7 @@ rosby_legacy_4 = { # Royalists to the Core
 
     character_modifier = {
         diplomacy = 1
-		opinion_of_liege = 1 
+		liege_opinion = 15 
     }
 
     ai_chance = {
@@ -6087,7 +6085,7 @@ rosby_legacy_5 = { # Ermine Hunters
     }
 
     character_modifier = {
-        monthly_prestige_gain_mult = 0.05
+        monthly_prestige_gain_mult = 0.15
 		stress_loss_mult = 0.1
     }
     
@@ -7031,7 +7029,7 @@ peasebury_legacy_3 = { # Fields of Plenty
     }
 
     character_modifier = {
-        domain_tax_mult = 0.1
+        development_growth = 0.15
 		diplomacy = 1
     }
     
