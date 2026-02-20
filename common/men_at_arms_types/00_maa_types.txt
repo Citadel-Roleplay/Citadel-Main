@@ -277,6 +277,9 @@ bowmen = {
 	}
 
 	can_recruit = {
+		# NOT = {
+		# this = culture:crownlander 
+		# }
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -289,7 +292,8 @@ bowmen = {
 			culture = { has_cultural_parameter = unlock_maa_rain_bringers }  
 			culture = { has_cultural_parameter = unlock_maa_ironborn_reavers }     
 			culture = { has_cultural_parameter = unlock_maa_winged_knights } 
-			culture = { has_cultural_parameter = unlock_northman_maa } 
+			culture = { has_cultural_parameter = unlock_northman_maa }
+			culture = { has_innovation = innovation_agot_reach_fighting } 
 		}
 		NOT = {
 			valid_for_maa_trigger = {
@@ -1273,6 +1277,7 @@ crossbowmen = {
 		}
 		NOT = {
 			culture = { has_innovation = innovation_agot_dorne_fighting }
+			culture = { has_innovation = innovation_agot_reach_fighting } 
 		}
 		NOT = {
 				valid_for_maa_trigger = {
