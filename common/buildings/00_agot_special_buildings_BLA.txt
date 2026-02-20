@@ -46,13 +46,14 @@ agot_mormont_russet_den_01 = {
 		building_requirement_tribal = no
 	}
 
-
+    effect_desc = ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect 
 	cost_gold = 3000
 
 	character_modifier = {
 		stress_loss_mult = 0.1
-		monthly_prestige = 0.4
+		monthly_prestige = 0.5
 		monthly_piety = 0.3
+        prowess = 2
 	}
 
 	province_modifier = {

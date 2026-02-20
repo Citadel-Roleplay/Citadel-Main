@@ -281,6 +281,7 @@ bowmen = {
 		# this = culture:crownlander 
 		# }
 		NOR = {
+			government_has_flag = government_is_pirate 
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 			#AGOT Added
@@ -644,6 +645,7 @@ pikemen_unit = {
 			government_has_flag = government_is_herder
 			#AGOT Added
 			government_has_flag = government_is_nw
+			government_has_flag = government_is_pirate 
 		}
 		NOR = {
 			culture = { has_innovation = innovation_agot_northern_fighting }
@@ -798,6 +800,7 @@ armored_footmen = {
 	}
 
 	can_recruit = {
+		NOT = { government_has_flag = government_is_pirate }
 		culture = {
 			#AGOT Modfied
 			# has_innovation = innovation_quilted_armor
@@ -895,9 +898,10 @@ onager = {
 	# siege_tier = 1
 	# siege_value = 0.2
 	siege_tier = 2
-	siege_value = 0.3
+	siege_value = 0.4
 
 	can_recruit = {
+		NOT = { government_has_flag = government_is_pirate }
 		culture = {
 			has_innovation = innovation_catapult
 			#AGOT Disabled
@@ -1038,6 +1042,7 @@ armored_horsemen = {
 			government_has_flag = government_is_herder
 			#AGOT Added
 			government_has_flag = government_is_nw
+			government_has_flag = government_is_pirate 
 		}
 		NOT = {
 			OR = {
@@ -1130,6 +1135,7 @@ mangonel = {
 	siege_value = 0.4
 
 	can_recruit = {
+		NOT = { government_has_flag = government_is_pirate }
 		culture = {
 			has_innovation = innovation_mangonel
 			#AGOT Disabled
@@ -1349,7 +1355,7 @@ trebuchet = {
 	# siege_tier = 3
 	# siege_value = 0.4
 	siege_tier = 4
-	siege_value = 0.6
+	siege_value = 0.7
 
 	can_recruit = {
 		culture = {

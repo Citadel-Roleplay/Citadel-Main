@@ -49,6 +49,7 @@ scorpions = {
 	can_recruit = {
 		culture = { has_innovation = innovation_agot_anti_dragon_fighting }
 		NOT = { government_has_flag = government_is_nw }
+		NOT = { government_has_flag = government_is_pirate }
 	}
 
 	allowed_in_hired_troops = no
