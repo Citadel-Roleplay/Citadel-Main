@@ -107,16 +107,16 @@ forrester_legacy_track_BLA = {
 		}
 	}
 }
-forrester_legacy_track = {
-	is_shown = {
-		OR = {
-			dynasty = dynasty:dynn_Forrester
-		}
-		NOT = {
-			dynasty = { has_dynasty_perk = forrester_legacy_1_BLA }
-		}
-	}
-}
+# forrester_legacy_track = {
+# 	is_shown = {
+# 		OR = {
+# 			dynasty = dynasty:dynn_Forrester
+# 		}
+# 		NOT = {
+# 			dynasty = { has_dynasty_perk = forrester_legacy_1_BLA }
+# 		}
+# 	}
+# }
 
 bolton_legacy_track_BLA = {
 	is_shown = {
@@ -1282,16 +1282,16 @@ borrell_legacy_track_BLA = {
 		}
 	}
 }
-borrell_legacy_track = {
-	is_shown = {
-		OR = {
-			dynasty = dynasty:dynn_Borrell
-		}
-		NOT = {
-			dynasty = { has_dynasty_perk = borrell_legacy_1_BLA }
-		}
-	}
-}
+# borrell_legacy_track = {
+# 	is_shown = {
+# 		OR = {
+# 			dynasty = dynasty:dynn_Borrell
+# 		}
+# 		NOT = {
+# 			dynasty = { has_dynasty_perk = borrell_legacy_1_BLA }
+# 		}
+# 	}
+# }
 paege_legacy_track = {
 	is_shown = {
 		OR = {
