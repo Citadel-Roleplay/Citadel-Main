@@ -1607,8 +1607,8 @@ royal_armory_01 = {
 		parameter = better_armory_buildings
 		stationed_maa_damage_mult = normal_maa_damage_tier_1
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
-		stationed_heavy_cavalry_damage_mult = -0.05
-		stationed_heavy_cavalry_toughness_mult = -0.05
+		stationed_heavy_cavalry_damage_mult = -0.125
+		stationed_heavy_cavalry_toughness_mult = -0.125
 	}
 	
 	next_building = royal_armory_02
@@ -1692,14 +1692,16 @@ royal_armory_02 = {
 
 	duchy_capital_county_culture_modifier = {
 		parameter = better_armory_buildings
-		build_gold_cost = -0.15
-		holding_build_gold_cost = -0.15
+		build_gold_cost = -0.025
+		holding_build_gold_cost = -0.025
 	}
 
 	province_culture_modifier = {
 		parameter = better_armory_buildings
 		stationed_maa_damage_mult = normal_maa_damage_tier_2
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		stationed_heavy_cavalry_damage_mult = -0.1
+		stationed_heavy_cavalry_toughness_mult = -0.1
 	}
 	
 	next_building = royal_armory_03
@@ -1747,8 +1749,8 @@ royal_armory_03 = {
 	
 	duchy_capital_county_culture_modifier = {
 		parameter = better_armory_buildings
-		build_gold_cost = -0.2
-		holding_build_gold_cost = -0.2
+		build_gold_cost = -0.05
+		holding_build_gold_cost = -0.05
 	}
 	
 	character_modifier = {
@@ -1768,6 +1770,8 @@ royal_armory_03 = {
 		parameter = better_armory_buildings
 		stationed_maa_damage_mult = normal_maa_damage_tier_3
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_3
+		stationed_heavy_cavalry_damage_mult = -0.225
+		stationed_heavy_cavalry_toughness_mult = -0.225
 	}
 	
 	is_enabled = {

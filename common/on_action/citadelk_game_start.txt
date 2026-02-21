@@ -341,6 +341,7 @@ set_provinces_start_citadel = {
         title:b_bearstone.title_province = { 
             add_special_building = agot_mormont_russet_den_01
         } 
+        
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall
@@ -363,6 +364,7 @@ set_provinces_start_citadel = {
             add_building = quarries_08
         }
         title:b_hornvale.title_province = {
+            add_special_building = citadel_hornvale_mines
             add_building = tax_assessor_03
             add_building = windmills_02
         }

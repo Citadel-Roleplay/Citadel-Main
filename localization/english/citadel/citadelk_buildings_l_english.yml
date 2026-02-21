@@ -8,6 +8,38 @@
  building_citadel_vinetown:1 "Vinefields of Vinetown"
  building_citadel_vinetown_desc:1 "Stretching across gentle hills above the harbor, the vinefields of Vinetown produce vast quantities of renowned Arbor wine. Their harvest fuels the wealth and trade power of House Redwyne, bringing coin from every corner of the Narrow Sea."
  
+ building_type_citadel_hornvale_mines:1 "Hornvale Iron Mines"
+ 
+ building_type_citadel_hayholt:1 "Hayholt"
+ building_citadel_hayholt:1 "Hayholt"
+ building_citadel_hayholt_desc:1 "Perched amid the rolling woods and fertile fields of the Reach, Hayholt is the ancestral keep of House Willum, loyal vassals of Highgarden. Though not as grand as the great castles of Westeros, its stout walls and timbered halls have served the Willums well for generations. Here, banners bearing crossed longswords fly beside stout oaken gates, and the hearth fires burn bright with the bread and harvest of the lands around it. Hayholt remains both a bulwark against raiders and a steadfast home to those who owe fealty and service to House Willum."
+ 
+ building_type_im_footly_hall:1 "Tumbleton Castle"
+ building_im_footly_hall:1 "Tumbleton Castle"
+ building_im_footly_hall_desc:1 "Overlooking the bustling market town of Tumbleton and the wide waters of the Mander, Tumbleton Castle stands as the seat of House Footly. Its sturdy curtain walls and river facing towers guard one of the most important crossings in the Reach, where trade and travelers pass in steady numbers. Though less grand than the ancient fortresses of Highgarden or Oldtown, its strength lies in its position. From these battlements, House Footly watches over fertile fields, vital roads, and the lifeblood of river commerce that sustains both town and lord alike."
+
+ building_agot_deep_den_02:1 "The Deep Den"
+ building_agot_deep_den_02_desc:1 "The Lyddens have long controlled one of the key ways into the Westerlands and, to protect that crucial route, their castle has expanded further above and below ground. New tunnels and chambers have been carved ever deeper beneath the castle proper, uncovering rich veins of gold. The Deep Den’s mines now yield greater wealth than before, and House Lydden can rest assured that their coffers will not soon run dry."
+
+ building_agot_deep_den_03:1 "The Deep Den"
+ building_agot_deep_den_03_desc:1 "The Lyddens have transformed their stronghold into a vast subterranean complex stretching far beneath the hills. Countless tunnels, vaults, and mining shafts run deep below the castle, where abundant seams of gold are worked without cease. The Deep Den stands not only as a guardian of the western passes, but as a promise of enduring wealth. Its depths ensure that House Lydden shall never be disappointed in gold."
+
+ building_citadel_hornvale_mines:1 "Hornvale Iron Mines"
+ building_citadel_hornvale_mines_desc:1 "Nestled among the rugged hills of Hornvale, these mines yield rich deposits of iron long prized across the Westerlands. Though modest in scale, the ore drawn from these shafts is of exceptional quality, hard and true. The steady labor of miners and smiths alike ensures a reliable supply of iron for arms, armor, and trade."
+
+ building_citadel_hornvale_mines2:1 "Expanded Hornvale Iron Mines"
+ building_citadel_hornvale_mines2_desc:1 "With new shafts driven deeper into the hills and additional galleries carved through solid rock, Hornvale’s iron production has grown considerably. The ore extracted here is said to be the finest in the Westerlands, stronger and purer than most. Forges burn day and night as greater quantities of iron flow from the mountains, strengthening both coffers and armies."
+
+ building_citadel_hornvale_mines3:1 "Great Hornvale Iron Complex"
+ building_citadel_hornvale_mines3_desc:1 "Now expanded into a vast network of tunnels and deep workings, the Hornvale mines produce iron on an unprecedented scale. Entire hillsides echo with the sound of hammer and pick, and caravans laden with high quality ore depart daily. The finest iron in the Westerlands is drawn from these depths in staggering amounts, feeding mighty forges and ensuring unmatched military and economic strength."
+
+ building_casterly_rock_03:1 "Casterly Rock"
+ building_casterly_rock_03_desc:1 "Said to be three times the height of the Wall, the massive Casterly Rock remains the heart of House Lannister’s wealth and power. With tunnels carved deeper still into the mountain and mining expanded to depths few men dare tread, vast new veins of gold have been uncovered. The Rock now stretches far beneath the earth as much as it towers above the sea, its defenses strengthened and its riches flowing ever greater from the endless dark below."
+
+ building_type_citadel_barrowton:1 "Barrowton"
+ building_citadel_barrowton:1 "Barrowton"
+ building_citadel_barrowton_desc:1 "Rising amidst the ancient barrows of the First Men, Barrowton stands as the proud seat of House Dustin. Its stout stone walls overlook windswept hills where the dead of ages past lie buried beneath grassy mounds. Though less imposing than the great castles of the south, its strength lies in endurance, memory, and the unyielding resolve of the North."
+
  building_type_citadel_pebbleton_tower:1 "Pebbleton Tower"
  building_citadel_pebbleton_tower:1 "Pebbleton Tower"
  building_citadel_pebbleton_tower_desc:1 "Seat of House Merlyn upon the harsh shores of the Iron Islands, Pebbleton Tower rises against wind and wave alike. Though not the grandest of keeps, its watchful towers guard the surrounding waters, and its people live by salt, steel, and the old ways of the isles."
