@@ -9,6 +9,8 @@ baelish_franchise.0001 = {
     hidden = yes
 
     trigger = {
+        
+
         OR = {
             has_character_flag = baelish_franchise_used_1
             has_character_flag = baelish_franchise_used_2
@@ -42,6 +44,7 @@ baelish_franchise.0002 = {
     
     trigger = {
         has_character_flag = baelish_franchise_used_1
+        NOT = { has_character_flag = baelish_franchise_suppress_income_popup }
     }
 
     immediate = {
@@ -70,6 +73,12 @@ baelish_franchise.0002 = {
 
     option = {
         name = baelish_franchise.0001.a
+    }
+
+    option = {
+        name = baelish_franchise.0002.b
+        custom_tooltip = baelish_franchise_tt_disable_income_popup
+        add_character_flag = baelish_franchise_suppress_income_popup
     }
 }
 
