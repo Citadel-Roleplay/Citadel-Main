@@ -24,13 +24,13 @@
     cost_gold = normal_building_tier_1_cost
     
     province_modifier = {
-        monthly_income = 1
-        tax_mult = 0.01
+        monthly_income = 3
+        tax_mult = 0.1
     }
 
     character_modifier = {
-        clergy_opinion = -20
-        monthly_piety = -0.5
+        clergy_opinion = -35
+        monthly_piety = -1.5
     }
 
     can_destroy = no

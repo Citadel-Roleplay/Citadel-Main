@@ -576,11 +576,13 @@ winter_wolves = {
 		pikemen = 1
 	}
 
-	can_recruit = {
+	can_recruit = {  
 		valid_for_maa_trigger = { PARAMETER = unlock_northman_maa }
 		NOT = { government_has_flag = government_is_nw }
-		NOT = {
+		NOT = {  
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+			culture = { has_cultural_parameter = unlock_maa_green_hand }
+			culture = { has_cultural_parameter = unlock_maa_she_bears }
 		}
 	}
 
@@ -680,7 +682,7 @@ she_bears = {
 	stack = 80
 
 	damage = 30.0
-	toughness = 25.0
+	toughness = 30.0
 	pursuit = 0.0
 	screen = 10.0
 	max_regiments = 2

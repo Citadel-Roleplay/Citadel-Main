@@ -28,6 +28,13 @@ set_provinces_start_citadel = {
 				}
 			}
 		}
+        character:Lannister_1 = {
+			add_gold = {
+				value = {
+					value = 4000
+				}
+			}
+		}
         character:Saan_2 = {
 			add_barter_goods = {
 				value = {

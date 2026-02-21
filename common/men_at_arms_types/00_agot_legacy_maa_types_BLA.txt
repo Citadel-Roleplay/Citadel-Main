@@ -24,16 +24,20 @@
 sarsfield_horse_archers = {
 	type = archer_cavalry
 	
-	buy_cost = { gold = archer_cavalry_recruitment_cost_normal }
-	low_maintenance_cost = { gold = 0.8 }
-	high_maintenance_cost = { gold = 1.8 }
-	provision_cost = @provisions_cost_cavalry_moderate
-	stack = 100
-
-	damage = 50
-	toughness = 25
-	pursuit = 45
-	screen = 35
+	damage = 45
+	toughness = 20
+	pursuit = 40
+	screen = 30
+	max_regiments = 1
+	terrain_bonus = {
+		steppe = { damage = 45 }
+		plains = { damage = 20 }
+		drylands = { damage = 20 }
+		jungle = { damage = -20 pursuit = -20 }
+		wetlands = { damage = -30 pursuit = -30 }
+		mountains = { damage = -30 pursuit = -30 }
+		desert_mountains = { damage = -30 pursuit = -30 }
+	}
 
 	counters = {
 		pikemen = 1
@@ -128,7 +132,7 @@ minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = horse_archers
+	icon = sarsfield_horse_archers
 }
 
 royce_runesworn = {
@@ -159,16 +163,16 @@ royce_runesworn = {
 		skirmishers = 1
 	}
 
-	can_recruit = {
+	can_recruit = {s
 		exists = dynasty
 		dynasty = {
 			has_dynasty_perk = royce_legacy_3
 		}
 	}
 
-	buy_cost = { gold = 70 piety = 70 }
-	low_maintenance_cost = { gold = 0.4 piety = 0.20 }
-	high_maintenance_cost = { gold = 1.1 piety = 0.45 }
+	buy_cost = { gold = 60 piety = 60 }
+	low_maintenance_cost = { gold = 0.37 piety = 0.17  }
+	high_maintenance_cost = { gold = 1.18 piety = 0.46 }
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
@@ -179,7 +183,7 @@ royce_runesworn = {
 	icon = royce_runesworn
 }
 
-royce_rune_guardians = {
+royce_rune_guardians = { # Pikemen Template - Kizan
 	type = pikemen
 
 	damage = 24.0
@@ -202,7 +206,7 @@ royce_rune_guardians = {
 	
 	counters = {
 		light_cavalry = 1
-		heavy_cavalry = 2
+		heavy_cavalry = 1
 		archer_cavalry = 1
 	}
 
@@ -226,7 +230,7 @@ royce_rune_guardians = {
 	icon = royce_rune_guardians
 }
 
-grafton_baywatch_sentries = {
+grafton_baywatch_sentries = { #  Skirmisher Piety Template - Kizan
 	type = skirmishers
 
 	damage = 18.0
@@ -235,9 +239,7 @@ grafton_baywatch_sentries = {
 	screen = 25.0
 
 	terrain_bonus = { 
-		urban = { damage = 10 screen = 10 } 
-		majorroad_urban = { screen = 10 }
-		minorroad_urban = { screen = 10 }
+		urban = { damage = 15 screen = 15 } 
 		farmlands = { damage = 10 screen = 10 }
 		hills = { damage = -5 screen = -5}
 		mountains = { damage = -5 toughness = -5}
@@ -263,7 +265,7 @@ grafton_baywatch_sentries = {
 	high_maintenance_cost = { gold = 0.5 piety = 0.25 }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 80.0
@@ -289,6 +291,10 @@ manderly_white_harbor_sentinels = {
 		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		desert = { damage = -20 toughness = -20 }
+	}
+	winter_bonus = {
+		normal_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		harsh_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 	}
 	
 	counters = {
@@ -336,6 +342,10 @@ forrester_ironguard = {
 		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		desert = { damage = -20 toughness = -20 }
+	}
+	winter_bonus = {
+		normal_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		harsh_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 	}
 	
 	counters = {
@@ -388,6 +398,10 @@ bolton_dreadriders = {
 		glacier = { toughness = -10 }
 		frozen_flats = { toughness = -10 }
 	}
+	winter_bonus = {
+		normal_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		harsh_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+	}
 
 	counters = {
 		heavy_infantry = 1
@@ -411,7 +425,7 @@ bolton_dreadriders = {
 
 	stack = 50.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = bolton_dreadriders
+	icon = bolton_flayed_men
 }
 # Ab hier Kizan
 dustin_barrow_guard = {
@@ -448,9 +462,18 @@ dustin_barrow_guard = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 60
+		prestige = 60
+	}
+	low_maintenance_cost = { 
+		gold = 0.25
+		prestige = 0.25
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.51
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -470,40 +493,74 @@ mormont_shield_bears = {
 	screen = 10.0
 
 	terrain_bonus = {
-		steppe = { damage = 10 toughness = 10 }
-		majorroad_steppe = { damage = 10 toughness = 10 }
-		minorroad_steppe = { damage = 10 toughness = 10 }
-		taiga = { damage = 10 toughness = 10 }
-		majorroad_taiga = { damage = 10 toughness = 10 }
-		minorroad_taiga = { damage = 10 toughness = 10 }
-		taiga_bog = { toughness = 10 }
-		majorroad_taiga_bog = { toughness = 10 }
-		minorroad_taiga_bog = { toughness = 10 }
-		hills = { toughness = 10 }
-		majorroad_hills = { toughness = 10 }
-		minorroad_hills = { toughness = 10 }
-		mountains = { toughness = 10 }
-		majorroad_mountains = { toughness = 10 }
-		minorroad_mountains = { toughness = 10 }
+		taiga = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		steppe = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		taiga_bog = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		mountains = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		glacier = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		frozen_flats = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		plains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		farmlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		highlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		oasis = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		floodplains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 
-		desert_mountains = { toughness = -5 }
-		majorroad_desert_mountains = { toughness = -5 }
-		minorroad_desert_mountains = { toughness = -5 }
-		glacier = { toughness = -5 }
-
-		frozen_flats = { toughness = -5 }
-		majorroad_frozen_flats = { toughness = -5 }
-		minorroad_frozen_flats = { toughness = -5 }
-
-		desert = { toughness = -10 }
-		majorroad_desert = { toughness = -10 }
-		minorroad_desert = { toughness = -10 }
-		drylands = { toughness = -10 }
-		majorroad_drylands = { toughness = -10 }
-		minorroad_drylands = { toughness = -10 }
-		canyon = { toughness = -10 }
-		majorroad_canyon = { toughness = -10 }
-		minorroad_canyon = { toughness = -10 }
+		majorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_steppe = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_taiga_bog = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_mountains = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_glacier = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_frozen_flats = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_plains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_farmlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_oasis = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_floodplains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		minorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_steppe = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_taiga_bog = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_mountains = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_glacier = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_frozen_flats = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_plains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_farmlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_oasis = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_floodplains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+	}
+	winter_bonus = {
+		normal_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		harsh_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 	}
 
 	counters = {
@@ -517,9 +574,18 @@ mormont_shield_bears = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 60
+		prestige = 60
+	}
+	low_maintenance_cost = { 
+		gold = 0.22
+		prestige = 0.22
+	}
+	high_maintenance_cost = { 
+		gold = 0.65
+		prestige = 0.65
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -530,84 +596,84 @@ mormont_shield_bears = {
 	icon = mormont_shield_bears
 }
 
-mormont_she_bears = {
-	type = skirmishers
+# mormont_she_bears = {
+# 	type = skirmishers
 
-	damage = 30.0
-	toughness = 26.0
-	pursuit = 0.0
-	screen = 10.0
+# 	damage = 30.0
+# 	toughness = 26.0
+# 	pursuit = 0.0
+# 	screen = 10.0
 
-	terrain_bonus = {
-		steppe = { damage = 10 toughness = 10 }
-		majorroad_steppe = { damage = 10 toughness = 10 }
-		minorroad_steppe = { damage = 10 toughness = 10 }
-		taiga = { damage = 10 toughness = 10 }
-		majorroad_taiga = { damage = 10 toughness = 10 }
-		minorroad_taiga = { damage = 10 toughness = 10 }
-		taiga_bog = { toughness = 10 }
-		majorroad_taiga_bog = { toughness = 10 }
-		minorroad_taiga_bog = { toughness = 10 }
-		hills = { toughness = 10 }
-		majorroad_hills = { toughness = 10 }
-		minorroad_hills = { toughness = 10 }
-		mountains = { toughness = 10 }
-		majorroad_mountains = { toughness = 10 }
-		minorroad_mountains = { toughness = 10 }
+# 	terrain_bonus = {
+# 		steppe = { damage = 10 toughness = 10 }
+# 		majorroad_steppe = { damage = 10 toughness = 10 }
+# 		minorroad_steppe = { damage = 10 toughness = 10 }
+# 		taiga = { damage = 10 toughness = 10 }
+# 		majorroad_taiga = { damage = 10 toughness = 10 }
+# 		minorroad_taiga = { damage = 10 toughness = 10 }
+# 		taiga_bog = { toughness = 10 }
+# 		majorroad_taiga_bog = { toughness = 10 }
+# 		minorroad_taiga_bog = { toughness = 10 }
+# 		hills = { toughness = 10 }
+# 		majorroad_hills = { toughness = 10 }
+# 		minorroad_hills = { toughness = 10 }
+# 		mountains = { toughness = 10 }
+# 		majorroad_mountains = { toughness = 10 }
+# 		minorroad_mountains = { toughness = 10 }
 
-		desert_mountains = { toughness = -5 }
-		majorroad_desert_mountains = { toughness = -5 }
-		minorroad_desert_mountains = { toughness = -5 }
-		glacier = { toughness = -5 }
+# 		desert_mountains = { toughness = -5 }
+# 		majorroad_desert_mountains = { toughness = -5 }
+# 		minorroad_desert_mountains = { toughness = -5 }
+# 		glacier = { toughness = -5 }
 
-		frozen_flats = { toughness = -5 }
-		majorroad_frozen_flats = { toughness = -5 }
-		minorroad_frozen_flats = { toughness = -5 }
+# 		frozen_flats = { toughness = -5 }
+# 		majorroad_frozen_flats = { toughness = -5 }
+# 		minorroad_frozen_flats = { toughness = -5 }
 
-		desert = { toughness = -10 }
-		majorroad_desert = { toughness = -10 }
-		minorroad_desert = { toughness = -10 }
-		drylands = { toughness = -10 }
-		majorroad_drylands = { toughness = -10 }
-		minorroad_drylands = { toughness = -10 }
-		canyon = { toughness = -10 }
-		majorroad_canyon = { toughness = -10 }
-		minorroad_canyon = { toughness = -10 }
-	}
+# 		desert = { toughness = -10 }
+# 		majorroad_desert = { toughness = -10 }
+# 		minorroad_desert = { toughness = -10 }
+# 		drylands = { toughness = -10 }
+# 		majorroad_drylands = { toughness = -10 }
+# 		minorroad_drylands = { toughness = -10 }
+# 		canyon = { toughness = -10 }
+# 		majorroad_canyon = { toughness = -10 }
+# 		minorroad_canyon = { toughness = -10 }
+# 	}
 
-	counters = {
-		skirmishers = 1
-		heavy_infantry = 2
-	}
+# 	counters = {
+# 		skirmishers = 1
+# 		heavy_infantry = 2
+# 	}
 
-	can_recruit = {
-		exists = dynasty
-		dynasty = {
-			has_dynasty_perk = mormont_legacy_4
-		}
-	}
+# 	can_recruit = {
+# 		exists = dynasty
+# 		dynasty = {
+# 			has_dynasty_perk = mormont_legacy_4
+# 		}
+# 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
-	provision_cost = @provisions_cost_infantry_cheap
+# 	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
+# 	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
+# 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+# 	provision_cost = @provisions_cost_infantry_cheap
 	
-	max_regiments = 1
+# 	max_regiments = 1
 	 
 
-	stack = 100.0
-	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = mormont_she_bears
-}
+# 	stack = 100.0
+# 	ai_quality = { value = @cultural_maa_extra_ai_score }
+# 	icon = mormont_she_bears
+# }
 
 
 umber_howling_line = {
 	type = heavy_infantry
 
-	damage = 46.0
-	toughness = 38.0
+	damage = 37.0
+	toughness = 40.0
 	pursuit = 5.0
-	screen = 0.0
+	screen = 15.0
 
 	terrain_bonus = {
 		steppe = { damage = 10 toughness = 10 }
@@ -637,6 +703,11 @@ umber_howling_line = {
 		minorroad_desert = { toughness = -10 }
 	}
 
+	winter_bonus = {
+		normal_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		harsh_winter = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+	}
+
 	counters = {
 		heavy_infantry = 1
 		pikemen = 2
@@ -649,9 +720,18 @@ umber_howling_line = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 75
+		prestige = 75
+	}
+	low_maintenance_cost = { 
+		gold = 0.33
+		prestige = 0.33
+	}
+	high_maintenance_cost = { 
+		gold = 0.55
+		prestige = 0.55
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -735,12 +815,12 @@ farman_fair_isle_striders = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = 65 }
+	low_maintenance_cost = { gold = 0.35 }
+	high_maintenance_cost = { gold = 0.6 }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 120.0
@@ -751,8 +831,8 @@ farman_fair_isle_striders = {
 crakehall_grizzled_pikes = {
 	type = pikemen
 
-	damage = 35.0
-	toughness = 42.0
+	damage = 30.0
+	toughness = 36.0
 	pursuit = 0.0
 	screen = 0.0
 
@@ -792,9 +872,9 @@ crakehall_grizzled_pikes = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { gold = 80 }
+	low_maintenance_cost = { gold = 0.4 }
+	high_maintenance_cost = { gold = 0.95 }
 	provision_cost = @provisions_cost_infantry_moderate
 	
 	max_regiments = 1
@@ -808,9 +888,9 @@ crakehall_grizzled_pikes = {
 blackwood_valewood_rangers = {
 	type = skirmishers
 
-	damage = 31.0
-	toughness = 22.0
-	pursuit = 18.0
+	damage = 30.0
+	toughness = 20.0
+	pursuit = 15.0
 	screen = 20.0
 
 	terrain_bonus = {
@@ -850,9 +930,9 @@ blackwood_valewood_rangers = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_expensive }
+	buy_cost = { gold = 65 }
+	low_maintenance_cost = { gold = 0.4 }
+	high_maintenance_cost = { gold = 0.9 }
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -867,8 +947,8 @@ bracken_redmane_knights = {
 	type = heavy_cavalry
 
 	damage = 130.0
-	toughness = 55.0
-	pursuit = 40.0
+	toughness = 35.0
+	pursuit = 30.0
 	screen = 0.0
 
 	terrain_bonus = {
@@ -912,8 +992,8 @@ bracken_redmane_knights = {
 	}
 
 	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_expensive }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_expensive }
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
@@ -927,10 +1007,10 @@ bracken_redmane_knights = {
 mooton_maidenpool_wardens = {
 	type = heavy_infantry
 
-	damage = 52.0
+	damage = 35.0
 	toughness = 45.0
-	pursuit = 0.0
-	screen = 0.0
+	pursuit = 5.0
+	screen = 10.0
 	
 	terrain_bonus = {
 		plains = { damage = 15 toughness = 15}
@@ -971,10 +1051,10 @@ mooton_maidenpool_wardens = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
-	provision_cost = @provisions_cost_infantry_expensive
+	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_infantry_very_expensive
 
 	max_regiments = 1
 	 
@@ -988,9 +1068,9 @@ mooton_maidenpool_wardens = {
 rowan_sentinels_of_the_gold_tree = {
 	type = heavy_infantry
 
-	damage = 50.0
-	toughness = 48.0
-	pursuit = 0.0
+	damage = 40.0
+	toughness = 32.0
+	pursuit = 5.0
 	screen = 0.0
 	
 	terrain_bonus = {
@@ -1029,16 +1109,16 @@ rowan_sentinels_of_the_gold_tree = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
-	provision_cost = @provisions_cost_infantry_expensive
+	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_infantry_very_expensive
 
 	max_regiments = 1
 	 
 
 
-	stack = 80.0
+	stack = 100.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = rowan_sentinels_of_the_gold_tree
 }
@@ -1097,10 +1177,10 @@ rowan_goldengrove_lancers = {
 		minorroad_canyon = { pursuit = -10 }
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
-	provision_cost = @provisions_cost_cavalry_expensive
+	buy_cost = { gold = heavy_cavalry_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_cavalry_very_expensive
 
 	max_regiments = 1
 	 
@@ -1166,10 +1246,10 @@ tarly_hornhill_linebreakers = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
-	provision_cost = @provisions_cost_infantry_expensive
+	buy_cost = { gold = heavy_infantry_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_infantry_very_expensive
 
 	max_regiments = 1
 	 
@@ -1179,7 +1259,7 @@ tarly_hornhill_linebreakers = {
 	icon = tarly_hornhill_linebreakers
 }
 
-osgrey_gilded_thorns = {
+osgrey_gilded_thorns = { # Ignored
 	type = pikemen
 
 	damage = 32.0
@@ -1293,12 +1373,12 @@ redwyne_sailsword_archers = {
 		}
 	}
 
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_normal }
-	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
-	provision_cost = @provisions_cost_infantry_cheap
+	buy_cost = { gold = archers_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = archers_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = archers_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_infantry_very_expensive
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -1343,10 +1423,10 @@ hightower_the_tower_guard = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
-	provision_cost = @provisions_cost_infantry_moderate
+	buy_cost = { gold = pikemen_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = pikemen_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = pikemen_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_infantry_very_expensive
 
 	max_regiments = 1
 	 
@@ -1362,7 +1442,7 @@ florent_brightwater_knights = {
 
 	damage = 135.0
 	toughness = 50.0
-	pursuit = 40.0
+	pursuit = 35.0
 	screen = 10.0
 
 	counters = {
@@ -1405,10 +1485,10 @@ florent_brightwater_knights = {
 		}
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
-	provision_cost = @provisions_cost_cavalry_expensive
+	buy_cost = { gold = heavy_cavalry_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_very_expensive }
+	provision_cost = @provisions_cost_cavalry_very_expensive
 
 	max_regiments = 1
 	 
@@ -1516,7 +1596,7 @@ sea_snakes = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 
@@ -1525,64 +1605,64 @@ sea_snakes = {
 	icon = sea_snakes
 }
 
-velaryon_tideforged_sentinels = {
-	type = heavy_infantry
+# velaryon_tideforged_sentinels = {
+# 	type = heavy_infantry
 
-	damage = 46.0
-	toughness = 42.0
-	pursuit = 0.0
-	screen = 5.0
+# 	damage = 46.0
+# 	toughness = 42.0
+# 	pursuit = 0.0
+# 	screen = 5.0
 	
-	terrain_bonus = {
-		hills = { damage = 10 toughness = 10 }
-		majorroad_hills = { toughness = 10 }
-		minorroad_hills = { toughness = 10 }
-		mountains = { damage = 10 toughness = 10 }
-		majorroad_mountains = { toughness = 10 }
-		minorroad_mountains = { toughness = 10 }
-		plains = { damage = 10 toughness = 10 }
-		majorroad_plains = { toughness = 10 }
-		minorroad_plains = { toughness = 10 }
+# 	terrain_bonus = {
+# 		hills = { damage = 10 toughness = 10 }
+# 		majorroad_hills = { toughness = 10 }
+# 		minorroad_hills = { toughness = 10 }
+# 		mountains = { damage = 10 toughness = 10 }
+# 		majorroad_mountains = { toughness = 10 }
+# 		minorroad_mountains = { toughness = 10 }
+# 		plains = { damage = 10 toughness = 10 }
+# 		majorroad_plains = { toughness = 10 }
+# 		minorroad_plains = { toughness = 10 }
 
-		forest = { damage = 10 damage = 5 }
-		majorroad_forest = { damage = 5 }
-		minorroad_forest = { damage = 5 }
+# 		forest = { damage = 10 damage = 5 }
+# 		majorroad_forest = { damage = 5 }
+# 		minorroad_forest = { damage = 5 }
 		
-		the_bog = { toughness = -10 }
-		majorroad_the_bog = { toughness = -10 }
-		minorroad_the_bog = { toughness = -10 }
-		glacier = { toughness = -10 }
-		majorroad_glacier = { toughness = -10 }
-		minorroad_glacier = { toughness = -10 }
-		frozen_flats = { toughness = -10 }
-		majorroad_frozen_flats = { toughness = -10 }
-		minorroad_frozen_flats = { toughness = -10 }
-	}
+# 		the_bog = { toughness = -10 }
+# 		majorroad_the_bog = { toughness = -10 }
+# 		minorroad_the_bog = { toughness = -10 }
+# 		glacier = { toughness = -10 }
+# 		majorroad_glacier = { toughness = -10 }
+# 		minorroad_glacier = { toughness = -10 }
+# 		frozen_flats = { toughness = -10 }
+# 		majorroad_frozen_flats = { toughness = -10 }
+# 		minorroad_frozen_flats = { toughness = -10 }
+# 	}
 
-	counters = {
-		pikemen = 2
-		heavy_infantry = 1
-	}
+# 	counters = {
+# 		pikemen = 2
+# 		heavy_infantry = 1
+# 	}
 
-	can_recruit = {
-		exists = dynasty
-		dynasty = {
-			has_dynasty_perk = velaryon_legacy_3_BLA
-		}
-	}
+# 	can_recruit = {
+# 		exists = dynasty
+# 		dynasty = {
+# 			has_dynasty_perk = velaryon_legacy_3_BLA
+# 		}
+# 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
-	provision_cost = @provisions_cost_infantry_expensive
+# 	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
+# 	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
+# 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+# 	provision_cost = @provisions_cost_infantry_expensive
 
-	max_regiments = 1
+# 	max_regiments = 1
 	 
 
-	stack = 80.0
-	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = velaryon_tideforged_sentinels
-}
+# 	stack = 80.0
+# 	ai_quality = { value = @cultural_maa_extra_ai_score }
+# 	icon = velaryon_tideforged_sentinels
+# }
 
 celtigar_tithecrabs = {
 	type = skirmishers
@@ -1621,12 +1701,12 @@ celtigar_tithecrabs = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = skirmisher_recruitment_cost_very_expensive }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost_very_expensive }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost_very_expensive }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 80.0
@@ -1676,7 +1756,7 @@ scales_measured_knives  = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -1860,7 +1940,7 @@ uller_hellholt_bowmen = {
 	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -1961,9 +2041,18 @@ swann_winged_guard = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 70
+		prestige = 70
+	}
+	low_maintenance_cost = { 
+		gold = 0.33
+		prestige = 0.32
+	}
+	high_maintenance_cost = { 
+		gold = 0.58
+		prestige = 0.57
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -2008,9 +2097,18 @@ tarth_sapphire_guard = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 67
+		prestige = 67
+	}
+	low_maintenance_cost = { 
+		gold = 0.27
+		prestige = 0.26
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.51
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -2115,9 +2213,9 @@ dondarrion_stormriders = {
 		}
 	}
 
-	buy_cost = { gold = light_cavalry_recruitment_cost_normal }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 70 prestige = 70 }
+	low_maintenance_cost = { gold = 0.15 prestige = 0.15 }
+	high_maintenance_cost = { gold = 0.59 prestige = 0.59 }
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
@@ -2170,9 +2268,18 @@ caron_nightsong_nightingales = {
 			has_dynasty_perk = caron_legacy_3
 		}
 	}
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = archers_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 30
+		prestige = 30
+	}
+	low_maintenance_cost = { 
+		gold = 0.24
+		prestige = 0.24
+	}
+	high_maintenance_cost = { 
+		gold = 0.5
+		prestige = 0.49
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -2218,9 +2325,18 @@ estermont_greenstone_breakers = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 60
+		prestige = 50
+	}
+	low_maintenance_cost = { 
+		gold = 0.23
+		prestige = 0.22
+	}
+	high_maintenance_cost = { 
+		gold = 0.48
+		prestige = 0.47
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -2263,9 +2379,18 @@ mertyns_knights_of_the_mist = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 60
+		prestige = 50
+	}
+	low_maintenance_cost = { 
+		gold = 0.23
+		prestige = 0.22
+	}
+	high_maintenance_cost = { 
+		gold = 0.48
+		prestige = 0.47
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -2319,9 +2444,9 @@ corbray_heartsworn = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = 35 piety = 15 }
+	low_maintenance_cost = { gold = 0.15 piety = 0.1 }
+	high_maintenance_cost = { gold = 0.39 piety = 0.24 }
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -2450,7 +2575,7 @@ frey_bridge_guard  = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -3235,9 +3360,18 @@ baratheon_stormbreakers = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 69
+		prestige = 59
+	}
+	low_maintenance_cost = { 
+		gold = 0.29
+		prestige = 0.29
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.49
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -3823,9 +3957,9 @@ connington_griffin_guard = {
 		}
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 145 prestige = 145 }
+	low_maintenance_cost = { gold = 0.67 prestige = 0.42 }
+	high_maintenance_cost = { gold = 1.37 prestige = 0.47 }
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
@@ -4039,64 +4173,64 @@ toland_laughing_spears = {
 	icon = toland_laughing_spears
 }
 
-templeton_wardens_of_ninestars = {
-	type = heavy_infantry
+# templeton_wardens_of_ninestars = {
+# 	type = heavy_infantry
 
-	damage = 40.0
-	toughness = 45.0
-	pursuit = 0.0
-	screen = 0.0
+# 	damage = 40.0
+# 	toughness = 45.0
+# 	pursuit = 0.0
+# 	screen = 0.0
 
-	counters = {
-		pikemen = 2
-	}
+# 	counters = {
+# 		pikemen = 2
+# 	}
 
-	can_recruit = {
-		exists = dynasty
-		dynasty = {
-			has_dynasty_perk = templeton_legacy_3
-		}
-	}
+# 	can_recruit = {
+# 		exists = dynasty
+# 		dynasty = {
+# 			has_dynasty_perk = templeton_legacy_3
+# 		}
+# 	}
 
-	terrain_bonus = {
-		hills = { damage = 10 toughness = 10 }
-		majorroad_hills = { toughness = 10 }
-		minorroad_hills = { toughness = 10 }
-		mountains = { damage = 10 toughness = 10 }
-		majorroad_mountains = { toughness = 10 }
-		minorroad_mountains = { toughness = 10 }
+# 	terrain_bonus = {
+# 		hills = { damage = 10 toughness = 10 }
+# 		majorroad_hills = { toughness = 10 }
+# 		minorroad_hills = { toughness = 10 }
+# 		mountains = { damage = 10 toughness = 10 }
+# 		majorroad_mountains = { toughness = 10 }
+# 		minorroad_mountains = { toughness = 10 }
 
-		forest = { toughness = 10 }
-		majorroad_forest = { toughness = 5 }
-		minorroad_forest = { toughness = 5 }
+# 		forest = { toughness = 10 }
+# 		majorroad_forest = { toughness = 5 }
+# 		minorroad_forest = { toughness = 5 }
 
-		glacier = { toughness = -5 }
-		majorroad_glacier = { toughness = -5 }
-		minorroad_glacier = { toughness = -5 }
-		frozen_flats = { toughness = -5 }
-		majorroad_frozen_flats = { toughness = -5 }
-		minorroad_frozen_flats = { toughness = -5 }
+# 		glacier = { toughness = -5 }
+# 		majorroad_glacier = { toughness = -5 }
+# 		minorroad_glacier = { toughness = -5 }
+# 		frozen_flats = { toughness = -5 }
+# 		majorroad_frozen_flats = { toughness = -5 }
+# 		minorroad_frozen_flats = { toughness = -5 }
 
-		desert = { toughness = -10 }
-		majorroad_desert = { toughness = -10 }
-		minorroad_desert = { toughness = -10 }
-		drylands = { toughness = -10 }
-		majorroad_drylands = { toughness = -10 }
-		minorroad_drylands = { toughness = -10 }
-	}
+# 		desert = { toughness = -10 }
+# 		majorroad_desert = { toughness = -10 }
+# 		minorroad_desert = { toughness = -10 }
+# 		drylands = { toughness = -10 }
+# 		majorroad_drylands = { toughness = -10 }
+# 		minorroad_drylands = { toughness = -10 }
+# 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
-	provision_cost = @provisions_cost_infantry_expensive
+# 	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
+# 	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
+# 	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+# 	provision_cost = @provisions_cost_infantry_expensive
 
-	max_regiments = 1
+# 	max_regiments = 1
 	 
 
-	stack = 100.0
-	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = templeton_wardens_of_ninestars
-}
+# 	stack = 100.0
+# 	ai_quality = { value = @cultural_maa_extra_ai_score }
+# 	icon = templeton_wardens_of_ninestars
+# }
 shett_spears_of_the_true_men = {
 	type = pikemen
 
@@ -4214,9 +4348,18 @@ rogers_amberly_seawatch = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 60
+		prestige = 55
+	}
+	low_maintenance_cost = { 
+		gold = 0.4
+		prestige = 0.3
+	}
+	high_maintenance_cost = { 
+		gold = 0.7
+		prestige = 0.59 
+	}
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
@@ -4300,7 +4443,7 @@ codd_gutcutters  = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -4356,9 +4499,18 @@ wylde_rainwood_wardens = {
 			has_dynasty_perk = wylde_legacy_1
 		}
 	}
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_normal }
-	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 35
+		prestige = 35
+	}
+	low_maintenance_cost = { 
+		gold = 0.15
+		prestige = 0.15
+	}
+	high_maintenance_cost = { 
+		gold = 0.55
+		prestige = 0.54
+	}
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -4718,9 +4870,9 @@ selmy_harvest_knights = {
 		}
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 155 prestige = 200 }
+	low_maintenance_cost = { gold = 0.60 prestige = 0.35 }
+	high_maintenance_cost = { gold = 1.4 prestige = 0.55 }
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
@@ -5318,9 +5470,9 @@ waynwood_knights_of_ironoaks = {
 		}
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 110 piety = 110 }
+	low_maintenance_cost = { gold = 0.46 piety = 0.15 }
+	high_maintenance_cost = { gold = 1.1 piety = 0.28 }
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
@@ -5785,9 +5937,18 @@ durrandon_godsgrief_champions = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 69
+		prestige = 59
+	}
+	low_maintenance_cost = { 
+		gold = 0.29
+		prestige = 0.29
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.49
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -7531,7 +7692,7 @@ prester_feastfire_watch  = {
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	max_regiments = 2
+	max_regiments = 1
 	 
 
 	stack = 100.0
@@ -7708,9 +7869,18 @@ fell_felwood_huntsmen = {
 			has_dynasty_perk = fell_legacy_3
 		}
 	}
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_normal }
-	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 34
+		prestige = 34
+	}
+	low_maintenance_cost = { 
+		gold = 0.12
+		prestige = 0.12
+	}
+	high_maintenance_cost = { 
+		gold = 0.55
+		prestige = 0.54
+	}
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -7774,9 +7944,18 @@ penrose_riverwards = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 55
+		prestige = 50
+	}
+	low_maintenance_cost = { 
+		gold = 0.35
+		prestige = 0.25
+	}
+	high_maintenance_cost = { 
+		gold = 0.65
+		prestige = 0.54
+	}
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
@@ -7876,9 +8055,18 @@ grandison_storm_lions = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { 
+		gold = 70
+		prestige = 70
+	}
+	low_maintenance_cost = { 
+		gold = 0.26
+		prestige = 0.25
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.5
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -8001,8 +8189,8 @@ cole_crossbowmen = {
 trant_gallows_men = {
 	type = heavy_infantry
 
-	damage = 45.0
-	toughness = 40.0
+	damage = 50.0
+	toughness = 45.0
 	pursuit = 0.0
 	screen = 0.0
 
@@ -8061,9 +8249,18 @@ trant_gallows_men = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 69
+		prestige = 59
+	}
+	low_maintenance_cost = { 
+		gold = 0.29
+		prestige = 0.29
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.49
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -8122,9 +8319,18 @@ morrigen_thundershields = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 65
+		prestige = 55
+	}
+	low_maintenance_cost = { 
+		gold = 0.26
+		prestige = 0.26
+	}
+	high_maintenance_cost = { 
+		gold = 0.52
+		prestige = 0.52
+	}
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -8138,7 +8344,7 @@ morrigen_thundershields = {
 staedmon_crimson_daggers = {
 	type = skirmishers
 
-	damage = 32.0
+	damage = 20.0
 	toughness = 20.0
 	pursuit = 0.0
 	screen = 20.0
@@ -8178,9 +8384,9 @@ staedmon_crimson_daggers = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = 48 prestige = 48 }
+	low_maintenance_cost = { gold = 0.28 prestige = 0.28 }
+	high_maintenance_cost = { gold = 0.48 prestige = 0.48 }
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -8195,7 +8401,7 @@ errol_wendwater_riders = {
 	type = light_cavalry
 
 	damage = 42.0
-	toughness = 38.0
+	toughness = 25.0
 	pursuit = 35.0
 	screen = 0.0
 
@@ -8232,9 +8438,9 @@ errol_wendwater_riders = {
 		minorroad_drylands = { pursuit = -10 }
 	}
 
-	buy_cost = { gold = light_cavalry_recruitment_cost_normal }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 65 prestige = 65 }
+	low_maintenance_cost = { gold = 0.20 prestige = 0.20 }
+	high_maintenance_cost = { gold = 0.64 prestige = 0.64 }
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
@@ -8868,9 +9074,9 @@ egen_high_road_lancers = {
 		}
 	}
 
-	buy_cost = { gold = light_cavalry_recruitment_cost_normal }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 75 piety = 18 }
+	low_maintenance_cost = { gold = 0.25 piety = 0.1 }
+	high_maintenance_cost = { gold = 0.65 piety = 0.22 }
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
@@ -9017,9 +9223,9 @@ redfort_stonefoot = {
 			has_dynasty_perk = redfort_legacy_3		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = 25 piety = 25 }
+	low_maintenance_cost = { gold = 0.1 piety = 0.1 }
+	high_maintenance_cost = { gold = 0.34 piety = 0.34 }
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -9072,9 +9278,9 @@ belmore_bellguard = {
 		minorroad_drylands = { toughness = -10 }
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_normal }
+	buy_cost = { gold = 60 piety = 60 }
+	low_maintenance_cost = { gold = 0.32 piety = 0.12  }
+	high_maintenance_cost = { gold = 1.14 piety = 0.42 }
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -9122,9 +9328,18 @@ hunter_high_road_yewmen = {
 		}
 	}
 
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_normal }
-	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 35
+		piety = 35
+	}
+	low_maintenance_cost = { 
+		gold = 0.28
+		piety = 0.18
+	}
+	high_maintenance_cost = { 
+		gold = 0.56
+		piety = 0.29
+	}
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -10789,9 +11004,18 @@ lynderly_vipers_of_the_bough = {
 		}
 	}
 
-	buy_cost = { gold = archers_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = archers_low_maint_cost_normal }
-	high_maintenance_cost = { gold = archers_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 35
+		piety = 35
+	}
+	low_maintenance_cost = { 
+		gold = 0.28
+		piety = 0.18
+	}
+	high_maintenance_cost = { 
+		gold = 0.56
+		piety = 0.29
+	}
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 1
@@ -10855,9 +11079,18 @@ waxley_bright_pikes = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { 
+		gold = 55
+		piety = 55
+	}
+	low_maintenance_cost = { 
+		gold = 0.26
+		piety = 0.10
+	}
+	high_maintenance_cost = { 
+		gold = 0.59
+		piety = 0.39
+	}
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
