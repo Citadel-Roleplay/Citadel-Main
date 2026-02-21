@@ -14166,7 +14166,7 @@ e_the_north = {
 		}
 		d_the_blackpines = {
 			color = { 191 211 191 }
-			capital = c_ironrath
+			capital = c_moorwood
 			can_create = {
 				trigger_if = {
 					limit = {
@@ -14183,6 +14183,41 @@ e_the_north = {
 				custom_tooltip = {
 					text = agot_can_create_duchy
 					agot_can_create_duchy_title = yes
+				}
+			}
+			c_moorwood = {
+				color = { 162 204 172 }
+				b_moorwood_hold = {
+					province = 1056
+					color = { 182 166 187 }
+				}
+				b_moorwood_docks = {
+					province = 1057
+					color = { 187 170 191 }
+				}
+				b_wolfs_cradle = {
+					province = 1058
+					color = { 187 169 191 }
+				}
+				b_torntree = {
+					province = 1059
+					color = { 196 180 200 }
+				}
+				b_middlerise = {
+					province = 1060
+					color = { 191 177 205 }
+				}
+				b_hills_trade = {
+					province = 1061
+					color = { 199 182 203 }
+				}
+				b_pinnenridge = {
+					province = 1062
+					color = { 194 177 198 }
+				}
+				b_blackridge = {
+					province = 1063
+					color = { 189 172 193 }
 				}
 			}
 			c_ironrath = {
@@ -14308,41 +14343,6 @@ e_the_north = {
 				b_greyleaf_tower = {
 					province = 1055
 					color = { 166 155 181 }
-				}
-			}
-			c_moorwood = {
-				color = { 162 204 172 }
-				b_moorwood_hold = {
-					province = 1056
-					color = { 182 166 187 }
-				}
-				b_moorwood_docks = {
-					province = 1057
-					color = { 187 170 191 }
-				}
-				b_wolfs_cradle = {
-					province = 1058
-					color = { 187 169 191 }
-				}
-				b_torntree = {
-					province = 1059
-					color = { 196 180 200 }
-				}
-				b_middlerise = {
-					province = 1060
-					color = { 191 177 205 }
-				}
-				b_hills_trade = {
-					province = 1061
-					color = { 199 182 203 }
-				}
-				b_pinnenridge = {
-					province = 1062
-					color = { 194 177 198 }
-				}
-				b_blackridge = {
-					province = 1063
-					color = { 189 172 193 }
 				}
 			}
 			c_allpine = {

@@ -2283,7 +2283,7 @@ citadel_snakewood = {
 	flag = travel_point_of_interest_economic
 }
 
-citadel_silverhall = {
+citadel_silverhall = { # Hambone adjust building
 
 	construction_time = slow_construction_time
 
@@ -2324,7 +2324,7 @@ citadel_silverhall = {
 	flag = travel_point_of_interest_economic
 }
 
-citadel_silverhall2 = {
+citadel_silverhall2 = { # Hambone adjust building
 
 	construction_time = slow_construction_time
 
@@ -2864,7 +2864,6 @@ citadel_hayholt = {
 	cost_gold = expensive_building_tier_4_cost
 
 	province_modifier = {
-		monthly_income = 2
 	}
 	county_modifier = {
 		hostile_raid_time = -0.25
@@ -3146,12 +3145,12 @@ citadel_starpike_2 = {
 
 }
 
-casterly_rock_02 = {
+casterly_rock_02 = { #Hambone adjust building | I think the price & time is already good? But you can take a look.
 
-	construction_time = 39000
+	construction_time = 25000
 
 	type_icon = "icon_casterly_rock.dds"
-
+	next_building = casterly_rock_03
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -3179,8 +3178,60 @@ casterly_rock_02 = {
 
 	province_modifier = {
 		defender_holding_advantage = 20
-		fort_level = 24
+		fort_level = 22
 		monthly_income = 15
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.2
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+	flag = special_building_enabled_in_ruin_county
+}
+
+casterly_rock_03 = { # Hambone adjust building | I think the price & time is already good? But you can take a look.
+
+	construction_time = 35000
+
+	type_icon = "icon_casterly_rock.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "casterlyrock_mesh"
+	}
+
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 7500
+
+	character_modifier = {
+		court_grandeur_baseline_add = 5
+		legitimacy_gain_mult = 0.1
+		owned_legend_spread_mult = 0.1
+		dynasty_opinion = 10
+		stewardship = 3
+	}
+
+	max_garrison = normal_building_max_garrison_tier_10
+
+	province_modifier = {
+		defender_holding_advantage = 20
+		fort_level = 24
+		monthly_income = 20
 	}
 
 	county_modifier = {
@@ -3971,11 +4022,11 @@ citadel_whitehills_01 = {
 	next_building = citadel_whitehills_02
 	can_construct = {
 		scope:holder = {
-			stewardship >= 10
+			stewardship >= 15
 			dynasty = dynasty:dynn_Whitehill
 		}
 	}
-	levy = 250
+	levy = 500
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -3986,7 +4037,7 @@ citadel_whitehills_01 = {
 	cost_gold = 500
 
 	character_modifier = {
-		men_at_arms_maintenance = -0.05
+		army_maintenance_mult = -0.05
 		monthly_dynasty_prestige_mult = 0.05
 		stewardship = 2
 	}
@@ -4025,7 +4076,7 @@ citadel_whitehills_02 = {
 			dynasty = dynasty:dynn_Whitehill
 		}
 	}
-	levy = 500
+	levy = 750
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
@@ -4033,7 +4084,7 @@ citadel_whitehills_02 = {
 	cost_gold = 500
 
 	character_modifier = {
-		men_at_arms_maintenance = -0.1
+		army_maintenance_mult = -0.1
 		monthly_dynasty_prestige_mult = 0.1
 		stewardship = 2
 	}
@@ -4068,7 +4119,8 @@ citadel_ironrath_01 = {
 	next_building = citadel_ironrath_02
 	can_construct = {
 		scope:holder = {
-			stewardship >= 10
+			stewardship >= 15
+			dynasty = dynasty:dynn_Forrester
 		}
 	}
 	levy = 250
@@ -4112,14 +4164,18 @@ citadel_ironrath_02 = {
 	is_enabled = {
 		agot_generic_is_special_building_enabled = yes
 	}
-
+	can_construct = {
+		scope:holder = {
+			dynasty = dynasty:dynn_Forrester
+		}
+	}
 	cost_gold = 500
 
 	max_garrison = 400
     province_modifier = {
         defender_holding_advantage = 12
         fort_level = 10
-        monthly_income = 5
+        monthly_income = 5.5
     }
     county_modifier = {
         # tax_mult = 0.3
@@ -4218,13 +4274,244 @@ citadel_pronged_port = {
 
 }
 
+citadel_pronged_port = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "citadel_harbor.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 5
+		travel_danger = -15
+		hostile_raid_time = -0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+	}
+	character_modifier = {
+		stewardship = 2
+	}	
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+
+}
+
+citadel_hornvale_mines = { #Hambone adjust building
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		monthly_income = 2
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	next_building = citadel_hornvale_mines2
+	flag = travel_point_of_interest_economic
+}
+
+citadel_hornvale_mines2 = { #Hambone adjust building
+
+	construction_time = 2500
+
+	type_icon = "icon_structure_mines.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 1250
+
+	province_modifier = {
+		monthly_income = 4
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	next_building = citadel_hornvale_mines3
+	flag = travel_point_of_interest_economic
+}
+
+citadel_hornvale_mines3 = { #Hambone adjust building
+
+	construction_time = 5000
+
+	type_icon = "icon_structure_mines.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	cost_gold = 2000
+
+	province_modifier = {
+		monthly_income = 6
+	}
+	county_modifier = {
+	}
+	character_modifier = {
+		stewardship = 1
+	}	
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+}
+
+# Deep Den
+agot_deep_den_02 = { # Hambone adjust building 
+	construction_time = 4500
+	next_building = agot_deep_den_03
+	type_icon = "icon_building_badger.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	province_modifier = {
+		fort_level = 4
+		defender_holding_advantage = 4
+		monthly_income = 7
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.1
+		travel_danger = -10
+	}
+
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 3000
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+agot_deep_den_03 = { # Hambone adjust building 
+	construction_time = 5500
+	type_icon = "icon_building_badger.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	province_modifier = {
+		fort_level = 4
+		defender_holding_advantage = 4
+		monthly_income = 10
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.1
+		travel_danger = -10
+	}
+
+	is_enabled = {
+		agot_generic_is_special_building_enabled = yes
+	}
+
+	cost_gold = 4500
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
 
 # 3D MODELS !
 
 im_footly_hall = {
 	construction_time = slow_construction_time
 	type = special
-	type_icon = "gfx/interface/icons/buildings/footly_hall_icon.dds"
+	type_icon = "icon_building_byzantine.dds"
 
 	asset = {
 		type = pdxmesh
@@ -4236,8 +4523,10 @@ im_footly_hall = {
 	}
 
 	character_modifier = {
-		stewardship = 2
+		learning = 2
 		monthly_dynasty_prestige_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		republic_government_tax_contribution_mult = 0.1
 	}
 
 	county_modifier = {
@@ -4245,7 +4534,6 @@ im_footly_hall = {
 	}
 
 	province_modifier = {
-		tax_mult = 0.10
 	}
 
 	ai_value = {
