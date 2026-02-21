@@ -134,22 +134,22 @@ minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 
 royce_runesworn = {
 	type = heavy_infantry
 
-	damage = 46.0
-	toughness = 40.0
-	pursuit = 8.0
-	screen = 10.0
+	damage = 30.0
+	toughness = 38.0
+	pursuit = 0.0
+	screen = 0.0
 
 	terrain_bonus = {
-		farmlands = { damage = 10 toughness = 10 }
+		farmlands = { damage = 15 toughness = 15 }
 		hills = { damage = 10 toughness = 10 }
 		forest = { damage = 10 toughness = 10 }
 		mountains = { toughness = 10 }
 		plains = { toughness = 10 }
-		urban = { toughness = 10 }
-		majorroad_urban = { toughness = 10 }
-		minorroad_urban = { toughness = 10 }
+		urban = { toughness = -10 }
+		majorroad_urban = { toughness = -10 }
+		minorroad_urban = { toughness = -10 }
 		wetlands = { damage = -20 toughness = -20 }
-		the_bog = { damage = -20 toughness = -20 }
+		the_bog = { damage = -40 toughness = -40 }
 		taiga_bog = { damage = -20 toughness = -20 }
 		desert = { damage = -20 toughness = -20 }
 	}
@@ -166,9 +166,9 @@ royce_runesworn = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_expensive }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { gold = 70 piety = 70 }
+	low_maintenance_cost = { gold = 0.4 piety = 0.20 }
+	high_maintenance_cost = { gold = 1.1 piety = 0.45 }
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
@@ -182,22 +182,20 @@ royce_runesworn = {
 royce_rune_guardians = {
 	type = pikemen
 
-	damage = 42.0
-	toughness = 44.0
+	damage = 24.0
+	toughness = 38.0
 	pursuit = 0.0
-	screen = 0.0
+	screen = 10.0
 
 	terrain_bonus = {
-		farmlands = { damage = 10 toughness = 10 }
+		farmlands = { damage = 15 toughness = 15 }
 		hills = { damage = 10 toughness = 10 }
 		forest = { damage = 10 toughness = 10 }
 		mountains = { toughness = 10 }
-		plains = { toughness = 10 }
-		urban = { toughness = 10 }
 		majorroad_urban = { toughness = 10 }
 		minorroad_urban = { toughness = 10 }
 		wetlands = { damage = -20 toughness = -20 }
-		the_bog = { damage = -20 toughness = -20 }
+		the_bog = { damage = -40 toughness = -40 }
 		taiga_bog = { damage = -20 toughness = -20 }
 		desert = { damage = -20 toughness = -20 }
 	}
@@ -215,9 +213,9 @@ royce_rune_guardians = {
 		}
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { gold = 60 piety = 60 }
+	low_maintenance_cost = { gold = 0.2 piety = 0.05 }
+	high_maintenance_cost = { gold = 0.6 piety = 0.40 }
 	provision_cost = @provisions_cost_infantry_moderate
 
 	max_regiments = 1
@@ -231,16 +229,18 @@ royce_rune_guardians = {
 grafton_baywatch_sentries = {
 	type = skirmishers
 
-	damage = 20.0
-	toughness = 22.0
+	damage = 18.0
+	toughness = 25.0
 	pursuit = 12.0
-	screen = 18.0
+	screen = 25.0
 
 	terrain_bonus = { 
 		urban = { damage = 10 screen = 10 } 
 		majorroad_urban = { screen = 10 }
 		minorroad_urban = { screen = 10 }
 		farmlands = { damage = 10 screen = 10 }
+		hills = { damage = -5 screen = -5}
+		mountains = { damage = -5 toughness = -5}
 		wetlands = { damage = -20 screen = -20 }
 		the_bog = { damage = -10 screen = -20 }
 		taiga_bog = { damage = -10 screen = -20 }
@@ -258,15 +258,15 @@ grafton_baywatch_sentries = {
 		}
 	}
 
-	buy_cost = { gold = skirmisher_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost_normal }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost_normal }
+	buy_cost = { gold = 35 piety = 35 }
+	low_maintenance_cost = { gold = 0.25 piety = 0.10 }
+	high_maintenance_cost = { gold = 0.5 piety = 0.25 }
 	provision_cost = @provisions_cost_infantry_cheap
 
 	max_regiments = 2
 	 
 
-	stack = 100.0
+	stack = 80.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = grafton_baywatch_sentries
 }
@@ -274,15 +274,20 @@ grafton_baywatch_sentries = {
 manderly_white_harbor_sentinels = {
 	type = heavy_infantry
 
-	damage = 40.0
-	toughness = 33.0
-	pursuit = 0.0
-	screen = 0.0
+	damage = 28.0
+	toughness = 28.0
+	pursuit = 5.0
+	screen = 12.0
 
 	terrain_bonus = {
-		urban = { damage = 10 toughness = 10 }
-		wetlands = { toughness = 10 }
-		taiga = { toughness = 10 }
+		urban = { damage = 10 toughness = 10 screen = 10}
+		wetlands = { toughness = 15 }
+		taiga = { toughness = 15 }
+		hills = { damage = -10 toughness = -5}
+		steppe = { damage = -10 toughness = -5}
+		the_bog = { damage = -30 toughness = -30 pursuit = -30 screen = -30}
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		desert = { damage = -20 toughness = -20 }
 	}
 	
@@ -298,15 +303,15 @@ manderly_white_harbor_sentinels = {
 		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { gold = 80 piety = 80 }
+	low_maintenance_cost = { gold = 0.4 piety = 0.10 }
+	high_maintenance_cost = { gold = 1.25 piety = 0.5 }
 	provision_cost = @provisions_cost_infantry_expensive
 	
 	max_regiments = 1
 	 
 
-	stack = 100.0
+	stack = 120.0
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = manderly_white_harbor_sentinels
 }
@@ -314,16 +319,22 @@ manderly_white_harbor_sentinels = {
 forrester_ironguard = {
 	type = heavy_infantry
 
-	damage = 41.0
-	toughness = 43.0
+	damage = 38.0
+	toughness = 35.0
 	pursuit = 0.0
-	screen = 15.0
+	screen = 0.0
 
 	terrain_bonus = {
 		hills = { damage = 10 toughness = 10 }
 		taiga = { damage = 15 toughness = 15}
 		taiga_bog = { damage = 15 toughness = 15 }
 		forest = { damage = 5 toughness = 5 }
+		farmlands = { damage = -10 toughness = -10}
+		mountains = { damage = -10 toughness = -10}
+		wetlands = { damage = -15 toughness = -15}
+		the_bog = { damage = -30 toughness = -30 pursuit = -30 screen = -30}
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		desert = { damage = -20 toughness = -20 }
 	}
 	
@@ -339,9 +350,9 @@ forrester_ironguard = {
 			has_dynasty_perk = forrester_legacy_3_BLA		}
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost_expensive }
+	buy_cost = { gold = 55 prestige = 55 }
+	low_maintenance_cost = { gold = 0.25 prestige = 0.25 }
+	high_maintenance_cost = { gold = 0.5 prestige = 0.5 }
 	provision_cost = @provisions_cost_infantry_expensive
 
 	max_regiments = 1
@@ -355,24 +366,25 @@ forrester_ironguard = {
 bolton_dreadriders = {
 	type = heavy_cavalry
 
-	damage = 140.0
-	toughness = 50.0
+	damage = 125.0
+	toughness = 45.0
 	pursuit = 25.0
 	screen = 0.0
 
 	terrain_bonus = {
-		hills = { toughness = 10 }
-				
-		taiga = { damage = 10 pursuit = 10 }
-
-		steppe = { damage = 10 pursuit = 10 }
-		taiga_bog = { toughness = 5 }
-		
-		desert = { toughness = -20 pursuit = -20 }
-		desert_mountains = { toughness = -20 pursuit = -20 }
-				
-
-		the_bog = { toughness = -20 pursuit = -20 }
+		steppe = { damage = 35 toughness = 25 pursuit = 15 }
+		plains = { damage = 35 toughness = 25 pursuit = 15 }
+		hills = { toughness = 10 }		
+		taiga = { damage = -5 toughness = 10 pursuit = -5 }
+		forest = { damage = -5 toughness = 10 pursuit = -5 }
+		taiga_bog = { damage = -20 toughness = -20 pursuit = -15 }
+		desert = { damage = -20 toughness = -20 pursuit = -20 }
+		desert_mountains = { damage = -20 toughness = -20 pursuit = -20 }
+		mountains = { damage = -20 toughness = -20 pursuit = -20}
+		wetlands = { damage = -20 toughness = -20 pursuit = -20 }		
+		the_bog = { damage = -30 toughness = -30 pursuit = -30 screen = -30}
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		glacier = { toughness = -10 }
 		frozen_flats = { toughness = -10 }
 	}
@@ -389,9 +401,9 @@ bolton_dreadriders = {
 		}
 	}
 
-	buy_cost = { gold = heavy_cavalry_recruitment_cost_expensive }
-	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost_normal }
-	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost_normal }
+	buy_cost = { gold = 200 prestige = 150 }
+	low_maintenance_cost = { gold = 0.6 prestige = 0.4 }
+	high_maintenance_cost = { gold = 1.50 prestige = 0.5 }
 	provision_cost = @provisions_cost_cavalry_expensive
 
 	max_regiments = 1
@@ -401,7 +413,7 @@ bolton_dreadriders = {
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = bolton_dreadriders
 }
-
+# Ab hier Kizan
 dustin_barrow_guard = {
 	type = heavy_infantry
 
