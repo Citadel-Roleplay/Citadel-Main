@@ -3147,7 +3147,7 @@ citadel_starpike_2 = {
 
 casterly_rock_02 = { #Hambone adjust building | I think the price & time is already good? But you can take a look.
 
-	construction_time = 25000
+	construction_time = 20000
 
 	type_icon = "icon_casterly_rock.dds"
 	next_building = casterly_rock_03
@@ -3164,7 +3164,7 @@ casterly_rock_02 = { #Hambone adjust building | I think the price & time is alre
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = 4500
+	cost_gold = 4250
 
 	character_modifier = {
 		court_grandeur_baseline_add = 5
@@ -3199,7 +3199,7 @@ casterly_rock_02 = { #Hambone adjust building | I think the price & time is alre
 
 casterly_rock_03 = { # Hambone adjust building | I think the price & time is already good? But you can take a look.
 
-	construction_time = 35000
+	construction_time = 25000
 
 	type_icon = "icon_casterly_rock.dds"
 
@@ -3216,7 +3216,7 @@ casterly_rock_03 = { # Hambone adjust building | I think the price & time is alr
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = 7500
+	cost_gold = 6000
 
 	character_modifier = {
 		court_grandeur_baseline_add = 5
@@ -4460,7 +4460,7 @@ agot_deep_den_02 = { # Hambone adjust building
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = 3000
+	cost_gold = 2500
 
 	ai_value = {
 		base = 100
@@ -4494,7 +4494,7 @@ agot_deep_den_03 = { # Hambone adjust building
 		agot_generic_is_special_building_enabled = yes
 	}
 
-	cost_gold = 4500
+	cost_gold = 4000
 
 	ai_value = {
 		base = 100
