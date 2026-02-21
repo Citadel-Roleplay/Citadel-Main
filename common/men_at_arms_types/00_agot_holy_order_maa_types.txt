@@ -547,14 +547,14 @@ holy_guard = {
 fiery_hand = {
 	type = pikemen
 
-	buy_cost = { piety = pikemen_recruitment_cost_very_cheap }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost_normal }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost_normal }
+	buy_cost = { piety = 250 }
+	low_maintenance_cost = { piety = pikemen_low_maint_cost_normal }
+	high_maintenance_cost = { piety = pikemen_high_maint_cost_normal }
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 100
 
-	damage = 25
-	toughness = 20
+	damage = 30
+	toughness = 30
 	pursuit = 0
 	screen = 0
 

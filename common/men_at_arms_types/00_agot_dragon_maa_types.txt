@@ -34,8 +34,8 @@ scorpions = {
 	provision_cost = @provisions_cost_special_moderate
 	stack = 40
 	max_regiments = 2
-	damage = 5
-	toughness = 3
+	damage = 25
+	toughness = 5
 	pursuit = 0
 	screen = 0
 
@@ -43,7 +43,7 @@ scorpions = {
 	siege_value = 0.1
 
 	counters = {
-		dragons_regiment = 1
+		dragons_regiment = 3
 	}
 
 	can_recruit = {
