@@ -2082,7 +2082,7 @@ agot_lions_dock_01 = {
 
 	province_modifier = {
 		levy_size = 1
-		monthly_income = copper_mine_building_tax_tier_3
+		monthly_income = 10
 	}
 
 	ai_value = {
@@ -2183,7 +2183,7 @@ agot_midges_inn_01 = {
 # Deep Den
 agot_deep_den_01 = {
 	construction_time = slow_construction_time
-
+	next_building = agot_deep_den_02
 	type_icon = "icon_building_badger.dds"
 
 	can_construct_potential = {
@@ -2319,7 +2319,7 @@ agot_hornvale_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 4
+		monthly_income = 2
 	}
 	character_modifier = {
 		stewardship = 2
@@ -3576,10 +3576,11 @@ agot_new_castle_01 = {
 		stress_gain_mult = -0.05
 		court_grandeur_baseline_add = 10
 		powerful_vassal_opinion = 5
+		republic_government_tax_contribution_mult = 0.25
 	}
 
 	province_modifier = {
-		monthly_income = 4
+		monthly_income = 5
 		fort_level = 2
 		garrison_size = 0.15
 	}
@@ -5012,7 +5013,6 @@ agot_sept_at_holyhall_01 = {
 		monthly_piety = 0.5
 		monthly_piety_gain_mult = 0.15
 		the_seven_religion_opinion = 10
-		domain_tax_same_faith_mult = low_building_tax_mult_tier_3
 	}
 
 	county_modifier = {
@@ -5130,6 +5130,7 @@ agot_grafton_keep_01 = {
 		dread_gain_mult = 0.1
 		dread_baseline_add = 5
 		prisoner_opinion = -10
+		republic_government_tax_contribution_mult = 0.25
 	}
 
 	province_modifier = {
@@ -5140,8 +5141,8 @@ agot_grafton_keep_01 = {
 	county_modifier = {
 		defender_holding_advantage = 5
 		hostile_raid_time = 0.5
-		tax_mult = 0.15
 		levy_size = 0.15
+		tax_mult = 0.15
 	}
 
 	ai_value = {

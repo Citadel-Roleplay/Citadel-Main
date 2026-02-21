@@ -2202,7 +2202,6 @@ agot_butterwell_whitewalls_castle_01 = {
     character_modifier = {
         monthly_prestige = 0.3
         knight_effectiveness_mult = 0.05	
-	domain_tax_mult = 0.05
     }
 
     province_modifier = {
@@ -2380,7 +2379,6 @@ agot_butterwell_whitewalls_grand_castle_02 = {
         development_growth_factor = 0.15
         monthly_county_control_growth_factor = 0.15
         county_opinion_add = 10
-		domain_tax_mult = 0.04
     }
 
     ai_value = {
@@ -2424,7 +2422,6 @@ agot_butterwell_whitewalls_grand_castle_03 = {
         development_growth_factor = 0.2
         county_opinion_add = 15
         monthly_county_control_growth_factor = 0.2
-		domain_tax_mult = 0.05
     }
 
     ai_value = {

@@ -621,7 +621,7 @@ crag_02 = {
     province_modifier = {
         defender_holding_advantage = 4
         fort_level = 3
-        monthly_income = 1
+        monthly_income = 2.5
     }
     county_modifier = {
         levy_size = 0.1
@@ -668,7 +668,7 @@ crag_03 = {
     province_modifier = {
         defender_holding_advantage = 8
         fort_level = 6
-        monthly_income = 2
+        monthly_income = 5
     }
     county_modifier = {
         levy_size = 0.1
