@@ -400,7 +400,7 @@ dayne_heavy_infantry = {
     damage = 38
 	toughness = 30
 	pursuit = 0
-	screen = 12
+	screen = 0
 	max_regiments = 2
 	counters = {
 		pikemen = 1
@@ -1459,66 +1459,66 @@ reach_footmen = {
 
 }
 
-reach_militia = {
-	type = peasant_militia
+# reach_militia = {
+# 	type = peasant_militia
 
-	damage = 10
-	toughness = 10
-	pursuit = 2
-	screen = 2
-	max_regiments = 5
+# 	damage = 10
+# 	toughness = 10
+# 	pursuit = 2
+# 	screen = 2
+# 	max_regiments = 5
 	 
 
-	#AGOT Added
-	winter_bonus = {
-		normal_winter = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
-		harsh_winter = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
-	}
+# 	#AGOT Added
+# 	winter_bonus = {
+# 		normal_winter = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+# 		harsh_winter = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+# 	}
 
-	counters = {
-	}
+# 	counters = {
+# 	}
 
 
-	buy_cost = { gold = 30 }
-	low_maintenance_cost = { gold = 0.05 }
-	high_maintenance_cost = { gold = 2 }
-	provision_cost = @provisions_cost_infantry_expensive
-	can_recruit = {
-		valid_for_maa_trigger = { PARAMETER = unlock_maa_summer_knights }
-		NOT = { government_has_flag = government_is_nw }
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-		}
-	}
-	stack = 200
-	ai_quality = { value = -100 }
+# 	buy_cost = { gold = 30 }
+# 	low_maintenance_cost = { gold = 0.05 }
+# 	high_maintenance_cost = { gold = 2 }
+# 	provision_cost = @provisions_cost_infantry_expensive
+# 	can_recruit = {
+# 		valid_for_maa_trigger = { PARAMETER = unlock_maa_summer_knights }
+# 		NOT = { government_has_flag = government_is_nw }
+# 		NOT = {
+# 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+# 		}
+# 	}
+# 	stack = 200
+# 	ai_quality = { value = -100 }
 
-	allowed_in_hired_troops = no
-	illustration = {
-		trigger = {
-			should_use_asian_maa_graphics = yes
-		}
-		reference = pikemen_militia_asia
-	}
+# 	allowed_in_hired_troops = no
+# 	illustration = {
+# 		trigger = {
+# 			should_use_asian_maa_graphics = yes
+# 		}
+# 		reference = pikemen_militia_asia
+# 	}
 
-	#AGOT Added
-	illustration = {
-		trigger = {
-			should_use_mena_maa_graphics = yes
-		}
-		reference = militia_mena
-	}
+# 	#AGOT Added
+# 	illustration = {
+# 		trigger = {
+# 			should_use_mena_maa_graphics = yes
+# 		}
+# 		reference = militia_mena
+# 	}
 
-	illustration = {
-		reference = pikemen_militia
-	}
-}
+# 	illustration = {
+# 		reference = pikemen_militia
+# 	}
+# }
 
 reach_spears = {
 	type = pikemen
 	icon = reach_pikes
 	damage = 28
-	toughness = 25
+	toughness = 26
 	pursuit = 0
 	screen = 15
 	max_regiments = 2
@@ -1629,13 +1629,13 @@ reach_spears = {
 reach_bowmen = { # Change this Nicken !
 	type = archers
 	icon = anglosaxon_bowmen
-	damage = 24
+	damage = 28
 	toughness = 15
 	pursuit = 0
 	screen = 2
 	max_regiments = 2
 	terrain_bonus = {
-		hills = { damage = 5 }
+		hills = { damage = 10 }
 		forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		cloudforest = { damage = 5  toughness = 5  }
 		highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
@@ -1743,7 +1743,7 @@ reach_crossbow = {
 
 	counters = {
 		heavy_infantry = 2
-		heavy_cavalry = 1
+		heavy_cavalry = 0.5
 		elephant_cavalry = 1
 		chariot_cavalry = 2
 	}
@@ -1760,12 +1760,9 @@ reach_crossbow = {
 	icon = italian_crossbowmen
 
 	terrain_bonus = {
-		plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		farmlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
-		urban = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
-		wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		cloudforest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
@@ -1782,12 +1779,9 @@ reach_crossbow = {
 		taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
 		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 
-		majorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		majorroad_farmlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
-		majorroad_urban = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		majorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
-		majorroad_wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_cloudforest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
@@ -1803,12 +1797,9 @@ reach_crossbow = {
 		majorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
 		majorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
 		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
-		minorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		minorroad_farmlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
-		minorroad_urban = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		minorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		minorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
-		minorroad_wetlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		minorroad_cloudforest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		minorroad_highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		minorroad_mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
@@ -1838,7 +1829,7 @@ westerlands_footmen = {
 	type = heavy_infantry
 	icon = westerland_footmen
 	damage = 28
-	toughness = 35
+	toughness = 36
 	pursuit = 0
 	screen = 0
 	max_regiments = 2
@@ -1946,8 +1937,8 @@ westerlands_footmen = {
 westerlands_spears = {
 	type = pikemen
 	icon = westerland_billmen
-	damage = 22
-	toughness = 32
+	damage = 25
+	toughness = 35
 	pursuit = 0
 	screen = 10
 	max_regiments = 2
@@ -2055,7 +2046,7 @@ westerlands_spears = {
 westerlands_bowmen = {
 	type = archers
 	icon = accolade_bowmen_caucasian
-	damage = 22
+	damage = 24
 	toughness = 15
 	pursuit = 0
 	screen = 2
@@ -2351,7 +2342,7 @@ iron_pikes_unit = {
 	type = pikemen
 	icon = iron_pikes
 	damage = 30
-	toughness = 26
+	toughness = 25
 	pursuit = 0
 	screen = 8
 	max_regiments = 2
@@ -2634,7 +2625,7 @@ river_footmen = {
 	# damage = 32
 	# toughness = 22
 	damage = 32
-	toughness = 22
+	toughness = 24
 	pursuit = 5
 	screen = 12
 	max_regiments = 2
@@ -2876,9 +2867,9 @@ stone_hedge_footmen = {
 	type = heavy_infantry
 	icon = stone_hedge_footmen
 	damage = 35
-	toughness = 25
+	toughness = 28
 	pursuit = 0
-	screen = 0
+	screen = 15
 	max_regiments = 2
 	counters = {
 		pikemen = 2
@@ -3110,8 +3101,8 @@ minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 
 vale_pike_unit = {
 	type = pikemen
 	icon = vale_pikes
-	damage = 22
-	toughness = 26
+	damage = 24
+	toughness = 25
 	pursuit = 0
 	screen = 12
 	max_regiments = 2
@@ -4004,7 +3995,7 @@ pirate_firebow = {
 	screen = 0
 
 	siege_tier = 2
-	siege_value = 0.4
+	siege_value = 0.2
 
 	counters = {
 		dragons_regiment = 1
@@ -4026,14 +4017,13 @@ pirate_firebow = {
 pirate_bows_unit = {  
 	type = archers
 	icon = pirate_archers
-	damage = 25
+	damage = 22
 	toughness = 10
 	pursuit = 0
 	screen = 5
 	max_regiments = 2
 	terrain_bonus = {
 		jungle = { damage = 15  toughness = 15  pursuit = 10 screen = 20 }
-		plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		urban = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
@@ -4055,7 +4045,6 @@ pirate_bows_unit = {
 		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 
 		majorroad_jungle = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
-		majorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		majorroad_hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		majorroad_farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		majorroad_urban = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
@@ -4076,7 +4065,6 @@ pirate_bows_unit = {
 		majorroad_taiga = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
 		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 		minorroad_jungle = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
-		minorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		minorroad_hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
 		minorroad_farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
 		minorroad_urban = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
