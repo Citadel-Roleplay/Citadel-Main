@@ -21,117 +21,124 @@
 @provisions_cost_special_bankrupting = 24
 
 
-# temp_star_knights = {
-# 	type = heavy_cavalry
+temp_star_knights = {
+	type = heavy_cavalry
 
-# 	damage = 130    #Stolen Stats from dragon_knights, feel free to change. - K.
-# 	toughness = 40
-# 	pursuit = 30
-# 	screen = 5
+	damage = 145   #Stolen Stats from dragon_knights, feel free to change. - K.
+	toughness = 50
+	pursuit = 40
+	screen = 5
 
-# 	terrain_bonus = {
-# 		hills = { pursuit = 10 }
-# 		majorroad_hills = { pursuit = 10 }
-# 		minorroad_hills = { pursuit = 10 }
-# 		farmlands = { pursuit = 10 }
-# 		majorroad_farmlands = { pursuit = 10 }
-# 		minorroad_farmlands = { pursuit = 10 }
-# 		plains = { pursuit = 10 }
-# 		majorroad_plains = { pursuit = 10 }
-# 		minorroad_plains = { pursuit = 10 }
+	terrain_bonus = {
+		plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		wetlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		forest = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		steppe = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		taiga_bog = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		floodplains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 
-# 		highlands = { pursuit = 5 }
-# 		majorroad_highlands = { pursuit = 5 }
-# 		minorroad_highlands = { pursuit = 5 }
+		majorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_wetlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_forest = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_steppe = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_taiga_bog = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		minorroad_plains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_wetlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_forest = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_hills = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_steppe = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_taiga_bog = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_highlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_farmlands = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_urban = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+	}
 
-# 		mountains = { pursuit = -5 }
-# 		majorroad_mountains = { pursuit = -5 }
-# 		minorroad_mountains = { pursuit = -5 }
-# 		steppe = { screen = -5 }
-# 		majorroad_steppe = { screen = -5 }
-# 		minorroad_steppe = { screen = -5 }
-# 		taiga = { pursuit = -5 }
-# 		majorroad_taiga = { pursuit = -5 }
-# 		minorroad_taiga = { pursuit = -5 }
-# 		taiga_bog = { toughness = -5 }
-# 		majorroad_taiga_bog = { toughness = -5 }
-# 		minorroad_taiga_bog = { toughness = -5 }
-
-# 		the_bog = { toughness = -20 pursuit = -20 }
-# 		majorroad_the_bog = { toughness = -20 pursuit = -20 }
-# 		minorroad_the_bog = { toughness = -20 pursuit = -20 }
-# 		desert = { screen = -10 }
-# 		majorroad_desert = { screen = -10 }
-# 		minorroad_desert = { screen = -10 }
-# 		desert_mountains = { pursuit = -10 }
-# 		majorroad_desert_mountains = { pursuit = -10 }
-# 		minorroad_desert_mountains = { pursuit = -10 }
-# 		drylands = { screen = -10 }
-# 		majorroad_drylands = { screen = -10 }
-# 		minorroad_drylands = { screen = -10 }
-# 		canyon = { pursuit = -10 }
-# 		majorroad_canyon = { pursuit = -10 }
-# 		minorroad_canyon = { pursuit = -10 }
-# 		glacier = { toughness = -10 }
-# 		majorroad_glacier = { toughness = -10 }
-# 		minorroad_glacier = { toughness = -10 }
-# 		frozen_flats = { toughness = -10 }
-# 		majorroad_frozen_flats = { toughness = -10 }
-# 		minorroad_frozen_flats = { toughness = -10 }
-# 	}
-
-# 	winter_bonus = {
-# 		normal_winter = { damage = -4 toughness = -4 }
-# 		harsh_winter = { damage = -8 toughness = -8 }
-# 	}
+	winter_bonus = {
+		normal_winter = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		harsh_winter = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+	}
 		
 	
-# 	counters = {
-# 		heavy_infantry = 1
-# 		skirmishers = 1
-# 		archers = 1
-# 	}
+	counters = {
+		heavy_infantry = 1
+		skirmishers = 1
+		archers = 2
+	}
 
-#     can_recruit = {   
-# 		exists = dynasty
-# 		dynasty = {
-# 			has_dynasty_perk = templeton_legacy_4
-# 		}
-# 	}
+    can_recruit = {
+		exists = dynasty
+		dynasty = {
+			has_dynasty_perk = templeton_legacy_3
+		}
+	}
+	
 
-# 	#can_recruit = {
-# 	#	OR = {
-# 	#		AND = {
-# 	#			exists = dynasty
-# 	#			dynasty = { has_dynasty_perk = templeton_legacy_4 }
-# 	#		}
-# 	#		culture = { has_cultural_parameter = unlock_maa_temp_star_knights }
-# 	#	}
-# 	#}
+	can_recruit = {
+		OR = {
+			AND = {
+				exists = dynasty
+				dynasty = { has_dynasty_perk = templeton_legacy_3 }
+			}
+			culture = { has_cultural_parameter = unlock_maa_temp_star_knights }
+		}
+	}
 
-#     # Costs has been somewhat adjusted, but can be changed - K
 
-# 	buy_cost = { 
-# 		gold = 150
-# 		piety = 125
-# 	}
-# 	low_maintenance_cost = { 
-# 		gold = 0.66
-# 		piety = 0.44
-# 	}
-# 	high_maintenance_cost = { 
-# 		gold = 1.50
-# 		piety = 0.5
-# 	}
+	buy_cost = { gold = 110 piety = 110 }
+	low_maintenance_cost = { gold = 0.46 piety = 0.15 }
+	high_maintenance_cost = { gold = 1.1 piety = 0.28 }
 
-# 	provision_cost = @provisions_cost_cavalry_expensive
+	provision_cost = @provisions_cost_cavalry_expensive
 
-# 	max_regiments = 1
+	max_regiments = 1
 
-# 	stack = 50
-# 	ai_quality = { value = @cultural_maa_extra_ai_score }
-# 	icon = templeton_star_knights
-# }
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = templeton_star_knights
+}
 
 #Honeywiner
 # amber_knights = { #Honey Knights
@@ -3523,71 +3530,71 @@ northern_knights = {
 	icon = heavy_cavalry_wild
 
 	terrain_bonus = {
-	steppe = { damage = 30  toughness = 25  pursuit = 15 }
-farmlands = { damage = 25  toughness = 15  pursuit = 15 }
-hills = { damage = -25  toughness = -10  pursuit = -10 }
-mountains = { damage = -30  toughness = -20  pursuit = -20 }
-plains = { damage = 25  toughness = 15  pursuit = 15 }
-taiga = { damage = 10  toughness = 10  pursuit = 10 }
-forest = { damage = -15  toughness = -10  pursuit = -5 }
-highlands = { damage = -5  toughness = -5  pursuit = -5 }
-urban = { damage = -25  toughness = -15  pursuit = -15 }
-desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
-oasis = { damage = -15  toughness = -15  pursuit = -15 }
-wetlands = { damage = -15  toughness = -15  pursuit = -15 }
-floodplains = { damage = -5  toughness = -5  pursuit = -5 }
-cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
-desert = { damage = -10  toughness = -10  pursuit = -10 }
-jungle = { damage = -10  toughness = -10  pursuit = -10 }
-drylands = { damage = -10  toughness = -10  pursuit = -10 }
-frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
-glacier = { damage = -10  toughness = -10  pursuit = -10 }
-taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
-the_bog = { damage = -50  toughness = -50  pursuit = -50 }
+				steppe = { damage = 30  toughness = 25  pursuit = 15 }
+			farmlands = { damage = 25  toughness = 15  pursuit = 15 }
+			hills = { damage = -25  toughness = -10  pursuit = -10 }
+			mountains = { damage = -30  toughness = -20  pursuit = -20 }
+			plains = { damage = 25  toughness = 15  pursuit = 15 }
+			taiga = { damage = 10  toughness = 10  pursuit = 10 }
+			forest = { damage = -15  toughness = -10  pursuit = -5 }
+			highlands = { damage = -5  toughness = -5  pursuit = -5 }
+			urban = { damage = -25  toughness = -15  pursuit = -15 }
+			desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
+			oasis = { damage = -15  toughness = -15  pursuit = -15 }
+			wetlands = { damage = -15  toughness = -15  pursuit = -15 }
+			floodplains = { damage = -5  toughness = -5  pursuit = -5 }
+			cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
+			desert = { damage = -10  toughness = -10  pursuit = -10 }
+			jungle = { damage = -10  toughness = -10  pursuit = -10 }
+			drylands = { damage = -10  toughness = -10  pursuit = -10 }
+			frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
+			glacier = { damage = -10  toughness = -10  pursuit = -10 }
+			taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
+			the_bog = { damage = -50  toughness = -50  pursuit = -50 }
 
 
-		majorroad_steppe = { damage = 30  toughness = 25  pursuit = 15 }
-majorroad_farmlands = { damage = 25  toughness = 15  pursuit = 15 }
-majorroad_hills = { damage = -25  toughness = -10  pursuit = -10 }
-majorroad_mountains = { damage = -30  toughness = -20  pursuit = -20 }
-majorroad_plains = { damage = 25  toughness = 15  pursuit = 15 }
-majorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 }
-majorroad_forest = { damage = -15  toughness = -10  pursuit = -5 }
-majorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 }
-majorroad_urban = { damage = -25  toughness = -15  pursuit = -15 }
-majorroad_desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
-majorroad_oasis = { damage = -15  toughness = -15  pursuit = -15 }
-majorroad_wetlands = { damage = -15  toughness = -15  pursuit = -15 }
-majorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 }
-majorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
-majorroad_desert = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
-majorroad_the_bog = { damage = -50  toughness = -50  pursuit = -50 }
-		minorroad_steppe = { damage = 30  toughness = 25  pursuit = 15 }
-minorroad_farmlands = { damage = 25  toughness = 15  pursuit = 15 }
-minorroad_hills = { damage = -25  toughness = -10  pursuit = -10 }
-minorroad_mountains = { damage = -30  toughness = -20  pursuit = -20 }
-minorroad_plains = { damage = 25  toughness = 15  pursuit = 15 }
-minorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 }
-minorroad_forest = { damage = -15  toughness = -10  pursuit = -5 }
-minorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 }
-minorroad_urban = { damage = -25  toughness = -15  pursuit = -15 }
-minorroad_desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
-minorroad_oasis = { damage = -15  toughness = -15  pursuit = -15 }
-minorroad_wetlands = { damage = -15  toughness = -15  pursuit = -15 }
-minorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 }
-minorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
-minorroad_desert = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
-minorroad_the_bog = { damage = -50  toughness = -50  pursuit = -50 }
+					majorroad_steppe = { damage = 30  toughness = 25  pursuit = 15 }
+			majorroad_farmlands = { damage = 25  toughness = 15  pursuit = 15 }
+			majorroad_hills = { damage = -25  toughness = -10  pursuit = -10 }
+			majorroad_mountains = { damage = -30  toughness = -20  pursuit = -20 }
+			majorroad_plains = { damage = 25  toughness = 15  pursuit = 15 }
+			majorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 }
+			majorroad_forest = { damage = -15  toughness = -10  pursuit = -5 }
+			majorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 }
+			majorroad_urban = { damage = -25  toughness = -15  pursuit = -15 }
+			majorroad_desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
+			majorroad_oasis = { damage = -15  toughness = -15  pursuit = -15 }
+			majorroad_wetlands = { damage = -15  toughness = -15  pursuit = -15 }
+			majorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 }
+			majorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
+			majorroad_desert = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
+			majorroad_the_bog = { damage = -50  toughness = -50  pursuit = -50 }
+					minorroad_steppe = { damage = 30  toughness = 25  pursuit = 15 }
+			minorroad_farmlands = { damage = 25  toughness = 15  pursuit = 15 }
+			minorroad_hills = { damage = -25  toughness = -10  pursuit = -10 }
+			minorroad_mountains = { damage = -30  toughness = -20  pursuit = -20 }
+			minorroad_plains = { damage = 25  toughness = 15  pursuit = 15 }
+			minorroad_taiga = { damage = 10  toughness = 10  pursuit = 10 }
+			minorroad_forest = { damage = -15  toughness = -10  pursuit = -5 }
+			minorroad_highlands = { damage = -5  toughness = -5  pursuit = -5 }
+			minorroad_urban = { damage = -25  toughness = -15  pursuit = -15 }
+			minorroad_desert_mountains = { damage = -35  toughness = -25  pursuit = -15 }
+			minorroad_oasis = { damage = -15  toughness = -15  pursuit = -15 }
+			minorroad_wetlands = { damage = -15  toughness = -15  pursuit = -15 }
+			minorroad_floodplains = { damage = -5  toughness = -5  pursuit = -5 }
+			minorroad_cloudforest = { damage = -5  toughness = -5  pursuit = -5 }
+			minorroad_desert = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 }
+			minorroad_the_bog = { damage = -50  toughness = -50  pursuit = -50 }
 
 	}
 
