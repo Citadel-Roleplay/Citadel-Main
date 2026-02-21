@@ -806,7 +806,7 @@ armored_footmen = {
 			# has_innovation = innovation_quilted_armor
 			has_innovation = innovation_agot_mail
 		}
-		NOR = {
+		NOR = {   
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }  
 			culture = { has_cultural_parameter = unlock_maa_honeywine_quirrels } 
 			culture = { has_innovation = innovation_agot_vale_fighting }
@@ -814,6 +814,8 @@ armored_footmen = {
 			culture = { has_cultural_parameter = unlock_maa_summer_knights }   
 			culture = { has_cultural_parameter = unlock_maa_rain_bringers }  
 			culture = { has_cultural_parameter = unlock_maa_river_bows }
+			culture = { has_cultural_parameter = unlock_maa_barrow_knights }
+			culture = { has_cultural_parameter = unlock_northman_maa }
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
