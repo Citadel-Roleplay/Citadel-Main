@@ -9,14 +9,7 @@
         always = no
         custom_tooltip = {
 			text = need_baelish_agreement
-            OR = {
-                scope:holder = { has_character_flag = baelish_franchise_founder }
-                scope:holder = { has_character_flag = baelish_franchise_used_1 }
-                scope:holder = { has_character_flag = baelish_franchise_used_2 }
-                scope:holder = { has_character_flag = baelish_franchise_used_3 }
-                scope:holder = { has_character_flag = baelish_franchise_used_4 }
-                scope:holder = { has_character_flag = baelish_franchise_used_5 }
-            }
+            always = no
         }
     }
 
