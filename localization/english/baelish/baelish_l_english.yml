@@ -30,6 +30,7 @@ offer_bordello_interaction_notification:0 "Business Proposal Accepted"
 
 bordello_littlefinger:0 "Brothel"
 building_type_bordello_littlefinger:0 "Brothel"
+building_type_bordello_littlefinger_desc:0 "A discreet establishment that attracts coin and trouble in equal measure."
 building_bordello_littlefinger:0 "Brothel"
 building_bordello_littlefinger_desc:0 "A discreet establishment that attracts coin and trouble in equal measure. Quietly maintained by [house|E] [GetDynastyByID('dynn_Baelish').GetName] "
  # Legacies (If you used the legacy code)
