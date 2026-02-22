@@ -129,7 +129,7 @@ royal_crossbowmen = {
 	provision_cost = @provisions_cost_infantry_bankrupting
 	stack = 80
 
-	damage = 45
+	damage = 50
 	toughness = 20
 	pursuit = 0
 	screen = 0

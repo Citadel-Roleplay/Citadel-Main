@@ -130,8 +130,8 @@ sun_spears = {
 	provision_cost = @provisions_cost_infantry_moderate
 	stack = 100
 	max_regiments = 2
-	damage = 25
-	toughness = 25
+	damage = 26
+	toughness = 26
 	pursuit = 5
 	screen = 0
 	max_regiments = 2
@@ -233,9 +233,9 @@ sand_steeds = {
 	provision_cost = @provisions_cost_cavalry_cheap
 	stack = 100
 
-	damage = 25
+	damage = 30
 	toughness = 15
-	pursuit = 45
+	pursuit = 30
 	screen = 30
 
 	counters = {
@@ -333,8 +333,8 @@ pass_pikes = {
 	provision_cost = @provisions_cost_infantry_cheap
 	stack = 100
 
-	damage = 20
-	toughness = 30
+	damage = 30
+	toughness = 22
 	pursuit = 0
 	screen = 5
 	max_regiments = 2

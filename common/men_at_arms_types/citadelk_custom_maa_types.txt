@@ -3353,8 +3353,8 @@ minorroad_the_bog = { damage = -30  toughness = -30 }
 north_bows_unit = {
 	type = archers
 	icon = cailin_archers
-	damage = 30
-	toughness = 10
+	damage = 26
+	toughness = 12
 	pursuit = 0
 	screen = 0
 	max_regiments = 2
