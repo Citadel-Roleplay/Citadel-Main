@@ -42,6 +42,13 @@ set_provinces_start_citadel = {
 				}
 			}
 		}
+        character:Celtigar_2 = {
+			add_gold = {
+				value = {
+					value = 200
+				}
+			}
+		}
 		    
         # title:b_ten_towers.title_province = {
         #     remove_building = harlaw_mines_01
