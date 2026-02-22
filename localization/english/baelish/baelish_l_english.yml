@@ -33,6 +33,7 @@ building_type_bordello_littlefinger:0 "Brothel"
 building_type_bordello_littlefinger_desc:0 "A discreet establishment that attracts coin and trouble in equal measure."
 building_bordello_littlefinger:0 "Brothel"
 building_bordello_littlefinger_desc:0 "A discreet establishment that attracts coin and trouble in equal measure. Quietly maintained by [house|E] [GetDynastyByID('dynn_Baelish').GetName] "
+need_baelish_agreement:0 "You need to have an agreement with [house|E] [GetDynastyByID('dynn_Baelish').GetName] to construct this building."
  # Legacies (If you used the legacy code)
 baelish_legacy_1:0 "Urban Investments"
 baelish_legacy_1_desc:0 "Master the art of the shadow economy, allowing the [construction|E]  of Bordello franchises in foreign capitals."
