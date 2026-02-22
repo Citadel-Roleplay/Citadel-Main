@@ -794,7 +794,7 @@ agot_warg_king_01 = {
 }
 agot_warg_king_02 = {
 
-	construction_time = 6500
+	construction_time = 2500
 
 	type_icon = "icon_structure_hotin_fortress.dds"
 
@@ -831,7 +831,7 @@ agot_warg_king_02 = {
 
 	province_modifier = {
 		fort_level = 4
-		monthly_income = excellent_building_tax_tier_1
+		monthly_income = 2
 	}
 	county_modifier = {
 		hostile_raid_time = 0.4
@@ -849,7 +849,7 @@ agot_warg_king_02 = {
 
 agot_warg_king_03 = {
 
-	construction_time = 15000
+	construction_time = 3500
 
 	type_icon = "icon_structure_hotin_fortress.dds"
 
