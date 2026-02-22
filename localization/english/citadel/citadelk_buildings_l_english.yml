@@ -10,6 +10,10 @@
  
  building_type_citadel_hornvale_mines:1 "Hornvale Iron Mines"
  
+ building_type_citadel_lords_mill:1 "Lord’s Mill"
+ building_citadel_lords_mill:1 "Lord’s Mill"
+ building_citadel_lords_mill_desc:1 "Lord’s Mill stands upon the Red Fork, the bitter heart of the feud between House Bracken and House Blackwood. For centuries this ground has been fought over without mercy. No other place in the Riverlands has seen so much blood spilled in so little soil. The mill wheel has turned red more times than it has turned with grain, and the fields around it are thick with graves. Here, pride festers, banners burn, and every generation adds fresh corpses to an ancient hatred."
+
  building_type_citadel_hayholt:1 "Hayholt"
  building_citadel_hayholt:1 "Hayholt"
  building_citadel_hayholt_desc:1 "Perched amid the rolling woods and fertile fields of the Reach, Hayholt is the ancestral keep of House Willum, loyal vassals of Highgarden. Though not as grand as the great castles of Westeros, its stout walls and timbered halls have served the Willums well for generations. Here, banners bearing crossed longswords fly beside stout oaken gates, and the hearth fires burn bright with the bread and harvest of the lands around it. Hayholt remains both a bulwark against raiders and a steadfast home to those who owe fealty and service to House Willum."
