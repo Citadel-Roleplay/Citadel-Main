@@ -3446,6 +3446,7 @@ minorroad_the_bog = { damage = -30  toughness = -30 }
 
 	can_recruit = {
 		ROOT.culture = { has_cultural_parameter = unlock_northman_maa }
+		NOT = { culture = { has_cultural_parameter = unlock_maa_wolfswood_hunters } }
 		# NOT = { government_has_flag = government_is_nw }
 
 		# NOR = {
@@ -3992,11 +3993,11 @@ pirate_firebow = {
 	}
 	provision_cost = @provisions_cost_special_moderate
 	stack = 40
-	max_regiments = 2
-	damage = 5
-	toughness = 3
+	max_regiments = 1
+	damage = 55
+	toughness = 25
 	pursuit = 0
-	screen = 0
+	screen = 12.5
 
 	siege_tier = 2
 	siege_value = 0.2
@@ -4006,7 +4007,7 @@ pirate_firebow = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stepstone_fighting }
+		government_has_flag = government_is_pirate
 	}
 
 	allowed_in_hired_troops = no
@@ -4104,7 +4105,7 @@ pirate_bows_unit = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stepstone_fighting }
+		government_has_flag = government_is_pirate
 	}
 
 	should_show_when_unavailable = {
