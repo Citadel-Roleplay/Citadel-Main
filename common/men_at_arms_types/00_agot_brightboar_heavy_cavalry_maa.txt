@@ -1680,7 +1680,7 @@
 #     stack = 50
 # 	max_regiments = 1
     
-#     damage = 165
+#     damage = 100
 #     toughness = 55
 #     pursuit = 20
 #     screen = 5
