@@ -357,8 +357,46 @@ set_provinces_start_citadel = {
         }   
         title:b_lords_mill.title_province = { 
             add_special_building = citadel_lords_mill
-        }  
-        
+        }   
+        title:b_drainburne.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_bushmills.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_plum_fork.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_santon.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_olive_grove.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_murkside.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_millers_town.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_greenwash.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_bloods_way.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_woodrind.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_rhoynes_tear.title_province = { 
+            add_special_building = citadel_greenblood
+        } 
+        title:b_scourgeside.title_province = { 
+            add_special_building = citadel_greenblood
+        }   
+        title:b_stormfleet.title_province = { 
+            add_special_building = citadel_sapphire_port_01 
+        } 
         # ADD NORMAL BUILDINGS
         title:b_silverhall.title_province = {  
             add_special_building = citadel_silverhall

@@ -906,7 +906,7 @@ wolfswood_hunters = {
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = vigmen
+	icon = cailin_archers
 
 	terrain_bonus = {
 		taiga = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }

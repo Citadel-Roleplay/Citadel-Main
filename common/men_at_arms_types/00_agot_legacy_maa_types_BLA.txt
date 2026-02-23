@@ -30,8 +30,8 @@ sarsfield_horse_archers = {
 	screen = 30
 	max_regiments = 1
 	terrain_bonus = {
-		steppe = { damage = 45 }
-		plains = { damage = 20 }
+		steppe = { damage = 50 toughness = 40 pursuit = 30 }
+		plains = { damage = 30 toughness = 30 pursuit = 20  }
 		drylands = { damage = 20 }
 		jungle = { damage = -20 pursuit = -20 }
 		wetlands = { damage = -30 pursuit = -30 }
