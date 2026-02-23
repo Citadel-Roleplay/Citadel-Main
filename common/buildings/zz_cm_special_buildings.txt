@@ -69,13 +69,14 @@ bloodstone_special_02 = {
 	cost_gold = expensive_building_tier_3_cost
 	next_building = bloodstone_special_03
 	character_modifier = {
-		feudal_government_opinion = 15
+		pirate_government_opinion = 25
+		raid_speed = 0.55
 		diplomacy = 2
 	}
 	province_modifier = {
 		fort_level = 2
 		defender_holding_advantage = 4
-		monthly_barter_goods = 1
+		monthly_barter_goods = 1.5
 		monthly_income = 1
 		# stationed_skirmishers_toughness_mult = 3
 		# stationed_skirmishers_damage_mult = 3
