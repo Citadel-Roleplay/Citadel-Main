@@ -10,6 +10,10 @@
  
  building_type_citadel_hornvale_mines:1 "Hornvale Iron Mines"
  
+ building_type_citadel_pronged_port:1 "White Harbor Docks"
+ building_citadel_pronged_port:1 "White Harbor Docks"
+ building_citadel_pronged_port_desc:1 "These lesser docks of White Harbor serve the fishermen, traders, and laborers who keep the North supplied. Though far from the grandeur of the great harbor beneath New Castle’s shadow, these piers bustle from dawn until dusk with the hauling of nets, barrels of salted fish, timber, and northern goods. The steady work done here feeds markets across the region and ensures that even in harsh winters, the North endures through toil and tide."
+
  building_type_citadel_lords_mill:1 "Lord’s Mill"
  building_citadel_lords_mill:1 "Lord’s Mill"
  building_citadel_lords_mill_desc:1 "Lord’s Mill stands upon the Red Fork, the bitter heart of the feud between House Bracken and House Blackwood. For centuries this ground has been fought over without mercy. No other place in the Riverlands has seen so much blood spilled in so little soil. The mill wheel has turned red more times than it has turned with grain, and the fields around it are thick with graves. Here, pride festers, banners burn, and every generation adds fresh corpses to an ancient hatred."

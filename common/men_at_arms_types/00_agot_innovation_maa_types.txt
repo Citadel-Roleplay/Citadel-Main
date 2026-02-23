@@ -992,7 +992,7 @@ stepstone_sailors = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stepstone_fighting }
+		government_has_flag = government_is_pirate
 	}
 
 	ai_quality = { value = @cultural_maa_extra_ai_score }

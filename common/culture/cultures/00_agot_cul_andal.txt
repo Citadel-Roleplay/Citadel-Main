@@ -1915,6 +1915,7 @@ stone_dornish = {
 		tradition_eye_for_an_eye
 		tradition_mountaineers
 		tradition_staunch_traditionalists
+		tradition_citadel_raid
 	}
 
 	name_list = name_list_stone_dornish

@@ -1770,8 +1770,8 @@ royal_armory_03 = {
 		parameter = better_armory_buildings
 		stationed_maa_damage_mult = normal_maa_damage_tier_3
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_3
-		stationed_heavy_cavalry_damage_mult = -0.225
-		stationed_heavy_cavalry_toughness_mult = -0.225
+		stationed_heavy_cavalry_damage_mult = -0.125
+		stationed_heavy_cavalry_toughness_mult = -0.125
 	}
 	
 	is_enabled = {
