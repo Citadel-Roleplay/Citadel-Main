@@ -10,6 +10,10 @@
  
  building_type_citadel_hornvale_mines:1 "Hornvale Iron Mines"
  
+ building_type_citadel_pinkmaiden:1 "Castle Pinkmaiden"
+ building_citadel_pinkmaiden:1 "Castle Pinkmaiden"
+ building_citadel_pinkmaiden_desc:1 "Standing beside the Red Fork, Castle Pinkmaiden is the ancestral seat of House Piper. Its pale stone walls rise above fertile riverlands that have long sustained both lord and smallfolk alike. Though not among the greatest fortresses of Westeros, its position along vital river crossings grants it strategic importance in times of war. From its towers, the Pipers watch the waters and fields that have shaped their lineage for generations."
+
  building_type_citadel_pronged_port:1 "White Harbor Docks"
  building_citadel_pronged_port:1 "White Harbor Docks"
  building_citadel_pronged_port_desc:1 "These lesser docks of White Harbor serve the fishermen, traders, and laborers who keep the North supplied. Though far from the grandeur of the great harbor beneath New Castle’s shadow, these piers bustle from dawn until dusk with the hauling of nets, barrels of salted fish, timber, and northern goods. The steady work done here feeds markets across the region and ensures that even in harsh winters, the North endures through toil and tide."

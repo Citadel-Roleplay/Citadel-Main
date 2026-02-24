@@ -1219,7 +1219,7 @@ ruins_harrenhal_02 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 750
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_1_mesh"
@@ -1325,7 +1325,7 @@ ruins_harrenhal_03 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 1000
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_2_mesh"
@@ -1432,7 +1432,7 @@ ruins_harrenhal_04 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 1100
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_3_mesh"
@@ -1539,7 +1539,7 @@ ruins_harrenhal_05 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 1200
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_4_mesh"
@@ -1564,7 +1564,7 @@ ruins_harrenhal_05 = {
 	}
 
 	county_modifier = {
-		levy_size = -0.02
+		levy_size = -0.01
 		development_growth_factor = -0.02
 	}
 
@@ -1646,7 +1646,7 @@ ruins_harrenhal_06 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 1300
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_ruined_5_mesh"
@@ -1671,7 +1671,6 @@ ruins_harrenhal_06 = {
 	}
 
 	county_modifier = {
-		levy_size = -0.01
 		development_growth_factor = -0.01
 	}
 
@@ -1750,7 +1749,7 @@ ruins_harrenhal_07 = {
 			desc = tournament_activity_cost_max_discount_effect_desc
 		}
 	}
-	levy = 500
+	levy = 1500
 	asset = {
 		type = pdxmesh
 		name = "building_special_harrenhal_restored_mesh"
@@ -1775,6 +1774,7 @@ ruins_harrenhal_07 = {
 	}
 
 	county_modifier = {
+		levy_size = 0.025
 		monthly_county_control_growth_factor = 0.1
 	}
 

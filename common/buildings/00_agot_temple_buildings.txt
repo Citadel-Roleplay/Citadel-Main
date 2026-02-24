@@ -355,7 +355,7 @@ godswood_08 = {
 	character_modifier = {
 		monthly_piety = 1.5
 		monthly_prestige = 1.5
-		martial_per_piety_level = 2
+		martial_per_piety_level = 1
 	}
 
 	ai_value = {

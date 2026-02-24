@@ -2114,6 +2114,7 @@ agot_crakehall_01 = {
 		lifestyle_hunter_xp_gain_mult = 0.2
 		stress_gain_mult = -0.15
 		stress_loss_mult = 0.15
+		monthly_war_income_add = 0.5
 		army_maintenance_mult = -0.15
 	}
 
