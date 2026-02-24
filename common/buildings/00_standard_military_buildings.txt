@@ -3633,7 +3633,6 @@ regimental_grounds_08 = {
 	character_modifier = {
 		men_at_arms_maintenance = good_building_maa_maintenance_tier_8
 		knight_limit = 1
-		army_maintenance_mult = -0.01
 	}
 	
 	province_modifier = {
@@ -6037,6 +6036,7 @@ smiths_01 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.05
 		stationed_heavy_cavalry_damage_mult = -0.025
+		monthly_income = 0.05
 		# tax_mult = low_building_tax_mult_tier_1
 	}
 	county_modifier = {
@@ -6044,7 +6044,6 @@ smiths_01 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_1
-		army_maintenance_mult = 0.015
 	}
 
 	character_culture_modifier = {
@@ -6207,11 +6206,11 @@ smiths_02 = {
 	province_modifier = {
 		stationed_maa_damage_mult = 0.1
 		stationed_heavy_cavalry_damage_mult = -0.05
+		monthly_income = 0.1
 		# tax_mult = low_building_tax_mult_tier_2
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_2
-		army_maintenance_mult = 0.02
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_2
@@ -6302,14 +6301,13 @@ smiths_03 = {
 		stationed_maa_toughness_mult = 0.05
 		stationed_heavy_cavalry_damage_mult = -0.065
 		stationed_heavy_cavalry_toughness_mult = -0.025
-		# tax_mult = low_building_tax_mult_tier_3
+		monthly_income = 0.15
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_3
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_3
-		army_maintenance_mult = 0.025
 	}
 
 	character_culture_modifier = {
@@ -6393,14 +6391,13 @@ smiths_04 = {
 		stationed_maa_toughness_mult = 0.1
 		stationed_heavy_cavalry_damage_mult = -0.1
 		stationed_heavy_cavalry_toughness_mult = -0.05
-		# tax_mult = low_building_tax_mult_tier_4
+		monthly_income = 0.2
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_4
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_4
-		army_maintenance_mult = 0.03
 	}
 
 	character_culture_modifier = {
@@ -6483,14 +6480,13 @@ smiths_05 = {
 		stationed_maa_toughness_mult = 0.15
 		stationed_heavy_cavalry_damage_mult = -0.125
 		stationed_heavy_cavalry_toughness_mult = -0.125
-		# tax_mult = low_building_tax_mult_tier_5
+		monthly_income = 0.25
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_5
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_5
-		army_maintenance_mult = 0.035
 	}
 
 	character_culture_modifier = {
@@ -6573,14 +6569,13 @@ smiths_06 = {
 		stationed_maa_toughness_mult = 0.2
 		stationed_heavy_cavalry_damage_mult = -0.15
 		stationed_heavy_cavalry_toughness_mult = -0.1
-		# tax_mult = low_building_tax_mult_tier_6
+		monthly_income = 0.3
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_6
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_6
-		army_maintenance_mult = 0.04
 	}
 
 	character_culture_modifier = {
@@ -6663,14 +6658,13 @@ smiths_07 = {
 		stationed_maa_toughness_mult = 0.25
 		stationed_heavy_cavalry_damage_mult = -0.175
 		stationed_heavy_cavalry_toughness_mult = -0.125
-		# tax_mult = low_building_tax_mult_tier_7
+		monthly_income = 0.35
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_7
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_7
-		army_maintenance_mult = 0.05
 	}
 
 	character_culture_modifier = {
@@ -6753,14 +6747,13 @@ smiths_08 = {
 		stationed_maa_toughness_mult = 0.3
 		stationed_heavy_cavalry_damage_mult = -0.2
 		stationed_heavy_cavalry_toughness_mult = -0.15
-		# tax_mult = low_building_tax_mult_tier_8
+		monthly_income = 0.4
 	}
 	county_modifier = {
 		levy_reinforcement_rate = normal_levy_reinforcement_rate_tier_8
 	}
 	character_modifier = {
 		knight_effectiveness_mult = normal_knight_effectiveness_mult_tier_8
-		army_maintenance_mult = 0.06
 	}
 
 	character_culture_modifier = {

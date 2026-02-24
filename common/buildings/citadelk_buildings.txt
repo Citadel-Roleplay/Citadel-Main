@@ -3842,6 +3842,7 @@ citadel_ironoaks_quarry2 = {
 
 	province_modifier = {
 		monthly_income = 0.5
+		build_gold_cost = -0.1
 	}
 	county_modifier = {
 	}
@@ -3879,7 +3880,7 @@ citadel_ironoaks_quarry3 = {
 
 	province_modifier = {
 		monthly_income = 1.25
-		tax_mult = 0.1
+		build_gold_cost = -0.15
 	}
 	county_modifier = {
 	}
@@ -3918,8 +3919,8 @@ citadel_ninestars = {
 	province_modifier = {
 		levy_size = 0.2
 		stationed_heavy_cavalry_damage_mult = 0.05
-		stationed_maa_damage_mult_per_piety_level = 0.1
-		stationed_maa_toughness_mult_per_piety_level = 0.1
+		stationed_maa_damage_mult_per_piety_level = 0.05
+		stationed_maa_toughness_mult_per_piety_level = 0.05
 		stationed_heavy_cavalry_toughness_mult = 0.05
 	}
 	county_modifier = {
@@ -4656,6 +4657,45 @@ citadel_sapphire_port_02 = {
 	}
 	type = special
 	flag = travel_point_of_interest_economic
+}
+
+citadel_pinkmaiden = {	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_ub_cesis_castle.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	max_garrison = 150
+	county_modifier = {
+	}
+
+	character_modifier = {
+		opinion_of_liege = 15
+		heavy_infantry_recruitment_cost_mult = -0.05
+	}
+
+	province_modifier = {
+		fort_level = 2
+		stationed_heavy_infantry_damage_mult = 0.10
+		stationed_heavy_infantry_toughness_mult = 0.10
+		stationed_heavy_infantry_pursuit_mult = 0.10
+		stationed_heavy_infantry_screen_mult = 0.10
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { 
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
 }
 
 # 3D MODELS !

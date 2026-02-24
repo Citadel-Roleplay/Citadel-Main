@@ -726,8 +726,8 @@ watermills_01 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_1
 		supply_limit_mult = 0.1
-		holding_build_gold_cost = -0.05
-		build_gold_cost = -0.05
+		holding_build_gold_cost = -0.01
+		build_gold_cost = -0.01
 	}
 	
 	county_modifier = {
@@ -844,8 +844,8 @@ watermills_02 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_2
 		supply_limit_mult = 0.2
-		holding_build_gold_cost = -0.10
-		build_gold_cost = -0.10
+		holding_build_gold_cost = -0.02
+		build_gold_cost = -0.02
 	}
 	
 	county_modifier = {
@@ -946,8 +946,8 @@ watermills_03 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_3
 		supply_limit_mult = 0.3
-		holding_build_gold_cost = -0.14
-		build_gold_cost = -0.14
+		holding_build_gold_cost = -0.03
+		build_gold_cost = -0.03
 	}
 	
 	county_modifier = {
@@ -1046,8 +1046,8 @@ watermills_04 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_4
 		supply_limit_mult = 0.4
-		holding_build_gold_cost = -0.18
-		build_gold_cost = -0.18
+		holding_build_gold_cost = -0.04
+		build_gold_cost = -0.04
 	}
 	
 	county_modifier = {
@@ -1119,8 +1119,8 @@ watermills_05 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_5
 		supply_limit_mult = 0.5
-		holding_build_gold_cost = -0.22
-		build_gold_cost = -0.22
+		holding_build_gold_cost = -0.05
+		build_gold_cost = -0.05
 	}
 	
 	county_modifier = {
@@ -1200,8 +1200,8 @@ watermills_06 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_6
 		supply_limit_mult = 0.6
-		holding_build_gold_cost = -0.24
-		build_gold_cost = -0.24
+		holding_build_gold_cost = -0.06
+		build_gold_cost = -0.06
 	}
 	
 	county_modifier = {
@@ -1281,8 +1281,8 @@ watermills_07 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_7
 		supply_limit_mult = 0.7
-		holding_build_gold_cost = -0.26
-		build_gold_cost = -0.26
+		holding_build_gold_cost = -0.07
+		build_gold_cost = -0.07
 	}
 	
 	county_modifier = {
@@ -1362,8 +1362,8 @@ watermills_08 = {
 	province_modifier = {
 		monthly_income = excellent_building_tax_tier_8
 		supply_limit_mult = 0.8
-		holding_build_gold_cost = -0.30
-		build_gold_cost = -0.30
+		holding_build_gold_cost = -0.08
+		build_gold_cost = -0.08
 	}
 	
 	county_modifier = {
@@ -1395,7 +1395,7 @@ watermills_08 = {
 ### Windmills
 
 windmills_01 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		OR = {
@@ -1537,7 +1537,7 @@ windmills_01 = {
 }
 
 windmills_02 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		OR = {
@@ -1624,7 +1624,7 @@ windmills_02 = {
 }
 
 windmills_03 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		OR = {
@@ -1705,7 +1705,7 @@ windmills_03 = {
 }
 
 windmills_04 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		OR = {
@@ -1784,7 +1784,7 @@ windmills_04 = {
 }
 
 windmills_05 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		building_windmills_requirement_terrain = yes
@@ -1844,7 +1844,7 @@ windmills_05 = {
 }
 
 windmills_06 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		building_windmills_requirement_terrain = yes
@@ -1907,7 +1907,7 @@ windmills_06 = {
 }
 
 windmills_07 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		building_windmills_requirement_terrain = yes
@@ -1970,7 +1970,7 @@ windmills_07 = {
 }
 
 windmills_08 = {
-	construction_time = slow_construction_time
+	construction_time = 1525
 
 	can_construct_potential = {
 		building_windmills_requirement_terrain = yes
@@ -5272,7 +5272,9 @@ pastures_01 = {
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.01
+	}
 	show_disabled = yes
 	
 	cost_gold = normal_building_tier_1_cost
@@ -5370,7 +5372,9 @@ pastures_02 = {
 		is_coastal = yes
 		# tax_mult = 0.01
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.02
+	}
 	on_complete = {
 		#Mandala Creator Aspect
 		creator_mandala_built_regular_building_piety_effect = yes
@@ -5403,7 +5407,9 @@ pastures_03 = {
 			has_innovation = innovation_manorialism
 		}
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.03
+	}
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
@@ -5460,7 +5466,9 @@ pastures_04 = {
 			has_innovation = innovation_manorialism
 		}
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.04
+	}
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
@@ -5525,7 +5533,9 @@ pastures_05 = {
 	}
 	
 	cost_gold = normal_building_tier_5_cost
-	
+	character_modifier = {
+		levy_maintenance = -0.05
+	}
 	province_modifier = {
 		monthly_income = normal_building_tax_tier_5
 		supply_limit = normal_building_supply_limit_tier_5
@@ -5583,7 +5593,9 @@ pastures_06 = {
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.06
+	}
 	cost_gold = normal_building_tier_6_cost
 	province_modifier = {
 		monthly_income = normal_building_tax_tier_6
@@ -5639,7 +5651,9 @@ pastures_07 = {
 			has_innovation = innovation_cranes
 		}
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.07
+	}
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
@@ -5697,7 +5711,9 @@ pastures_08 = {
 			has_innovation = innovation_cranes
 		}
 	}
-
+	character_modifier = {
+		levy_maintenance = -0.08
+	}
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
@@ -7476,7 +7492,9 @@ cereal_fields_01 = {
 	}
 	
 	cost_gold = normal_building_tier_1_cost
-	
+	county_modifier = {
+		levy_reinforcement_rate = 0.025
+	}
 	province_modifier = {
 		monthly_income = good_building_tax_tier_1
 	}
@@ -7571,8 +7589,7 @@ cereal_fields_02 = {
 				has_cultural_parameter = vegetarian_next_level_cereal_fields
 			}
 		}
-	}
-
+	} 
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
@@ -7589,7 +7606,7 @@ cereal_fields_02 = {
 	}
 
 	county_modifier = {
-		# tax_mult = 0.01
+		levy_reinforcement_rate = 0.05
 	}
 
 	province_culture_modifier = {
@@ -7677,6 +7694,7 @@ cereal_fields_03 = {
 	county_modifier = {
 		# tax_mult = 0.01
 		supply_limit = 400
+		levy_reinforcement_rate = 0.0725
 	}
 
 	province_culture_modifier = {
@@ -7762,6 +7780,7 @@ cereal_fields_04 = {
 		# tax_mult = 0.01
 		supply_limit = 400
 		development_growth_factor = 0.05
+		levy_reinforcement_rate = 0.1
 	}
 
 	province_culture_modifier = {
@@ -7847,6 +7866,7 @@ cereal_fields_05 = {
 		supply_limit = 400
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
+		levy_reinforcement_rate = 0.125
 	}
 
 	province_culture_modifier = {
@@ -7933,6 +7953,7 @@ cereal_fields_06 = {
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
 		church_holding_build_gold_cost = -0.05
+		levy_reinforcement_rate = 0.15
 	}
 
 	province_culture_modifier = {
@@ -8020,6 +8041,7 @@ cereal_fields_07 = {
 		development_growth_factor = 0.05
 		supply_limit_mult = 0.05
 		church_holding_build_gold_cost = -0.05
+		levy_reinforcement_rate = 0.1725
 	}
 
 	province_culture_modifier = {
@@ -8103,7 +8125,7 @@ cereal_fields_08 = {
 	county_modifier = {
 		#AGOT Modified
 		#levy_reinforcement_rate = 0.05
-		levy_reinforcement_rate = 0.025
+		levy_reinforcement_rate = 0.2
 		# tax_mult = 0.02
 		supply_limit = 1600
 		development_growth_factor = 0.05

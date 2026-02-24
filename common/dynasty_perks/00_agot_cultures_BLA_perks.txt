@@ -859,9 +859,10 @@ myrish_legacy_5 = { # League of Masters
 	legacy = lyseni_legacy_track
 
 	can_be_picked = { 
-		culture = lyseni 
+		culture = {
+			this = culture:lyseni 
+		}
 	}
-	
 
 	effect = {
 		custom_description_no_bullet = {
