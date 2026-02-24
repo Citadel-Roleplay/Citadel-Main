@@ -11379,8 +11379,8 @@ plumm_purple_mantles = {
 greenfield_bower_knights = {
 	type = heavy_cavalry
 
-	damage = 11.0
-	toughness =60.0
+	damage = 110.0
+	toughness = 60.0
 	pursuit = 30.0
 	screen = 0.0
 
