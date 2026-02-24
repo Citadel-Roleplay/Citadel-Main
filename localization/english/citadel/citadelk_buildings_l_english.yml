@@ -10,6 +10,26 @@
  
  building_type_citadel_hornvale_mines:1 "Hornvale Iron Mines"
  
+ building_type_citadel_pronged_port:1 "White Harbor Docks"
+ building_citadel_pronged_port:1 "White Harbor Docks"
+ building_citadel_pronged_port_desc:1 "These lesser docks of White Harbor serve the fishermen, traders, and laborers who keep the North supplied. Though far from the grandeur of the great harbor beneath New Castle’s shadow, these piers bustle from dawn until dusk with the hauling of nets, barrels of salted fish, timber, and northern goods. The steady work done here feeds markets across the region and ensures that even in harsh winters, the North endures through toil and tide."
+
+ building_type_citadel_sapphire_port_01:1 "The Sapphire Port"
+
+ building_citadel_sapphire_port_01:1 "The Sapphire Port"
+ building_citadel_sapphire_port_01_desc:1 "Sapphire Island, despite its glittering name, is not blessed with great natural riches. Its strength lies instead in the sea. The Sapphire Port sustains Tarth’s fleet and trade, forming the foundation of a navy counted among the stronger forces along the eastern coast of Westeros."
+
+ building_citadel_sapphire_port_02:1 "The Sapphire Port"
+ building_citadel_sapphire_port_02_desc:1 "Further expanded, the Sapphire Port anchors the power of Tarth at sea. The island’s fleet, often referred to as the Stormfleet of the Stormlands, guards vital routes through the Narrow Sea while trade through its docks strengthens the island’s economy."
+ 
+ building_type_citadel_greenblood:1 "Greenblood"
+ building_citadel_greenblood:1 "Greenblood"
+ building_citadel_greenblood_desc:1 "Blessed by the flowing waters of the Greenblood, this settlement thrives along one of the few truly hospitable stretches in all of Dorne. While much of the land is harsh and unforgiving, the river brings life, shade, and fertile soil to its banks. Palm and orchard grow where desert would otherwise reign, and trade and riverfolk culture flourish in this rare comfort beneath the Dornish sun."
+
+ building_type_citadel_lords_mill:1 "Lord’s Mill"
+ building_citadel_lords_mill:1 "Lord’s Mill"
+ building_citadel_lords_mill_desc:1 "Lord’s Mill stands upon the Red Fork, the bitter heart of the feud between House Bracken and House Blackwood. For centuries this ground has been fought over without mercy. No other place in the Riverlands has seen so much blood spilled in so little soil. The mill wheel has turned red more times than it has turned with grain, and the fields around it are thick with graves. Here, pride festers, banners burn, and every generation adds fresh corpses to an ancient hatred."
+
  building_type_citadel_hayholt:1 "Hayholt"
  building_citadel_hayholt:1 "Hayholt"
  building_citadel_hayholt_desc:1 "Perched amid the rolling woods and fertile fields of the Reach, Hayholt is the ancestral keep of House Willum, loyal vassals of Highgarden. Though not as grand as the great castles of Westeros, its stout walls and timbered halls have served the Willums well for generations. Here, banners bearing crossed longswords fly beside stout oaken gates, and the hearth fires burn bright with the bread and harvest of the lands around it. Hayholt remains both a bulwark against raiders and a steadfast home to those who owe fealty and service to House Willum."

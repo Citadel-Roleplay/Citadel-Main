@@ -226,7 +226,7 @@ agot_pirate_economic_01 = {
 
 	province_modifier = {
 		monthly_income = 0.5
-		monthly_barter_goods = 0.5
+		monthly_barter_goods = 1
 	}
 
 	next_building = agot_pirate_economic_02
@@ -256,7 +256,7 @@ agot_pirate_economic_02 = {
 
 	province_modifier = {
 		monthly_income = 0.7
-		monthly_barter_goods = 0.7
+		monthly_barter_goods = 1.4
 	}
 
 	next_building = agot_pirate_economic_03
@@ -285,7 +285,7 @@ agot_pirate_economic_03 = {
 
 	province_modifier = {
 		monthly_income = 0.9
-		monthly_barter_goods = 0.9
+		monthly_barter_goods = 1.8
 	}
 	
 	next_building = agot_pirate_economic_04
@@ -314,7 +314,7 @@ agot_pirate_economic_04 = {
 
 	province_modifier = {
 		monthly_income = 1.1
-		monthly_barter_goods = 1.1
+		monthly_barter_goods = 2.2
 	}
 
 	next_building = agot_pirate_economic_05
@@ -343,7 +343,7 @@ agot_pirate_economic_05 = {
 
 	province_modifier = {
 		monthly_income = 1.3
-		monthly_barter_goods = 1.3
+		monthly_barter_goods = 2.6
 	}
 
 	next_building = agot_pirate_economic_06
@@ -372,7 +372,7 @@ agot_pirate_economic_06 = {
 
 	province_modifier = {
 		monthly_income = 1.5
-		monthly_barter_goods = 1.5
+		monthly_barter_goods = 3
 	}
 
 	type_icon = "icon_building_pirate_economic.dds"
@@ -626,6 +626,8 @@ agot_pirate_troop_01 = {
 		stationed_archers_toughness_mult = 0.15
 		stationed_skirmishers_damage_mult = 0.3
 		stationed_archers_damage_mult = 0.3
+		stationed_heavy_infantry_toughness_mult = 0.05
+		stationed_heavy_infantry_damage_mult = 0.05
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
@@ -659,6 +661,8 @@ agot_pirate_troop_02 = {
 		stationed_archers_toughness_mult = 0.3
 		stationed_skirmishers_damage_mult = 0.6
 		stationed_archers_damage_mult = 0.6
+		stationed_heavy_infantry_toughness_mult = 0.1
+		stationed_heavy_infantry_damage_mult = 0.1
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
@@ -691,6 +695,8 @@ agot_pirate_troop_03 = {
 		stationed_archers_toughness_mult = 0.45
 		stationed_skirmishers_damage_mult = 0.9
 		stationed_archers_damage_mult = 0.9
+		stationed_heavy_infantry_toughness_mult = 0.15
+		stationed_heavy_infantry_damage_mult = 0.15
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
@@ -723,6 +729,8 @@ agot_pirate_troop_04 = {
 		stationed_archers_toughness_mult = 0.6
 		stationed_skirmishers_damage_mult = 1.2
 		stationed_archers_damage_mult = 1.2
+		stationed_heavy_infantry_toughness_mult = 0.2
+		stationed_heavy_infantry_damage_mult = 0.2
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
@@ -755,6 +763,8 @@ agot_pirate_troop_05 = {
 		stationed_archers_toughness_mult = 0.75
 		stationed_skirmishers_damage_mult = 1.5
 		stationed_archers_damage_mult = 1.5
+		stationed_heavy_infantry_toughness_mult = 0.25
+		stationed_heavy_infantry_damage_mult = 0.25
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
@@ -787,6 +797,8 @@ agot_pirate_troop_06 = {
 		stationed_archers_toughness_mult = 0.9
 		stationed_skirmishers_damage_mult = 1.8
 		stationed_archers_damage_mult = 1.8
+		stationed_heavy_infantry_toughness_mult = 0.3
+		stationed_heavy_infantry_damage_mult = 0.3
 	}
 
 	type_icon = "icon_building_pirate_troop.dds"
