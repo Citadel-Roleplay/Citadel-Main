@@ -1672,7 +1672,7 @@ tradition_frugal_armorsmiths = {
 		army_maintenance_mult = -0.25
 		men_at_arms_recruitment_cost = -0.25
 		knight_effectiveness_mult = -0.6
-		levy_toughness = -8
+		levy_toughness = -5
 		heavy_cavalry_toughness_mult = -0.5
 		pikemen_toughness_mult = -0.15
 		heavy_infantry_toughness_mult = -0.25
@@ -3025,9 +3025,9 @@ tradition_longbow_competitions = {
 		archer_era_improvement = yes
 	}
 	character_modifier = {
-		archers_max_size_add = 4
-		heavy_cavalry_max_size_add = -2
-		pikemen_max_size_add = -2
+		archers_toughness_mult = 0.2
+		heavy_cavalry_toughness_mult = -0.1
+		pikemen_toughness_mult = -0.15
 	}
 	
 	cost = {

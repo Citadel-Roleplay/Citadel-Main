@@ -10,8 +10,13 @@
  amber_knights: "Honey Knights"
  amber_knights_flavor: "Light equipped cavalry armed with honey gilded lances and flowing bee embroidered banners. Their mounts are bred on wildflower meadows, giving them remarkable endurance and a striking golden appearance."
  sanddornish_horse_archers: "Sand Steed Archers"
- sanddornish_horse_archers_flavor: "Those who cross the Sand Steed Archers in the open or the desert soon learn their folly none escape their arrows, and the sands remember only the bones of their enemies. To face them beneath the sun in the open is to invite certain death."
- 
+ sanddornish_horse_archers_flavor: "Those who face the Sand Steed Archers in the open desert or upon the wide plains soon learn their mistake. Swift as the wind and relentless beneath the blazing sun, their arrows fall without mercy. To meet them in open ground is to invite near certain death, for few can escape their hunt, and the sands remember only the bones they leave behind."
+ dulver_skirmishers: "Grudgebearers"
+ dulver_skirmishers_flavor: "The skirmishers of House Dulver are far more accustomed to fighting in the hills and mountains than most of their Westerlands counterparts. Hardened by steep passes and rocky ground, they move with confidence where heavier troops struggle. Whether guarding Goldmarch Pass or patrolling the rugged heights of the Westerlands, they are an excellent choice for holding the high ground."
+
+
+ stark_winterfell_swornswords_flavor:0 "Within the ancient walls of Winterfell, sworn swords gather beneath the direwolf banner. Hardened by northern winters and bound by old oaths, they stand ready in the Great Keep’s shadow, their loyalty as unyielding as the frozen earth itself."
+
  # Dayne Heavy Infantry
  dayne_heavy_infantry: "Elite Starfall Knights"
  dayne_heavy_infantry_flavor: "The Elite Starfall Knights are counted among the most elite troops in all of Westeros. Though few in number, their discipline, skill, and unbreakable spirit make them a formidable force upon any battlefield."

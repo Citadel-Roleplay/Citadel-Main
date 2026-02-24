@@ -765,7 +765,6 @@ tumblestone_riverlander = {
 		tradition_festivities
 		tradition_hit_and_run
 		tradition_loyal_soldiers
-		tradition_citadel_raid
 	}
 
 	name_list = name_list_riverlander
@@ -971,7 +970,6 @@ raventree_valeman = {
 	traditions = {
 		tradition_agot_riverlands
 		tradition_agot_rivermen_main
-		tradition_agot_wolfswood_clansmen
 		tradition_forest_folk
 		tradition_longbow_competitions
 		tradition_religion_blending
@@ -1915,6 +1913,7 @@ stone_dornish = {
 		tradition_eye_for_an_eye
 		tradition_mountaineers
 		tradition_staunch_traditionalists
+		tradition_citadel_raid
 	}
 
 	name_list = name_list_stone_dornish

@@ -522,25 +522,19 @@ sanddornish_horse_archers = {
 	screen = 30
 	
 	terrain_bonus = {
-		desert = { damage = 45 toughness = 30 pursuit = 20 }
-		minorroad_desert = { damage = 45 toughness = 30 pursuit = 20  }
-		steppe = { damage = 20 toughness = 30 pursuit = 20 }
-		minorroad_steppe = { damage = 20 toughness = 20 pursuit = 20 }
-		drylands = { damage = 20 toughness = 20 pursuit = 20 }
-		minorroad_drylands = { damage = 20 toughness = 20 pursuit = 20 }
-		oasis = { damage = 20 toughness = 20 pursuit = 20 }
-		minorroad_oasis = { damage = 20 toughness = 20 pursuit = 20 }
-		plains = { damage = 20 pursuit = 20 }
+		desert = { damage = 50 toughness = 40 pursuit = 30 }
+		oasis = { damage = 50 toughness = 40 pursuit = 30 }
+		drylands = { damage = 30 toughness = 30 pursuit = 20 }
+		steppe = { damage = 30 toughness = 30 pursuit = 20 }
+		plains = { damage = 20 toughness = 20 pursuit = 20 }
 		jungle = { damage = -20 pursuit = -20 }
 		wetlands = { damage = -30 pursuit = -30 }
 		mountains = { damage = -30 pursuit = -30 }
-		minorroad_mountains = { damage = -30 pursuit = -30 }
 		desert_mountains = { damage = -30 pursuit = -30 }
-		minorroad_desert_mountains = { damage = -30 pursuit = -30 }
 		forest = { damage = -25 pursuit = -25 }
-		minorroad_forest = { damage = -25 pursuit = -15 }
 		hills = { damage = -30 pursuit = -20 }
-		minorroad_hills = { damage = -30 pursuit = -20 }
+		taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
 	}
 
 	counters = {
@@ -554,9 +548,9 @@ sanddornish_horse_archers = {
 		culture = { has_cultural_parameter = unlock_maa_sanddornish_horse_archers }	
 	}
 
-	buy_cost = { gold = horse_archers_recruitment_cost }
-	low_maintenance_cost = { gold = horse_archers_low_maint_cost }
-	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
+	buy_cost = { gold = 80 prestige = 80 }
+	low_maintenance_cost = { gold = 0.35 prestige = 0.35 }
+	high_maintenance_cost = { gold = 1 prestige = 1 }
 	provision_cost = @provisions_cost_cavalry_cheap
 
 	max_regiments = 1
@@ -2214,6 +2208,9 @@ westerlands_skirmishers = {
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_rain_bringers }
 		NOT = { government_has_flag = government_is_nw }
+		NOR = {
+			has_title = title:c_darrows
+		}
 	}
 	counters = {
 		light_cavalry = 2
@@ -3446,6 +3443,7 @@ minorroad_the_bog = { damage = -30  toughness = -30 }
 
 	can_recruit = {
 		ROOT.culture = { has_cultural_parameter = unlock_northman_maa }
+		NOT = { culture = { has_cultural_parameter = unlock_maa_wolfswood_hunters } }
 		# NOT = { government_has_flag = government_is_nw }
 
 		# NOR = {
@@ -3992,11 +3990,11 @@ pirate_firebow = {
 	}
 	provision_cost = @provisions_cost_special_moderate
 	stack = 40
-	max_regiments = 2
-	damage = 5
-	toughness = 3
+	max_regiments = 1
+	damage = 55
+	toughness = 25
 	pursuit = 0
-	screen = 0
+	screen = 12.5
 
 	siege_tier = 2
 	siege_value = 0.2
@@ -4006,7 +4004,7 @@ pirate_firebow = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stepstone_fighting }
+		government_has_flag = government_is_pirate
 	}
 
 	allowed_in_hired_troops = no
@@ -4104,7 +4102,7 @@ pirate_bows_unit = {
 	}
 
 	can_recruit = {
-		culture = { has_innovation = innovation_agot_stepstone_fighting }
+		government_has_flag = government_is_pirate
 	}
 
 	should_show_when_unavailable = {
@@ -4132,5 +4130,91 @@ pirate_bows_unit = {
 		value = culture_ai_weight_archers
 		add = counter_synergy_ai_weight_archers
 	}
+
+}
+
+# House Dulver Titular MAA
+dulver_skirmishers = {
+	type = skirmishers
+	icon = westslavic_skirmishers
+	damage = 25
+	toughness = 15
+	pursuit = 17
+	screen = 23
+	max_regiments = 2
+	terrain_bonus = {
+		hills = { damage = 15  toughness = 15  pursuit = 15 screen = 15 }
+		forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		highlands = { damage = 15  toughness = 15  pursuit = 15 screen = 15 }
+		mountains = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		wetlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		steppe = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		desert_mountains = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+
+		majorroad_hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_highlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		majorroad_mountains = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		majorroad_oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_wetlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_steppe = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		majorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		majorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+		minorroad_hills = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_forest = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_highlands = { damage = 10  toughness = 10  pursuit = 10 screen = 10 }
+		minorroad_mountains = { damage = 5  toughness = 5  pursuit = 5 screen = 5 }
+		minorroad_oasis = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_taiga = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_wetlands = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_steppe = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		minorroad_desert = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_desert_mountains = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_jungle = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_drylands = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_frozen_flats = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_glacier = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_taiga_bog = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+		minorroad_the_bog = { damage = -30  toughness = -30  pursuit = -30 screen = -30 }
+	}
+
+	#AGOT Added
+	winter_bonus = {
+		normal_winter = { damage = -5  toughness = -5  pursuit = -5 screen = -5 }
+		harsh_winter = { damage = -10  toughness = -10  pursuit = -10 screen = -10 }
+	}
+	can_recruit = {
+		has_title = title:c_darrows
+	}
+	counters = {
+		light_cavalry = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = 65 }
+	low_maintenance_cost = { gold = 0.4 }
+	high_maintenance_cost = { gold = 0.62 }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
 
 }
