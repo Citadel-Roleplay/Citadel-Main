@@ -18,7 +18,7 @@ westerman_legacy_track = {
 					}
 				}
 			}
-			dynasty = { has_dynasty_perk = westerman_legacy_1 }
+			# dynasty = { has_dynasty_perk = westerman_legacy_1 }
 		}
 	}
 }
