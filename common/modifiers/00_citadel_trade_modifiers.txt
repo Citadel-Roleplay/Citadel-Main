@@ -33,18 +33,18 @@
 # Construction Cost & Speed - Character Modifier
 
 citadel_construction_t1 = {
-        holding_build_speed = -0.05
-        holding_build_gold_cost = -0.05
+        build_speed = -0.05
+        build_cost_gold = -0.05
 }
 
 citadel_construction_t2 = {
-    holding_build_speed = -0.10
-    holding_build_gold_cost = -0.10
+    build_speed = -0.10
+    build_cost_gold = -0.10
 }
 
 citadel_construction_t3 = {
-    holding_build_speed = -0.15
-    holding_build_gold_cost = -0.15
+    build_speed = -0.15
+    build_cost_gold = -0.15
 }
 
 # Fertility & Health 
