@@ -135,7 +135,7 @@ gardener_legacy_5 = { # Kings of the Reach
 	}
 
 	character_modifier = {
-		monthly_prestige_gain_per_knight_mult = 0.02
+		monthly_prestige_gain_per_knight_mult  = 0.02
 		knight_limit = 8
 		knight_effectiveness_mult = 0.5
 		legitimacy_gain_mult = 0.5
