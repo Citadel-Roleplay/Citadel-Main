@@ -1,4 +1,5 @@
-﻿# # KIZANS ADDITIONS
+﻿# Citadel-Main 1.19 cleanup: house-legacy perks (rykker, staunton, staedmon, errol, wylde, rogers) disabled; culture legacies (clawman, crownlander, honeywiner, sisterman) kept active.
+# # KIZANS ADDITIONS
 # Clawman --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 clawman_legacy_1 = { 
@@ -274,741 +275,741 @@ crownlander_legacy_5 = {
 
 # House Rykker --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-rykker_legacy_1 = { 
-	legacy = rykker_legacy_track
+# rykker_legacy_1 = { 
+# 	legacy = rykker_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Rykker
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rykker_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			martial = 1
+# 			levy_size = 0.1
+# 			urban_advantage = 8
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Rykker
-		}
+# rykker_legacy_2 = { 
+# 	legacy = rykker_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rykker_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			development_growth_factor = 0.25
+# 			supply_capacity_mult = 0.15
+# 			stewardship = 1
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# rykker_legacy_3 = { 
+# 	legacy = rykker_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rykker_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			high_valyrian_opinion = 15
+# 			vassal_opinion = 20
+# 			control_growth = 0.25
+# 			vassal_tax_mult = 0.2
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = rykker_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			martial = 1
-			levy_size = 0.1
-			urban_advantage = 8
-		}
-}
+# rykker_legacy_4 = { 
+# 	legacy = rykker_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rykker_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			accolade_glory_gain_mult = 0.1
+# 			prowess = 2
+# 		}
+# }
 
-rykker_legacy_2 = { 
-	legacy = rykker_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rykker_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			development_growth_factor = 0.25
-			supply_capacity_mult = 0.15
-			stewardship = 1
-		}
-}
-
-rykker_legacy_3 = { 
-	legacy = rykker_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rykker_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			high_valyrian_opinion = 15
-			vassal_opinion = 20
-			control_growth = 0.25
-			vassal_tax_mult = 0.2
-		}
-}
-
-rykker_legacy_4 = { 
-	legacy = rykker_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rykker_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-			accolade_glory_gain_mult = 0.1
-			prowess = 2
-		}
-}
-
-rykker_legacy_5 = { 
-	legacy = rykker_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rykker_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			diplomacy = 3
-			general_opinion = 15
-		}
-}
+# rykker_legacy_5 = { 
+# 	legacy = rykker_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rykker_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			diplomacy = 3
+# 			general_opinion = 15
+# 		}
+# }
 
 # House Staunton --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-staunton_legacy_1 = { 
-	legacy = staunton_legacy_track
+# staunton_legacy_1 = { 
+# 	legacy = staunton_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Staunton
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staunton_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			diplomacy = 2
+# 			spouse_opinion = 50
+# 			monthly_prestige = 0.2
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Staunton
-		}
+# staunton_legacy_2 = { 
+# 	legacy = staunton_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staunton_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			martial = 2
+# 			mountains_advantage = 15
+# 			hills_advantage = 15
+# 			forest_advantage = 15
+# 			archers_damage_mult = 0.2
+# 			archers_pursuit_mult = 0.2
+# 			archers_siege_value_add = 0.25
+# 			archers_maintenance_mult = 0.1
+# 			clawman_opinion = -50
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# staunton_legacy_3 = { 
+# 	legacy = staunton_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staunton_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			dread_gain_mult = 0.2
+# 			general_opinion = -20
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = staunton_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			diplomacy = 2
-			spouse_opinion = 50
-			monthly_prestige = 0.2
-		}
-}
+# staunton_legacy_4 = { 
+# 	legacy = staunton_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staunton_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			liege_opinion = 20
+# 			
+# 		}
+# }
 
-staunton_legacy_2 = { 
-	legacy = staunton_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staunton_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			martial = 2
-			mountains_advantage = 15
-			hills_advantage = 15
-			forest_advantage = 15
-			archers_damage_mult = 0.2
-			archers_pursuit_mult = 0.2
-			archers_siege_value_add = 0.25
-			archers_maintenance_mult = 0.1
-			clawman_opinion = -50
-		}
-}
-
-staunton_legacy_3 = { 
-	legacy = staunton_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staunton_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			dread_gain_mult = 0.2
-			general_opinion = -20
-		}
-}
-
-staunton_legacy_4 = { 
-	legacy = staunton_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staunton_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-			liege_opinion = 20
-			
-		}
-}
-
-staunton_legacy_5 = { 
-	legacy = staunton_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staunton_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			intrigue = 1
-			owned_scheme_secrecy_add = 10
-			enemy_hostile_scheme_success_chance_add = -10
-		}
-}
+# staunton_legacy_5 = { 
+# 	legacy = staunton_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staunton_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			intrigue = 1
+# 			owned_scheme_secrecy_add = 10
+# 			enemy_hostile_scheme_success_chance_add = -10
+# 		}
+# }
 
 # House Staedmon --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-staedmon_legacy_1 = { 
-	legacy = staedmon_legacy_track
+# staedmon_legacy_1 = { 
+# 	legacy = staedmon_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Staedmon
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staedmon_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			intrigue = 2
+# 			owned_scheme_secrecy_add = 15
+# 			enemy_hostile_scheme_success_chance_add = -15
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Staedmon
-		}
+# staedmon_legacy_2 = { 
+# 	legacy = staedmon_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staedmon_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			martial = 2
+# 			hills_advantage = 5
+# 			forest_advantage = 5
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# staedmon_legacy_3 = { 
+# 	legacy = staedmon_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staedmon_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			development_growth_factor = 0.1
+# 			character_capital_county_monthly_development_growth_add = 0.1
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = staedmon_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			intrigue = 2
-			owned_scheme_secrecy_add = 15
-			enemy_hostile_scheme_success_chance_add = -15
-		}
-}
+# staedmon_legacy_4 = { 
+# 	legacy = staedmon_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staedmon_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 		name = blood_legacy_1_modifier
+# 		positive_random_genetic_chance = 0.25
+# 		positive_inactive_inheritance_chance = 0.15
+# 		}
+# }
 
-staedmon_legacy_2 = { 
-	legacy = staedmon_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staedmon_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			martial = 2
-			hills_advantage = 5
-			forest_advantage = 5
-		}
-}
-
-staedmon_legacy_3 = { 
-	legacy = staedmon_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staedmon_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			development_growth_factor = 0.1
-			character_capital_county_monthly_development_growth_add = 0.1
-		}
-}
-
-staedmon_legacy_4 = { 
-	legacy = staedmon_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staedmon_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-		name = blood_legacy_1_modifier
-		positive_random_genetic_chance = 0.25
-		positive_inactive_inheritance_chance = 0.15
-		}
-}
-
-staedmon_legacy_5 = {
-	legacy = staedmon_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = staedmon_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			diplomacy = 2
-			vassal_tax_mult = 0.10
-			general_opinion = 10
-		}
-}
+# staedmon_legacy_5 = {
+# 	legacy = staedmon_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = staedmon_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			diplomacy = 2
+# 			vassal_tax_mult = 0.10
+# 			general_opinion = 10
+# 		}
+# }
 
 # House Errol --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-errol_legacy_1 = { 
-	legacy = errol_legacy_track
+# errol_legacy_1 = { 
+# 	legacy = errol_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Errol
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = errol_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			lifestyle_reveler_xp_gain_mult = 0.5
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Errol
-		}
+# errol_legacy_2 = { 
+# 	legacy = errol_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = errol_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			courtier_and_guest_opinion = 20
+# 			vassal_opinion = 10
+# 			monthly_tyranny = -0.1
+# 			happy_powerful_vassal_tax_contribution_mult = 0.1
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# errol_legacy_3 = { 
+# 	legacy = errol_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = errol_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			stewardship = 4
+# 			development_growth_factor = 0.1
+# 			character_capital_county_monthly_development_growth_add = 0.1
+# 			monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+# 			build_gold_cost = -0.1
+# 			holding_build_gold_cost = -0.1
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = errol_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			lifestyle_reveler_xp_gain_mult = 0.5
-		}
-}
+# errol_legacy_4 = { 
+# 	legacy = errol_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = errol_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 		martial = 1
+# 		counter_efficiency = 0.15
+# 		defender_advantage = 5
+# 		retreat_losses = -0.15
+# 		}
+# }
 
-errol_legacy_2 = { 
-	legacy = errol_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = errol_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			courtier_and_guest_opinion = 20
-			vassal_opinion = 10
-			monthly_tyranny = -0.1
-			happy_powerful_vassal_tax_contribution_mult = 0.1
-		}
-}
-
-errol_legacy_3 = { 
-	legacy = errol_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = errol_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			stewardship = 4
-			development_growth_factor = 0.1
-			character_capital_county_monthly_development_growth_add = 0.1
-			monthly_stewardship_lifestyle_xp_gain_mult = 0.15
-			build_gold_cost = -0.1
-			holding_build_gold_cost = -0.1
-		}
-}
-
-errol_legacy_4 = { 
-	legacy = errol_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = errol_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-		martial = 1
-		counter_efficiency = 0.15
-		defender_advantage = 5
-		retreat_losses = -0.15
-		}
-}
-
-errol_legacy_5 = {
-	legacy = errol_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = errol_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			development_growth_factor = 0.15
-			county_fertility_decline_mult = -0.15
-			general_opinion = 5
-		}
-}
+# errol_legacy_5 = {
+# 	legacy = errol_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = errol_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			development_growth_factor = 0.15
+# 			county_fertility_decline_mult = -0.15
+# 			general_opinion = 5
+# 		}
+# }
 
 # House Wylde --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-wylde_legacy_1 = { 
-	legacy = wylde_legacy_track
+# wylde_legacy_1 = { 
+# 	legacy = wylde_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Wylde
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = wylde_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
+# 			diplomacy = 2
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Wylde
-		}
+# wylde_legacy_2 = { 
+# 	legacy = wylde_legacy_track
+# 
+# 		can_be_picked = { 		
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = wylde_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			controlled_province_advantage = 5
+# 			archers_toughness_add = 2
+# 			archers_damage_add = 4
+# 			archers_maintenance_mult = 0.1
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# wylde_legacy_3 = { 
+# 	legacy = wylde_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = wylde_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			martial = 1
+# 			lifestyle_hunter_xp_gain_mult = 0.5
+# 			life_expectancy = 5
+# 
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = wylde_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
-			diplomacy = 2
-		}
-}
+# wylde_legacy_4 = { 
+# 	legacy = wylde_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = wylde_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 		prowess = 2
+# 		min_combat_roll = 3
+# 		defender_advantage = 5
+# 		retreat_losses = -0.15
+# 		}
+# }
 
-wylde_legacy_2 = { 
-	legacy = wylde_legacy_track
-
-		can_be_picked = { 		
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = wylde_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			controlled_province_advantage = 5
-			archers_toughness_add = 2
-			archers_damage_add = 4
-			archers_maintenance_mult = 0.1
-		}
-}
-
-wylde_legacy_3 = { 
-	legacy = wylde_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = wylde_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			martial = 1
-			lifestyle_hunter_xp_gain_mult = 0.5
-			life_expectancy = 5
-
-		}
-}
-
-wylde_legacy_4 = { 
-	legacy = wylde_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = wylde_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-		prowess = 2
-		min_combat_roll = 3
-		defender_advantage = 5
-		retreat_losses = -0.15
-		}
-}
-
-wylde_legacy_5 = {
-	legacy = wylde_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = wylde_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			monthly_prestige_gain_per_knight_mult  = 0.02
-			knight_limit = 2
-			knight_effectiveness_mult = 0.2
-			legitimacy_gain_mult = 0.3
-		}
-}
+# wylde_legacy_5 = {
+# 	legacy = wylde_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = wylde_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			monthly_prestige_gain_per_knight_mult  = 0.02
+# 			knight_limit = 2
+# 			knight_effectiveness_mult = 0.2
+# 			legitimacy_gain_mult = 0.3
+# 		}
+# }
 
 # House Rogers --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-rogers_legacy_1 = { 
-	legacy = rogers_legacy_track
+# rogers_legacy_1 = { 
+# 	legacy = rogers_legacy_track
+# 
+# 		can_be_picked = { 
+# 		dynasty = dynasty:dynn_Rogers
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rogers_legacy_1_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			monthly_prestige_gain_per_knight_mult  = 0.01
+# 			knight_limit = 2
+# 			knight_effectiveness_mult = 0.35
+# 		}
+# }
 
-		can_be_picked = { 
-		dynasty = dynasty:dynn_Rogers
-		}
+# rogers_legacy_2 = { 
+# 	legacy = rogers_legacy_track
+# 
+# 		can_be_picked = { 		
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rogers_legacy_2_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			attraction_opinion = 25
+# 			# Add Positive Trait Chance
+# 			monthly_prestige = 0.02
+# 		}
+# }
 
-		ai_chance = {
-			value = 0
-		}
+# rogers_legacy_3 = { 
+# 	legacy = rogers_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rogers_legacy_3_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			prowess = 7
+# 			negate_health_penalty_add = 0.25
+# 		}
+# }
 
-		effect = {
-			custom_description_no_bullet = {
-				text = rogers_legacy_1_effect
-			}
-		}
-	
-		character_modifier = {
-			monthly_prestige_gain_per_knight_mult  = 0.01
-			knight_limit = 2
-			knight_effectiveness_mult = 0.35
-		}
-}
+# rogers_legacy_4 = { 
+# 	legacy = rogers_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rogers_legacy_4_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 		legitimacy_gain_mult = 0.2
+# 		life_expectancy = 5
+# 		vassal_opinion = 15
+# 		}
+# }
 
-rogers_legacy_2 = { 
-	legacy = rogers_legacy_track
-
-		can_be_picked = { 		
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rogers_legacy_2_effect
-			}
-		}
-	
-		character_modifier = {
-			attraction_opinion = 25
-			# Add Positive Trait Chance
-			monthly_prestige = 0.02
-		}
-}
-
-rogers_legacy_3 = { 
-	legacy = rogers_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rogers_legacy_3_effect
-			}
-		}
-	
-		character_modifier = {
-			prowess = 7
-			negate_health_penalty_add = 0.25
-		}
-}
-
-rogers_legacy_4 = { 
-	legacy = rogers_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rogers_legacy_4_effect
-			}
-		}
-	
-		character_modifier = {
-		legitimacy_gain_mult = 0.2
-		life_expectancy = 5
-		vassal_opinion = 15
-		}
-}
-
-rogers_legacy_5 = {
-	legacy = rogers_legacy_track
-
-		can_be_picked = { 
-		always = yes
-		}
-
-		ai_chance = {
-			value = 0
-		}
-
-		effect = {
-			custom_description_no_bullet = {
-				text = rogers_legacy_5_effect
-			}
-		}
-	
-		character_modifier = {
-			no_prowess_loss_from_age = yes
-			health = 0.05
-		}
-}
+# rogers_legacy_5 = {
+# 	legacy = rogers_legacy_track
+# 
+# 		can_be_picked = { 
+# 		always = yes
+# 		}
+# 
+# 		ai_chance = {
+# 			value = 0
+# 		}
+# 
+# 		effect = {
+# 			custom_description_no_bullet = {
+# 				text = rogers_legacy_5_effect
+# 			}
+# 		}
+# 	
+# 		character_modifier = {
+# 			no_prowess_loss_from_age = yes
+# 			health = 0.05
+# 		}
+# }
 
 # Honeywiner ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

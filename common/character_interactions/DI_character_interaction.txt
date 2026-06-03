@@ -9,7 +9,6 @@
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             NOT = {
@@ -44,7 +43,6 @@ DI_close_cheat_menu = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -76,7 +74,6 @@ DI_pin_character_interaction = {
     # send_options_exclusive = no # Conentious UX decision indeed, might disable
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
         }
@@ -103,7 +100,6 @@ DI_pin_character_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient.house ?= { exists = yes } #Only Show if character has House#
             # Dont know about the UX for this, on one hand the list ist very long now, on the other hand players may get confused if they dont have the same list for everyone#
         }
@@ -112,7 +108,6 @@ DI_pin_character_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient.dynasty ?= { exists = yes } #Only Show if character has Dynasty#
             # Dont know about the UX for this, on one hand the list ist very long now, on the other hand players may get confused if they dont have the same list for everyone#
         }
@@ -126,7 +121,6 @@ DI_pin_character_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient.house.house_confederation ?= { exists = yes } #Only Show if House is in Bloc#
             # Dont know about the UX for this, on one hand the list ist very long now, on the other hand players may get confused if they dont have the same list for everyone#
         }
@@ -323,7 +317,6 @@ DI_pin_title_interaction = {
     common_interaction = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
         }
@@ -444,7 +437,6 @@ DI_change_character_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -528,7 +520,6 @@ DI_change_character_name_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -556,7 +547,6 @@ DI_change_religion_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         NOT = { scope:actor.faith = scope:recipient.faith }
         scope:actor = {
@@ -589,7 +579,6 @@ DI_change_culture_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         NOT = { scope:actor.culture = scope:recipient.culture }
         scope:actor = {
@@ -622,7 +611,6 @@ DI_change_dynasty_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         NOT = { scope:actor.house = scope:recipient.house }
         scope:actor = {
@@ -652,7 +640,6 @@ DI_cultural_acceptance_interaction = {
     auto_accept = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor.culture = scope:recipient.culture }
         scope:actor = {
             is_ai = no
@@ -706,7 +693,6 @@ DI_remove_character_flags_interaction = {
     send_options_exclusive = no
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -722,14 +708,13 @@ DI_remove_character_flags_interaction = {
     on_accept = {
         scope:recipient = {
             if = { limit = { always = scope:used_lifetime_invasion }
-            remove_character_flag = used_lifetime_invasion
+                remove_character_flag = used_lifetime_invasion
+            }
+            else_if = { limit = { always = scope:declared_major_religious_war_flag }
+                remove_character_flag = declared_major_religious_war_flag
+            }
         }
-        else_if = { limit = { always = scope:declared_major_religious_war_flag }
-        remove_character_flag = declared_major_religious_war_flag
-    }
-
-}
-}
+    }   
 }
 
 DI_permanent_health = {
@@ -743,7 +728,6 @@ DI_permanent_health = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -777,7 +761,6 @@ DI_change_character_weight_interaction = {
     icon = activity_feast
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -815,7 +798,6 @@ DI_learn_language_interaction = {
     icon = icon_scheme_learn_language
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -844,7 +826,6 @@ DI_change_opinion_interaction = {
     common_interaction = no
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -924,7 +905,6 @@ DI_char_modify_vassal_contract_interaction = {
     notification_text = MODIFY_VASSAL_CONTRACT_NOTIFICATION_TO_VASSAL
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             NOT = { this = scope:actor }
             exists = liege
@@ -1001,7 +981,6 @@ DI_modify_vassal_mod_vassal_contract_interaction = {
     }
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             is_independent_ruler = no
             NOT = { this = scope:actor }
@@ -1183,7 +1162,6 @@ DI_arrange_marriage_interaction = {
     # secondary_actor, secondary_recipient ... characters that should marry
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1221,7 +1199,6 @@ DI_arrange_marriage_interaction = {
         localization = GRAND_WEDDING_PROMISE
 
         is_shown = {
-            debug_mode = yes
             scope:actor = { #Can organize a Grand Wedding
                 highest_held_title_tier > tier_barony
                 is_landed_or_landless_administrative = yes
@@ -1373,7 +1350,6 @@ DI_arrange_marriage_interaction = {
 
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:secondary_actor = {
                 NOT = {
                     betrothed = scope:secondary_recipient
@@ -1391,7 +1367,6 @@ DI_arrange_marriage_interaction = {
 
     send_option = { # FP3
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 any_character_struggle = {
                     is_struggle_type = persian_struggle
@@ -1582,7 +1557,6 @@ DI_break_betrothal_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1617,7 +1591,6 @@ DI_divorce_character_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1681,7 +1654,6 @@ DI_designate_heir_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1717,7 +1689,6 @@ DI_adopt_male_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             is_female = no
@@ -1760,7 +1731,6 @@ DI_adopt_female_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             is_female = yes
@@ -1802,7 +1772,6 @@ DI_disown_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1837,7 +1806,6 @@ DI_remove_child_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1868,7 +1836,6 @@ DI_cadetBranch_interaction = { #My Dynasty + Dynastyhead
     icon = icon_dynasty
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1912,7 +1879,6 @@ DI_make_house_head_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -1942,7 +1908,6 @@ DI_murder_interaction = {
     icon = icon_dead
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -2014,7 +1979,6 @@ DI_imprison_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -2049,7 +2013,6 @@ DI_add_secrets_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -2174,7 +2137,6 @@ DI_reveal_secrets_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -2239,7 +2201,6 @@ DI_remove_secrets_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -2386,7 +2347,6 @@ DI_claim_title_interaction = {
     target_filter = recipient_domain_titles
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:recipient = {
             is_landed = yes
@@ -2434,7 +2394,6 @@ DI_remove_claims_on_player_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:actor = {
             is_ai = no
@@ -2496,7 +2455,6 @@ DI_remove_all_claims_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:actor = {
             is_ai = no
@@ -2540,7 +2498,6 @@ DI_take_all_titles_interaction = {
     common_interaction = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -2611,7 +2568,6 @@ DI_make_tributary_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:actor = {
             is_ai = no
@@ -2644,7 +2600,6 @@ DI_end_wars_interaction = {
     common_interaction = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -2701,7 +2656,6 @@ DI_end_wars_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient = {
                 any_vassal_or_below = {
                     is_at_war = yes
@@ -2840,7 +2794,6 @@ DI_take_title_interaction = {
     icon = revoke_title
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:recipient = {
             is_landed = yes
@@ -2885,7 +2838,6 @@ DI_vassalize_interaction = {
     desc = DI_vassalize_desc
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             NOT = { this = scope:actor }
             is_landed = yes
@@ -2918,7 +2870,6 @@ DI_make_independent_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             is_independent_ruler = no
             highest_held_title_tier >= tier_county
@@ -2956,7 +2907,6 @@ DI_add_to_court_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:recipient = {
             is_landed = no
@@ -2992,7 +2942,6 @@ DI_take_hostage_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:recipient = {
             is_ruler = no
@@ -3025,7 +2974,6 @@ DI_release_hostage_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             is_hostage = yes
         }
@@ -3052,7 +3000,6 @@ DI_set_relation_interaction = {
     common_interaction = no
     icon = debug_chars
     is_shown = {
-        debug_mode = yes
         NOT = {
             scope:recipient = scope:actor
         }
@@ -3068,7 +3015,6 @@ DI_set_relation_interaction = {
 
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_potential_friend = scope:recipient
@@ -3090,7 +3036,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_potential_friend = scope:recipient
             }
@@ -3100,7 +3045,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_potential_rival = scope:recipient
@@ -3122,7 +3066,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_potential_rival = scope:recipient
             }
@@ -3132,7 +3075,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_potential_lover = scope:recipient
@@ -3154,7 +3096,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_potential_lover = scope:recipient
             }
@@ -3164,7 +3105,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 OR = {
                     has_relation_best_friend = scope:recipient
@@ -3188,7 +3128,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_friend = scope:recipient
                 NOT = {
@@ -3201,7 +3140,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 OR = {
                     has_relation_nemesis = scope:recipient
@@ -3225,7 +3163,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_nemesis = scope:recipient
@@ -3238,7 +3175,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 OR = {
                     has_relation_soulmate = scope:recipient
@@ -3262,7 +3198,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_soulmate = scope:recipient
@@ -3275,7 +3210,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_best_friend = scope:recipient
@@ -3295,7 +3229,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_best_friend = scope:recipient
             }
@@ -3305,7 +3238,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_nemesis = scope:recipient
@@ -3325,7 +3257,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_nemesis = scope:recipient
             }
@@ -3335,7 +3266,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_soulmate = scope:recipient
@@ -3355,7 +3285,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_soulmate = scope:recipient
             }
@@ -3365,7 +3294,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_bully = scope:recipient
@@ -3385,7 +3313,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_bully = scope:recipient
             }
@@ -3395,7 +3322,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 NOT = {
                     has_relation_victim = scope:recipient
@@ -3415,7 +3341,6 @@ DI_set_relation_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 has_relation_victim = scope:recipient
             }
@@ -3537,7 +3462,6 @@ DI_add_concubine_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:recipient = {
             #sex_opposite_of = scope:actor
@@ -3578,7 +3502,6 @@ DI_impregnate_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:actor = scope:recipient }
         scope:actor = {
             is_ai = no
@@ -3631,7 +3554,6 @@ DI_impregnate_interaction = {
 
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 sex_opposite_of = scope:recipient
             }
@@ -3641,7 +3563,6 @@ DI_impregnate_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 is_spouse_of = scope:recipient
             }
@@ -3651,7 +3572,6 @@ DI_impregnate_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 is_spouse_of = scope:recipient
             }
@@ -3661,7 +3581,6 @@ DI_impregnate_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient = {
                 is_female = yes
                 NOT = { is_spouse_of = scope:actor }
@@ -3675,7 +3594,6 @@ DI_impregnate_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient = {
                 is_female = yes
                 NOT = { is_spouse_of = scope:actor }
@@ -3689,7 +3607,6 @@ DI_impregnate_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:recipient = {
                 is_female = yes
                 NOT = { is_spouse_of = scope:actor }
@@ -3803,7 +3720,6 @@ DI_contraceptive_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -3839,7 +3755,6 @@ DI_end_pregnancy_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -3867,7 +3782,6 @@ DI_sleep_with_character = {
     use_diplomatic_range = no
     ignores_pending_interaction_block = yes
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -3894,7 +3808,6 @@ DI_change_every_county = {
     icon = icon_holding_city
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -3968,7 +3881,6 @@ DI_add_hook_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = { scope:recipient = scope:actor }
         scope:actor = {
             is_ai = no
@@ -4029,7 +3941,6 @@ DI_remove_hook_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4062,7 +3973,6 @@ DI_excommunicate_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         NOT = {
             scope:recipient = {
                 has_trait = excommunicated
@@ -4097,7 +4007,6 @@ DI_remove_excommunication_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = {
             has_trait = excommunicated
         }
@@ -4131,7 +4040,6 @@ DI_commit_suicide_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = scope:actor
         scope:actor = {
             is_ai = no
@@ -4165,7 +4073,6 @@ DI_change_government_extended = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4197,16 +4104,16 @@ DI_change_government_extended = {
     send_option = {
         flag = japan_administrative
         localization = DI_change_government_japan_administrative
-        is_valid = {
-            has_tgp_dlc_trigger = yes
-        }
+        # is_valid = {
+        #     has_tgp_dlc_trigger = yes
+        # }
     }
     send_option = {
         flag = japan_feudal
         localization = DI_change_government_japan_feudal
-        is_valid = {
-            has_tgp_dlc_trigger = yes
-        }
+        # is_valid = {
+        #     has_tgp_dlc_trigger = yes
+        # }
     }
     send_option = {
         flag = wanua
@@ -4244,24 +4151,30 @@ DI_change_government_extended = {
 
                 scope:japan_administrative = {
                     scope:recipient = {
+                        add_character_flag = can_become_japanese_feudal
+                        change_government = japan_feudal_government
                         change_government = japan_administrative_government
 
                         every_vassal_or_below = {
                             limit = {
                                 highest_held_title_tier > tier_barony
                             }
+                            add_character_flag = can_become_japanese_feudal
+                            change_government = japan_feudal_government
                             change_government = japan_administrative_government
                         }
                     }
                 }
                 scope:japan_feudal = {
                     scope:recipient = {
+                        add_character_flag = can_become_japanese_feudal
                         change_government = japan_feudal_government
 
                         every_vassal_or_below = {
                             limit = {
                                 highest_held_title_tier > tier_barony
                             }
+                            add_character_flag = can_become_japanese_feudal
                             change_government = japan_feudal_government
                         }
                     }
@@ -4378,7 +4291,6 @@ DI_change_government = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4568,7 +4480,6 @@ DI_change_succession = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = scope:actor
         scope:actor = {
             is_ai = no
@@ -4664,7 +4575,6 @@ DI_swing_scales_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4683,7 +4593,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_0P
         localization = swing_scales_0
         is_shown = {
-            debug_mode = yes
             scope:recipient = scope:actor.liege
         }
     }
@@ -4691,7 +4600,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_50P
         localization = swing_scales_50
         is_shown = {
-            debug_mode = yes
             scope:recipient = scope:actor.liege
         }
     }
@@ -4699,7 +4607,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_100P
         localization = swing_scales_100
         is_shown = {
-            debug_mode = yes
             scope:recipient = scope:actor.liege
         }
     }
@@ -4707,7 +4614,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_0NPC
         localization = swing_scales_0
         is_shown = {
-            debug_mode = yes
             NOT = { scope:recipient = scope:actor.liege }
         }
     }
@@ -4715,7 +4621,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_50NPC
         localization = swing_scales_50
         is_shown = {
-            debug_mode = yes
             NOT = { scope:recipient = scope:actor.liege }
         }
     }
@@ -4723,7 +4628,6 @@ DI_swing_scales_interaction = {
         flag = swing_scales_100NPC
         localization = swing_scales_100
         is_shown = {
-            debug_mode = yes
             NOT = { scope:recipient = scope:actor.liege }
         }
     }
@@ -4774,7 +4678,6 @@ DI_start_diarchy_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4794,7 +4697,6 @@ DI_start_diarchy_interaction = {
         flag = regency_player
         localization = DI_start_diarchy_player_desc
         is_shown = {
-            debug_mode = yes
             scope:recipient = scope:actor.liege
         }
     }
@@ -4836,7 +4738,6 @@ DI_end_diarchy_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4877,7 +4778,6 @@ DI_change_house_name_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4904,7 +4804,6 @@ DI_abdicate = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -4934,7 +4833,6 @@ DI_take_artifact_interaction = {
     target_filter = recipient_artifacts
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5005,7 +4903,6 @@ DI_inspire_inspiration_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5123,7 +5020,6 @@ DI_sponsor_inspiration_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5165,7 +5061,6 @@ DI_spawn_legend_interaction = {
     auto_accept = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5256,7 +5151,6 @@ DI_make_laamp_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5291,7 +5185,6 @@ DI_move_domicile_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5308,7 +5201,6 @@ DI_move_domicile_interaction = {
     }
     send_option = {
         is_shown = {
-            debug_mode = yes
             scope:actor = {
                 is_landless_adventurer = yes
             }
@@ -5387,7 +5279,6 @@ DI_populate_contracts_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5417,7 +5308,6 @@ DI_infinite_schemes_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5474,7 +5364,6 @@ DI_buff_schemes_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5597,7 +5486,6 @@ DI_antagonize_court_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5707,7 +5595,6 @@ DI_reset_story_variables = {
     auto_accept = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5734,7 +5621,6 @@ DI_reset_story_variables = {
 
     send_option = {
         is_shown = {
-            debug_mode = yes
             always = no
         }
         flag = false
@@ -5753,7 +5639,6 @@ DI_test_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:actor = {
             is_ai = no
             any_owned_story = {
@@ -5780,7 +5665,6 @@ DI_toggle_menu_button_interaction = {
     ignores_pending_interaction_block = yes
 
     is_shown = {
-        debug_mode = yes
         scope:recipient = scope:actor
         scope:actor = {
             is_ai = no

@@ -2686,3 +2686,98 @@ tradition_agot_marches = {
 		value = 100
 	}
 }
+
+# Restored from AGOT 1.19 (dropped by stale override).
+tradition_agot_westerlands = {
+	category = regional
+
+	layers = {
+		0 = steward
+		1 = western
+		4 = diplomacy.dds
+	}
+
+	is_shown = {
+		scope:character.culture = {
+			any_culture_county = {
+				title_province = { geographical_region = world_westeros_the_westerlands }
+				count >= 9
+			}
+		}
+	}
+
+	parameters = {
+		curious_trait_more_common = yes
+		hill_trait_bonuses = yes
+		rough_terrain_expert_trait_more_common = yes
+		wanderers_gain_extra_economic_skills = yes
+		peasant_and_populist_factions_less_common = yes
+		dull_trait_looked_down_upon = yes
+		arrogant_trait_more_common = yes
+	}
+
+	character_modifier = {
+		general_opinion = -35
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+	}
+}
+tradition_agot_dorne = {
+	category = regional
+
+	layers = {
+		0 = intrigue
+		1 = mena
+		4 = soldiers.dds
+	}
+
+	is_shown = {
+		scope:character.culture = {
+			any_culture_county = {
+				title_province = { geographical_region = world_westeros_dorne }
+				count >= 9
+			}
+		}
+	}
+
+	parameters = {
+		charming_trait_more_common = yes
+		desert_warrior_trait_more_common = yes
+		desert_warrior_trait_is_better = yes
+		eunuch_trait_is_looked_down_upon = yes
+		vengeful_trait_more_common = yes
+		wanderers_gain_extra_intrigue_skills = yes
+		gender_equal_inheritance = yes
+		can_have_paramours = yes
+	}
+
+	character_modifier = {
+		different_culture_opinion = -35
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+	}
+}

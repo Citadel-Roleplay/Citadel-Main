@@ -1,4 +1,4 @@
-﻿##########
+##########
 # Ashemark
 ##########
 
@@ -1260,7 +1260,8 @@ planky_town_special = {
 
     on_complete = {
         barony.holder = {
-            trigger_event = agot_cities.5000
+            # Disabled, agot_cities.5000 event is not defined - Kizan
+#            trigger_event = agot_cities.5000
         }
     }
 
@@ -1426,7 +1427,8 @@ agot_castamere_03 = {
 
     on_complete = {
         barony.holder = {
-            trigger_event = agot_cities.5000
+            # Disabled, agot_cities.5000 event is not defined - Kizan
+#            trigger_event = agot_cities.5000
         }
     }
 
@@ -1731,7 +1733,8 @@ agot_castamere_ruins_02 = {
 
     on_complete = {
         barony.holder = {
-            trigger_event = agot_cities.5000
+            # Disabled, agot_cities.5000 event is not defined - Kizan
+#            trigger_event = agot_cities.5000
         }
     }
 

@@ -38,7 +38,7 @@
 		NOT = { culture = culture:hartalari }
 		NOT = { culture = culture:pentoshi }
 		NOT = { culture = culture:tyroshi }
-		NOT = { culture = culture:rhoynish }
+		NOT = { culture = culture:rhoynar_original }
 		NOT = { culture = culture:norvoshi }
 		
 	}

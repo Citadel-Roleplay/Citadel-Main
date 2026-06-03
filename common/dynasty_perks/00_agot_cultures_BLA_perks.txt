@@ -1505,7 +1505,7 @@ hartalari_legacy_5 = { # Rise of the Fourth
 
 	can_be_picked = { 
 		culture = {
-			this = culture:rhoynish
+			this = culture:rhoynar_original
 		}
 	}
 

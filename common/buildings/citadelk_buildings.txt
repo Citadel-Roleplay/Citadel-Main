@@ -19,51 +19,51 @@
 #}
 
 
-test_duskendale = { # Duskendale, needs to be properly modelled, not finished.
-	construction_time = very_slow_construction_time
+# test_duskendale = { # Duskendale, needs to be properly modelled, not finished.
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_walls_of_genoa.dds"
+# 	type_icon = "icon_structure_walls_of_genoa.dds"
 	
-	asset = {
-		type = entity
-		name = "test_duskendale_entity"
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "test_duskendale_entity"
+# 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 	
-	cost_gold = 2500
-	max_garrison = 1000
-	county_modifier = {
-		development_growth = 0.5
-		development_growth_factor = 0.25
-		defender_holding_advantage = 10
-		hostile_raid_time = 0.5
-	}
+# 	cost_gold = 2500
+# 	max_garrison = 1000
+# 	county_modifier = {
+# 		development_growth = 0.5
+# 		development_growth_factor = 0.25
+# 		defender_holding_advantage = 10
+# 		hostile_raid_time = 0.5
+# 	}
 	
-	province_modifier = {
-		garrison_size = 2.5
-		fort_level = 10
-		monthly_income = 7
-		travel_danger = -20
-	}
+# 	province_modifier = {
+# 		garrison_size = 2.5
+# 		fort_level = 10
+# 		monthly_income = 7
+# 		travel_danger = -20
+# 	}
 	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 	
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_martial
-}
+# 	flag = travel_point_of_interest_martial
+# }
 
-citadel_vineyard = {
+citadel_vineyard = { # Create at least 6 Levels for this, first one is just the Foundation. - Kizan
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_building_vineyard.dds"
@@ -99,148 +99,148 @@ citadel_vineyard = {
 	flag = travel_point_of_interest_martial
 }
 
-valyrian_dragonpit = {
-	construction_time = very_slow_construction_time
+# valyrian_dragonpit = {
+# 	construction_time = very_slow_construction_time
 
-	can_construct_potential = {
-		agot_can_build_or_restore_dragonpits = yes
-	}
+# 	can_construct_potential = {
+# 		agot_can_build_or_restore_dragonpits = yes
+# 	}
 
-	asset = {
-		type = entity
-		name = "valyrian_dragonpit_entity"
-	}
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = no
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "valyrian_dragonpit_entity"
+# 	}
+# 	can_construct_showing_failures_only = {
+# 		building_requirement_tribal = no
+# 	}
 
-	effect_desc = building_dragonpit_effect
+# 	effect_desc = building_dragonpit_effect
 
-	on_complete = {
-		county.holder = {
-			trigger_event = agot_dragon_pits.0005
-		}
-	}
+# 	on_complete = {
+# 		county.holder = {
+# 			trigger_event = agot_dragon_pits.0005
+# 		}
+# 	}
 
-	cost_gold = expensive_building_tier_8_cost
+# 	cost_gold = expensive_building_tier_8_cost
 
-	province_modifier = {
-		monthly_income = -0.5
-	}
-	county_modifier = {
-		county_opinion_add = -10
-	}
-	character_modifier = {
-		dread_gain_mult = 0.5
-		monthly_dynasty_prestige_mult = 0.1
-		owned_legend_spread_mult  = 0.15
-		intimidated_vassal_tax_contribution_mult  = 0.2
-	}
-	county_holder_character_modifier = {
-		dread_gain_mult = 0.10
-		monthly_dynasty_prestige_mult = 0.05
-		owned_legend_spread_mult  = 0.05
-		intimidated_vassal_tax_contribution_mult  = 0.05
-	}
-	type_icon = "icon_dragonpit.dds"
+# 	province_modifier = {
+# 		monthly_income = -0.5
+# 	}
+# 	county_modifier = {
+# 		county_opinion_add = -10
+# 	}
+# 	character_modifier = {
+# 		dread_gain_mult = 0.5
+# 		monthly_dynasty_prestige_mult = 0.1
+# 		owned_legend_spread_mult  = 0.15
+# 		intimidated_vassal_tax_contribution_mult  = 0.2
+# 	}
+# 	county_holder_character_modifier = {
+# 		dread_gain_mult = 0.10
+# 		monthly_dynasty_prestige_mult = 0.05
+# 		owned_legend_spread_mult  = 0.05
+# 		intimidated_vassal_tax_contribution_mult  = 0.05
+# 	}
+# 	type_icon = "icon_dragonpit.dds"
 
-	ai_value = {
-		base = 100
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 
-	type = special
-}
+# 	type = special
+# }
 
-citadel_ten_towers = {
-	construction_time = very_slow_construction_time
+# citadel_ten_towers = { - Building not needed anymore.
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_visegrad_castle.dds"
+# 	type_icon = "icon_structure_visegrad_castle.dds"
 	
-	asset = {
-		type = entity
-		name = "citadel_ten_towers_entity"
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "citadel_ten_towers_entity"
+# 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 	
-	cost_gold = 2500
-	max_garrison = 500
-	county_modifier = {
-		development_growth = 0.08
-		development_growth_factor = 0.1
-		defender_holding_advantage = 2
-	}
+# 	cost_gold = 2500
+# 	max_garrison = 500
+# 	county_modifier = {
+# 		development_growth = 0.08
+# 		development_growth_factor = 0.1
+# 		defender_holding_advantage = 2
+# 	}
 
-	province_modifier = {
-		fort_level = 2
-		monthly_income = 1.8
-		embarkation_cost_mult = -0.25
-	}
+# 	province_modifier = {
+# 		fort_level = 2
+# 		monthly_income = 1.8
+# 		embarkation_cost_mult = -0.25
+# 	}
 	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { # Fill all building slots before going for special buildings
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { # Fill all building slots before going for special buildings
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 	
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_martial
-}
+# 	flag = travel_point_of_interest_martial
+# }
 
-citadel_ten_towers_noport = {
-	construction_time = very_slow_construction_time
+# citadel_ten_towers_noport = {
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_visegrad_castle.dds"
+# 	type_icon = "icon_structure_visegrad_castle.dds"
 	
-	asset = {
-		type = entity
-		name = "citadel_ten_towers_noport_entity"
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "citadel_ten_towers_noport_entity"
+# 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 	
-	cost_gold = 1500
-	max_garrison = 250
-	county_modifier = {
-		development_growth = 0.04
-		development_growth_factor = 0.05
-	}
+# 	cost_gold = 1500
+# 	max_garrison = 250
+# 	county_modifier = {
+# 		development_growth = 0.04
+# 		development_growth_factor = 0.05
+# 	}
 	
-	province_modifier = {
-		fort_level = 1
-		monthly_income = 0.8
-		embarkation_cost_mult = -0.15
-	}
+# 	province_modifier = {
+# 		fort_level = 1
+# 		monthly_income = 0.8
+# 		embarkation_cost_mult = -0.15
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 	
-	next_building = citadel_ten_towers
+# 	next_building = citadel_ten_towers
 
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_martial
-}
+# 	flag = travel_point_of_interest_martial
+# }
 
-citadel_blackglassport = { #Model Exists, but we won't use it this Season.
+citadel_blackglassport = { #Model Exists, but we won't use the building.
 	construction_time = very_slow_construction_time
 
 	type_icon = "citadel_harbor.dds"
@@ -284,189 +284,189 @@ citadel_blackglassport = { #Model Exists, but we won't use it this Season.
 	flag = travel_point_of_interest_martial
 }
 
-citadel_brothersport = {	#Model not finished.
-	construction_time = very_slow_construction_time
+# citadel_brothersport = {	#Model not finished. - Kizan
+# 	construction_time = very_slow_construction_time
 
-	type_icon = "citadel_harbor.dds"
+# 	type_icon = "citadel_harbor.dds"
 	
-	asset = {
-		type = entity
-		name = "brothersport_entity"
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "brothersport_entity"
+# 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 	
-	cost_gold = 3500
-	max_garrison = 1000
-	county_modifier = {
-		development_growth = 0.5
-		development_growth_factor = 0.25
-		defender_holding_advantage = 10
-		hostile_raid_time = 0.5
-	}
+# 	cost_gold = 3500
+# 	max_garrison = 1000
+# 	county_modifier = {
+# 		development_growth = 0.5
+# 		development_growth_factor = 0.25
+# 		defender_holding_advantage = 10
+# 		hostile_raid_time = 0.5
+# 	}
 	
-	province_modifier = {
-		garrison_size = 2.5
-		fort_level = 10
-		monthly_income = 7
-		travel_danger = -20
-	}
+# 	province_modifier = {
+# 		garrison_size = 2.5
+# 		fort_level = 10
+# 		monthly_income = 7
+# 		travel_danger = -20
+# 	}
 	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 	
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_martial
-}
+# 	flag = travel_point_of_interest_martial
+# }
 
 
-citadel_fairmarket1 = {	#LAST UPGRADE
-	construction_time = 13500
+# citadel_fairmarket1 = {	#LAST UPGRADE Bugged for now - Kizan
+# 	construction_time = 13500
 
-	type_icon = "icon_building_grand_market.dds"
+# 	type_icon = "icon_building_grand_market.dds"
 	
-	asset = {
-		type = entity
-		name = "citadel_fairmarket_entity"
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "citadel_fairmarket_entity"
+# 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 	
-	cost_gold = 8000
-	max_garrison = 1000
-	levy = 4000
-	county_modifier = {
-		development_growth = 0.5
-		development_growth_factor = 0.25
-		defender_holding_advantage = 10
-		hostile_raid_time = 0.5
-		levy_size = 0.3
-	}
-	
-
-	province_modifier = {
-		fort_level = 5
-		monthly_income = 10
-		travel_danger = -20
-	}
-	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { # Fill all building slots before going for special buildings
-			factor = 0
-			free_building_slots > 0
-		}
-	}
-	
-	type = special
-
-	flag = travel_point_of_interest_martial
-}
-
-citadel_fairmarket2 = {	#SECOND UPGRADE.
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_building_grand_market.dds"
-	
-	asset = {
-		type = entity
-		name = "citadel_fairmarket2_entity" 
-	}
-
-	# can_construct = {
-	# 	custom_tooltip = {
-	# 		text = HOLDER_SHAWNEY_ONLY
-	# 		OR = {
-	# 			scope:holder = dynasty:dynn_Shawney
-	# 		}
-	# 	}
-	# 	has_holding_type = castle_holding
-	# }
-	
-	cost_gold = 2500
-	max_garrison = 500
-	levy = 550
-	county_modifier = {
-		development_growth = 0.35
-		development_growth_factor = 0.15
-		defender_holding_advantage = 5
-		hostile_raid_time = 0.25
-		levy_size = 0.2
-	}
+# 	cost_gold = 8000
+# 	max_garrison = 1000
+# 	levy = 4000
+# 	county_modifier = {
+# 		development_growth = 0.5
+# 		development_growth_factor = 0.25
+# 		defender_holding_advantage = 10
+# 		hostile_raid_time = 0.5
+# 		levy_size = 0.3
+# 	}
 	
 
-	province_modifier = {
-		fort_level = 3
-		monthly_income = 5
-		travel_danger = -10
-	}
+# 	province_modifier = {
+# 		fort_level = 5
+# 		monthly_income = 10
+# 		travel_danger = -20
+# 	}
 	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { # Fill all building slots before going for special buildings
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
 	
-	type = special
-	next_building = citadel_fairmarket1
-	flag = travel_point_of_interest_martial
-}
+# 	type = special
 
-citadel_fairmarket3 = {	#FIRST ONE.
-	construction_time = very_slow_construction_time
+# 	flag = travel_point_of_interest_martial
+# }
 
-	type_icon = "icon_building_grand_market.dds"
-	
-	asset = {
-		type = entity
-		name = "citadel_fairmarket3_entity" # NEEDS CHANGED!
-	}
+# citadel_fairmarket2 = {	#SECOND UPGRADE.
+# 	construction_time = very_slow_construction_time
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	type_icon = "icon_building_grand_market.dds"
 	
-	cost_gold = 500
-	max_garrison = 150
-	county_modifier = {
-		defender_holding_advantage = 2
-		hostile_raid_time = 0.1
-		levy_size = 0.1
-	}
+# 	asset = {
+# 		type = entity
+# 		name = "citadel_fairmarket2_entity" 
+# 	}
 
-	province_modifier = {
-		fort_level = 1
-		monthly_income = 1
-	}
+# 	# can_construct = {
+# 	# 	custom_tooltip = {
+# 	# 		text = HOLDER_SHAWNEY_ONLY
+# 	# 		OR = {
+# 	# 			scope:holder = dynasty:dynn_Shawney
+# 	# 		}
+# 	# 	}
+# 	# 	has_holding_type = castle_holding
+# 	# }
 	
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-		modifier = { 
-			factor = 0
-			free_building_slots > 0
-		}
-	}
+# 	cost_gold = 2500
+# 	max_garrison = 500
+# 	levy = 550
+# 	county_modifier = {
+# 		development_growth = 0.35
+# 		development_growth_factor = 0.15
+# 		defender_holding_advantage = 5
+# 		hostile_raid_time = 0.25
+# 		levy_size = 0.2
+# 	}
 	
-	type = special
-	next_building = citadel_fairmarket2
-	flag = travel_point_of_interest_martial
-}
+
+# 	province_modifier = {
+# 		fort_level = 3
+# 		monthly_income = 5
+# 		travel_danger = -10
+# 	}
+	
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
+	
+# 	type = special
+# 	next_building = citadel_fairmarket1
+# 	flag = travel_point_of_interest_martial
+# }
+
+# citadel_fairmarket3 = {	#FIRST ONE.
+# 	construction_time = very_slow_construction_time
+
+# 	type_icon = "icon_building_grand_market.dds"
+	
+# 	asset = {
+# 		type = entity
+# 		name = "citadel_fairmarket3_entity" # NEEDS CHANGED!
+# 	}
+
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
+	
+# 	cost_gold = 500
+# 	max_garrison = 150
+# 	county_modifier = {
+# 		defender_holding_advantage = 2
+# 		hostile_raid_time = 0.1
+# 		levy_size = 0.1
+# 	}
+
+# 	province_modifier = {
+# 		fort_level = 1
+# 		monthly_income = 1
+# 	}
+	
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 		modifier = { 
+# 			factor = 0
+# 			free_building_slots > 0
+# 		}
+# 	}
+	
+# 	type = special
+# 	next_building = citadel_fairmarket2
+# 	flag = travel_point_of_interest_martial
+# }
 
 # ----------------------------------------------
 
@@ -3145,109 +3145,109 @@ citadel_starpike_2 = {
 
 }
 
-casterly_rock_02 = { #Hambone adjust building | I think the price & time is already good? But you can take a look.
+# casterly_rock_02 = { #Taken out for now, as the name collides with the newly added GOT ones.
 
-	construction_time = 20000
+# 	construction_time = 20000
 
-	type_icon = "icon_casterly_rock.dds"
-	next_building = casterly_rock_03
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	type_icon = "icon_casterly_rock.dds"
+# 	next_building = casterly_rock_03
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 
-	asset = {
-		type = pdxmesh
-		name = "casterlyrock_mesh"
-	}
+# 	asset = {
+# 		type = pdxmesh
+# 		name = "casterlyrock_mesh"
+# 	}
 
-	is_enabled = {
-		agot_generic_is_special_building_enabled = yes
-	}
+# 	is_enabled = {
+# 		agot_generic_is_special_building_enabled = yes
+# 	}
 
-	cost_gold = 4250
+# 	cost_gold = 4250
 
-	character_modifier = {
-		court_grandeur_baseline_add = 5
-		legitimacy_gain_mult = 0.1
-		owned_legend_spread_mult = 0.1
-		dynasty_opinion = 10
-		stewardship = 3
-	}
+# 	character_modifier = {
+# 		court_grandeur_baseline_add = 5
+# 		legitimacy_gain_mult = 0.1
+# 		owned_legend_spread_mult = 0.1
+# 		dynasty_opinion = 10
+# 		stewardship = 3
+# 	}
 
-	max_garrison = normal_building_max_garrison_tier_10
+# 	max_garrison = normal_building_max_garrison_tier_10
 
-	province_modifier = {
-		defender_holding_advantage = 20
-		fort_level = 22
-		monthly_income = 15
-	}
+# 	province_modifier = {
+# 		defender_holding_advantage = 20
+# 		fort_level = 22
+# 		monthly_income = 15
+# 	}
 
-	county_modifier = {
-		development_growth_factor = 0.2
-	}
+# 	county_modifier = {
+# 		development_growth_factor = 0.2
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 	}
 
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_economic
-	flag = special_building_enabled_in_ruin_county
-}
+# 	flag = travel_point_of_interest_economic
+# 	flag = special_building_enabled_in_ruin_county
+# }
 
-casterly_rock_03 = { # Hambone adjust building | I think the price & time is already good? But you can take a look.
+# casterly_rock_03 = { # Hambone adjust building | I think the price & time is already good? But you can take a look.
 
-	construction_time = 25000
+# 	construction_time = 25000
 
-	type_icon = "icon_casterly_rock.dds"
+# 	type_icon = "icon_casterly_rock.dds"
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
+# 	can_construct_potential = {
+# 		building_requirement_tribal = no
+# 	}
 
-	asset = {
-		type = pdxmesh
-		name = "casterlyrock_mesh"
-	}
+# 	asset = {
+# 		type = pdxmesh
+# 		name = "casterlyrock_mesh"
+# 	}
 
-	is_enabled = {
-		agot_generic_is_special_building_enabled = yes
-	}
+# 	is_enabled = {
+# 		agot_generic_is_special_building_enabled = yes
+# 	}
 
-	cost_gold = 6000
+# 	cost_gold = 6000
 
-	character_modifier = {
-		court_grandeur_baseline_add = 5
-		legitimacy_gain_mult = 0.1
-		owned_legend_spread_mult = 0.1
-		dynasty_opinion = 10
-		stewardship = 3
-	}
+# 	character_modifier = {
+# 		court_grandeur_baseline_add = 5
+# 		legitimacy_gain_mult = 0.1
+# 		owned_legend_spread_mult = 0.1
+# 		dynasty_opinion = 10
+# 		stewardship = 3
+# 	}
 
-	max_garrison = normal_building_max_garrison_tier_10
+# 	max_garrison = normal_building_max_garrison_tier_10
 
-	province_modifier = {
-		defender_holding_advantage = 20
-		fort_level = 24
-		monthly_income = 20
-	}
+# 	province_modifier = {
+# 		defender_holding_advantage = 20
+# 		fort_level = 24
+# 		monthly_income = 20
+# 	}
 
-	county_modifier = {
-		development_growth_factor = 0.2
-	}
+# 	county_modifier = {
+# 		development_growth_factor = 0.2
+# 	}
 
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
+# 	ai_value = {
+# 		base = 100
+# 		culture_likely_to_fortify_modifier = yes
+# 	}
 
-	type = special
+# 	type = special
 
-	flag = travel_point_of_interest_economic
-	flag = special_building_enabled_in_ruin_county
-}
+# 	flag = travel_point_of_interest_economic
+# 	flag = special_building_enabled_in_ruin_county
+# }
 
 citadel_uplands = {
 

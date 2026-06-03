@@ -2140,3 +2140,81 @@ axeman = {
 	}
 	created = 6500.1.1
 }
+
+# Cultures restored from AGOT 1.19 (dropped by the stale override, caused a game-start crash).
+dornish_andal = {
+	color = { 0.99 0.89 0.63 }
+
+	ethos = ethos_stoic
+	heritage = heritage_andal
+	language = language_agot_westeros
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+
+	coa_gfx = {
+		andal_coa_gfx
+	}
+	building_gfx = {
+		dornish_building_gfx
+		mena_building_gfx
+	}
+	clothing_gfx = {
+		stone_dornish_clothing_gfx
+		iberian_muslim_clothing_gfx
+		mena_clothing_gfx
+		andal_clothing_gfx
+	}
+	unit_gfx = {
+		stone_dornish_unit_gfx
+		iberian_muslim_unit_gfx
+		mena_unit_gfx
+	}
+	house_coa_frame = house_frame_round1
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.79500034 0.79500034 }
+
+	traditions = {
+		tradition_agot_dorne
+		tradition_agot_andal
+		tradition_adaptive_skirmishing
+		tradition_warriors_of_the_dry
+		tradition_eye_for_an_eye
+		tradition_parochialism
+	}
+
+	ethnicities = {
+		1 = Stone_Dornish_1
+		1 = Stone_Dornish_2
+		1 = Stone_Dornish_3
+		1 = Stone_Dornish_4
+		1 = Stone_Dornish_5
+		1 = Stone_Dornish_6
+		1 = Stone_Dornish_7
+		1 = Stone_Dornish_8
+		1 = Stone_Dornish_9
+		1 = Stone_Dornish_10
+		1 = Stone_Dornish_11
+		1 = Stone_Dornish_12
+		1 = Stone_Dornish_13
+		1 = Stone_Dornish_14
+		1 = Stone_Dornish_15
+		1 = Andal_11
+		1 = Andal_12
+		1 = Andal_13
+		1 = Andal_14
+		1 = Andal_15
+		1 = Andal_16
+		1 = Andal_17
+		1 = Andal_18
+		1 = Andal_19
+		1 = Andal_20
+		1 = Andal_21
+	}
+
+	name_list = name_list_stone_dornish
+
+	parents = {
+		andal
+	}
+	created = 5000.1.1
+}

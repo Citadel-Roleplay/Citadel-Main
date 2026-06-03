@@ -1,4 +1,5 @@
-﻿NGame = {
+﻿# Citadel defines: copied from AGOT 1.19 default, with Citadel's 55 gameplay tweaks re-applied (git-isolated from history).
+NGame = {
 	#AGOT Modified
 	# END_DATE = "1453.1.1"
 	END_DATE = "9999.1.1"
@@ -225,6 +226,7 @@ NCharacter = {
 		16 #exc
 		68 #nice
 		69 #exc
+		99 #godlike
 	}
 	SKILL_LEVELS_TEXTS = {
 		"SKILL_TERRIBLE"
@@ -234,12 +236,15 @@ NCharacter = {
 		"SKILL_EXCELLENT"
 		"SKILL_NICE"
 		"SKILL_EXCELLENT"
+		"SKILL_GODLIKE"
 	}
 
 	SKILL_MODIFIER_OFFSET = -8	# skill modifiers with offset add this from skill value (see common/modifiers/00_basic_modifiers.txt)
 
-	#Character window info
+	# Standard RelationTo number of relations to show
 	MAX_RELATIONS_TO_SHOW = 3
+	# Standard RelationToShort number of relations to show
+	MAX_RELATIONS_TO_SHOW_SHORT = 2
 
 	#AGOT Modified, tier differences matter more
 	#MARRIAGE_TIER_DIFF_PRESTIGE_MULT = 100
@@ -318,7 +323,10 @@ NCharacter = {
 	}
 
 	COURT_GRANDEUR_MONTHLY_CHANGE = 0.2
-	GENDER_PREFERENCE_PROBABILITY = 0.75 # chance (0-1) of a character created from pool being from prefered gender of gender preference law
+
+	# chance (0-1) that a character created or picked from pool being of preferred gender for the
+	# relevant gender preference law
+	GENDER_PREFERENCE_PROBABILITY = 1.0
 
 	OBESE_WEIGHT_VALUE = 50 # Greater than or equal to this and a character is considered obese
 	MALNOURISHED_WEIGHT_VALUE = -50 # Less than or equal to this and a character is considered malnourished
@@ -368,7 +376,9 @@ NChildbirth = {
 	MIN_FEMALE_REPRODUCTION_AGE = 16
 	MAX_FEMALE_REPRODUCTION_AGE = 45
 	MIN_MALE_REPRODUCTION_AGE = 16
-	BASE_NR_OF_CHILDREN_PER_COUPLE = { 1 1 2 3 5 5 8 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor, Hegemon
+	#AGOT Modified
+	# BASE_NR_OF_CHILDREN_PER_COUPLE = { 1 1 2 3 5 5 8 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor, Hegemon
+	BASE_NR_OF_CHILDREN_PER_COUPLE = { 1 1 2 3 5 5 5 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor, Hegemon
 	CHANCE_OF_LOWERED_CHILD_LIMIT = 0.5	# Chance that the child limit is lowered by 1
 	EXTRA_CHILDREN_FOR_RULERS = 2 # If either character is a ruler, they get extra children
 	CHARACTER_IN_POOL_CHILD_LIMIT = -1	# If in the pool, child limit is modified by this
@@ -622,7 +632,7 @@ NGovernment = {
 		"unknown_government"
 		"wilderness_government"
 		"pirate_government"
-		"host_government"
+		"pirate_no_dlc_government"
 		"dummy_adventurer_govt_for_bms"
 		"dummy_admin_govt_for_bms"
 		"first_ranger_government"
@@ -700,7 +710,7 @@ NArmy = {
 	#AGOT Modified
 	#REGIMENT_MONTHLY_REINFORCE_SPEED = 0.03		
 	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.0035		# Monthly reinforcement percentage of unraised chunks [0-1]
-	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.035	# Monthly reinforcement percentage of unraised MAA chunks [0-1]
+	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.035		# Monthly reinforcement percentage of unraised MAA chunks [0-1]
 	#AGOT Modified, increased levies to resemble canon numbers without increased income
 	#GOLD_COST_PER_SOLDIER = 0.003					# Gold maintenance cost per soldier
 	GOLD_COST_PER_SOLDIER = 0.005					# Gold maintenance cost per soldier
@@ -745,7 +755,7 @@ NArmy = {
 
 	SUPPLY_STATE_ATTRITION = {
 		0.0
-		0.01
+		0.0
 		0.05
 	}
 
@@ -802,7 +812,7 @@ NRetreat = {
 NWar = {
 	ATTACKER_TICKING_WAR_SCORE = 0.1				# Default ticking war score per day for attackers. Can be overwritten by CB. Set to 0 to disable
 	ATTACKER_TICKING_WAR_SCORE_DELAY_DAYS = 0		# Default delay in days before applying ticking war score for attackers. Can be overwritten by CB
-	DEFENDER_TICKING_WAR_SCORE = 0.1			# Default ticking war score per day for defenders. Can be overwritten by CB. Set to 0 to disable
+	DEFENDER_TICKING_WAR_SCORE = 0.1				# Default ticking war score per day for defenders. Can be overwritten by CB. Set to 0 to disable
 	DEFENDER_TICKING_WAR_SCORE_DELAY_DAYS = 365		# Default delay in days before applying ticking war score for defenders. Can be overwritten by CB
 	ATTACKER_OCCUPATION_SCORE_SCALE = 130			# War score from occupation by the attacker is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
 	DEFENDER_OCCUPATION_SCORE_SCALE = 130			# War score from occupation by the defender is given by occupied territory ratio (0.0 ... 1.0) multiplied by this value. Can be overriden by CB
@@ -860,7 +870,7 @@ NScheme = {
 
 NPowerfulVassal = {
 	# The number of vassals that are considered 'powerful' depending on the primary title tier (unlanded, baron, count, duke, king, emperor)
-	NUM_PER_TIER = { 0 0 3 4 5 6 6 }
+	NUM_PER_TIER = { 0 0 3 4 5 5 5 }
 
 	# To calculate the value (rank):
 	VALUE_FACTOR = 1.25					# Rubber banding value for current powerful vassals
@@ -869,9 +879,18 @@ NPowerfulVassal = {
 	VALUE_INCOME_MULT = 50				# Multiplier applied to the income of the vassal
 }
 
+NFaith = {
+	BASE_FERVOR = 50.0				# Default fervor
+	MAX_FERVOR = 100.0				# Max amount of fervor
+	YEARLY_FERVOR_GROWTH = 3.5		# Fervor yearly change, can be negative
+	MINIMUM_FAITH_SIZE_FERVOR_MODIFIER = 10 # Adjusts the size modifier for monthly fervor gain for a faith according to the following formula: 1/squareroot(max(define_value, faith_size)/define_value) where define value is the value of MINIMUM_FAITH_SIZE_FERVOR_MODIFIER and faith_size is the current amount of provinces that follows the faith.
+	FERVOR_CHANGELOG_DURATION = 10 # After how many years do fervor changelog entries get deleted?
+	FAITH_CREATION_FERVOR_DISCOUNT_PER_MISSING_FERVOR = 1 # How much cheaper does creating a faith get per fervor below 100%? 1 means 1% per point
+	FAITH_CREATION_FERVOR_DISCOUNT_MAX = 50 # What percentage does the discount cap out at? With these numbers, 0-50 fervor means a 50% discount. Above 50 means between 0% and 50% discount
+}
+
 NReligion = {
-	DEFAULT_FERVOR = 50				# Default fervor
-	TIME_AT_PEACE_FOR_PIETY = 730 # For faiths with a doctrine with piety_from_long_peace, how long do they need to be at peace (in days)
+	TIME_AT_PEACE_FOR_PIETY = 730	# For faiths with a doctrine with piety_from_long_peace, how long do they need to be at peace (in days)
 
 	# Hostility levels start at 0 (same faith or equivalent to same faith)
 	HOSTILITY_OPINION_EFFECTS = {	# The opinion effects of each hostility level
@@ -904,28 +923,27 @@ NReligion = {
 	PIETY_LOSS_PER_MISSING_SPOUSE = 0.5 # If you have fewer spouses than expected in a polygamous faith, you'll lose this much piety for each spouse you fall short.
 	DESIRED_SPOUSES_PER_TIER = { 0 1 1 2 3 4 4 }  # Number of spouses you are expected to have per tier, starging with unlanded, then baron and ending with hegemon
 	FAITH_CONVERSION_PIETY_MINIMUM = 250 # The minimum amount of piety converting faith costs
-	FAITH_CREATION_FERVOR_DISCOUNT_PER_MISSING_FERVOR = 1 # How much cheaper does creating a faith get per fervor below 100%? 1 means 1% per point
-	FAITH_CREATION_FERVOR_DISCOUNT_MAX = 50 # What percentage does the discount cap out at? With these numbers, 0-50 fervor means a 50% discount. Above 50 means between 0% and 50% discount
 	PART_OF_GHW_POT_DESIGNATED_FOR_KINGDOM_RECIPIENT = 10 # How many percent of the pot will be reserved for the person receiving the kingdom?
 	GHW_HOSTILITY_MIN_LEVEL = 2 # Any independent ruler within the target kingdom at least this hostile to the caller faith will be a forced defender
 	PREFERRED_GENDER_CHANCE = 3 # When deciding if clergy characters should be male or female a 3 here means that the preferred gender will be three times as likely
 	GHW_DAYS_LIMIT_CAN_CHANGE_TARGET = 30  # is GHW starts sooner than this number, you can no longer change target
 	GHW_COST_PIETY_CHANGE_TARGET = 250  # cost to chagne GHW target. Grows linearly with each change
-	MAX_FERVOR = 100 # Max amount of fervor
 	HEAD_OF_FAITH_PIETY_GAIN = 1.0 # Monthly piety gain for heads of faith
-	MINIMUM_FAITH_SIZE_FERVOR_MODIFIER = 10 # Adjusts the size modifier for monthly fervor gain for a faith according to the following formula: 1/squareroot(max(define_value, faith_size)/define_value) where define value is the value of MINIMUM_FAITH_SIZE_FERVOR_MODIFIER and faith_size is the current amount of provinces that follows the faith.
-	FERVOR_CHANGELOG_DURATION = 10 # After how many years do fervor changelog entries get deleted?
 
 	FAITH_COLOR_DEVIATION = { 0.25 0.35 } # How much should generated colors differ from the faith they're based on? Distance within the HSV colorspace
 }
 
 NTitle = {
 	CREATE_TITLE_OR_TIER_HEGEMONY = { -1 -1 -1 -1 -1 2 1 }
-	CREATE_TITLE_OR_TIER_EMPIRE = { -1 -1 -1 -1 2 1 1 }
+	#AGOT Modified
+	#CREATE_TITLE_OR_TIER_EMPIRE = { -1 -1 -1 -1 2 1 1 }
+	CREATE_TITLE_OR_TIER_EMPIRE = { -1 -1 -1 -1 0 1 1 }
 	CREATE_TITLE_OR_TIER_KINGDOM = { -1 -1 -1 2 1 1 1 }
 	CREATE_TITLE_PRESTIGE_GAIN = { 0 0 0 300 400 500 600 }
 	CREATE_TITLE_LEGITIMACY_GAIN = { 0 0 0 25 50 75 100 }
-	CREATE_TITLE_GOLD_COST = { 0 0 0 250 500 1000 2000 } # remember to update values in create_duchy_title_value etc. in 01_dynamic_values.txt!
+	#AGOT Modified
+	#CREATE_TITLE_GOLD_COST = { 0 0 0 250 500 1000 2000 } # remember to update values in create_duchy_title_value etc. in 01_dynamic_values.txt!
+	CREATE_TITLE_GOLD_COST = { 0 0 0 250 500 2000 3000 } # remember to update values in create_duchy_title_value etc. in 01_dynamic_values.txt!
 	CREATE_TITLE_MIN_COST_FACTOR = 0.2 # creating a title will always cost at least this much in percent of the base cost, ex. 20% of 250 for a duchy
 	CREATE_TITLE_MIN_PIETY_COST_FACTOR = 0.2 # creating a title will always cost at least this much in percent of the base cost, ex. 20% of 250 for a duchy
 	DESTROY_TITLE_PRESTIGE_COST = { 0 0 0 400 800 1200 2200 }
@@ -942,7 +960,7 @@ NTitle = {
 	DRIFT_ADJACENT_ACROSS_WATER_DISTANCE = 2
 	REVOKE_LAWS_COST_SCALE = { 0 0 0.1 0.25 0.5 1 2 }
 	DYNAMIC_TITLE_MAP_COLOR_S_V = { 0.8 1.0 } # What is the Saturation and Value of dynamic title map colors? (via HSV color - Hue is fully randomized)
-	CREATE_TITLE_PIETY_LEVEL = { 0 0 0 2 3 5 5 } # not a global requirement, it is used only for goverment with rule considers_piety_for_title_creation
+	CREATE_TITLE_PIETY_LEVEL = { 0 0 0 2 3 5 5 } # not a global requirement, it is used only for government with rule considers_piety_for_title_creation
 	CREATE_TITLE_PIETY_COST = { 0 0 0 500 2500 5000 10000 }
 
 	# Default desired titles to keep for AI - per current primary title tier. (-1 = keep all)
@@ -1143,22 +1161,20 @@ NDreadEffectOnBoldness = {
 }
 
 NDomain = {
-	ABOVE_LIMIT_LEVY_PENALTY = 0.3				# How much levies are reduced per holding over the limit
+	ABOVE_LIMIT_LEVY_PENALTY = 0.2				# How much levies are reduced per holding over the limit
 	ABOVE_LIMIT_MAX_LEVY_PENALTY = 1			# How much levies can be reduced at most
-	ABOVE_LIMIT_TAX_INCOME_PENALTY = 0.3		# How much tax income from domain is reduced per holding over the limit
+	ABOVE_LIMIT_TAX_INCOME_PENALTY = 0.2		# How much tax income from domain is reduced per holding over the limit
 	ABOVE_LIMIT_MAX_TAX_INCOME_PENALTY = 1		# How much tax income from domain can be reduced at most
 	ABOVE_LIMIT_HERD_INCOME_PENALTY = 0.5		# How much herd income from domain is reduced per holding over the limit
 	ABOVE_LIMIT_MAX_HERD_INCOME_PENALTY = 1		# How much herd income from domain can be reduced at most
 	HOLDING_GRACE_PERIOD = 365					# How many days do newly gained holdings not count towards the domain size for the purposes of penalties (but also not produce any levies)
-	#AGOT Modified, lower domain limits
-	# STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE = 6	# domain limit += floor( <stewardship skill> / STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE )
 	STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE = 1000000	# domain limit += floor( <stewardship skill> / STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE )
 	LEVIES_AT_ZERO_COUNTY_CONTROL = 0.5			# How many % levies do you get at 0 county control? Interpolated between this value and 100% when between 0 and 100
 	TAX_AT_ZERO_COUNTY_CONTROL = 0.0			# How much % tax do you get at 0 county control? Interpolated between this value and 100% when between 0 and 100
 	#AGOT Modified, nerf levies and taxes (no 900k megawars)
 	# LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.5		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	# TAX_AT_MAX_COUNTY_DEVELOPMENT = 0.5			# How much % tax bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
-	# LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.25		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
+	LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.25		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	TAX_AT_MAX_COUNTY_DEVELOPMENT = 0.25			# How much % tax bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
 	HOLDING_MIN_GARRISON_COUNT = 25				# The minimal amount of garrisons a holding should have if it should have garrisons
 	ABOVE_LIMIT_BARTER_GOODS_INCOME_PENALTY = 0.2 	# How much Barter Goods are reduced per holding over the limit
@@ -1176,7 +1192,11 @@ NFaction =
 	DEFAULT_POWER_THRESHOLD = 80					# The default power threshold if there no one defined.
 	MAX_DEMAND_DELAY_DAYS = 90						# The faction is guaranteed to send demands on the next update after this number of days has passed since it started being able to send demands.
 
-	POTENTIAL_FORCE_JOIN_HOOK_TYPE = "strong" # The type of hook that means the UI will show a member as potentially joining
+	POTENTIAL_FORCE_JOIN_HOOK_TYPE = "strong" 	# The type of hook that means the UI will show a member as potentially joining
+
+	# the minimum warscore a defender in a faction war must have to win the war when the faction is destroyed due to other reasons.
+	# If below this warscore the war will just be invalidated.
+	MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION = 75
 }
 
 NPathFinding = {
@@ -1265,7 +1285,7 @@ NMercenary = {
 											# The numbers correspond to numbers of counties of the culture. No company exists if the number is lower than the first value specified here.
 	HIRE_RANGE = 400						# The maximum distance of mercenaries that can be hired (capital to mercenary location)
 	HIRE_RANGE_SAME_CULTURE = 1000			# The maximum distance of mercenaries with the same culture that can be hired (capital to mercenary location)
-	LEVIES = { 100 200 300 }				# The base numbers of levies for levels of mercenary bands
+	LEVIES = { 400 800 1200 }				# The base numbers of levies for levels of mercenary bands
 	MAA_REGIMENTS = { 1 2 3 }				# The number of MAA regiments for levels of mercenary bands
 	NUM_KNIGHTS = { 2 3 4 }					# The number of knights for levels of mercenary bands
 	MAA_REGIMENT_SIZES = { 3 3 3 }	# The base sizes of MAA regiments for levels of mercenary bands, in number of sub-regiments
@@ -1481,7 +1501,7 @@ NRaid = {
 	MIN_SOLDIERS_TO_RAID = 200				# How small can a raid army be and still be able to loot?
 	MONTHLY_ATTRITION = 0.01				# How much attrition do you take while looting a province? 0.01 = 1% per month
 	MONTHS_OF_RAID_LOOT = 12				# How many months of holding income (with owner effects discounted) does raiding provide?
-	LESS_MONTHS_OF_RAID_LOOT = 6 			# This is subtracted from MONTHS_OF_RAID_LOOT if you have the goverment 'barter = yes'
+	LESS_MONTHS_OF_RAID_LOOT = 6 			# This is subtracted from MONTHS_OF_RAID_LOOT if you have the government 'barter = yes'
 
 	# Progress cannot be lower than 1/day (except when interrupted by combat)
 	BASE_PROGRESS = 20						# How much base raid action progress do you get per day?
@@ -1501,7 +1521,7 @@ NBarter = {
 	BASE_PROGRESS = 15
 	PROGRESS_PER_SOLDIER = 0.005
 	LOOT_PER_SOLDIER = 0.1				# How much loot can a single soldier carry? Minimum increment is 0.001
-	BARTER_GOODS_TO_LOOT_MULT = 0.5		# Used to convert Barter Goods to Loot. A value of 0.5 means that 2 Barter Goods are worth 1 Loot
+	BARTER_GOODS_TO_LOOT_MULT = 0.5 	# Used to convert Barter Goods to Loot. A value of 0.5 means that 2 Barter Goods are worth 1 Loot
 }
 
 NCharacterGlow = {
@@ -1751,6 +1771,24 @@ NAccolade = {
 		"badge_color8.dds"
 		"badge_color9.dds"
 	}
+
+	ACCOLADE_GLORY_LEVELS = {
+		100
+		300
+		600
+		1000
+		1500
+		2100
+	}
+
+	ACCOLADE_SQUIRE_LEVELS = {
+		20
+		40
+		60
+		80
+	}
+
+	ACCOLADE_MAX_TYPES = 3 # maximum number of accolade attributes (types) an acclaimed knight can have
 
 	STARTING_GLORY = 100	# how much glory does each created accolade start out with? 100 is default to unlock rank 1
 	POTENTIAL_ACCLAIMED_KNIGHT_UPDATE_TIME = 0.5 # Time between potential acclaimed knights window updates, in seconds

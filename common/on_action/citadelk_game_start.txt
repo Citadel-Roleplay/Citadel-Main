@@ -1,4 +1,4 @@
-﻿on_game_start = {
+on_game_start = {
     on_actions = {
         set_provinces_start_citadel
         citadel_renown_set_duke_and_count
@@ -14,41 +14,44 @@
 set_provinces_start_citadel = {
     effect = {
         # Character Effects:
-        character:Mopatis_1 = {
-			add_gold = {
-				value = {
-					value = 1500
-				}
-			}
-		}
-		character:Baratheon_2 = {
-			add_gold = {
-				value = {
-					value = 3000
-				}
-			}
-		}
-        character:Lannister_1 = {
-			add_gold = {
-				value = {
-					value = 4000
-				}
-			}
-		}
-        character:Saan_2 = {
-			add_barter_goods = {
-				value = {
-					value = 452
-				}
-			}
-		}
-        character:Celtigar_2 = {
-			add_gold = {
-				value = {
-					value = 200
-				}
-			}
-		}
+        #------------------------------------------------
+        # Crowned Stag Start Date ONLY:
+        # character:Mopatis_1 = {
+		# 	add_gold = {
+		# 		value = {
+		# 			value = 1500
+		# 		}
+		# 	}
+		# }
+		# character:Baratheon_2 = {
+		# 	add_gold = {
+		# 		value = {
+		# 			value = 3000
+		# 		}
+		# 	}
+		# }
+        # character:Lannister_1 = {
+		# 	add_gold = {
+		# 		value = {
+		# 			value = 4000
+		# 		}
+		# 	}
+		# }
+        # character:Saan_2 = {
+		# 	add_barter_goods = {
+		# 		value = {
+		# 			value = 452
+		# 		}
+		# 	}
+		# }
+        # character:Celtigar_2 = {
+		# 	add_gold = {
+		# 		value = {
+		# 			value = 200
+		# 		}
+		# 	}
+		# }
+        #------------------------------------------------
 		    
         # title:b_ten_towers.title_province = {
         #     remove_building = harlaw_mines_01
@@ -58,13 +61,14 @@ set_provinces_start_citadel = {
         #     remove_building = agot_blackhaven_01
         #     add_special_building = blackhaven2
         # }
-        title:b_port_of_arryn.title_province = {
-            remove_building = portarryan_01
-            add_special_building = gulltown_customs_house_01
-        }
-        title:b_fairgate_tower.title_province = {
-            add_special_building = citadel_fairmarket3
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_port_of_arryn.title_province = {
+#            remove_building = portarryan_01
+#            add_special_building = gulltown_customs_house_01
+#        }
+        # title:b_fairgate_tower.title_province = {
+        #     add_special_building = citadel_fairmarket3
+        # }
         title:b_lanniskeep.title_province = {
             remove_building = lannisport_01
             add_special_building = city_of_lannisport_01
@@ -108,9 +112,10 @@ set_provinces_start_citadel = {
         title:b_willburn.title_province = {
             add_special_building = citadel_dornishdunes
         }
-        title:b_hellholt.title_province = {
-            add_special_building = citadel_dornishdunes
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_hellholt.title_province = {
+#            add_special_building = citadel_dornishdunes
+#        }
         title:b_torrid_drifts.title_province = {
             add_special_building = citadel_dornishdunes
         }
@@ -138,9 +143,10 @@ set_provinces_start_citadel = {
         title:b_desert_hearth.title_province = {
             add_special_building = citadel_dornishdunes
         }
-        title:b_blackcrown.title_province = {
-            add_special_building = citadel_singingcliffs
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_blackcrown.title_province = {
+#            add_special_building = citadel_singingcliffs
+#        }
         title:b_bandallon.title_province = {
             add_special_building = citadel_bandallon
         }
@@ -159,10 +165,11 @@ set_provinces_start_citadel = {
         title:b_plankside.title_province = {
             add_special_building = citadel_crackclaw_mountains
         }
-        title:b_whispers.title_province = {
-            remove_building = whispers_01
-            add_special_building = citadel_whispers_ruin
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_whispers.title_province = {
+#            remove_building = whispers_01
+#            add_special_building = citadel_whispers_ruin
+#        }
         title:b_castle_stokeworth.title_province = {
             add_special_building = citadel_castle_stokeworth
         }
@@ -172,9 +179,10 @@ set_provinces_start_citadel = {
         title:b_maston.title_province = {
             add_special_building = citadel_maston
         }
-        title:b_blackpool.title_province = {
-            add_special_building = citadel_blackpool
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_blackpool.title_province = {
+#            add_special_building = citadel_blackpool
+#        }
         title:b_castle_cerwyn.title_province = {
             add_special_building = citadel_castle_cerwyn
         }
@@ -203,9 +211,10 @@ set_provinces_start_citadel = {
         title:b_winehouse.title_province = {  
             add_special_building = citadel_vinetown
         }
-        title:b_the_ring.title_province = {  
-            add_special_building = citadel_the_ring 
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_the_ring.title_province = {  
+#            add_special_building = citadel_the_ring 
+#        }
         title:b_longcove.title_province = {  
             add_special_building = citadel_longcove_center
         }
@@ -290,21 +299,25 @@ set_provinces_start_citadel = {
         title:b_flints_finger.title_province = {
             add_special_building = citadel_flints_finger
         }  
-        title:b_hornwood.title_province = {
-            add_special_building = agot_hornwood_forest_01
-        }  
-        title:b_torrhens_square.title_province = {
-            add_special_building = agot_tallhart_torrhens_square_01
-        }  
-        title:b_oldcastle.title_province = {
-            add_special_building = agot_locke_oldcastle_01
-        }   
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_hornwood.title_province = {
+#            add_special_building = agot_hornwood_forest_01
+#        }  
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_torrhens_square.title_province = {
+#            add_special_building = agot_tallhart_torrhens_square_01
+#        }  
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_oldcastle.title_province = {
+#            add_special_building = agot_locke_oldcastle_01
+#        }   
         title:b_whitewalls.title_province = {
             add_special_building = agot_butterwell_whitewalls_castle_01
         }
-        title:b_ramsgate.title_province = {
-            add_special_building = citadel_ramsgate
-        }  
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_ramsgate.title_province = {
+#            add_special_building = citadel_ramsgate
+#        }  
         title:b_wyverns_rest.title_province = {
             add_special_building = citadel_wyverns_rest
         } 
@@ -448,9 +461,10 @@ set_provinces_start_citadel = {
             add_building = stables_04
             add_building = smiths_04
         } 
-        title:b_stone_hedge.title_province = {
-            add_special_building = agot_stone_hedge_01
-        }
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_stone_hedge.title_province = {
+#            add_special_building = agot_stone_hedge_01
+#        }
         title:b_pick_hall.title_province = {
             add_building = curtain_walls_06
             add_building = barracks_06
@@ -461,9 +475,10 @@ set_provinces_start_citadel = {
             add_special_building = citadel_hayholt
             add_building = tax_assessor_03
         } 
-        title:b_balmer_mill.title_province = {
-            add_special_building = watermills_08
-        } 
+        # Outdated since its been replaced by a default AGOT buildings - Kizan
+#        title:b_balmer_mill.title_province = {
+#            add_special_building = watermills_08
+#        } 
         title:b_spalding.title_province = {  
             add_building = outposts_06
             add_building = military_camps_04
